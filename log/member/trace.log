@@ -305,3 +305,80 @@ Caused by: java.lang.ClassNotFoundException: org.aspectj.lang.JoinPoint
 2023-10-14 17:36:05.390 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  http-nio-8001-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-10-14 17:36:05.390 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8001-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
 2023-10-14 17:36:05.390 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8001-exec-1 [32m                [0;39m Completed initialization in 0 ms
+2023-10-14 17:40:19.630 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 15780 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-14 17:40:19.632 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-14 17:40:19.662 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-14 17:40:19.662 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-14 17:40:20.074 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=0a305a0c-0293-3989-b9c0-bc3b03433eee
+2023-10-14 17:40:20.563 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-14 17:40:20.570 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-14 17:40:20.571 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-14 17:40:20.571 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-14 17:40:20.623 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-14 17:40:20.624 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 961 ms
+2023-10-14 17:40:21.050 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-14 17:40:22.151 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-14 17:40:22.185 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-14 17:40:22.199 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-14 17:40:23.282 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-14 17:40:23.290 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 5.083 seconds (process running for 5.922)
+2023-10-14 17:40:23.292 INFO  com.example.train.member.config.MemberApplication :19   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-14 17:40:23.292 INFO  com.example.train.member.config.MemberApplication :20   restartedMain [32m                [0;39m 地址:	http://127.0.0.1:8001//member
+2023-10-14 19:20:13.925 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 10056 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-14 19:20:13.928 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-14 19:20:13.976 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-14 19:20:13.976 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-14 19:20:14.561 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=0a305a0c-0293-3989-b9c0-bc3b03433eee
+2023-10-14 19:20:15.157 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-14 19:20:15.165 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-14 19:20:15.166 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-14 19:20:15.167 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-14 19:20:15.218 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-14 19:20:15.218 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1241 ms
+2023-10-14 19:20:15.666 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-14 19:20:16.775 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-14 19:20:16.816 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-14 19:20:16.831 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-14 19:20:17.920 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-14 19:20:17.933 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 5.471 seconds (process running for 6.359)
+2023-10-14 19:20:17.936 INFO  com.example.train.member.config.MemberApplication :19   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-14 19:20:17.936 INFO  com.example.train.member.config.MemberApplication :20   restartedMain [32m                [0;39m 地址:	http://127.0.0.1:8001//member
+2023-10-14 19:20:27.043 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  http-nio-8001-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-14 19:20:27.044 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8001-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-14 19:20:27.044 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8001-exec-1 [32m                [0;39m Completed initialization in 0 ms
+2023-10-14 19:20:27.073 INFO  com.example.train.member.asepct.LogAspect         :53   http-nio-8001-exec-1 [32m1697282427063ltt[0;39m ------------- 开始 -------------
+2023-10-14 19:20:27.074 INFO  com.example.train.member.asepct.LogAspect         :54   http-nio-8001-exec-1 [32m1697282427063ltt[0;39m 请求地址: http://localhost:8001/member/hello GET
+2023-10-14 19:20:27.074 INFO  com.example.train.member.asepct.LogAspect         :55   http-nio-8001-exec-1 [32m1697282427063ltt[0;39m 类名方法: com.example.train.member.controller.TestController.hello
+2023-10-14 19:20:27.075 INFO  com.example.train.member.asepct.LogAspect         :56   http-nio-8001-exec-1 [32m1697282427063ltt[0;39m 远程地址: 127.0.0.1
+2023-10-14 19:20:27.110 INFO  com.example.train.member.asepct.LogAspect         :77   http-nio-8001-exec-1 [32m1697282427063ltt[0;39m 请求参数: []
+2023-10-14 19:20:27.111 INFO  com.example.train.member.asepct.LogAspect         :89   http-nio-8001-exec-1 [32m1697282427063ltt[0;39m 返回结果: "hello,world"
+2023-10-14 19:20:27.111 INFO  com.example.train.member.asepct.LogAspect         :90   http-nio-8001-exec-1 [32m1697282427063ltt[0;39m ------------- 结束 耗时：48 ms -------------
+2023-10-14 19:21:46.977 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 8832 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-14 19:21:46.979 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-14 19:21:47.020 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-14 19:21:47.021 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-14 19:21:47.590 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=0a305a0c-0293-3989-b9c0-bc3b03433eee
+2023-10-14 19:21:48.171 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-14 19:21:48.177 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-14 19:21:48.178 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-14 19:21:48.178 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-14 19:21:48.224 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-14 19:21:48.224 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1202 ms
+2023-10-14 19:21:48.650 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-14 19:21:49.746 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-14 19:21:49.788 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-14 19:21:49.801 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-14 19:21:50.895 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-14 19:21:50.904 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 5.351 seconds (process running for 6.078)
+2023-10-14 19:21:50.906 INFO  com.example.train.member.config.MemberApplication :19   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-14 19:21:50.906 INFO  com.example.train.member.config.MemberApplication :20   restartedMain [32m                [0;39m 地址:	http://127.0.0.1:8001//member
+2023-10-14 19:21:53.023 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  http-nio-8001-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-14 19:21:53.024 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8001-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-14 19:21:53.025 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8001-exec-1 [32m                [0;39m Completed initialization in 1 ms
+2023-10-14 19:21:53.056 INFO  com.example.train.comon.aspect.LogAspect          :53   http-nio-8001-exec-1 [32m1697282513044qtf[0;39m ------------- 开始 -------------
+2023-10-14 19:21:53.057 INFO  com.example.train.comon.aspect.LogAspect          :54   http-nio-8001-exec-1 [32m1697282513044qtf[0;39m 请求地址: http://localhost:8001/member/hello GET
+2023-10-14 19:21:53.057 INFO  com.example.train.comon.aspect.LogAspect          :55   http-nio-8001-exec-1 [32m1697282513044qtf[0;39m 类名方法: com.example.train.member.controller.TestController.hello
+2023-10-14 19:21:53.057 INFO  com.example.train.comon.aspect.LogAspect          :56   http-nio-8001-exec-1 [32m1697282513044qtf[0;39m 远程地址: 127.0.0.1
+2023-10-14 19:21:53.083 INFO  com.example.train.comon.aspect.LogAspect          :77   http-nio-8001-exec-1 [32m1697282513044qtf[0;39m 请求参数: []
+2023-10-14 19:21:53.084 INFO  com.example.train.comon.aspect.LogAspect          :89   http-nio-8001-exec-1 [32m1697282513044qtf[0;39m 返回结果: "hello,world"
+2023-10-14 19:21:53.084 INFO  com.example.train.comon.aspect.LogAspect          :90   http-nio-8001-exec-1 [32m1697282513044qtf[0;39m ------------- 结束 耗时：40 ms -------------
