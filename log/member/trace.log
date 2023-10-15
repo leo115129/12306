@@ -112,3 +112,121 @@ Update your application's configuration. The following values are valid:
     TRACE
     WARN
 
+2023-10-15 09:30:03.209 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 1116 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-15 09:30:03.209 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-15 09:30:03.454 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=21269066-7e82-3489-a441-5a7b8db445d7
+2023-10-15 09:30:03.597 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-15 09:30:03.598 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-15 09:30:03.598 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-15 09:30:03.598 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-15 09:30:03.625 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-15 09:30:03.626 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 412 ms
+2023-10-15 09:30:04.189 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-15 09:30:05.414 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-15 09:30:05.455 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-15 09:30:05.465 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-15 09:30:06.621 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-15 09:30:06.628 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 4.609 seconds (process running for 813.617)
+2023-10-15 09:30:06.630 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-15 09:30:06.630 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-15 09:30:06.631 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001//member/hello
+2023-10-15 09:30:22.695 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  http-nio-8001-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-15 09:30:22.696 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8001-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-15 09:30:22.697 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8001-exec-1 [32m                [0;39m Completed initialization in 0 ms
+2023-10-15 09:30:22.701 INFO  com.example.train.comon.aspect.LogAspect          :53   http-nio-8001-exec-1 [32m1697333422699mrt[0;39m ------------- 开始 -------------
+2023-10-15 09:30:22.701 INFO  com.example.train.comon.aspect.LogAspect          :54   http-nio-8001-exec-1 [32m1697333422699mrt[0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2023-10-15 09:30:22.702 INFO  com.example.train.comon.aspect.LogAspect          :55   http-nio-8001-exec-1 [32m1697333422699mrt[0;39m 类名方法: com.example.train.member.controller.MemberController.count
+2023-10-15 09:30:22.702 INFO  com.example.train.comon.aspect.LogAspect          :56   http-nio-8001-exec-1 [32m1697333422699mrt[0;39m 远程地址: 127.0.0.1
+2023-10-15 09:30:22.702 INFO  com.example.train.comon.aspect.LogAspect          :77   http-nio-8001-exec-1 [32m1697333422699mrt[0;39m 请求参数: []
+2023-10-15 09:30:22.703 INFO  com.zaxxer.hikari.HikariDataSource                :110  http-nio-8001-exec-1 [32m1697333422699mrt[0;39m HikariPool-2 - Starting...
+2023-10-15 09:30:22.709 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  http-nio-8001-exec-1 [32m1697333422699mrt[0;39m HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c5b277e
+2023-10-15 09:30:22.710 INFO  com.zaxxer.hikari.HikariDataSource                :123  http-nio-8001-exec-1 [32m1697333422699mrt[0;39m HikariPool-2 - Start completed.
+2023-10-15 09:30:22.712 DEBUG c.example.train.member.mapper.MemberMapper.count  :135  http-nio-8001-exec-1 [32m1697333422699mrt[0;39m ==>  Preparing: select count(1) from train.member;
+2023-10-15 09:30:22.721 DEBUG c.example.train.member.mapper.MemberMapper.count  :135  http-nio-8001-exec-1 [32m1697333422699mrt[0;39m ==> Parameters: 
+2023-10-15 09:30:22.728 TRACE c.example.train.member.mapper.MemberMapper.count  :141  http-nio-8001-exec-1 [32m1697333422699mrt[0;39m <==    Columns: count(1)
+2023-10-15 09:30:22.729 TRACE c.example.train.member.mapper.MemberMapper.count  :141  http-nio-8001-exec-1 [32m1697333422699mrt[0;39m <==        Row: 1
+2023-10-15 09:30:22.731 DEBUG c.example.train.member.mapper.MemberMapper.count  :135  http-nio-8001-exec-1 [32m1697333422699mrt[0;39m <==      Total: 1
+2023-10-15 09:30:22.731 INFO  com.example.train.comon.aspect.LogAspect          :89   http-nio-8001-exec-1 [32m1697333422699mrt[0;39m 返回结果: 1
+2023-10-15 09:30:22.732 INFO  com.example.train.comon.aspect.LogAspect          :90   http-nio-8001-exec-1 [32m1697333422699mrt[0;39m ------------- 结束 耗时：33 ms -------------
+2023-10-15 10:03:27.509 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 6452 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-15 10:03:27.513 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-15 10:03:27.571 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-15 10:03:27.572 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-15 10:03:28.807 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=657d91d8-b0c6-358d-8f93-f0378da6c3dd
+2023-10-15 10:03:29.940 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-15 10:03:29.949 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-15 10:03:29.950 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-15 10:03:29.951 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-15 10:03:30.008 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-15 10:03:30.011 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 2438 ms
+2023-10-15 10:03:30.744 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-15 10:03:31.864 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-15 10:03:31.935 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-15 10:03:31.963 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-15 10:03:33.124 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-15 10:03:33.134 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 7.101 seconds (process running for 7.935)
+2023-10-15 10:03:33.137 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-15 10:03:33.139 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001//member/hello
+2023-10-15 10:03:58.845 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  http-nio-8001-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-15 10:03:58.846 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8001-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-15 10:03:58.846 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8001-exec-1 [32m                [0;39m Completed initialization in 0 ms
+2023-10-15 10:03:58.872 INFO  com.example.train.comon.aspect.LogAspect          :53   http-nio-8001-exec-1 [32m1697335438867lk6[0;39m ------------- 开始 -------------
+2023-10-15 10:03:58.873 INFO  com.example.train.comon.aspect.LogAspect          :54   http-nio-8001-exec-1 [32m1697335438867lk6[0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2023-10-15 10:03:58.873 INFO  com.example.train.comon.aspect.LogAspect          :55   http-nio-8001-exec-1 [32m1697335438867lk6[0;39m 类名方法: com.example.train.member.controller.MemberController.count
+2023-10-15 10:03:58.873 INFO  com.example.train.comon.aspect.LogAspect          :56   http-nio-8001-exec-1 [32m1697335438867lk6[0;39m 远程地址: 127.0.0.1
+2023-10-15 10:03:58.898 INFO  com.example.train.comon.aspect.LogAspect          :77   http-nio-8001-exec-1 [32m1697335438867lk6[0;39m 请求参数: []
+2023-10-15 10:03:58.927 INFO  com.zaxxer.hikari.HikariDataSource                :110  http-nio-8001-exec-1 [32m1697335438867lk6[0;39m HikariPool-1 - Starting...
+2023-10-15 10:03:59.011 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  http-nio-8001-exec-1 [32m1697335438867lk6[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d4d0bac
+2023-10-15 10:03:59.013 INFO  com.zaxxer.hikari.HikariDataSource                :123  http-nio-8001-exec-1 [32m1697335438867lk6[0;39m HikariPool-1 - Start completed.
+2023-10-15 10:03:59.017 DEBUG c.e.t.member.mapper.MemberMapper.countByExample   :135  http-nio-8001-exec-1 [32m1697335438867lk6[0;39m ==>  Preparing: select count(*) from member
+2023-10-15 10:03:59.032 DEBUG c.e.t.member.mapper.MemberMapper.countByExample   :135  http-nio-8001-exec-1 [32m1697335438867lk6[0;39m ==> Parameters: 
+2023-10-15 10:03:59.047 TRACE c.e.t.member.mapper.MemberMapper.countByExample   :141  http-nio-8001-exec-1 [32m1697335438867lk6[0;39m <==    Columns: count(*)
+2023-10-15 10:03:59.047 TRACE c.e.t.member.mapper.MemberMapper.countByExample   :141  http-nio-8001-exec-1 [32m1697335438867lk6[0;39m <==        Row: 1
+2023-10-15 10:03:59.049 DEBUG c.e.t.member.mapper.MemberMapper.countByExample   :135  http-nio-8001-exec-1 [32m1697335438867lk6[0;39m <==      Total: 1
+2023-10-15 10:03:59.054 INFO  com.example.train.comon.aspect.LogAspect          :89   http-nio-8001-exec-1 [32m1697335438867lk6[0;39m 返回结果: 1
+2023-10-15 10:03:59.054 INFO  com.example.train.comon.aspect.LogAspect          :90   http-nio-8001-exec-1 [32m1697335438867lk6[0;39m ------------- 结束 耗时：187 ms -------------
+2023-10-15 10:07:33.245 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 3076 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-15 10:07:33.249 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-15 10:07:33.315 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-15 10:07:33.315 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-15 10:07:34.248 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=657d91d8-b0c6-358d-8f93-f0378da6c3dd
+2023-10-15 10:07:34.943 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-15 10:07:35.005 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1689 ms
+2023-10-15 10:07:35.841 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-15 10:07:42.759 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 17776 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-15 10:07:42.761 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-15 10:07:42.812 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-15 10:07:42.812 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-15 10:07:43.539 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=657d91d8-b0c6-358d-8f93-f0378da6c3dd
+2023-10-15 10:07:44.068 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-15 10:07:44.073 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-15 10:07:44.074 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-15 10:07:44.075 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-15 10:07:44.126 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-15 10:07:44.126 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1314 ms
+2023-10-15 10:07:44.818 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-15 10:07:45.936 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-15 10:07:45.978 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-15 10:07:45.994 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-15 10:07:47.086 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-15 10:07:47.100 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 5.811 seconds (process running for 6.95)
+2023-10-15 10:07:47.103 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-15 10:07:47.104 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001//member/hello
+2023-10-15 10:08:16.235 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  http-nio-8001-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-15 10:08:16.235 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8001-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-15 10:08:16.236 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8001-exec-1 [32m                [0;39m Completed initialization in 1 ms
+2023-10-15 10:08:16.261 INFO  com.example.train.comon.aspect.LogAspect          :53   http-nio-8001-exec-1 [32m1697335696255uj6[0;39m ------------- 开始 -------------
+2023-10-15 10:08:16.262 INFO  com.example.train.comon.aspect.LogAspect          :54   http-nio-8001-exec-1 [32m1697335696255uj6[0;39m 请求地址: http://127.0.0.1:8001/member/member/count GET
+2023-10-15 10:08:16.262 INFO  com.example.train.comon.aspect.LogAspect          :55   http-nio-8001-exec-1 [32m1697335696255uj6[0;39m 类名方法: com.example.train.member.controller.MemberController.count
+2023-10-15 10:08:16.262 INFO  com.example.train.comon.aspect.LogAspect          :56   http-nio-8001-exec-1 [32m1697335696255uj6[0;39m 远程地址: 127.0.0.1
+2023-10-15 10:08:16.286 INFO  com.example.train.comon.aspect.LogAspect          :77   http-nio-8001-exec-1 [32m1697335696255uj6[0;39m 请求参数: []
+2023-10-15 10:08:16.305 INFO  com.zaxxer.hikari.HikariDataSource                :110  http-nio-8001-exec-1 [32m1697335696255uj6[0;39m HikariPool-1 - Starting...
+2023-10-15 10:08:16.385 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  http-nio-8001-exec-1 [32m1697335696255uj6[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75c6f097
+2023-10-15 10:08:16.387 INFO  com.zaxxer.hikari.HikariDataSource                :123  http-nio-8001-exec-1 [32m1697335696255uj6[0;39m HikariPool-1 - Start completed.
+2023-10-15 10:08:16.394 DEBUG c.e.t.member.mapper.MemberMapper.countByExample   :135  http-nio-8001-exec-1 [32m1697335696255uj6[0;39m ==>  Preparing: select count(*) from member
+2023-10-15 10:08:16.410 DEBUG c.e.t.member.mapper.MemberMapper.countByExample   :135  http-nio-8001-exec-1 [32m1697335696255uj6[0;39m ==> Parameters: 
+2023-10-15 10:08:16.425 TRACE c.e.t.member.mapper.MemberMapper.countByExample   :141  http-nio-8001-exec-1 [32m1697335696255uj6[0;39m <==    Columns: count(*)
+2023-10-15 10:08:16.425 TRACE c.e.t.member.mapper.MemberMapper.countByExample   :141  http-nio-8001-exec-1 [32m1697335696255uj6[0;39m <==        Row: 1
+2023-10-15 10:08:16.427 DEBUG c.e.t.member.mapper.MemberMapper.countByExample   :135  http-nio-8001-exec-1 [32m1697335696255uj6[0;39m <==      Total: 1
+2023-10-15 10:08:16.432 INFO  com.example.train.comon.aspect.LogAspect          :89   http-nio-8001-exec-1 [32m1697335696255uj6[0;39m 返回结果: 1
+2023-10-15 10:08:16.432 INFO  com.example.train.comon.aspect.LogAspect          :90   http-nio-8001-exec-1 [32m1697335696255uj6[0;39m ------------- 结束 耗时：177 ms -------------
