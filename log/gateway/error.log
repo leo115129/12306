@@ -1,47 +1,9 @@
-2023-10-14 19:53:54.732 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   main [32m                [0;39m 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to bind properties under 'spring.cloud.gateway.routes[0].predicates[0]' to org.springframework.cloud.gateway.handler.predicate.PredicateDefinition:
-
-    Property: spring.cloud.gateway.routes[0].predicates[0]
-    Value: "Path/member/**"
-    Origin: class path resource [application.properties] - 4:46
-    Reason: failed to convert java.lang.String to org.springframework.cloud.gateway.handler.predicate.PredicateDefinition (caused by jakarta.validation.ValidationException: Unable to parse PredicateDefinition text 'Path/member/**', must be of the form name=value)
-
-Action:
-
-Update your application's configuration
-
-2023-10-14 19:54:09.853 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   main [32m                [0;39m 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Failed to bind properties under 'spring.cloud.gateway.routes[0].predicates[0]' to org.springframework.cloud.gateway.handler.predicate.PredicateDefinition:
-
-    Property: spring.cloud.gateway.routes[0].predicates[0]
-    Value: "Path/member/**"
-    Origin: class path resource [application.properties] - 4:46
-    Reason: failed to convert java.lang.String to org.springframework.cloud.gateway.handler.predicate.PredicateDefinition (caused by jakarta.validation.ValidationException: Unable to parse PredicateDefinition text 'Path/member/**', must be of the form name=value)
-
-Action:
-
-Update your application's configuration
-
-2023-10-14 20:09:43.644 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  reactor-http-nio-2 [32m                [0;39m [bb3bdf61-1]  500 Server Error for HTTP GET "/member/hello"
+2023-10-15 09:29:18.238 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  reactor-http-nio-1 [32m                [0;39m [48a750fa-11]  500 Server Error for HTTP GET "/member/member/count"
 io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8001
 	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
 Error has been observed at the following site(s):
 	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ HTTP GET "/member/hello" [ExceptionHandlingWebHandler]
+	*__checkpoint ⇢ HTTP GET "/member/member/count" [ExceptionHandlingWebHandler]
 Original Stack Trace:
 Caused by: java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
