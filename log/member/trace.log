@@ -1322,3 +1322,119 @@ Caused by: java.lang.ClassNotFoundException: com.example.train.comon.resp.Common
 	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
 	... 28 common frames omitted
+2023-10-15 16:12:34.068 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 1160 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-15 16:12:34.069 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-15 16:12:34.240 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=a7c6097d-3dcd-3a53-b58c-65014f05b043
+2023-10-15 16:12:34.338 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-15 16:12:34.338 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-15 16:12:34.338 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-15 16:12:34.338 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-15 16:12:34.355 INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/member]        :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-15 16:12:34.355 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 285 ms
+2023-10-15 16:12:34.668 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-15 16:12:35.771 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-15 16:12:35.786 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-15 16:12:35.789 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-15 16:12:36.883 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-15 16:12:36.888 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 3.963 seconds (process running for 2952.819)
+2023-10-15 16:12:36.890 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-15 16:12:36.890 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-15 16:12:36.890 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001//member/hello
+2023-10-15 16:14:18.853 INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/member]        :173  http-nio-8001-exec-3 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-15 16:14:18.853 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8001-exec-3 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-15 16:14:18.854 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8001-exec-3 [32m                [0;39m Completed initialization in 1 ms
+2023-10-15 16:14:18.857 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8001-exec-3 [32m1697357658856cw7[0;39m ------------- 开始 -------------
+2023-10-15 16:14:18.857 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8001-exec-3 [32m1697357658856cw7[0;39m 请求地址: http://127.0.0.1:8001/member/member/register POST
+2023-10-15 16:14:18.858 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8001-exec-3 [32m1697357658856cw7[0;39m 类名方法: com.example.train.member.controller.MemberController.register
+2023-10-15 16:14:18.858 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8001-exec-3 [32m1697357658856cw7[0;39m 远程地址: 127.0.0.1
+2023-10-15 16:14:18.858 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8001-exec-3 [32m1697357658856cw7[0;39m 请求参数: [{"mobile":"13411111111"}]
+2023-10-15 16:14:18.860 INFO  com.zaxxer.hikari.HikariDataSource                :110  http-nio-8001-exec-3 [32m1697357658856cw7[0;39m HikariPool-5 - Starting...
+2023-10-15 16:14:18.865 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  http-nio-8001-exec-3 [32m1697357658856cw7[0;39m HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@42bb0ee
+2023-10-15 16:14:18.865 INFO  com.zaxxer.hikari.HikariDataSource                :123  http-nio-8001-exec-3 [32m1697357658856cw7[0;39m HikariPool-5 - Start completed.
+2023-10-15 16:14:18.866 DEBUG c.e.t.member.mapper.MemberMapper.selectByExample  :135  http-nio-8001-exec-3 [32m1697357658856cw7[0;39m ==>  Preparing: select id, mobile from train.member WHERE ( mobile = ? )
+2023-10-15 16:14:18.866 DEBUG c.e.t.member.mapper.MemberMapper.selectByExample  :135  http-nio-8001-exec-3 [32m1697357658856cw7[0;39m ==> Parameters: 13411111111(String)
+2023-10-15 16:14:18.867 TRACE c.e.t.member.mapper.MemberMapper.selectByExample  :141  http-nio-8001-exec-3 [32m1697357658856cw7[0;39m <==    Columns: id, mobile
+2023-10-15 16:14:18.867 TRACE c.e.t.member.mapper.MemberMapper.selectByExample  :141  http-nio-8001-exec-3 [32m1697357658856cw7[0;39m <==        Row: 1697356791705, 13411111111
+2023-10-15 16:14:18.868 DEBUG c.e.t.member.mapper.MemberMapper.selectByExample  :135  http-nio-8001-exec-3 [32m1697357658856cw7[0;39m <==      Total: 1
+2023-10-15 16:14:18.869 ERROR c.e.t.common.controller.ControllerExceptionHandler:28   http-nio-8001-exec-3 [32m1697357658856cw7[0;39m 系统异常：
+java.lang.RuntimeException: 用户手机号已注册
+	at com.example.train.member.service.MemberService.register(MemberService.java:30)
+	at com.example.train.member.controller.MemberController.register(MemberController.java:27)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:343)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:58)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:89)
+	at com.example.train.common.aspect.LogAspect.doAround(LogAspect.java:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:637)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:627)
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:71)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:751)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:703)
+	at com.example.train.member.controller.MemberController$$SpringCGLIB$$0.register(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-15 16:14:18.876 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  http-nio-8001-exec-3 [32m1697357658856cw7[0;39m Resolved [java.lang.RuntimeException: 用户手机号已注册]

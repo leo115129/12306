@@ -111,3 +111,45 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 2023-10-15 10:07:59.395 INFO  c.example.train.gateway.config.GateWayApplication :19   main [32m                [0;39m 启动成功!!!
 2023-10-15 10:07:59.396 INFO  c.example.train.gateway.config.GateWayApplication :20   main [32m                [0;39m 网关地址:	http://127.0.0.1:8000
 2023-10-15 10:08:16.484 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:10:08:16 +0800] "GET /member/member/count HTTP/1.1" 200 1 446
+2023-10-15 15:23:37.110 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-15 15:23:37.134 INFO  c.example.train.gateway.config.GateWayApplication :51   main [32m                [0;39m Starting GateWayApplication using Java 17.0.4.1 with PID 16880 (D:\new world\Java\train\gateway\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-15 15:23:37.135 INFO  c.example.train.gateway.config.GateWayApplication :637  main [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-15 15:23:37.573 INFO  o.springframework.cloud.context.scope.GenericScope:282  main [32m                [0;39m BeanFactory id=9b33270f-f040-3163-95da-071d7e1c9aa5
+2023-10-15 15:23:38.880 INFO  org.springframework.cloud.commons.util.InetUtils  :170  main [32m                [0;39m Cannot determine local hostname
+2023-10-15 15:23:39.126 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [After]
+2023-10-15 15:23:39.126 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Before]
+2023-10-15 15:23:39.126 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Between]
+2023-10-15 15:23:39.126 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-10-15 15:23:39.127 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Header]
+2023-10-15 15:23:39.127 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Host]
+2023-10-15 15:23:39.127 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Method]
+2023-10-15 15:23:39.127 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Path]
+2023-10-15 15:23:39.128 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Query]
+2023-10-15 15:23:39.128 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-10-15 15:23:39.128 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-15 15:23:39.128 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-15 15:23:39.129 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Weight]
+2023-10-15 15:23:39.129 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-15 15:23:40.358 INFO  org.springframework.cloud.commons.util.InetUtils  :170  main [32m                [0;39m Cannot determine local hostname
+2023-10-15 15:23:40.527 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  main [32m                [0;39m Netty started on port 8000
+2023-10-15 15:23:41.627 INFO  org.springframework.cloud.commons.util.InetUtils  :170  main [32m                [0;39m Cannot determine local hostname
+2023-10-15 15:23:42.715 INFO  org.springframework.cloud.commons.util.InetUtils  :170  main [32m                [0;39m Cannot determine local hostname
+2023-10-15 15:23:42.748 INFO  c.example.train.gateway.config.GateWayApplication :57   main [32m                [0;39m Started GateWayApplication in 7.018 seconds (process running for 7.89)
+2023-10-15 15:23:42.752 INFO  c.example.train.gateway.config.GateWayApplication :19   main [32m                [0;39m 启动成功!!!
+2023-10-15 15:23:42.753 INFO  c.example.train.gateway.config.GateWayApplication :20   main [32m                [0;39m 网关地址:	http://127.0.0.1:8000
+2023-10-15 15:23:57.087 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:23:56 +0800] "GET /member/member/register HTTP/1.1" 405 4948 288
+2023-10-15 15:25:49.342 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:25:49 +0800] "GET /member/member/hello HTTP/1.1" 404 141 14
+2023-10-15 15:25:55.270 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:25:55 +0800] "GET /member/hello HTTP/1.1" 200 11 50
+2023-10-15 15:26:21.863 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:26:21 +0800] "GET /member/member/count HTTP/1.1" 200 1 191
+2023-10-15 15:27:00.557 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:27:00 +0800] "POST /member/member/register HTTP/1.1" 200 13 28
+2023-10-15 15:27:11.200 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:27:11 +0800] "GET /member/member/count HTTP/1.1" 200 1 13
+2023-10-15 15:37:12.332 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:37:12 +0800] "POST /member/member/register HTTP/1.1" 500 8534 37
+2023-10-15 15:37:59.108 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-1 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:37:59 +0800] "POST /member/member/register HTTP/1.1" 200 13 41
+2023-10-15 15:38:05.356 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:38:05 +0800] "GET /member/member/count HTTP/1.1" 200 1 10
+2023-10-15 15:38:07.686 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:38:07 +0800] "POST /member/member/register HTTP/1.1" 500 8195 16
+2023-10-15 15:47:39.189 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:47:39 +0800] "GET /member/member/count HTTP/1.1" 200 1 25
+2023-10-15 15:47:44.981 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:47:44 +0800] "POST /member/member/register HTTP/1.1" 500 8195 34
+2023-10-15 15:47:51.193 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:47:51 +0800] "POST /member/member/register HTTP/1.1" 200 13 21
+2023-10-15 15:47:54.750 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:47:54 +0800] "GET /member/member/count HTTP/1.1" 200 1 10
+2023-10-15 15:59:51.726 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:15:59:51 +0800] "POST /member/member/register HTTP/1.1" 200 55 44
+2023-10-15 16:14:18.877 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-1 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:16:14:18 +0800] "POST /member/member/register HTTP/1.1" 200 84 28
