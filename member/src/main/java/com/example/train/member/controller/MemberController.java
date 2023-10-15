@@ -1,6 +1,6 @@
 package com.example.train.member.controller;
 
-import com.example.train.comon.resp.CommonResp;
+import com.example.train.common.resp.CommonResp;
 import com.example.train.member.req.MemberRegisterReq;
 import com.example.train.member.service.MemberService;
 import jakarta.annotation.Resource;
