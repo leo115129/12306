@@ -260,3 +260,31 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 2023-10-15 19:57:14.640 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
 2023-10-15 19:57:15.848 INFO  org.springframework.cloud.commons.util.InetUtils  :170  main [32m                [0;39m Cannot determine local hostname
 2023-10-15 19:57:16.024 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  main [32m                [0;39m Netty started on port 8000
+2023-10-15 19:57:32.199 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-15 19:57:32.227 INFO  c.example.train.gateway.config.GateWayApplication :51   main [32m                [0;39m Starting GateWayApplication using Java 17.0.4.1 with PID 13592 (D:\new world\Java\train\gateway\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-15 19:57:32.228 INFO  c.example.train.gateway.config.GateWayApplication :637  main [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-15 19:57:32.727 INFO  o.springframework.cloud.context.scope.GenericScope:282  main [32m                [0;39m BeanFactory id=9b33270f-f040-3163-95da-071d7e1c9aa5
+2023-10-15 19:57:34.037 INFO  org.springframework.cloud.commons.util.InetUtils  :170  main [32m                [0;39m Cannot determine local hostname
+2023-10-15 19:57:34.253 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [After]
+2023-10-15 19:57:34.253 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Before]
+2023-10-15 19:57:34.253 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Between]
+2023-10-15 19:57:34.253 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-10-15 19:57:34.253 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Header]
+2023-10-15 19:57:34.253 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Host]
+2023-10-15 19:57:34.253 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Method]
+2023-10-15 19:57:34.253 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Path]
+2023-10-15 19:57:34.254 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Query]
+2023-10-15 19:57:34.254 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-10-15 19:57:34.254 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-15 19:57:34.254 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-15 19:57:34.254 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Weight]
+2023-10-15 19:57:34.254 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-15 19:57:35.479 INFO  org.springframework.cloud.commons.util.InetUtils  :170  main [32m                [0;39m Cannot determine local hostname
+2023-10-15 19:57:35.649 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  main [32m                [0;39m Netty started on port 8000
+2023-10-15 19:57:36.748 INFO  org.springframework.cloud.commons.util.InetUtils  :170  main [32m                [0;39m Cannot determine local hostname
+2023-10-15 19:57:37.838 INFO  org.springframework.cloud.commons.util.InetUtils  :170  main [32m                [0;39m Cannot determine local hostname
+2023-10-15 19:57:37.875 INFO  c.example.train.gateway.config.GateWayApplication :57   main [32m                [0;39m Started GateWayApplication in 7.051 seconds (process running for 8.065)
+2023-10-15 19:57:37.877 INFO  c.example.train.gateway.config.GateWayApplication :19   main [32m                [0;39m 启动成功!!!
+2023-10-15 19:57:37.878 INFO  c.example.train.gateway.config.GateWayApplication :20   main [32m                [0;39m 网关地址:	http://127.0.0.1:8000
+2023-10-15 19:57:44.191 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:19:57:43 +0800] "POST /member/member/register HTTP/1.1" 200 72 323
+2023-10-15 20:17:32.594 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [15/10月/2023:20:17:32 +0800] "POST /member/member/register HTTP/1.1" 200 61 284
