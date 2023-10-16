@@ -70,3 +70,364 @@
 2023-10-16 19:13:40.529 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:13:40 +0800] "OPTIONS /member/member/login HTTP/1.1" 403 0 3
 2023-10-16 19:13:45.835 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:13:45 +0800] "OPTIONS /member/member/send-code HTTP/1.1" 403 0 3
 2023-10-16 19:14:28.611 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:14:28 +0800] "OPTIONS /member/member/send-code HTTP/1.1" 403 0 3
+2023-10-16 19:19:07.302 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-16 19:19:07.336 INFO  c.example.train.gateway.config.GateWayApplication :51   main [32m                [0;39m Starting GateWayApplication using Java 17.0.4.1 with PID 10892 (D:\new world\Java\train\gateway\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-16 19:19:07.337 INFO  c.example.train.gateway.config.GateWayApplication :637  main [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-16 19:19:08.069 INFO  o.springframework.cloud.context.scope.GenericScope:282  main [32m                [0;39m BeanFactory id=9b33270f-f040-3163-95da-071d7e1c9aa5
+2023-10-16 19:19:09.236 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [After]
+2023-10-16 19:19:09.237 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Before]
+2023-10-16 19:19:09.238 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Between]
+2023-10-16 19:19:09.238 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-10-16 19:19:09.238 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Header]
+2023-10-16 19:19:09.238 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Host]
+2023-10-16 19:19:09.239 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Method]
+2023-10-16 19:19:09.239 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Path]
+2023-10-16 19:19:09.239 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Query]
+2023-10-16 19:19:09.240 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-10-16 19:19:09.241 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-16 19:19:09.241 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-16 19:19:09.241 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Weight]
+2023-10-16 19:19:09.241 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-16 19:19:09.899 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  main [32m                [0;39m Netty started on port 8000
+2023-10-16 19:19:10.253 INFO  c.example.train.gateway.config.GateWayApplication :57   main [32m                [0;39m Started GateWayApplication in 3.431 seconds (process running for 4.382)
+2023-10-16 19:19:10.256 INFO  c.example.train.gateway.config.GateWayApplication :19   main [32m                [0;39m 启动成功!!!
+2023-10-16 19:19:10.257 INFO  c.example.train.gateway.config.GateWayApplication :20   main [32m                [0;39m 网关地址:	http://127.0.0.1:8000
+2023-10-16 19:22:57.439 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:22:57 +0800] "OPTIONS /member/member/send-code HTTP/1.1" 200 0 194
+2023-10-16 19:22:58.333 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:22:57 +0800] "POST /member/member/send-code HTTP/1.1" 200 72 889
+2023-10-16 19:23:07.558 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:23:07 +0800] "OPTIONS /member/member/login HTTP/1.1" 200 0 2
+2023-10-16 19:23:07.623 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:23:07 +0800] "POST /member/member/login HTTP/1.1" 200 72 27
+2023-10-16 19:23:13.187 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:23:13 +0800] "POST /member/member/send-code HTTP/1.1" 200 72 18
+2023-10-16 19:23:24.520 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:23:24 +0800] "POST /member/member/send-code HTTP/1.1" 200 72 19
+2023-10-16 19:24:03.172 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:24:03 +0800] "POST /member/member/login HTTP/1.1" 200 78 17
+2023-10-16 19:24:03.648 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:24:03 +0800] "POST /member/member/send-code HTTP/1.1" 200 72 20
+2023-10-16 19:25:56.541 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  reactor-http-nio-2 [32m                [0;39m [88b92d7b-9]  500 Server Error for HTTP POST "/member/member/send-code"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/member/member/send-code" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-16 19:25:56.775 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:25:56 +0800] "POST /member/member/send-code HTTP/1.1" 500 149 290
+2023-10-16 19:27:19.460 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:27:19 +0800] "POST /member/member/login HTTP/1.1" 200 78 30
+2023-10-16 19:27:21.615 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:27:21 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 490
+2023-10-16 19:27:24.555 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:27:24 +0800] "POST /member/member/login HTTP/1.1" 200 72 8
+2023-10-16 19:27:57.036 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:27:57 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 36
+2023-10-16 19:27:57.796 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:27:57 +0800] "POST /member/member/login HTTP/1.1" 200 72 14
+2023-10-16 19:28:00.261 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  reactor-http-nio-2 [32m                [0;39m [88b92d7b-15]  500 Server Error for HTTP POST "/member/member/login"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/member/member/login" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-16 19:28:00.263 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:28:00 +0800] "POST /member/member/login HTTP/1.1" 500 146 9
+2023-10-16 19:28:02.545 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  reactor-http-nio-2 [32m                [0;39m [88b92d7b-16]  500 Server Error for HTTP POST "/member/member/login"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/member/member/login" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-16 19:28:02.548 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:28:02 +0800] "POST /member/member/login HTTP/1.1" 500 146 7
+2023-10-16 19:28:23.969 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:28:23 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 44
+2023-10-16 19:28:28.982 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:28:28 +0800] "POST /member/member/login HTTP/1.1" 200 91 130
+2023-10-16 19:28:51.356 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:28:51 +0800] "POST /member/member/login HTTP/1.1" 200 91 21
+2023-10-16 19:29:17.032 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:29:17 +0800] "POST /member/member/login HTTP/1.1" 200 91 25
+2023-10-16 19:29:26.423 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:29:26 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 13
+2023-10-16 19:29:27.099 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:29:27 +0800] "POST /member/member/login HTTP/1.1" 200 91 20
+2023-10-16 19:43:08.475 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:43:08 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 20
+2023-10-16 19:43:14.608 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:43:14 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 12
+2023-10-16 19:43:21.055 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:43:21 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 14
+2023-10-16 19:43:33.855 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:43:33 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 13
+2023-10-16 19:43:49.210 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:43:49 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 18
+2023-10-16 19:44:17.410 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:44:17 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 10
+2023-10-16 19:44:20.150 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:44:20 +0800] "POST /member/member/login HTTP/1.1" 200 91 16
+2023-10-16 19:44:26.567 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:44:26 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 15
+2023-10-16 19:44:37.247 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:44:37 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 10
+2023-10-16 19:44:37.807 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:44:37 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 20
+2023-10-16 19:44:53.087 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:44:53 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 13
+2023-10-16 19:45:05.971 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:05 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 9
+2023-10-16 19:45:19.513 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:19 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 9
+2023-10-16 19:45:25.455 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:25 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 9
+2023-10-16 19:45:25.936 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:25 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 13
+2023-10-16 19:45:26.131 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:26 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 11
+2023-10-16 19:45:26.302 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:26 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 8
+2023-10-16 19:45:26.486 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:26 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 8
+2023-10-16 19:45:26.671 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:26 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 10
+2023-10-16 19:45:26.828 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:26 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 9
+2023-10-16 19:45:27.006 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:26 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 8
+2023-10-16 19:45:27.183 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:27 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 10
+2023-10-16 19:45:27.533 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:27 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 9
+2023-10-16 19:45:27.726 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:27 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 10
+2023-10-16 19:45:27.908 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:27 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 10
+2023-10-16 19:45:28.090 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:28 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 10
+2023-10-16 19:45:28.260 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:28 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 9
+2023-10-16 19:45:28.435 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:28 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 8
+2023-10-16 19:45:35.756 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:35 +0800] "POST /member/member/login HTTP/1.1" 200 91 14
+2023-10-16 19:45:48.711 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:48 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 9
+2023-10-16 19:45:53.198 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:45:53 +0800] "POST /member/member/login HTTP/1.1" 200 91 15
+2023-10-16 19:46:43.418 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:46:43 +0800] "POST /member/member/login HTTP/1.1" 200 91 12
+2023-10-16 19:56:00.937 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:56:00 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 14
+2023-10-16 19:56:16.273 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:19:56:16 +0800] "POST /member/member/login HTTP/1.1" 200 91 11
+2023-10-16 20:05:44.756 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:05:44 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 19
+2023-10-16 20:05:45.444 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:05:45 +0800] "POST /member/member/login HTTP/1.1" 200 91 13
+2023-10-16 20:05:52.150 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:05:52 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 99
+2023-10-16 20:05:53.139 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:05:53 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 39
+2023-10-16 20:05:53.139 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:05:53 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 45
+2023-10-16 20:05:53.998 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:05:53 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 8
+2023-10-16 20:05:54.693 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:05:54 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 4
+2023-10-16 20:05:54.697 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:05:54 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 5
+2023-10-16 20:05:55.304 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:05:55 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 8
+2023-10-16 20:05:56.563 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:05:56 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 8
+2023-10-16 20:05:57.949 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:05:57 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 3
+2023-10-16 20:05:57.949 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:05:57 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 3
+2023-10-16 20:05:59.721 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:05:59 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 9
+2023-10-16 20:06:01.311 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:01 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:01.311 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:01 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:05.587 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:05 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 9
+2023-10-16 20:06:07.675 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:07 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 7
+2023-10-16 20:06:08.756 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:08 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:08.756 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:08 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:10.506 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:10 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:10.506 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:10 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:10.817 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:10 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 8
+2023-10-16 20:06:11.803 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:11 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 8
+2023-10-16 20:06:12.691 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:12 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:12.691 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:12 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:24.203 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:24 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:24.203 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:24 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:24.970 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:24 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 8
+2023-10-16 20:06:26.011 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:26 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 6
+2023-10-16 20:06:26.573 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:26 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:26.573 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:26 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:27.285 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:27 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 3
+2023-10-16 20:06:27.285 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:27 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 3
+2023-10-16 20:06:27.805 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:27 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 8
+2023-10-16 20:06:28.656 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:28 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 8
+2023-10-16 20:06:29.018 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:29 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 3
+2023-10-16 20:06:29.018 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:29 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 3
+2023-10-16 20:06:29.195 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:29 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 4
+2023-10-16 20:06:29.492 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:29 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:29.492 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:29 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:30.717 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:30 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 9
+2023-10-16 20:06:31.106 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:31 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 6
+2023-10-16 20:06:31.270 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:31 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 2
+2023-10-16 20:06:31.270 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:31 +0800] "GET /business/station/query-all HTTP/1.1" 404 156 2
+2023-10-16 20:06:31.409 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:31 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 7
+2023-10-16 20:06:31.598 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:31 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 5
+2023-10-16 20:06:31.598 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:31 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 5
+2023-10-16 20:06:31.750 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:31 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 10
+2023-10-16 20:06:49.412 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:49 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 5
+2023-10-16 20:06:49.778 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:49 +0800] "POST /member/member/login HTTP/1.1" 200 91 6
+2023-10-16 20:06:51.102 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:51 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 8
+2023-10-16 20:06:52.621 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:06:52 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 4
+2023-10-16 20:07:46.463 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:07:46 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 8
+2023-10-16 20:07:46.836 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:07:46 +0800] "POST /member/member/login HTTP/1.1" 200 91 9
+2023-10-16 20:08:00.513 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:08:00 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 9
+2023-10-16 20:08:01.109 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:08:01 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 4
+2023-10-16 20:08:01.109 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:08:01 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 4
+2023-10-16 20:11:25.691 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:11:25 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 11
+2023-10-16 20:11:26.603 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:11:26 +0800] "POST /member/member/login HTTP/1.1" 200 91 10
+2023-10-16 20:12:28.422 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:12:28 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 12
+2023-10-16 20:12:28.869 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:12:28 +0800] "POST /member/member/login HTTP/1.1" 200 91 10
+2023-10-16 20:13:23.420 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:23 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 12
+2023-10-16 20:13:24.999 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:24 +0800] "GET /member/ticket/query-list?page=1&size=10 HTTP/1.1" 404 146 7
+2023-10-16 20:13:28.533 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:28 +0800] "GET /member/ticket/query-list?page=1&size=10 HTTP/1.1" 404 146 5
+2023-10-16 20:13:29.129 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:29 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 4
+2023-10-16 20:13:29.132 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:29 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 3
+2023-10-16 20:13:29.598 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:29 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 5
+2023-10-16 20:13:30.716 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:30 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 2
+2023-10-16 20:13:30.716 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:30 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 2
+2023-10-16 20:13:31.356 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:31 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 7
+2023-10-16 20:13:32.754 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:32 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 1
+2023-10-16 20:13:32.754 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:32 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 1
+2023-10-16 20:13:33.457 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:33 +0800] "GET /member/ticket/query-list?page=1&size=10 HTTP/1.1" 404 146 9
+2023-10-16 20:13:43.953 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:43 +0800] "GET /member/ticket/query-list?page=1&size=10 HTTP/1.1" 404 146 5
+2023-10-16 20:13:44.386 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:44 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 2
+2023-10-16 20:13:44.387 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:44 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 3
+2023-10-16 20:13:44.751 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:44 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 6
+2023-10-16 20:13:45.176 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:45 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 2
+2023-10-16 20:13:45.176 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:45 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 2
+2023-10-16 20:13:45.663 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:45 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 4
+2023-10-16 20:13:45.956 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:45 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 3
+2023-10-16 20:13:45.956 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:45 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 3
+2023-10-16 20:13:46.135 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:46 +0800] "GET /member/ticket/query-list?page=1&size=10 HTTP/1.1" 404 146 4
+2023-10-16 20:13:47.165 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:47 +0800] "GET /member/ticket/query-list?page=1&size=10 HTTP/1.1" 404 146 6
+2023-10-16 20:13:47.430 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:13:47 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 6
+2023-10-16 20:14:19.107 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:14:19 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 8
+2023-10-16 20:14:19.436 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:14:19 +0800] "POST /member/member/login HTTP/1.1" 200 91 12
+2023-10-16 20:15:42.378 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:15:42 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 4
+2023-10-16 20:15:42.378 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:15:42 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 4
+2023-10-16 20:15:46.565 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:15:46 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 9
+2023-10-16 20:15:46.815 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:15:46 +0800] "POST /member/member/login HTTP/1.1" 200 91 13
+2023-10-16 20:15:53.591 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:15:53 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 9
+2023-10-16 20:15:54.019 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:15:54 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 3
+2023-10-16 20:15:54.019 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:15:54 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 3
+2023-10-16 20:15:54.321 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:15:54 +0800] "GET /member/ticket/query-list?page=1&size=10 HTTP/1.1" 404 146 11
+2023-10-16 20:24:41.203 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-1 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:24:41 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 12
+2023-10-16 20:24:42.690 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-1 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:24:42 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 5
+2023-10-16 20:24:43.292 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-1 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:24:43 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 2
+2023-10-16 20:24:43.296 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:24:43 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 2
+2023-10-16 20:24:43.651 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-1 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:24:43 +0800] "GET /member/ticket/query-list?page=1&size=10 HTTP/1.1" 404 146 6
+2023-10-16 20:24:48.464 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:24:48 +0800] "GET /member/ticket/query-list?page=1&size=10 HTTP/1.1" 404 146 8
+2023-10-16 20:24:48.999 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:24:48 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 1
+2023-10-16 20:24:49.000 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-1 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:24:48 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 2
+2023-10-16 20:24:52.149 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:24:52 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 2
+2023-10-16 20:24:52.150 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-1 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:24:52 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 3
+2023-10-16 20:33:20.385 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:20 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 3
+2023-10-16 20:33:20.385 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:20 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 3
+2023-10-16 20:33:25.533 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:25 +0800] "OPTIONS /member/member/send-code HTTP/1.1" 200 0 1
+2023-10-16 20:33:25.546 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:25 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 10
+2023-10-16 20:33:26.237 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:26 +0800] "OPTIONS /member/member/login HTTP/1.1" 200 0 1
+2023-10-16 20:33:26.245 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:26 +0800] "POST /member/member/login HTTP/1.1" 200 91 6
+2023-10-16 20:33:33.040 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:33 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 7
+2023-10-16 20:33:45.115 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:45 +0800] "GET /member/ticket/query-list?page=1&size=10 HTTP/1.1" 404 146 6
+2023-10-16 20:33:45.790 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:45 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 2
+2023-10-16 20:33:45.790 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:45 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 2
+2023-10-16 20:33:47.993 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:47 +0800] "GET /member/ticket/query-list?page=1&size=10 HTTP/1.1" 404 146 5
+2023-10-16 20:33:48.802 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:48 +0800] "GET /member/ticket/query-list?page=1&size=10 HTTP/1.1" 404 146 7
+2023-10-16 20:33:49.250 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:49 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 3
+2023-10-16 20:33:49.250 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:49 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 3
+2023-10-16 20:33:49.701 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:49 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 10
+2023-10-16 20:33:51.363 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:51 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 7
+2023-10-16 20:33:51.700 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:51 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 2
+2023-10-16 20:33:51.700 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:33:51 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 2
+2023-10-16 20:34:00.489 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:34:00 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 7
+2023-10-16 20:34:00.795 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:34:00 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 3
+2023-10-16 20:34:00.795 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:34:00 +0800] "GET /business/station/query-all HTTP/1.1" 404 157 5
+2023-10-16 20:51:29.118 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:51:29 +0800] "POST /member/member/login HTTP/1.1" 200 84 31
+2023-10-16 20:52:51.668 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:20:52:50 +0800] "POST /member/member/login HTTP/1.1" 200 249 773
+2023-10-16 21:02:03.807 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  reactor-http-nio-7 [32m                [0;39m [fa777bc4-185]  500 Server Error for HTTP POST "/member/member/login"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/member/member/login" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-16 21:02:03.809 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-7 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:21:02:03 +0800] "POST /member/member/login HTTP/1.1" 500 147 5
+2023-10-16 21:02:15.067 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  reactor-http-nio-8 [32m                [0;39m [dba3426a-186]  500 Server Error for HTTP POST "/member/member/login"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8001
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP POST "/member/member/login" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-16 21:02:15.069 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-8 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:21:02:15 +0800] "POST /member/member/login HTTP/1.1" 500 147 5
+2023-10-16 21:04:25.366 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-1 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:21:04:25 +0800] "POST /member/member/login HTTP/1.1" 200 317 58
+2023-10-16 21:08:59.189 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:08:59 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 14
+2023-10-16 21:09:07.607 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:09:07 +0800] "OPTIONS /member/member/send-code HTTP/1.1" 200 0 1
+2023-10-16 21:09:07.621 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:09:07 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 13
+2023-10-16 21:09:08.752 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:09:08 +0800] "OPTIONS /member/member/login HTTP/1.1" 200 0 1
+2023-10-16 21:09:08.766 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:09:08 +0800] "POST /member/member/login HTTP/1.1" 200 317 13
+2023-10-16 21:09:10.287 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:09:10 +0800] "OPTIONS /business/station/query-all HTTP/1.1" 403 0 1
+2023-10-16 21:09:10.292 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:09:10 +0800] "OPTIONS /business/station/query-all HTTP/1.1" 403 0 0
+2023-10-16 21:09:10.660 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:09:10 +0800] "OPTIONS /member/passenger/query-list?page=1&size=10 HTTP/1.1" 200 0 1
+2023-10-16 21:09:10.670 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:09:10 +0800] "GET /member/passenger/query-list?page=1&size=10 HTTP/1.1" 404 149 9
+2023-10-16 21:09:11.670 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:09:11 +0800] "OPTIONS /business/station/query-all HTTP/1.1" 403 0 1
+2023-10-16 21:09:11.671 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:09:11 +0800] "OPTIONS /business/station/query-all HTTP/1.1" 403 0 1
+2023-10-16 21:09:11.993 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:09:11 +0800] "OPTIONS /member/ticket/query-list?page=1&size=10 HTTP/1.1" 200 0 0
+2023-10-16 21:09:12.014 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:09:11 +0800] "GET /member/ticket/query-list?page=1&size=10 HTTP/1.1" 404 146 19
+2023-10-16 21:09:14.807 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:09:14 +0800] "GET /member/ticket/query-list?page=1&size=10 HTTP/1.1" 404 146 5
+2023-10-16 21:11:02.367 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:11:02 +0800] "OPTIONS /member/member/send-code HTTP/1.1" 200 0 1
+2023-10-16 21:11:02.378 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:11:02 +0800] "POST /member/member/send-code HTTP/1.1" 200 46 10
+2023-10-16 21:11:02.655 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:11:02 +0800] "OPTIONS /member/member/login HTTP/1.1" 200 0 1
+2023-10-16 21:11:02.667 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [16/10月/2023:21:11:02 +0800] "POST /member/member/login HTTP/1.1" 200 317 11
+2023-10-16 21:24:05.066 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:21:24:05 +0800] "GET /member/hello HTTP/1.1" 200 11 11
+2023-10-16 21:24:58.303 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:21:24:58 +0800] "GET /member/hello HTTP/1.1" 200 11 7
+2023-10-16 21:25:22.193 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-16 21:25:22.222 INFO  c.example.train.gateway.config.GateWayApplication :51   main [32m                [0;39m Starting GateWayApplication using Java 17.0.4.1 with PID 8576 (D:\new world\Java\train\gateway\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-16 21:25:22.223 INFO  c.example.train.gateway.config.GateWayApplication :637  main [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-16 21:25:22.815 INFO  o.springframework.cloud.context.scope.GenericScope:282  main [32m                [0;39m BeanFactory id=9b33270f-f040-3163-95da-071d7e1c9aa5
+2023-10-16 21:25:24.175 INFO  org.springframework.cloud.commons.util.InetUtils  :170  main [32m                [0;39m Cannot determine local hostname
+2023-10-16 21:25:24.405 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [After]
+2023-10-16 21:25:24.406 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Before]
+2023-10-16 21:25:24.406 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Between]
+2023-10-16 21:25:24.406 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-10-16 21:25:24.406 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Header]
+2023-10-16 21:25:24.406 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Host]
+2023-10-16 21:25:24.407 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Method]
+2023-10-16 21:25:24.407 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Path]
+2023-10-16 21:25:24.407 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Query]
+2023-10-16 21:25:24.407 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-10-16 21:25:24.407 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-16 21:25:24.407 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-16 21:25:24.407 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [Weight]
+2023-10-16 21:25:24.407 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   main [32m                [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-16 21:25:25.710 INFO  org.springframework.cloud.commons.util.InetUtils  :170  main [32m                [0;39m Cannot determine local hostname
+2023-10-16 21:25:25.870 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  main [32m                [0;39m Netty started on port 8000
+2023-10-16 21:25:26.957 INFO  org.springframework.cloud.commons.util.InetUtils  :170  main [32m                [0;39m Cannot determine local hostname
+2023-10-16 21:25:28.048 INFO  org.springframework.cloud.commons.util.InetUtils  :170  main [32m                [0;39m Cannot determine local hostname
+2023-10-16 21:25:28.082 INFO  c.example.train.gateway.config.GateWayApplication :57   main [32m                [0;39m Started GateWayApplication in 7.259 seconds (process running for 8.286)
+2023-10-16 21:25:28.084 INFO  c.example.train.gateway.config.GateWayApplication :19   main [32m                [0;39m 启动成功!!!
+2023-10-16 21:25:28.085 INFO  c.example.train.gateway.config.GateWayApplication :20   main [32m                [0;39m 网关地址:	http://127.0.0.1:8000
+2023-10-16 21:25:35.469 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:21:25:35 +0800] "GET /member/hello HTTP/1.1" 200 11 169
