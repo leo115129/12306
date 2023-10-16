@@ -1,9 +1,9 @@
-2023-10-16 19:25:56.541 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  reactor-http-nio-2 [32m                [0;39m [88b92d7b-9]  500 Server Error for HTTP POST "/member/member/send-code"
+2023-10-15 09:29:18.238 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  reactor-http-nio-1 [32m                [0;39m [48a750fa-11]  500 Server Error for HTTP GET "/member/member/count"
 io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8001
 	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
 Error has been observed at the following site(s):
 	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ HTTP POST "/member/member/send-code" [ExceptionHandlingWebHandler]
+	*__checkpoint ⇢ HTTP GET "/member/member/count" [ExceptionHandlingWebHandler]
 Original Stack Trace:
 Caused by: java.net.ConnectException: Connection refused: no further information
 	at java.base/sun.nio.ch.Net.pollConnect(Native Method)

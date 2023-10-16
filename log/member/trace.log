@@ -1599,3 +1599,264 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.example.trai
 2023-10-16 18:47:25.130 DEBUG c.e.t.member.mapper.MemberMapper.selectByExample  :135  http-nio-8001-exec-2 [32m1697453245123jv6[0;39m <==      Total: 1
 2023-10-16 18:47:25.163 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8001-exec-2 [32m1697453245123jv6[0;39m 返回结果: {"content":{"id":1713813934919782400,"mobile":"14211111111"},"success":true}
 2023-10-16 18:47:25.163 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8001-exec-2 [32m1697453245123jv6[0;39m ------------- 结束 耗时：40 ms -------------
+2023-10-16 19:04:54.639 ERROR c.e.t.common.controller.ControllerExceptionHandler:30   http-nio-8001-exec-4 [32m                [0;39m 系统异常：
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:441)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:126)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:505)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1275)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-16 19:04:54.666 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  http-nio-8001-exec-4 [32m                [0;39m Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2023-10-16 19:18:59.338 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-16 19:18:59.374 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 13072 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-16 19:18:59.375 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-16 19:18:59.420 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-16 19:18:59.420 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-16 19:19:00.452 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=7e69ae76-867e-33e5-8e74-3ae6751ba495
+2023-10-16 19:19:01.225 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-16 19:19:01.238 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:19:01.243 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-16 19:19:01.244 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-16 19:19:01.325 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-16 19:19:01.325 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1904 ms
+2023-10-16 19:19:02.743 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-16 19:19:03.058 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:19:03.086 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-16 19:19:03.267 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 4.431 seconds (process running for 5.671)
+2023-10-16 19:19:03.270 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-16 19:19:03.271 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001//member/hello
+2023-10-16 19:22:57.927 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  http-nio-8001-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-16 19:22:57.928 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8001-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-16 19:22:57.934 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8001-exec-1 [32m                [0;39m Completed initialization in 4 ms
+2023-10-16 19:22:58.179 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-1 [32m                [0;39m 校验异常：【手机号】不能为空
+2023-10-16 19:22:58.310 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  http-nio-8001-exec-1 [32m                [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.example.train.common.resp.CommonResp<java.lang.Long> com.example.train.member.controller.MemberController.sendCode(com.example.train.member.req.MemberSendCodeReq): [Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]] ]
+2023-10-16 19:23:07.614 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-2 [32m                [0;39m 校验异常：【手机号】不能为空
+2023-10-16 19:23:07.619 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  http-nio-8001-exec-2 [32m                [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.example.train.common.resp.CommonResp<com.example.train.member.resp.MemberLoginResp> com.example.train.member.controller.MemberController.login(com.example.train.member.req.MemberLoginReq) with 2 errors: [Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]] [Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]] ]
+2023-10-16 19:23:13.181 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-3 [32m                [0;39m 校验异常：【手机号】不能为空
+2023-10-16 19:23:13.183 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  http-nio-8001-exec-3 [32m                [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.example.train.common.resp.CommonResp<java.lang.Long> com.example.train.member.controller.MemberController.sendCode(com.example.train.member.req.MemberSendCodeReq): [Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]] ]
+2023-10-16 19:23:24.510 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-4 [32m                [0;39m 校验异常：【手机号】不能为空
+2023-10-16 19:23:24.513 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  http-nio-8001-exec-4 [32m                [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.example.train.common.resp.CommonResp<java.lang.Long> com.example.train.member.controller.MemberController.sendCode(com.example.train.member.req.MemberSendCodeReq): [Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]] ]
+2023-10-16 19:24:03.163 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-5 [32m                [0;39m 校验异常：【短信验证码】不能为空
+2023-10-16 19:24:03.168 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  http-nio-8001-exec-5 [32m                [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.example.train.common.resp.CommonResp<com.example.train.member.resp.MemberLoginResp> com.example.train.member.controller.MemberController.login(com.example.train.member.req.MemberLoginReq) with 2 errors: [Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]] [Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]] ]
+2023-10-16 19:24:03.638 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-6 [32m                [0;39m 校验异常：【手机号】不能为空
+2023-10-16 19:24:03.643 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  http-nio-8001-exec-6 [32m                [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.example.train.common.resp.CommonResp<java.lang.Long> com.example.train.member.controller.MemberController.sendCode(com.example.train.member.req.MemberSendCodeReq): [Field error in object 'memberSendCodeReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberSendCodeReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberSendCodeReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]] ]
+2023-10-16 19:25:28.314 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-16 19:25:28.373 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-6 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:28.374 INFO  org.apache.catalina.core.StandardService          :173  Thread-6 [32m                [0;39m Stopping service [Tomcat]
+2023-10-16 19:25:28.377 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  Thread-6 [32m                [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-16 19:25:28.390 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-6 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:28.399 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-6 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:28.999 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 13072 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-16 19:25:29.000 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-16 19:25:29.515 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=69f26b9b-f46e-3bc6-8c29-c6ada5110e24
+2023-10-16 19:25:29.836 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-16 19:25:29.838 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:29.839 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-16 19:25:29.839 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-16 19:25:29.887 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-16 19:25:29.888 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 881 ms
+2023-10-16 19:25:31.057 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-16 19:25:31.488 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:31.497 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-16 19:25:31.864 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 3.33 seconds (process running for 394.268)
+2023-10-16 19:25:31.871 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-16 19:25:31.873 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-16 19:25:31.874 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001//member/hello
+2023-10-16 19:25:39.782 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-10-16 19:25:39.809 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-9 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:39.810 INFO  org.apache.catalina.core.StandardService          :173  Thread-9 [32m                [0;39m Stopping service [Tomcat]
+2023-10-16 19:25:39.812 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-9 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:39.814 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-9 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:40.097 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 13072 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-16 19:25:40.098 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-16 19:25:40.529 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=7e69ae76-867e-33e5-8e74-3ae6751ba495
+2023-10-16 19:25:40.674 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-16 19:25:40.674 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:40.675 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-16 19:25:40.675 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-16 19:25:40.692 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-16 19:25:40.692 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 590 ms
+2023-10-16 19:25:41.460 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-16 19:25:41.742 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:41.746 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-16 19:25:41.891 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 2.003 seconds (process running for 404.295)
+2023-10-16 19:25:41.893 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-16 19:25:41.893 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-16 19:25:41.893 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001//member/hello
+2023-10-16 19:25:56.270 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-16 19:25:56.356 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-15 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:56.357 INFO  org.apache.catalina.core.StandardService          :173  Thread-15 [32m                [0;39m Stopping service [Tomcat]
+2023-10-16 19:25:56.358 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-15 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:56.360 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-15 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:57.011 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 13072 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-16 19:25:57.012 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-16 19:25:57.346 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=7e69ae76-867e-33e5-8e74-3ae6751ba495
+2023-10-16 19:25:57.510 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-16 19:25:57.511 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:57.512 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-16 19:25:57.513 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-16 19:25:57.535 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-16 19:25:57.535 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 519 ms
+2023-10-16 19:25:58.128 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-16 19:25:58.375 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:58.380 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-16 19:25:58.554 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 2.113 seconds (process running for 420.959)
+2023-10-16 19:25:58.556 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-16 19:25:58.557 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-16 19:25:58.557 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001//member/hello
+2023-10-16 19:25:59.564 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-10-16 19:25:59.583 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-21 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:59.583 INFO  org.apache.catalina.core.StandardService          :173  Thread-21 [32m                [0;39m Stopping service [Tomcat]
+2023-10-16 19:25:59.585 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-21 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:59.587 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-21 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:25:59.847 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 13072 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-16 19:25:59.848 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-16 19:26:00.069 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=7e69ae76-867e-33e5-8e74-3ae6751ba495
+2023-10-16 19:26:00.237 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-16 19:26:00.238 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:26:00.238 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-16 19:26:00.238 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-16 19:26:00.262 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-16 19:26:00.262 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 412 ms
+2023-10-16 19:26:00.803 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-16 19:26:00.965 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:26:00.971 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-16 19:26:01.173 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 1.534 seconds (process running for 423.578)
+2023-10-16 19:26:01.175 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-16 19:26:01.176 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-16 19:26:01.176 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001//member/hello
+2023-10-16 19:27:19.437 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  http-nio-8001-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-16 19:27:19.438 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8001-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-16 19:27:19.439 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8001-exec-1 [32m                [0;39m Completed initialization in 1 ms
+2023-10-16 19:27:19.450 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-1 [32m                [0;39m 校验异常：【短信验证码】不能为空
+2023-10-16 19:27:19.456 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  http-nio-8001-exec-1 [32m                [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.example.train.common.resp.CommonResp<com.example.train.member.resp.MemberLoginResp> com.example.train.member.controller.MemberController.login(com.example.train.member.req.MemberLoginReq) with 2 errors: [Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]] [Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]] ]
+2023-10-16 19:27:21.199 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8001-exec-2 [32m1697455641183wcj[0;39m ------------- 开始 -------------
+2023-10-16 19:27:21.202 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8001-exec-2 [32m1697455641183wcj[0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2023-10-16 19:27:21.204 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8001-exec-2 [32m1697455641183wcj[0;39m 类名方法: com.example.train.member.controller.MemberController.sendCode
+2023-10-16 19:27:21.204 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8001-exec-2 [32m1697455641183wcj[0;39m 远程地址: 127.0.0.1
+2023-10-16 19:27:21.304 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8001-exec-2 [32m1697455641183wcj[0;39m 请求参数: [{"mobile":"14511111111"}]
+2023-10-16 19:27:21.380 INFO  com.zaxxer.hikari.HikariDataSource                :110  http-nio-8001-exec-2 [32m1697455641183wcj[0;39m HikariPool-1 - Starting...
+2023-10-16 19:27:21.528 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  http-nio-8001-exec-2 [32m1697455641183wcj[0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@f00bee5
+2023-10-16 19:27:21.531 INFO  com.zaxxer.hikari.HikariDataSource                :123  http-nio-8001-exec-2 [32m1697455641183wcj[0;39m HikariPool-1 - Start completed.
+2023-10-16 19:27:21.540 DEBUG c.e.t.member.mapper.MemberMapper.selectByExample  :135  http-nio-8001-exec-2 [32m1697455641183wcj[0;39m ==>  Preparing: select id, mobile from train.member WHERE ( mobile = ? )
+2023-10-16 19:27:21.565 DEBUG c.e.t.member.mapper.MemberMapper.selectByExample  :135  http-nio-8001-exec-2 [32m1697455641183wcj[0;39m ==> Parameters: 14511111111(String)
+2023-10-16 19:27:21.591 TRACE c.e.t.member.mapper.MemberMapper.selectByExample  :141  http-nio-8001-exec-2 [32m1697455641183wcj[0;39m <==    Columns: id, mobile
+2023-10-16 19:27:21.592 TRACE c.e.t.member.mapper.MemberMapper.selectByExample  :141  http-nio-8001-exec-2 [32m1697455641183wcj[0;39m <==        Row: 1713529538920714240, 14511111111
+2023-10-16 19:27:21.593 DEBUG c.e.t.member.mapper.MemberMapper.selectByExample  :135  http-nio-8001-exec-2 [32m1697455641183wcj[0;39m <==      Total: 1
+2023-10-16 19:27:21.606 INFO  com.example.train.member.service.MemberService    :62   http-nio-8001-exec-2 [32m1697455641183wcj[0;39m 手机号存在，不插入记录
+2023-10-16 19:27:21.610 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8001-exec-2 [32m1697455641183wcj[0;39m 返回结果: {"success":true}
+2023-10-16 19:27:21.610 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8001-exec-2 [32m1697455641183wcj[0;39m ------------- 结束 耗时：427 ms -------------
+2023-10-16 19:27:24.552 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-5 [32m                [0;39m 校验异常：【手机号】不能为空
+2023-10-16 19:27:24.554 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  http-nio-8001-exec-5 [32m                [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.example.train.common.resp.CommonResp<com.example.train.member.resp.MemberLoginResp> com.example.train.member.controller.MemberController.login(com.example.train.member.req.MemberLoginReq) with 2 errors: [Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]] [Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]] ]
+2023-10-16 19:27:57.012 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8001-exec-9 [32m1697455677012cd7[0;39m ------------- 开始 -------------
+2023-10-16 19:27:57.013 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8001-exec-9 [32m1697455677012cd7[0;39m 请求地址: http://127.0.0.1:8001/member/member/send-code POST
+2023-10-16 19:27:57.014 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8001-exec-9 [32m1697455677012cd7[0;39m 类名方法: com.example.train.member.controller.MemberController.sendCode
+2023-10-16 19:27:57.014 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8001-exec-9 [32m1697455677012cd7[0;39m 远程地址: 127.0.0.1
+2023-10-16 19:27:57.015 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8001-exec-9 [32m1697455677012cd7[0;39m 请求参数: [{"mobile":"14511111111"}]
+2023-10-16 19:27:57.020 DEBUG c.e.t.member.mapper.MemberMapper.selectByExample  :135  http-nio-8001-exec-9 [32m1697455677012cd7[0;39m ==>  Preparing: select id, mobile from train.member WHERE ( mobile = ? )
+2023-10-16 19:27:57.022 DEBUG c.e.t.member.mapper.MemberMapper.selectByExample  :135  http-nio-8001-exec-9 [32m1697455677012cd7[0;39m ==> Parameters: 14511111111(String)
+2023-10-16 19:27:57.025 TRACE c.e.t.member.mapper.MemberMapper.selectByExample  :141  http-nio-8001-exec-9 [32m1697455677012cd7[0;39m <==    Columns: id, mobile
+2023-10-16 19:27:57.025 TRACE c.e.t.member.mapper.MemberMapper.selectByExample  :141  http-nio-8001-exec-9 [32m1697455677012cd7[0;39m <==        Row: 1713529538920714240, 14511111111
+2023-10-16 19:27:57.027 DEBUG c.e.t.member.mapper.MemberMapper.selectByExample  :135  http-nio-8001-exec-9 [32m1697455677012cd7[0;39m <==      Total: 1
+2023-10-16 19:27:57.028 INFO  com.example.train.member.service.MemberService    :62   http-nio-8001-exec-9 [32m1697455677012cd7[0;39m 手机号存在，不插入记录
+2023-10-16 19:27:57.029 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8001-exec-9 [32m1697455677012cd7[0;39m 返回结果: {"success":true}
+2023-10-16 19:27:57.030 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8001-exec-9 [32m1697455677012cd7[0;39m ------------- 结束 耗时：18 ms -------------
+2023-10-16 19:27:57.791 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-4 [32m                [0;39m 校验异常：【手机号】不能为空
+2023-10-16 19:27:57.794 WARN  o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver   :207  http-nio-8001-exec-4 [32m                [0;39m Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.example.train.common.resp.CommonResp<com.example.train.member.resp.MemberLoginResp> com.example.train.member.controller.MemberController.login(com.example.train.member.req.MemberLoginReq) with 2 errors: [Field error in object 'memberLoginReq' on field 'mobile': rejected value [null]; codes [NotBlank.memberLoginReq.mobile,NotBlank.mobile,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.mobile,mobile]; arguments []; default message [mobile]]; default message [【手机号】不能为空]] [Field error in object 'memberLoginReq' on field 'code': rejected value [null]; codes [NotBlank.memberLoginReq.code,NotBlank.code,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [memberLoginReq.code,code]; arguments []; default message [code]]; default message [【短信验证码】不能为空]] ]
+2023-10-16 19:27:59.405 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-16 19:27:59.440 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-27 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:27:59.440 INFO  org.apache.catalina.core.StandardService          :173  Thread-27 [32m                [0;39m Stopping service [Tomcat]
+2023-10-16 19:27:59.441 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  Thread-27 [32m                [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-16 19:27:59.445 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  Thread-27 [32m                [0;39m The web application [member] appears to have started a thread named [HikariPool-1 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-10-16 19:27:59.447 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-27 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:27:59.450 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-27 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:27:59.455 INFO  com.zaxxer.hikari.HikariDataSource                :350  Thread-27 [32m                [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-16 19:27:59.472 INFO  com.zaxxer.hikari.HikariDataSource                :352  Thread-27 [32m                [0;39m HikariPool-1 - Shutdown completed.
+2023-10-16 19:28:00.116 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 13072 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-16 19:28:00.117 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-16 19:28:00.787 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=69f26b9b-f46e-3bc6-8c29-c6ada5110e24
+2023-10-16 19:28:01.193 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-16 19:28:01.194 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:28:01.195 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-16 19:28:01.196 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-16 19:28:01.246 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-16 19:28:01.247 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1120 ms
+2023-10-16 19:28:02.331 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-16 19:28:02.663 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:28:02.672 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-16 19:28:02.917 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 3.369 seconds (process running for 545.321)
+2023-10-16 19:28:02.921 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-16 19:28:02.921 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-16 19:28:02.922 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001//member/hello
+2023-10-16 19:28:03.773 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-10-16 19:28:03.807 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-33 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:28:03.808 INFO  org.apache.catalina.core.StandardService          :173  Thread-33 [32m                [0;39m Stopping service [Tomcat]
+2023-10-16 19:28:03.811 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-33 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:28:03.814 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-33 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:28:04.355 INFO  com.example.train.member.config.MemberApplication :51   restartedMain [32m                [0;39m Starting MemberApplication using Java 17.0.4.1 with PID 13072 (D:\new world\Java\train\member\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-16 19:28:04.356 INFO  com.example.train.member.config.MemberApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-16 19:28:04.906 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=7e69ae76-867e-33e5-8e74-3ae6751ba495
+2023-10-16 19:28:05.170 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-10-16 19:28:05.171 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:28:05.172 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-16 19:28:05.172 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-16 19:28:05.219 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-16 19:28:05.220 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 856 ms
+2023-10-16 19:28:06.223 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-16 19:28:06.420 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-10-16 19:28:06.425 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-10-16 19:28:06.654 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 2.732 seconds (process running for 549.059)
+2023-10-16 19:28:06.657 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-16 19:28:06.658 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-16 19:28:06.659 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001//member/hello

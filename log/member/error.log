@@ -476,3 +476,61 @@ Caused by: java.lang.ClassNotFoundException: Cannot find class: com.example.trai
 2023-10-16 18:45:30.814 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-4 [32m                [0;39m 校验异常：【短信验证码】不能为空
 2023-10-16 18:46:00.921 ERROR c.e.t.common.controller.ControllerExceptionHandler:45   http-nio-8001-exec-5 [32m1697453160909t3c[0;39m 业务异常：短信验证码错误
 2023-10-16 18:46:45.531 ERROR c.e.t.common.controller.ControllerExceptionHandler:45   http-nio-8001-exec-6 [32m1697453205523n5d[0;39m 业务异常：短信验证码错误
+2023-10-16 19:04:54.639 ERROR c.e.t.common.controller.ControllerExceptionHandler:30   http-nio-8001-exec-4 [32m                [0;39m 系统异常：
+org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.handleNoMatch(RequestMappingInfoHandlerMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lookupHandlerMethod(AbstractHandlerMethodMapping.java:441)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.getHandlerInternal(AbstractHandlerMethodMapping.java:382)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:126)
+	at org.springframework.web.servlet.mvc.method.RequestMappingInfoHandlerMapping.getHandlerInternal(RequestMappingInfoHandlerMapping.java:68)
+	at org.springframework.web.servlet.handler.AbstractHandlerMapping.getHandler(AbstractHandlerMapping.java:505)
+	at org.springframework.web.servlet.DispatcherServlet.getHandler(DispatcherServlet.java:1275)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-16 19:22:58.179 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-1 [32m                [0;39m 校验异常：【手机号】不能为空
+2023-10-16 19:23:07.614 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-2 [32m                [0;39m 校验异常：【手机号】不能为空
+2023-10-16 19:23:13.181 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-3 [32m                [0;39m 校验异常：【手机号】不能为空
+2023-10-16 19:23:24.510 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-4 [32m                [0;39m 校验异常：【手机号】不能为空
+2023-10-16 19:24:03.163 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-5 [32m                [0;39m 校验异常：【短信验证码】不能为空
+2023-10-16 19:24:03.638 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-6 [32m                [0;39m 校验异常：【手机号】不能为空
+2023-10-16 19:27:19.450 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-1 [32m                [0;39m 校验异常：【短信验证码】不能为空
+2023-10-16 19:27:24.552 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-5 [32m                [0;39m 校验异常：【手机号】不能为空
+2023-10-16 19:27:57.791 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-4 [32m                [0;39m 校验异常：【手机号】不能为空
