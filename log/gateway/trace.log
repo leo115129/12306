@@ -25,3 +25,5 @@
 2023-10-16 14:54:14.798 INFO  c.example.train.gateway.config.GateWayApplication :19   main [32m                [0;39m 启动成功!!!
 2023-10-16 14:54:14.798 INFO  c.example.train.gateway.config.GateWayApplication :20   main [32m                [0;39m 网关地址:	http://127.0.0.1:8000
 2023-10-16 14:54:25.203 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-2 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:14:54:24 +0800] "POST /member/member/sendcode HTTP/1.1" 200 46 652
+2023-10-16 15:06:32.233 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-3 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:15:06:32 +0800] "POST /member/member/sendcode HTTP/1.1" 200 46 37
+2023-10-16 15:07:37.883 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-4 [32m                [0;39m 127.0.0.1 - - [16/10月/2023:15:07:37 +0800] "POST /member/member/sendcode HTTP/1.1" 200 46 54
