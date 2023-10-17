@@ -163,3 +163,7 @@
 2023-10-17 13:40:45.059 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [17/10月/2023:13:40:45 +0800] "POST /member/member/login HTTP/1.1" 200 317 13
 2023-10-17 13:40:49.077 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [17/10月/2023:13:40:49 +0800] "GET /business/station/query-all HTTP/1.1" 404 13138 3
 2023-10-17 13:40:49.084 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-5 [32m                [0;39m 0:0:0:0:0:0:0:1 - - [17/10月/2023:13:40:49 +0800] "GET /business/station/query-all HTTP/1.1" 404 13138 6
+2023-10-17 15:59:40.014 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-6 [32m                [0;39m 需要登录验证：/member/passenger/save
+2023-10-17 15:59:40.020 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-6 [32m                [0;39m 会员登录验证开始，token：null
+2023-10-17 15:59:40.020 INFO  c.example.train.gateway.config.LoginMemberFilter  :37   reactor-http-nio-6 [32m                [0;39m token为空，请求被拦截
+2023-10-17 15:59:40.023 INFO  reactor.netty.http.server.AccessLog               :279  reactor-http-nio-6 [32m                [0;39m 127.0.0.1 - - [17/10月/2023:15:59:39 +0800] "POST /member/passenger/save HTTP/1.1" 401 0 25
