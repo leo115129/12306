@@ -1,10 +1,8 @@
-POST http://localhost:8001/member/passenger/save
+POST http://localhost:8000/member/passenger/save
 Content-Type: application/json
-//token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc1MzI4NzAsIm1vYmlsZSI6IjE0MjExMTExMTExIiwiaWQiOjE3MTM4MTM5MzQ5MTk3ODI0MDAsImV4cCI6MTY5NzYxOTI3MCwiaWF0IjoxNjk3NTMyODcwfQ.vD_OiNPuqKn8AvOgcHcTlwYv_fBtC0wx1dF3sBMRUx8
 token:{{token}}
 
 {
-  "memberId": "14211111111",
   "name":"alice",
   "idCard": "1",
   "type": "1"
