@@ -23,6 +23,7 @@ public class MemberInterceptor implements HandlerInterceptor {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+
         //获取header的token参数
         String token = request.getHeader("token");
         if (StrUtil.isNotBlank(token)) {
