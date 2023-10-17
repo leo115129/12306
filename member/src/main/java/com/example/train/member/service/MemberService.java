@@ -86,7 +86,6 @@ public class MemberService {
 
         MemberLoginResp memberLoginResp= BeanUtil.copyProperties(memberDB,MemberLoginResp.class);
         Map<String, Object> map = BeanUtil.beanToMap(memberLoginResp);
-        String key="temp12306";
        // String token=JWTUtil.createToken(map,key.getBytes());
         String token= JwtUtil.createToken(memberLoginResp.getId(),memberLoginResp.getMobile());
         memberLoginResp.setToken(token);

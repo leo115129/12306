@@ -72,7 +72,7 @@
       distinct
     </if>
     <include refid="Base_Column_List" />
-    from train.member
+    from member
     <if test="_parameter != null">
       <include refid="Example_Where_Clause" />
     </if>

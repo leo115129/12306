@@ -16,10 +16,11 @@ mobile=14511111111
 ###
 
 POST http://localhost:8000/member/member/send-code
-Content-Type: application/x-www-form-urlencoded
+Content-Type: application/json
 
-mobile=14211111111
-
+{
+  "mobile": "14211111111"
+}
 
 ###
 
