@@ -1,4 +1,4 @@
-package com.example.train.enums;
+package com.example.train.member.enums;
 
 import java.util.ArrayList;
 import java.util.EnumSet;
