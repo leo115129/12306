@@ -1,4 +1,4 @@
-package com.jiawa.train.${module}.service;
+package com.example.train.${module}.service;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.date.DateTime;
