@@ -1,199 +1,30 @@
-2023-10-18 13:19:58.917 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
-2023-10-18 13:19:58.963 INFO  c.example.train.gateway.config.GateWayApplication :51   restartedMain [32m                [0;39m Starting GateWayApplication using Java 17.0.4.1 with PID 14040 (D:\new world\Java\train\gateway\target\classes started by 17926 in D:\new world\Java\train)
-2023-10-18 13:19:58.964 INFO  c.example.train.gateway.config.GateWayApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
-2023-10-18 13:19:59.019 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-10-18 13:19:59.021 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-10-18 13:19:59.916 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=ae56ad43-944a-3422-a879-692108bb3cd1
-2023-10-18 13:20:01.513 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
-2023-10-18 13:20:01.838 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [After]
-2023-10-18 13:20:01.839 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Before]
-2023-10-18 13:20:01.839 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Between]
-2023-10-18 13:20:01.839 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Cookie]
-2023-10-18 13:20:01.839 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Header]
-2023-10-18 13:20:01.839 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Host]
-2023-10-18 13:20:01.839 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Method]
-2023-10-18 13:20:01.840 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Path]
-2023-10-18 13:20:01.840 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Query]
-2023-10-18 13:20:01.840 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [ReadBody]
-2023-10-18 13:20:01.840 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [RemoteAddr]
-2023-10-18 13:20:01.840 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
-2023-10-18 13:20:01.840 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Weight]
-2023-10-18 13:20:01.840 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
-2023-10-18 13:20:02.080 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
-2023-10-18 13:20:03.257 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
-2023-10-18 13:20:03.489 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  restartedMain [32m                [0;39m Netty started on port 8000
-2023-10-18 13:20:04.621 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
-2023-10-18 13:20:05.811 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
-2023-10-18 13:20:05.869 INFO  c.example.train.gateway.config.GateWayApplication :57   restartedMain [32m                [0;39m Started GateWayApplication in 8.45 seconds (process running for 9.478)
-2023-10-18 13:20:05.873 INFO  c.example.train.gateway.config.GateWayApplication :19   restartedMain [32m                [0;39m 启动成功!!!
-2023-10-18 13:20:05.874 INFO  c.example.train.gateway.config.GateWayApplication :20   restartedMain [32m                [0;39m 网关地址:	http://127.0.0.1:8000
-2023-10-18 13:23:04.420 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/member/member/send-code
-2023-10-18 13:23:06.925 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/member/member/login
-2023-10-18 13:23:20.261 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/member/member/send-code
-2023-10-18 13:23:20.800 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/member/member/login
-2023-10-18 13:25:12.715 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-2 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 13:25:12.717 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-2 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 13:25:14.456 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-2 [32m                [0;39m JWT token校验结果：true
-2023-10-18 13:25:14.456 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-2 [32m                [0;39m token有效，放行该请求
-2023-10-18 13:29:18.867 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-2 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 13:29:18.869 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-2 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 13:29:18.870 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-2 [32m                [0;39m JWT token校验结果：true
-2023-10-18 13:29:18.870 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-2 [32m                [0;39m token有效，放行该请求
-2023-10-18 13:32:59.955 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-2 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 13:32:59.956 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-2 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 13:32:59.959 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-2 [32m                [0;39m JWT token校验结果：true
-2023-10-18 13:32:59.960 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-2 [32m                [0;39m token有效，放行该请求
-2023-10-18 13:46:35.135 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-5 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 13:46:35.136 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-5 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 13:46:35.137 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-5 [32m                [0;39m JWT token校验结果：true
-2023-10-18 13:46:35.138 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-5 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:00:43.806 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-6 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:00:43.807 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-6 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:00:43.808 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-6 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:00:43.808 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-6 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:00:47.722 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-6 [32m                [0;39m 需要登录验证：/member/passenger/save
-2023-10-18 14:00:47.723 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-6 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:00:47.723 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-6 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:00:47.724 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-6 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:02:09.528 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-6 [32m                [0;39m 需要登录验证：/member/passenger/save
-2023-10-18 14:02:09.529 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-6 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:02:09.529 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-6 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:02:09.529 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-6 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:07:32.068 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:07:32.069 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:07:32.070 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:07:32.070 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:07:35.561 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/save
-2023-10-18 14:07:35.562 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:07:35.562 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:07:35.563 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:07:35.608 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  reactor-http-nio-7 [32m                [0;39m [af48032f-21]  500 Server Error for HTTP POST "/member/passenger/save"
-io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8001
-	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ HTTP POST "/member/passenger/save" [ExceptionHandlingWebHandler]
-Original Stack Trace:
-Caused by: java.net.ConnectException: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
-	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2023-10-18 14:07:41.339 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/save
-2023-10-18 14:07:41.339 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:07:41.340 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:07:41.341 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:07:41.346 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  reactor-http-nio-7 [32m                [0;39m [af48032f-22]  500 Server Error for HTTP POST "/member/passenger/save"
-io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8001
-	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
-Error has been observed at the following site(s):
-	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
-	*__checkpoint ⇢ HTTP POST "/member/passenger/save" [ExceptionHandlingWebHandler]
-Original Stack Trace:
-Caused by: java.net.ConnectException: Connection refused: no further information
-	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
-	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
-	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
-	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
-	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
-	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
-	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
-	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
-	at java.base/java.lang.Thread.run(Thread.java:833)
-2023-10-18 14:07:46.791 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/save
-2023-10-18 14:07:46.792 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:07:46.792 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:07:46.792 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:07:46.854 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:07:46.855 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:07:46.855 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:07:46.855 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:07:49.263 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:07:49.264 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:07:49.266 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:07:49.266 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:11:55.117 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:11:55.118 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:11:55.119 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:11:55.120 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:12:02.856 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/save
-2023-10-18 14:12:02.857 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:12:02.857 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:12:02.857 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:12:02.898 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:12:02.898 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:12:02.899 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:12:02.899 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:12:04.680 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:12:04.681 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:12:04.682 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:12:04.683 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:12:08.074 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/save
-2023-10-18 14:12:08.074 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:12:08.075 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:12:08.075 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:12:08.112 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:12:08.113 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:12:08.113 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:12:08.113 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:12:10.327 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:12:10.327 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:12:10.328 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:12:10.328 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:17:07.603 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:17:07.604 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:17:07.605 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:17:07.605 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:17:08.847 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:17:08.847 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:17:08.848 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:17:08.849 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:17:16.031 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/save
-2023-10-18 14:17:16.032 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:17:16.032 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:17:16.032 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:17:16.075 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:17:16.075 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:17:16.076 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:17:16.076 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:17:17.799 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:17:17.799 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:17:17.800 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:17:17.800 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:17:20.118 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/delete/1714526036215074816
-2023-10-18 14:17:20.118 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:17:20.119 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:17:20.119 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:17:20.152 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:17:20.152 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:17:20.153 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:17:20.153 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 14:17:22.062 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 14:17:22.063 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 14:17:22.063 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
-2023-10-18 14:17:22.063 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
-2023-10-18 15:50:47.834 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-8 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 15:50:47.838 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-8 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 15:50:47.847 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-8 [32m                [0;39m JWT token校验结果：true
-2023-10-18 15:50:47.848 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-8 [32m                [0;39m token有效，放行该请求
-2023-10-18 15:51:12.975 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-8 [32m                [0;39m 需要登录验证：/member/ticket/query-list
-2023-10-18 15:51:12.977 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-8 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 15:51:12.979 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-8 [32m                [0;39m JWT token校验结果：true
-2023-10-18 15:51:12.979 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-8 [32m                [0;39m token有效，放行该请求
-2023-10-18 15:51:14.106 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-8 [32m                [0;39m 需要登录验证：/member/passenger/query-list
-2023-10-18 15:51:14.106 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-8 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTc2MDY1ODcsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTQyNjU2NDcxMjg2NDU2MzIsImV4cCI6MTY5NzY5Mjk4NywiaWF0IjoxNjk3NjA2NTg3fQ.bEz8PTZ_EmtvSCPiM2tAukCKB0nQSdoFDB2lIKEnlP0
-2023-10-18 15:51:14.108 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-8 [32m                [0;39m JWT token校验结果：true
-2023-10-18 15:51:14.109 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-8 [32m                [0;39m token有效，放行该请求
+2023-10-20 16:10:16.966 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-20 16:10:16.995 INFO  c.example.train.gateway.config.GateWayApplication :51   restartedMain [32m                [0;39m Starting GateWayApplication using Java 17.0.4.1 with PID 20736 (D:\new world\Java\train\gateway\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-20 16:10:16.996 INFO  c.example.train.gateway.config.GateWayApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:10:17.030 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-20 16:10:17.032 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-20 16:10:17.591 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=ae56ad43-944a-3422-a879-692108bb3cd1
+2023-10-20 16:10:18.961 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-20 16:10:19.208 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [After]
+2023-10-20 16:10:19.208 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Before]
+2023-10-20 16:10:19.208 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Between]
+2023-10-20 16:10:19.208 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-10-20 16:10:19.208 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Header]
+2023-10-20 16:10:19.208 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Host]
+2023-10-20 16:10:19.209 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Method]
+2023-10-20 16:10:19.209 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Path]
+2023-10-20 16:10:19.209 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Query]
+2023-10-20 16:10:19.209 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-10-20 16:10:19.209 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-20 16:10:19.209 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-20 16:10:19.209 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Weight]
+2023-10-20 16:10:19.209 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-20 16:10:19.362 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-10-20 16:10:20.469 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-20 16:10:20.648 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  restartedMain [32m                [0;39m Netty started on port 8000
+2023-10-20 16:10:21.740 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-20 16:10:22.830 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-20 16:10:22.876 INFO  c.example.train.gateway.config.GateWayApplication :57   restartedMain [32m                [0;39m Started GateWayApplication in 7.346 seconds (process running for 8.203)
+2023-10-20 16:10:22.879 INFO  c.example.train.gateway.config.GateWayApplication :19   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-20 16:10:22.880 INFO  c.example.train.gateway.config.GateWayApplication :20   restartedMain [32m                [0;39m 网关地址:	http://127.0.0.1:8000
+2023-10-20 16:10:26.307 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/business/hello

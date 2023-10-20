@@ -1,0 +1,31 @@
+2023-10-20 16:09:58.900 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-20 16:09:58.943 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 1480 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-20 16:09:58.944 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-20 16:09:58.985 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-20 16:09:58.987 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-20 16:09:59.519 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
+2023-10-20 16:09:59.585 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=a5c8a8b4-2f28-37a1-beb8-1fa69ca80550
+2023-10-20 16:10:00.149 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-20 16:10:00.153 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-20 16:10:00.155 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-20 16:10:00.155 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-20 16:10:00.205 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-20 16:10:00.206 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1218 ms
+2023-10-20 16:10:00.872 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-20 16:10:01.993 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-20 16:10:02.039 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-20 16:10:02.055 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-20 16:10:03.146 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-20 16:10:03.155 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 5.713 seconds (process running for 6.6)
+2023-10-20 16:10:03.158 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-20 16:10:03.158 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-10-20 16:10:26.473 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  http-nio-8002-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-20 16:10:26.473 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8002-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-20 16:10:26.474 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8002-exec-1 [32m                [0;39m Completed initialization in 1 ms
+2023-10-20 16:10:26.508 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-1 [32m16977894264985l3[0;39m ------------- 开始 -------------
+2023-10-20 16:10:26.509 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-1 [32m16977894264985l3[0;39m 请求地址: http://127.0.0.1:8002/business/hello GET
+2023-10-20 16:10:26.509 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-1 [32m16977894264985l3[0;39m 类名方法: com.example.train.business.controller.TestController.hello
+2023-10-20 16:10:26.509 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-1 [32m16977894264985l3[0;39m 远程地址: 127.0.0.1
+2023-10-20 16:10:26.550 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-1 [32m16977894264985l3[0;39m 请求参数: []
+2023-10-20 16:10:26.551 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-1 [32m16977894264985l3[0;39m 返回结果: "hello,world????"
+2023-10-20 16:10:26.552 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-1 [32m16977894264985l3[0;39m ------------- 结束 耗时：54 ms -------------
