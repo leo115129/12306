@@ -1,0 +1,156 @@
+2023-10-18 21:56:25.442 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-18 21:56:25.485 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 11188 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-18 21:56:25.486 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-18 21:56:25.554 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-18 21:56:25.556 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-18 21:56:26.157 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
+2023-10-18 21:56:26.222 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=a5c8a8b4-2f28-37a1-beb8-1fa69ca80550
+2023-10-18 21:56:26.817 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-18 21:56:26.824 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-18 21:56:26.825 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-18 21:56:26.825 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-18 21:56:26.876 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-18 21:56:26.877 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1320 ms
+2023-10-18 21:56:27.623 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-10-18 21:56:27.789 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-18 21:56:27.810 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-18 21:56:27.912 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 2.937 seconds (process running for 3.814)
+2023-10-18 21:56:27.916 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-18 21:56:27.916 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002//business/hello
+2023-10-18 21:56:30.162 INFO  org.apache.tomcat.util.http.parser.Cookie         :173  http-nio-8002-exec-1 [32m                [0;39m A cookie header was received [Hm_lvt_2745ad927051c4bc7b7ee34b781df793=1695219204,1695256471,1695259481] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2023-10-18 21:56:30.171 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  http-nio-8002-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-18 21:56:30.171 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8002-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-18 21:56:30.172 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8002-exec-1 [32m                [0;39m Completed initialization in 1 ms
+2023-10-18 21:56:30.206 ERROR o.a.c.c.C.[.[.[/business].[dispatcherServlet]     :175  http-nio-8002-exec-1 [32m                [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/business] threw exception [Request processing failed: java.lang.IllegalArgumentException: Invalid contextPath '/business': must match the start of requestPath: '//business/hello'] with root cause
+java.lang.IllegalArgumentException: Invalid contextPath '/business': must match the start of requestPath: '//business/hello'
+	at org.springframework.http.server.DefaultRequestPath.validateContextPath(DefaultRequestPath.java:81)
+	at org.springframework.http.server.DefaultRequestPath.initContextPath(DefaultRequestPath.java:56)
+	at org.springframework.http.server.DefaultRequestPath.<init>(DefaultRequestPath.java:41)
+	at org.springframework.http.server.RequestPath.parse(RequestPath.java:79)
+	at org.springframework.web.util.ServletRequestPathUtils$ServletRequestPath.parse(ServletRequestPathUtils.java:253)
+	at org.springframework.web.util.ServletRequestPathUtils.parseAndCache(ServletRequestPathUtils.java:66)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-18 21:58:18.524 ERROR o.a.c.c.C.[.[.[/business].[dispatcherServlet]     :175  http-nio-8002-exec-4 [32m                [0;39m Servlet.service() for servlet [dispatcherServlet] in context with path [/business] threw exception [Request processing failed: java.lang.IllegalArgumentException: Invalid contextPath '/business': must match the start of requestPath: '//business/hello'] with root cause
+java.lang.IllegalArgumentException: Invalid contextPath '/business': must match the start of requestPath: '//business/hello'
+	at org.springframework.http.server.DefaultRequestPath.validateContextPath(DefaultRequestPath.java:81)
+	at org.springframework.http.server.DefaultRequestPath.initContextPath(DefaultRequestPath.java:56)
+	at org.springframework.http.server.DefaultRequestPath.<init>(DefaultRequestPath.java:41)
+	at org.springframework.http.server.RequestPath.parse(RequestPath.java:79)
+	at org.springframework.web.util.ServletRequestPathUtils$ServletRequestPath.parse(ServletRequestPathUtils.java:253)
+	at org.springframework.web.util.ServletRequestPathUtils.parseAndCache(ServletRequestPathUtils.java:66)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1740)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-18 21:58:23.660 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-5 [32m16976375036558dr[0;39m ------------- 开始 -------------
+2023-10-18 21:58:23.661 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-5 [32m16976375036558dr[0;39m 请求地址: http://127.0.0.1:8002/business/hello GET
+2023-10-18 21:58:23.661 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-5 [32m16976375036558dr[0;39m 类名方法: com.example.train.business.controller.TestController.hello
+2023-10-18 21:58:23.661 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-5 [32m16976375036558dr[0;39m 远程地址: 127.0.0.1
+2023-10-18 21:58:23.694 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-5 [32m16976375036558dr[0;39m 请求参数: []
+2023-10-18 21:58:23.695 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-5 [32m16976375036558dr[0;39m 返回结果: "hello,world????"
+2023-10-18 21:58:23.695 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-5 [32m16976375036558dr[0;39m ------------- 结束 耗时：40 ms -------------
+2023-10-18 22:00:28.457 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-18 22:00:28.496 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 18156 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-18 22:00:28.497 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-18 22:00:28.555 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-18 22:00:28.557 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-18 22:00:29.125 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
+2023-10-18 22:00:29.194 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=a5c8a8b4-2f28-37a1-beb8-1fa69ca80550
+2023-10-18 22:00:29.751 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-18 22:00:29.757 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-18 22:00:29.758 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-18 22:00:29.759 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-18 22:00:29.811 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-18 22:00:29.811 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1254 ms
+2023-10-18 22:00:30.475 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-10-18 22:00:30.662 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-18 22:00:30.688 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-18 22:00:30.785 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 2.728 seconds (process running for 3.705)
+2023-10-18 22:00:30.787 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-18 22:00:30.788 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-10-18 22:00:35.003 INFO  org.apache.tomcat.util.http.parser.Cookie         :173  http-nio-8002-exec-2 [32m                [0;39m A cookie header was received [Hm_lvt_2745ad927051c4bc7b7ee34b781df793=1695219204,1695256471,1695259481] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2023-10-18 22:00:35.009 INFO  o.a.c.c.C.[Tomcat].[localhost].[/business]        :173  http-nio-8002-exec-2 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-18 22:00:35.009 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8002-exec-2 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-18 22:00:35.010 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8002-exec-2 [32m                [0;39m Completed initialization in 1 ms
+2023-10-18 22:00:35.038 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-2 [32m1697637635033uvy[0;39m ------------- 开始 -------------
+2023-10-18 22:00:35.039 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-2 [32m1697637635033uvy[0;39m 请求地址: http://127.0.0.1:8002/business/hello GET
+2023-10-18 22:00:35.040 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-2 [32m1697637635033uvy[0;39m 类名方法: com.example.train.business.controller.TestController.hello
+2023-10-18 22:00:35.040 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-2 [32m1697637635033uvy[0;39m 远程地址: 127.0.0.1
+2023-10-18 22:00:35.076 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-2 [32m1697637635033uvy[0;39m 请求参数: []
+2023-10-18 22:00:35.076 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-2 [32m1697637635033uvy[0;39m 返回结果: "hello,world????"
+2023-10-18 22:00:35.077 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-2 [32m1697637635033uvy[0;39m ------------- 结束 耗时：44 ms -------------
