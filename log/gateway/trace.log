@@ -1,36 +1,29 @@
-2023-10-23 18:40:56.824 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
-2023-10-23 18:40:56.861 INFO  c.example.train.gateway.config.GateWayApplication :51   restartedMain [32m                [0;39m Starting GateWayApplication using Java 17.0.4.1 with PID 11644 (D:\new world\Java\train\gateway\target\classes started by 17926 in D:\new world\Java\train)
-2023-10-23 18:40:56.864 INFO  c.example.train.gateway.config.GateWayApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
-2023-10-23 18:40:56.900 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-10-23 18:40:56.902 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-10-23 18:40:57.438 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=ae56ad43-944a-3422-a879-692108bb3cd1
-2023-10-23 18:40:58.028 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [After]
-2023-10-23 18:40:58.029 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Before]
-2023-10-23 18:40:58.029 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Between]
-2023-10-23 18:40:58.029 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Cookie]
-2023-10-23 18:40:58.029 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Header]
-2023-10-23 18:40:58.029 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Host]
-2023-10-23 18:40:58.029 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Method]
-2023-10-23 18:40:58.029 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Path]
-2023-10-23 18:40:58.029 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Query]
-2023-10-23 18:40:58.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [ReadBody]
-2023-10-23 18:40:58.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [RemoteAddr]
-2023-10-23 18:40:58.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
-2023-10-23 18:40:58.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Weight]
-2023-10-23 18:40:58.030 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
-2023-10-23 18:40:58.166 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
-2023-10-23 18:40:58.455 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  restartedMain [32m                [0;39m Netty started on port 8000
-2023-10-23 18:40:58.660 INFO  c.example.train.gateway.config.GateWayApplication :57   restartedMain [32m                [0;39m Started GateWayApplication in 2.334 seconds (process running for 3.543)
-2023-10-23 18:40:58.663 INFO  c.example.train.gateway.config.GateWayApplication :19   restartedMain [32m                [0;39m 启动成功!!!
-2023-10-23 18:40:58.664 INFO  c.example.train.gateway.config.GateWayApplication :20   restartedMain [32m                [0;39m 网关地址:	http://127.0.0.1:8000
-2023-10-23 18:42:39.351 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/business/admin/station/query-list
-2023-10-23 18:42:42.189 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/business/admin/confirm-order/query-list
-2023-10-23 18:42:48.474 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/business/admin/station/query-list
-2023-10-23 18:42:50.670 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/business/admin/train/query-list
-2023-10-23 18:42:53.129 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/business/admin/train/query-list
-2023-10-23 18:42:53.574 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
-2023-10-23 18:42:53.592 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
-2023-10-23 18:45:45.386 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/business/admin/train/query-all
-2023-10-23 18:45:45.390 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train-station/query-list
-2023-10-23 18:45:48.537 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
-2023-10-23 18:45:48.537 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train/query-all
+2023-10-24 10:20:56.751 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-24 10:20:56.790 INFO  c.example.train.gateway.config.GateWayApplication :51   restartedMain [32m                [0;39m Starting GateWayApplication using Java 17.0.4.1 with PID 19192 (D:\new world\Java\train\gateway\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-24 10:20:56.792 INFO  c.example.train.gateway.config.GateWayApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-24 10:20:56.843 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-24 10:20:56.844 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-24 10:20:57.699 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=ae56ad43-944a-3422-a879-692108bb3cd1
+2023-10-24 10:20:59.261 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 10:20:59.605 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [After]
+2023-10-24 10:20:59.605 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Before]
+2023-10-24 10:20:59.605 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Between]
+2023-10-24 10:20:59.605 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-10-24 10:20:59.606 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Header]
+2023-10-24 10:20:59.607 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Host]
+2023-10-24 10:20:59.607 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Method]
+2023-10-24 10:20:59.607 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Path]
+2023-10-24 10:20:59.607 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Query]
+2023-10-24 10:20:59.607 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-10-24 10:20:59.607 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-10-24 10:20:59.607 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-10-24 10:20:59.607 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Weight]
+2023-10-24 10:20:59.607 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-10-24 10:20:59.799 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-10-24 10:21:00.939 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 10:21:01.188 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  restartedMain [32m                [0;39m Netty started on port 8000
+2023-10-24 10:21:02.315 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 10:21:03.440 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 10:21:03.492 INFO  c.example.train.gateway.config.GateWayApplication :57   restartedMain [32m                [0;39m Started GateWayApplication in 8.239 seconds (process running for 9.682)
+2023-10-24 10:21:03.495 INFO  c.example.train.gateway.config.GateWayApplication :19   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-24 10:21:03.496 INFO  c.example.train.gateway.config.GateWayApplication :20   restartedMain [32m                [0;39m 网关地址:	http://127.0.0.1:8000

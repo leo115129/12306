@@ -2,13 +2,13 @@ package com.example.train.business.req;
 
 import com.example.train.common.req.PageReq;
 
-public class TrainCarriageQueryReq extends PageReq {
+public class TrainSeatQueryReq extends PageReq {
 
     private String trainCode;
 
     @Override
     public String toString() {
-        final StringBuffer sb = new StringBuffer("TrainCarriageQueryReq{");
+        final StringBuffer sb = new StringBuffer("TrainSeatQueryReq{");
         sb.append("trainCode='").append(trainCode).append('\'');
         sb.append('}');
         return sb.toString();

@@ -1,18 +1,21 @@
 package com.example.train.business.service;
 
 import cn.hutool.core.bean.BeanUtil;
+import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.util.ObjectUtil;
-import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
-import com.example.train.common.resp.PageResp;
-import com.example.train.common.util.SnowUtil;
 import com.example.train.business.domain.Station;
 import com.example.train.business.domain.StationExample;
 import com.example.train.business.mapper.StationMapper;
 import com.example.train.business.req.StationQueryReq;
 import com.example.train.business.req.StationSaveReq;
 import com.example.train.business.resp.StationQueryResp;
+import com.example.train.common.exception.BusinessException;
+import com.example.train.common.exception.BusinessExceptionEnum;
+import com.example.train.common.resp.PageResp;
+import com.example.train.common.util.SnowUtil;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -32,6 +35,14 @@ public class StationService {
         DateTime now = DateTime.now();
         Station station = BeanUtil.copyProperties(req, Station.class);
         if (ObjectUtil.isNull(station.getId())) {
+            //保存之前检查唯一性
+            StationExample stationExample = new StationExample();
+            stationExample.createCriteria().andNameEqualTo(req.getName());
+            List<Station> stations = stationMapper.selectByExample(stationExample);
+            if(CollUtil.isNotEmpty(stations)){
+                throw new BusinessException(BusinessExceptionEnum.BUSINESS_STATION_NAME_UNIQUE_ERROR);
+            }
+
             station.setId(SnowUtil.getSnowflakeNextId());
             station.setCreateTime(now);
             station.setUpdateTime(now);
@@ -67,4 +78,13 @@ public class StationService {
     public void delete(Long id) {
         stationMapper.deleteByPrimaryKey(id);
     }
+
+    public List<StationQueryResp> queryAll() {
+        StationExample stationExample = new StationExample();
+        stationExample.setOrderByClause("id desc");
+        List<Station> stationList = stationMapper.selectByExample(stationExample);
+        List<StationQueryResp> list = BeanUtil.copyToList(stationList, StationQueryResp.class);
+        return list;
+    }
+
 }
