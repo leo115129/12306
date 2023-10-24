@@ -1524,3 +1524,259 @@ Caused by: java.lang.ClassNotFoundException: com.example.train.business.service.
 	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
 	... 28 common frames omitted
+2023-10-24 11:03:40.653 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 9756 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-24 11:03:40.653 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:03:40.818 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=ef549e12-8059-3dd1-8bd8-c166fa6a2a96
+2023-10-24 11:03:40.905 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-24 11:03:40.905 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:03:40.905 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-24 11:03:40.905 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-24 11:03:40.920 INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/business]      :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-24 11:03:40.920 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 265 ms
+2023-10-24 11:03:41.314 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-24 11:03:42.406 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 11:03:42.425 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:03:42.431 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-24 11:03:43.525 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 11:03:43.530 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 4.017 seconds (process running for 2572.109)
+2023-10-24 11:03:43.531 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-24 11:03:43.531 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-24 11:03:43.531 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-10-24 11:06:49.027 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-24 11:06:49.041 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-81 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:06:49.041 INFO  org.apache.catalina.core.StandardService          :173  Thread-81 [32m                [0;39m Stopping service [Tomcat]
+2023-10-24 11:06:49.042 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-81 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:06:49.043 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-81 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:06:50.236 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 9756 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-24 11:06:50.236 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:06:50.603 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=ef549e12-8059-3dd1-8bd8-c166fa6a2a96
+2023-10-24 11:06:50.725 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-24 11:06:50.726 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:06:50.726 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-24 11:06:50.726 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-24 11:06:50.746 INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/business]      :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-24 11:06:50.746 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 507 ms
+2023-10-24 11:06:51.197 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-24 11:06:52.295 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 11:06:52.319 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:06:52.322 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-24 11:06:53.424 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 11:06:53.429 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 4.345 seconds (process running for 2762.008)
+2023-10-24 11:06:53.430 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-24 11:06:53.430 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-24 11:06:53.430 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-10-24 11:07:01.883 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-24 11:07:01.898 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-103 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:01.898 INFO  org.apache.catalina.core.StandardService          :173  Thread-103 [32m                [0;39m Stopping service [Tomcat]
+2023-10-24 11:07:01.900 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-103 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:01.902 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-103 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:03.093 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 9756 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-24 11:07:03.093 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:07:03.352 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=71cb4759-7d23-35cd-8c9f-0d50c58da82f
+2023-10-24 11:07:03.446 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-24 11:07:03.446 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:03.446 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-24 11:07:03.446 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-24 11:07:03.460 INFO  o.a.c.c.C.[Tomcat-4].[localhost].[/business]      :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-24 11:07:03.460 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 365 ms
+2023-10-24 11:07:03.472 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616  restartedMain [32m                [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'stationAdminController' defined in file [D:\new world\Java\train\business\target\classes\com\example\train\business\controller\admin\StationAdminController.class]: Post-processing of merged bean definition failed
+2023-10-24 11:07:03.472 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Stopping service [Tomcat]
+2023-10-24 11:07:03.476 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   restartedMain [32m                [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-24 11:07:03.478 ERROR org.springframework.boot.SpringApplication        :827  restartedMain [32m                [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'stationAdminController' defined in file [D:\new world\Java\train\business\target\classes\com\example\train\business\controller\admin\StationAdminController.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.example.train.business.config.BusinessApplication.main(BusinessApplication.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.train.business.controller.admin.StationAdminController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@3a251987]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:732)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:664)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:360)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:341)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:297)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1083)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	... 18 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/example/train/business/service/StationService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3297)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2371)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:727)
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.example.train.business.service.StationService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 28 common frames omitted
+2023-10-24 11:07:12.243 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 9756 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-24 11:07:12.243 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:07:12.396 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=ef549e12-8059-3dd1-8bd8-c166fa6a2a96
+2023-10-24 11:07:12.466 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-24 11:07:12.466 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:12.466 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-24 11:07:12.466 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-24 11:07:12.479 INFO  o.a.c.c.C.[Tomcat-5].[localhost].[/business]      :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-24 11:07:12.479 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 234 ms
+2023-10-24 11:07:12.866 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-24 11:07:13.966 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 11:07:13.994 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:14.005 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-24 11:07:15.119 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 11:07:15.125 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 4.04 seconds (process running for 2783.705)
+2023-10-24 11:07:15.127 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-24 11:07:15.127 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-24 11:07:15.127 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-10-24 11:07:36.406 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-24 11:07:36.420 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-109 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:36.421 INFO  org.apache.catalina.core.StandardService          :173  Thread-109 [32m                [0;39m Stopping service [Tomcat]
+2023-10-24 11:07:36.423 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-109 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:36.425 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-109 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:37.620 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 9756 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-24 11:07:37.620 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:07:37.773 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=ef549e12-8059-3dd1-8bd8-c166fa6a2a96
+2023-10-24 11:07:37.852 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-24 11:07:37.852 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:37.852 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-24 11:07:37.853 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-24 11:07:37.865 INFO  o.a.c.c.C.[Tomcat-5].[localhost].[/business]      :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-24 11:07:37.865 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 243 ms
+2023-10-24 11:07:38.252 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-24 11:07:39.347 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 11:07:39.362 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:39.365 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-24 11:07:40.452 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 11:07:40.460 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 3.99 seconds (process running for 2809.038)
+2023-10-24 11:07:40.461 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-24 11:07:40.463 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-24 11:07:40.463 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-10-24 11:07:48.367 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-24 11:07:48.392 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-119 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:48.392 INFO  org.apache.catalina.core.StandardService          :173  Thread-119 [32m                [0;39m Stopping service [Tomcat]
+2023-10-24 11:07:48.394 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-119 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:48.396 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-119 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:49.640 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 9756 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-24 11:07:49.641 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:07:49.790 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=ef549e12-8059-3dd1-8bd8-c166fa6a2a96
+2023-10-24 11:07:49.871 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-24 11:07:49.872 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:49.872 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-24 11:07:49.872 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-24 11:07:49.884 INFO  o.a.c.c.C.[Tomcat-5].[localhost].[/business]      :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-24 11:07:49.884 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 242 ms
+2023-10-24 11:07:50.267 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-24 11:07:51.366 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 11:07:51.381 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:51.384 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-24 11:07:52.469 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 11:07:52.479 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 4.019 seconds (process running for 2821.058)
+2023-10-24 11:07:52.482 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-24 11:07:52.483 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-24 11:07:52.483 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-10-24 11:07:57.892 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-24 11:07:57.908 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-125 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:57.908 INFO  org.apache.catalina.core.StandardService          :173  Thread-125 [32m                [0;39m Stopping service [Tomcat]
+2023-10-24 11:07:57.910 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-125 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:57.912 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-125 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:59.160 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 9756 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-24 11:07:59.161 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:07:59.350 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=ef549e12-8059-3dd1-8bd8-c166fa6a2a96
+2023-10-24 11:07:59.455 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-24 11:07:59.455 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:07:59.456 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-24 11:07:59.456 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-24 11:07:59.470 INFO  o.a.c.c.C.[Tomcat-5].[localhost].[/business]      :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-24 11:07:59.471 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 309 ms
+2023-10-24 11:07:59.918 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-24 11:08:01.029 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 11:08:01.050 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:08:01.053 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-24 11:08:02.165 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 11:08:02.171 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 4.204 seconds (process running for 2830.749)
+2023-10-24 11:08:02.173 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-24 11:08:02.173 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-24 11:08:02.174 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-10-24 11:08:44.728 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-24 11:08:44.743 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-131 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:08:44.743 INFO  org.apache.catalina.core.StandardService          :173  Thread-131 [32m                [0;39m Stopping service [Tomcat]
+2023-10-24 11:08:44.744 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-131 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:08:44.745 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-131 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:08:45.963 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 9756 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-24 11:08:45.963 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-24 11:08:46.141 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=71cb4759-7d23-35cd-8c9f-0d50c58da82f
+2023-10-24 11:08:46.226 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-24 11:08:46.226 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-24 11:08:46.227 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-24 11:08:46.227 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-24 11:08:46.238 INFO  o.a.c.c.C.[Tomcat-5].[localhost].[/business]      :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-24 11:08:46.239 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 273 ms
+2023-10-24 11:08:46.250 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616  restartedMain [32m                [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'stationAdminController' defined in file [D:\new world\Java\train\business\target\classes\com\example\train\business\controller\admin\StationAdminController.class]: Post-processing of merged bean definition failed
+2023-10-24 11:08:46.250 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Stopping service [Tomcat]
+2023-10-24 11:08:46.253 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   restartedMain [32m                [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-10-24 11:08:46.256 ERROR org.springframework.boot.SpringApplication        :827  restartedMain [32m                [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'stationAdminController' defined in file [D:\new world\Java\train\business\target\classes\com\example\train\business\controller\admin\StationAdminController.class]: Post-processing of merged bean definition failed
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.example.train.business.config.BusinessApplication.main(BusinessApplication.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.example.train.business.controller.admin.StationAdminController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@2bc8495]
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:732)
+	at org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:664)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.buildResourceMetadata(CommonAnnotationBeanPostProcessor.java:360)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.findResourceMetadata(CommonAnnotationBeanPostProcessor.java:341)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessMergedBeanDefinition(CommonAnnotationBeanPostProcessor.java:297)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyMergedBeanDefinitionPostProcessors(AbstractAutowireCapableBeanFactory.java:1083)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:572)
+	... 18 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: com/example/train/business/service/StationService
+	at java.base/java.lang.Class.getDeclaredFields0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredFields(Class.java:3297)
+	at java.base/java.lang.Class.getDeclaredFields(Class.java:2371)
+	at org.springframework.util.ReflectionUtils.getDeclaredFields(ReflectionUtils.java:727)
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: com.example.train.business.service.StationService
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:467)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
+	... 28 common frames omitted

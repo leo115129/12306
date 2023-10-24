@@ -36,10 +36,8 @@ public class StationService {
         Station station = BeanUtil.copyProperties(req, Station.class);
         if (ObjectUtil.isNull(station.getId())) {
             //保存之前检查唯一性
-            StationExample stationExample = new StationExample();
-            stationExample.createCriteria().andNameEqualTo(req.getName());
-            List<Station> stations = stationMapper.selectByExample(stationExample);
-            if(CollUtil.isNotEmpty(stations)){
+            Station stationDB= selectByUnique(req.getName());
+            if(ObjectUtil.isNotEmpty(stationDB)){
                 throw new BusinessException(BusinessExceptionEnum.BUSINESS_STATION_NAME_UNIQUE_ERROR);
             }
 
@@ -50,6 +48,17 @@ public class StationService {
         } else {
             station.setUpdateTime(now);
             stationMapper.updateByPrimaryKey(station);
+        }
+    }
+
+    private Station selectByUnique(String name) {
+        StationExample stationExample = new StationExample();
+        stationExample.createCriteria().andNameEqualTo(name);
+        List<Station> stations = stationMapper.selectByExample(stationExample);
+        if(CollUtil.isNotEmpty(stations)){
+            return stations.get(0);
+        }else{
+            return null;
         }
     }
 
