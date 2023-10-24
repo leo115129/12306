@@ -1,0 +1,21 @@
+2023-10-24 15:48:36.786 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-24 15:48:36.825 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 17556 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-24 15:48:36.827 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-24 15:48:36.875 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-24 15:48:36.877 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-24 15:48:37.561 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
+2023-10-24 15:48:37.626 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=27413f05-5a0a-3de6-99ff-b6acf1d705a0
+2023-10-24 15:48:38.287 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2023-10-24 15:48:38.299 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2023-10-24 15:48:38.301 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-24 15:48:38.301 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-24 15:48:38.368 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-24 15:48:38.369 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1491 ms
+2023-10-24 15:48:39.089 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-10-24 15:48:40.191 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 15:48:40.232 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2023-10-24 15:48:40.249 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2023-10-24 15:48:41.332 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 15:48:41.341 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 6.014 seconds (process running for 7.089)
+2023-10-24 15:48:41.344 INFO  com.example.train.batch.config.BatchApplication   :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-24 15:48:41.345 INFO  com.example.train.batch.config.BatchApplication   :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
