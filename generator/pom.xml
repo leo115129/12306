@@ -44,11 +44,19 @@
             <artifactId>mysql-connector-java</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>com.example</groupId>
-            <artifactId>business</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+<!--        <dependency>-->
+<!--            <groupId>com.example</groupId>-->
+<!--            <artifactId>business</artifactId>-->
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
+
+<!--        <dependency>-->
+<!--            <groupId>com.example</groupId>-->
+<!--            <artifactId>member</artifactId>-->
+<!--            <version>0.0.1-SNAPSHOT</version>-->
+<!--            <scope>compile</scope>-->
+<!--        </dependency>-->
     </dependencies>
 
     <build>
@@ -60,8 +68,8 @@
                 <version>1.4.0</version>
                 <configuration>
 <!--                    <configurationFile>src/main/resources/generator-config-member.xml</configurationFile>-->
-                    <configurationFile>src/main/resources/generator-config-business.xml</configurationFile>
-                    <!--<configurationFile>src/main/resources/generator-config-batch.xml</configurationFile>-->
+<!--                    <configurationFile>src/main/resources/generator-config-business.xml</configurationFile>-->
+                    <configurationFile>src/main/resources/generator-config-batch.xml</configurationFile>
                     <overwrite>true</overwrite>
                     <verbose>true</verbose>
                 </configuration>
@@ -72,14 +80,6 @@
                         <version>8.0.22</version>
                     </dependency>
                 </dependencies>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>16</source>
-                    <target>16</target>
-                </configuration>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
