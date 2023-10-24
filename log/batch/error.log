@@ -1,0 +1,3 @@
+2023-10-24 17:17:14.319 ERROR com.example.train.batch.controller.JobController  :72   http-nio-8003-exec-5 [32m16981390343148rh[0;39m 创建定时任务失败:java.lang.ClassNotFoundException: test
+2023-10-24 17:17:23.264 ERROR com.example.train.batch.controller.JobController  :72   http-nio-8003-exec-4 [32m1698139043262a4a[0;39m 创建定时任务失败:java.lang.ClassNotFoundException: test
+2023-10-24 17:22:36.122 ERROR com.example.train.batch.controller.JobController  :72   http-nio-8003-exec-1 [32m1698139356102e0e[0;39m 创建定时任务失败:java.lang.ClassNotFoundException:  com.example.train.batch.job.testjob
