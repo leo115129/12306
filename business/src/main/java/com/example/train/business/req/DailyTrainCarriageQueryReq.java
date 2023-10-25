@@ -5,16 +5,13 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.util.Date;
 
-public class DailyTrainStationQueryReq extends PageReq {
+public class DailyTrainCarriageQueryReq extends PageReq {
 
     private String code;
 
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
-    private Date date;
-
     @Override
     public String toString() {
-        final StringBuffer sb = new StringBuffer("DailyTrainStationQueryReq{");
+        final StringBuffer sb = new StringBuffer("DailyTrainCarriageQueryReq{");
         sb.append("code='").append(code).append('\'');
         sb.append(", date=").append(date);
         sb.append('}');
@@ -36,5 +33,8 @@ public class DailyTrainStationQueryReq extends PageReq {
     public void setDate(Date date) {
         this.date = date;
     }
+
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    private Date date;
 
 }
