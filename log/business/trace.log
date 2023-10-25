@@ -2116,3 +2116,511 @@ Caused by: java.lang.ClassNotFoundException: com.example.train.business.req.Dail
 2023-10-25 19:27:52.903 INFO  c.example.train.business.service.DailyTrainService:64   http-nio-8002-exec-4 [32m1698233272888z38[0;39m 总页数：1
 2023-10-25 19:27:52.903 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-4 [32m1698233272888z38[0;39m 返回结果: {"content":{"list":[{"code":"G1","createTime":1698232762535,"date":1698163200000,"end":"上海","endPinyin":"shanghai","endTime":25200000,"id":1717138779292176384,"start":"深圳","startPinyin":"shenzhen","startTime":-3600000,"type":"G","updateTime":1698232762535}],"total":1},"success":true}
 2023-10-25 19:27:52.904 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-4 [32m1698233272888z38[0;39m ------------- 结束 耗时：16 ms -------------
+2023-10-25 19:38:25.991 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 7 class path changes (0 additions, 6 deletions, 1 modification)
+2023-10-25 19:38:26.007 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-133 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:38:26.008 INFO  org.apache.catalina.core.StandardService          :173  Thread-133 [32m                [0;39m Stopping service [Tomcat]
+2023-10-25 19:38:26.008 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/business]      :173  Thread-133 [32m                [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-25 19:38:26.010 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  Thread-133 [32m                [0;39m The web application [business] appears to have started a thread named [HikariPool-9 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-10-25 19:38:26.011 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-133 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:38:26.012 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-133 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:38:26.013 INFO  com.zaxxer.hikari.HikariDataSource                :350  Thread-133 [32m                [0;39m HikariPool-9 - Shutdown initiated...
+2023-10-25 19:38:26.015 INFO  com.zaxxer.hikari.HikariDataSource                :352  Thread-133 [32m                [0;39m HikariPool-9 - Shutdown completed.
+2023-10-25 19:38:27.194 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 1384 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 19:38:27.194 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 19:38:27.405 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=0caebf20-472c-3620-8658-bc30d0980d9d
+2023-10-25 19:38:27.489 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-25 19:38:27.490 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:38:27.490 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-25 19:38:27.490 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 19:38:27.502 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/business]      :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-25 19:38:27.502 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 305 ms
+2023-10-25 19:38:27.897 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-25 19:38:29.000 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 19:38:29.016 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:38:29.021 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-25 19:38:30.112 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 19:38:30.116 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 4.052 seconds (process running for 2514.33)
+2023-10-25 19:38:30.117 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-25 19:38:30.117 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-25 19:38:30.117 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-10-25 19:39:10.540 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 5 class path changes (5 additions, 0 deletions, 0 modifications)
+2023-10-25 19:39:10.556 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-139 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:39:10.557 INFO  org.apache.catalina.core.StandardService          :173  Thread-139 [32m                [0;39m Stopping service [Tomcat]
+2023-10-25 19:39:10.558 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-139 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:39:10.560 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-139 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:39:11.785 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 1384 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 19:39:11.787 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 19:39:11.971 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=36365a46-ad7f-31ae-9339-b49626a56d38
+2023-10-25 19:39:12.051 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-25 19:39:12.051 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:39:12.051 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-25 19:39:12.051 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 19:39:12.066 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/business]      :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-25 19:39:12.066 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 279 ms
+2023-10-25 19:39:12.462 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-25 19:39:13.589 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 19:39:13.615 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:39:13.621 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-25 19:39:14.727 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 19:39:14.731 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 4.114 seconds (process running for 2558.945)
+2023-10-25 19:39:14.732 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-25 19:39:14.733 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-25 19:39:14.733 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-10-25 19:39:15.203 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/business]      :173  http-nio-8002-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25 19:39:15.203 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8002-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-25 19:39:15.204 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8002-exec-1 [32m                [0;39m Completed initialization in 1 ms
+2023-10-25 19:39:15.214 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-1 [32m1698233955212fiw[0;39m ------------- 开始 -------------
+2023-10-25 19:39:15.215 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-1 [32m1698233955212fiw[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/query-list GET
+2023-10-25 19:39:15.215 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-1 [32m1698233955212fiw[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainAdminController.queryList
+2023-10-25 19:39:15.215 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-1 [32m1698233955212fiw[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:39:15.216 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-1 [32m1698233955212fiw[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:39:15.219 INFO  c.example.train.business.service.DailyTrainService:57   http-nio-8002-exec-1 [32m1698233955212fiw[0;39m 查询页码：1
+2023-10-25 19:39:15.219 INFO  c.example.train.business.service.DailyTrainService:58   http-nio-8002-exec-1 [32m1698233955212fiw[0;39m 每页条数：10
+2023-10-25 19:39:15.223 INFO  com.zaxxer.hikari.HikariDataSource                :110  http-nio-8002-exec-1 [32m1698233955212fiw[0;39m HikariPool-10 - Starting...
+2023-10-25 19:39:15.230 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  http-nio-8002-exec-1 [32m1698233955212fiw[0;39m HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f9ffaa
+2023-10-25 19:39:15.232 INFO  com.zaxxer.hikari.HikariDataSource                :123  http-nio-8002-exec-1 [32m1698233955212fiw[0;39m HikariPool-10 - Start completed.
+2023-10-25 19:39:15.232 DEBUG c.e.t.b.m.DailyTrainMapper.selectByExample_COUNT  :135  http-nio-8002-exec-1 [32m1698233955212fiw[0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-10-25 19:39:15.232 DEBUG c.e.t.b.m.DailyTrainMapper.selectByExample_COUNT  :135  http-nio-8002-exec-1 [32m1698233955212fiw[0;39m ==> Parameters: 
+2023-10-25 19:39:15.234 TRACE c.e.t.b.m.DailyTrainMapper.selectByExample_COUNT  :141  http-nio-8002-exec-1 [32m1698233955212fiw[0;39m <==    Columns: count(0)
+2023-10-25 19:39:15.235 TRACE c.e.t.b.m.DailyTrainMapper.selectByExample_COUNT  :141  http-nio-8002-exec-1 [32m1698233955212fiw[0;39m <==        Row: 2
+2023-10-25 19:39:15.235 DEBUG c.e.t.b.m.DailyTrainMapper.selectByExample_COUNT  :135  http-nio-8002-exec-1 [32m1698233955212fiw[0;39m <==      Total: 1
+2023-10-25 19:39:15.235 DEBUG c.e.t.b.mapper.DailyTrainMapper.selectByExample   :135  http-nio-8002-exec-1 [32m1698233955212fiw[0;39m ==>  Preparing: select id, `date`, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from daily_train order by 'date' desc,code asc LIMIT ?
+2023-10-25 19:39:15.236 DEBUG c.e.t.b.mapper.DailyTrainMapper.selectByExample   :135  http-nio-8002-exec-1 [32m1698233955212fiw[0;39m ==> Parameters: 10(Integer)
+2023-10-25 19:39:15.236 TRACE c.e.t.b.mapper.DailyTrainMapper.selectByExample   :141  http-nio-8002-exec-1 [32m1698233955212fiw[0;39m <==    Columns: id, date, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2023-10-25 19:39:15.237 TRACE c.e.t.b.mapper.DailyTrainMapper.selectByExample   :141  http-nio-8002-exec-1 [32m1698233955212fiw[0;39m <==        Row: 1717138779292176384, 2023-10-25, G1, G, 深圳, shenzhen, 07:00:00, 上海, shanghai, 15:00:00, 2023-10-25 19:19:22.535, 2023-10-25 19:19:22.535
+2023-10-25 19:39:15.237 TRACE c.e.t.b.mapper.DailyTrainMapper.selectByExample   :141  http-nio-8002-exec-1 [32m1698233955212fiw[0;39m <==        Row: 1717138988302733312, 2023-10-26, G1, G, 深圳, shenzhen, 07:00:00, 上海, shanghai, 15:00:00, 2023-10-25 19:20:12.367, 2023-10-25 19:20:12.367
+2023-10-25 19:39:15.237 DEBUG c.e.t.b.mapper.DailyTrainMapper.selectByExample   :135  http-nio-8002-exec-1 [32m1698233955212fiw[0;39m <==      Total: 2
+2023-10-25 19:39:15.237 INFO  c.example.train.business.service.DailyTrainService:63   http-nio-8002-exec-1 [32m1698233955212fiw[0;39m 总行数：2
+2023-10-25 19:39:15.238 INFO  c.example.train.business.service.DailyTrainService:64   http-nio-8002-exec-1 [32m1698233955212fiw[0;39m 总页数：1
+2023-10-25 19:39:15.239 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-1 [32m1698233955212fiw[0;39m 返回结果: {"content":{"list":[{"code":"G1","createTime":1698232762535,"date":1698163200000,"end":"上海","endPinyin":"shanghai","endTime":25200000,"id":1717138779292176384,"start":"深圳","startPinyin":"shenzhen","startTime":-3600000,"type":"G","updateTime":1698232762535},{"code":"G1","createTime":1698232812367,"date":1698249600000,"end":"上海","endPinyin":"shanghai","endTime":25200000,"id":1717138988302733312,"start":"深圳","startPinyin":"shenzhen","startTime":-3600000,"type":"G","updateTime":1698232812367}],"total":2},"success":true}
+2023-10-25 19:39:15.240 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-1 [32m1698233955212fiw[0;39m ------------- 结束 耗时：28 ms -------------
+2023-10-25 19:39:16.240 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-2 [32m16982339562408uv[0;39m ------------- 开始 -------------
+2023-10-25 19:39:16.240 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-2 [32m16982339562408uv[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/query-list GET
+2023-10-25 19:39:16.240 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-2 [32m16982339562408uv[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainStationAdminController.queryList
+2023-10-25 19:39:16.240 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-2 [32m16982339562408uv[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:39:16.241 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-2 [32m16982339562408uv[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:39:16.242 INFO  c.e.t.business.service.DailyTrainStationService   :50   http-nio-8002-exec-2 [32m16982339562408uv[0;39m 查询页码：1
+2023-10-25 19:39:16.242 INFO  c.e.t.business.service.DailyTrainStationService   :51   http-nio-8002-exec-2 [32m16982339562408uv[0;39m 每页条数：10
+2023-10-25 19:39:16.246 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-2 [32m16982339562408uv[0;39m ==>  Preparing: SELECT count(0) FROM daily_train_station
+2023-10-25 19:39:16.247 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-2 [32m16982339562408uv[0;39m ==> Parameters: 
+2023-10-25 19:39:16.248 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-2 [32m16982339562408uv[0;39m <==    Columns: count(0)
+2023-10-25 19:39:16.249 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-2 [32m16982339562408uv[0;39m <==        Row: 0
+2023-10-25 19:39:16.249 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-2 [32m16982339562408uv[0;39m <==      Total: 1
+2023-10-25 19:39:16.249 INFO  c.e.t.business.service.DailyTrainStationService   :56   http-nio-8002-exec-2 [32m16982339562408uv[0;39m 总行数：0
+2023-10-25 19:39:16.249 INFO  c.e.t.business.service.DailyTrainStationService   :57   http-nio-8002-exec-2 [32m16982339562408uv[0;39m 总页数：0
+2023-10-25 19:39:16.249 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-2 [32m16982339562408uv[0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-10-25 19:39:16.249 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-2 [32m16982339562408uv[0;39m ------------- 结束 耗时：9 ms -------------
+2023-10-25 19:40:04.084 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-4 [32m16982340040840o3[0;39m ------------- 开始 -------------
+2023-10-25 19:40:04.084 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-4 [32m16982340040840o3[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/query-list GET
+2023-10-25 19:40:04.085 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-4 [32m16982340040840o3[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainStationAdminController.queryList
+2023-10-25 19:40:04.085 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-4 [32m16982340040840o3[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:40:04.085 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-4 [32m16982340040840o3[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:40:04.085 INFO  c.e.t.business.service.DailyTrainStationService   :50   http-nio-8002-exec-4 [32m16982340040840o3[0;39m 查询页码：1
+2023-10-25 19:40:04.085 INFO  c.e.t.business.service.DailyTrainStationService   :51   http-nio-8002-exec-4 [32m16982340040840o3[0;39m 每页条数：10
+2023-10-25 19:40:04.088 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-4 [32m16982340040840o3[0;39m ==>  Preparing: SELECT count(0) FROM daily_train_station
+2023-10-25 19:40:04.089 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-4 [32m16982340040840o3[0;39m ==> Parameters: 
+2023-10-25 19:40:04.090 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-4 [32m16982340040840o3[0;39m <==    Columns: count(0)
+2023-10-25 19:40:04.090 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-4 [32m16982340040840o3[0;39m <==        Row: 0
+2023-10-25 19:40:04.090 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-4 [32m16982340040840o3[0;39m <==      Total: 1
+2023-10-25 19:40:04.090 INFO  c.e.t.business.service.DailyTrainStationService   :56   http-nio-8002-exec-4 [32m16982340040840o3[0;39m 总行数：0
+2023-10-25 19:40:04.090 INFO  c.e.t.business.service.DailyTrainStationService   :57   http-nio-8002-exec-4 [32m16982340040840o3[0;39m 总页数：0
+2023-10-25 19:40:04.090 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-4 [32m16982340040840o3[0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-10-25 19:40:04.090 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-4 [32m16982340040840o3[0;39m ------------- 结束 耗时：6 ms -------------
+2023-10-25 19:40:11.118 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-3 [32m1698234011118tki[0;39m ------------- 开始 -------------
+2023-10-25 19:40:11.119 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-3 [32m1698234011118tki[0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2023-10-25 19:40:11.119 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-3 [32m1698234011118tki[0;39m 类名方法: com.example.train.business.controller.admin.TrainStationAdminController.queryList
+2023-10-25 19:40:11.119 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-3 [32m1698234011118tki[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:40:11.119 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-3 [32m1698234011118tki[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:40:11.122 INFO  c.e.train.business.service.TrainStationService    :94   http-nio-8002-exec-3 [32m1698234011118tki[0;39m 查询页码：1
+2023-10-25 19:40:11.123 INFO  c.e.train.business.service.TrainStationService    :95   http-nio-8002-exec-3 [32m1698234011118tki[0;39m 每页条数：10
+2023-10-25 19:40:11.125 DEBUG c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:135  http-nio-8002-exec-3 [32m1698234011118tki[0;39m ==>  Preparing: SELECT count(0) FROM train_station
+2023-10-25 19:40:11.125 DEBUG c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:135  http-nio-8002-exec-3 [32m1698234011118tki[0;39m ==> Parameters: 
+2023-10-25 19:40:11.128 TRACE c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:141  http-nio-8002-exec-3 [32m1698234011118tki[0;39m <==    Columns: count(0)
+2023-10-25 19:40:11.129 TRACE c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:141  http-nio-8002-exec-3 [32m1698234011118tki[0;39m <==        Row: 0
+2023-10-25 19:40:11.129 DEBUG c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:135  http-nio-8002-exec-3 [32m1698234011118tki[0;39m <==      Total: 1
+2023-10-25 19:40:11.129 INFO  c.e.train.business.service.TrainStationService    :100  http-nio-8002-exec-3 [32m1698234011118tki[0;39m 总行数：0
+2023-10-25 19:40:11.130 INFO  c.e.train.business.service.TrainStationService    :101  http-nio-8002-exec-3 [32m1698234011118tki[0;39m 总页数：0
+2023-10-25 19:40:11.130 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-3 [32m1698234011118tki[0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-10-25 19:40:11.130 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-3 [32m1698234011118tki[0;39m ------------- 结束 耗时：12 ms -------------
+2023-10-25 19:40:18.957 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-5 [32m1698234018957n8g[0;39m ------------- 开始 -------------
+2023-10-25 19:40:18.957 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-5 [32m1698234018957n8g[0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-all GET
+2023-10-25 19:40:18.957 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-5 [32m1698234018957n8g[0;39m 类名方法: com.example.train.business.controller.admin.StationAdminController.queryAll
+2023-10-25 19:40:18.957 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-5 [32m1698234018957n8g[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:40:18.957 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-5 [32m1698234018957n8g[0;39m 请求参数: []
+2023-10-25 19:40:18.961 DEBUG c.e.t.b.mapper.StationMapper.selectByExample      :135  http-nio-8002-exec-5 [32m1698234018957n8g[0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2023-10-25 19:40:18.961 DEBUG c.e.t.b.mapper.StationMapper.selectByExample      :135  http-nio-8002-exec-5 [32m1698234018957n8g[0;39m ==> Parameters: 
+2023-10-25 19:40:18.964 TRACE c.e.t.b.mapper.StationMapper.selectByExample      :141  http-nio-8002-exec-5 [32m1698234018957n8g[0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2023-10-25 19:40:18.965 TRACE c.e.t.b.mapper.StationMapper.selectByExample      :141  http-nio-8002-exec-5 [32m1698234018957n8g[0;39m <==        Row: 1716423251959353344, 深圳, shenzhen, sz, 2023-10-23 19:56:07.525, 2023-10-23 19:56:07.525
+2023-10-25 19:40:18.965 TRACE c.e.t.b.mapper.StationMapper.selectByExample      :141  http-nio-8002-exec-5 [32m1698234018957n8g[0;39m <==        Row: 1716077371867664384, 北京, beijing, bj, 2023-10-22 21:01:43.285, 2023-10-22 21:01:43.285
+2023-10-25 19:40:18.965 TRACE c.e.t.b.mapper.StationMapper.selectByExample      :141  http-nio-8002-exec-5 [32m1698234018957n8g[0;39m <==        Row: 1716077284361900032, 上海, shanghai, sh, 2023-10-22 21:01:22.421, 2023-10-22 21:01:22.421
+2023-10-25 19:40:18.965 DEBUG c.e.t.b.mapper.StationMapper.selectByExample      :135  http-nio-8002-exec-5 [32m1698234018957n8g[0;39m <==      Total: 3
+2023-10-25 19:40:18.970 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-5 [32m1698234018957n8g[0;39m 返回结果: {"content":[{"createTime":1698062167525,"id":1716423251959353344,"name":"深圳","namePinyin":"shenzhen","namePy":"sz","updateTime":1698062167525},{"createTime":1697979703285,"id":1716077371867664384,"name":"北京","namePinyin":"beijing","namePy":"bj","updateTime":1697979703285},{"createTime":1697979682421,"id":1716077284361900032,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1697979682421}],"success":true}
+2023-10-25 19:40:18.970 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-5 [32m1698234018957n8g[0;39m ------------- 结束 耗时：13 ms -------------
+2023-10-25 19:40:31.101 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-6 [32m1698234031100c0g[0;39m ------------- 开始 -------------
+2023-10-25 19:40:31.101 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-6 [32m1698234031100c0g[0;39m 请求地址: http://127.0.0.1:8002/business/admin/train/query-list GET
+2023-10-25 19:40:31.101 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-6 [32m1698234031100c0g[0;39m 类名方法: com.example.train.business.controller.admin.TrainAdminController.queryList
+2023-10-25 19:40:31.101 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-6 [32m1698234031100c0g[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:40:31.102 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-6 [32m1698234031100c0g[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:40:31.104 INFO  com.example.train.business.service.TrainService   :71   http-nio-8002-exec-6 [32m1698234031100c0g[0;39m 查询页码：1
+2023-10-25 19:40:31.104 INFO  com.example.train.business.service.TrainService   :72   http-nio-8002-exec-6 [32m1698234031100c0g[0;39m 每页条数：10
+2023-10-25 19:40:31.107 DEBUG c.e.t.b.mapper.TrainMapper.selectByExample_COUNT  :135  http-nio-8002-exec-6 [32m1698234031100c0g[0;39m ==>  Preparing: SELECT count(0) FROM train
+2023-10-25 19:40:31.107 DEBUG c.e.t.b.mapper.TrainMapper.selectByExample_COUNT  :135  http-nio-8002-exec-6 [32m1698234031100c0g[0;39m ==> Parameters: 
+2023-10-25 19:40:31.110 TRACE c.e.t.b.mapper.TrainMapper.selectByExample_COUNT  :141  http-nio-8002-exec-6 [32m1698234031100c0g[0;39m <==    Columns: count(0)
+2023-10-25 19:40:31.110 TRACE c.e.t.b.mapper.TrainMapper.selectByExample_COUNT  :141  http-nio-8002-exec-6 [32m1698234031100c0g[0;39m <==        Row: 1
+2023-10-25 19:40:31.111 DEBUG c.e.t.b.mapper.TrainMapper.selectByExample_COUNT  :135  http-nio-8002-exec-6 [32m1698234031100c0g[0;39m <==      Total: 1
+2023-10-25 19:40:31.111 DEBUG c.e.t.business.mapper.TrainMapper.selectByExample :135  http-nio-8002-exec-6 [32m1698234031100c0g[0;39m ==>  Preparing: select id, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from train order by code asc LIMIT ?
+2023-10-25 19:40:31.113 DEBUG c.e.t.business.mapper.TrainMapper.selectByExample :135  http-nio-8002-exec-6 [32m1698234031100c0g[0;39m ==> Parameters: 10(Integer)
+2023-10-25 19:40:31.117 TRACE c.e.t.business.mapper.TrainMapper.selectByExample :141  http-nio-8002-exec-6 [32m1698234031100c0g[0;39m <==    Columns: id, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2023-10-25 19:40:31.118 TRACE c.e.t.business.mapper.TrainMapper.selectByExample :141  http-nio-8002-exec-6 [32m1698234031100c0g[0;39m <==        Row: 1717136039333728256, G1, G, 深圳, shenzhen, 07:00:00, 上海, shanghai, 15:00:00, 2023-10-25 19:08:29.263, 2023-10-25 19:08:29.263
+2023-10-25 19:40:31.119 DEBUG c.e.t.business.mapper.TrainMapper.selectByExample :135  http-nio-8002-exec-6 [32m1698234031100c0g[0;39m <==      Total: 1
+2023-10-25 19:40:31.119 INFO  com.example.train.business.service.TrainService   :77   http-nio-8002-exec-6 [32m1698234031100c0g[0;39m 总行数：1
+2023-10-25 19:40:31.119 INFO  com.example.train.business.service.TrainService   :78   http-nio-8002-exec-6 [32m1698234031100c0g[0;39m 总页数：1
+2023-10-25 19:40:31.121 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-6 [32m1698234031100c0g[0;39m 返回结果: {"content":{"list":[{"code":"G1","createTime":1698232109263,"end":"上海","endPinyin":"shanghai","endTime":25200000,"id":1717136039333728256,"start":"深圳","startPinyin":"shenzhen","startTime":-3600000,"type":"G","updateTime":1698232109263}],"total":1},"success":true}
+2023-10-25 19:40:31.121 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-6 [32m1698234031100c0g[0;39m ------------- 结束 耗时：21 ms -------------
+2023-10-25 19:40:33.773 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-7 [32m169823403377387z[0;39m ------------- 开始 -------------
+2023-10-25 19:40:33.773 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-7 [32m169823403377387z[0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2023-10-25 19:40:33.773 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-7 [32m169823403377387z[0;39m 类名方法: com.example.train.business.controller.admin.TrainStationAdminController.queryList
+2023-10-25 19:40:33.773 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-7 [32m169823403377387z[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:40:33.774 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-7 [32m169823403377387z[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:40:33.774 INFO  c.e.train.business.service.TrainStationService    :94   http-nio-8002-exec-7 [32m169823403377387z[0;39m 查询页码：1
+2023-10-25 19:40:33.774 INFO  c.e.train.business.service.TrainStationService    :95   http-nio-8002-exec-7 [32m169823403377387z[0;39m 每页条数：10
+2023-10-25 19:40:33.775 DEBUG c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:135  http-nio-8002-exec-7 [32m169823403377387z[0;39m ==>  Preparing: SELECT count(0) FROM train_station
+2023-10-25 19:40:33.776 DEBUG c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:135  http-nio-8002-exec-7 [32m169823403377387z[0;39m ==> Parameters: 
+2023-10-25 19:40:33.777 TRACE c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:141  http-nio-8002-exec-7 [32m169823403377387z[0;39m <==    Columns: count(0)
+2023-10-25 19:40:33.777 TRACE c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:141  http-nio-8002-exec-7 [32m169823403377387z[0;39m <==        Row: 0
+2023-10-25 19:40:33.777 DEBUG c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:135  http-nio-8002-exec-7 [32m169823403377387z[0;39m <==      Total: 1
+2023-10-25 19:40:33.777 INFO  c.e.train.business.service.TrainStationService    :100  http-nio-8002-exec-7 [32m169823403377387z[0;39m 总行数：0
+2023-10-25 19:40:33.777 INFO  c.e.train.business.service.TrainStationService    :101  http-nio-8002-exec-7 [32m169823403377387z[0;39m 总页数：0
+2023-10-25 19:40:33.778 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-7 [32m169823403377387z[0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-10-25 19:40:33.778 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-7 [32m169823403377387z[0;39m ------------- 结束 耗时：5 ms -------------
+2023-10-25 19:40:35.230 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-8 [32m1698234035230l7u[0;39m ------------- 开始 -------------
+2023-10-25 19:40:35.230 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-8 [32m1698234035230l7u[0;39m 请求地址: http://127.0.0.1:8002/business/admin/station/query-all GET
+2023-10-25 19:40:35.230 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-8 [32m1698234035230l7u[0;39m 类名方法: com.example.train.business.controller.admin.StationAdminController.queryAll
+2023-10-25 19:40:35.231 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-8 [32m1698234035230l7u[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:40:35.231 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-8 [32m1698234035230l7u[0;39m 请求参数: []
+2023-10-25 19:40:35.232 DEBUG c.e.t.b.mapper.StationMapper.selectByExample      :135  http-nio-8002-exec-8 [32m1698234035230l7u[0;39m ==>  Preparing: select id, `name`, name_pinyin, name_py, create_time, update_time from station order by id desc
+2023-10-25 19:40:35.232 DEBUG c.e.t.b.mapper.StationMapper.selectByExample      :135  http-nio-8002-exec-8 [32m1698234035230l7u[0;39m ==> Parameters: 
+2023-10-25 19:40:35.233 TRACE c.e.t.b.mapper.StationMapper.selectByExample      :141  http-nio-8002-exec-8 [32m1698234035230l7u[0;39m <==    Columns: id, name, name_pinyin, name_py, create_time, update_time
+2023-10-25 19:40:35.234 TRACE c.e.t.b.mapper.StationMapper.selectByExample      :141  http-nio-8002-exec-8 [32m1698234035230l7u[0;39m <==        Row: 1716423251959353344, 深圳, shenzhen, sz, 2023-10-23 19:56:07.525, 2023-10-23 19:56:07.525
+2023-10-25 19:40:35.234 TRACE c.e.t.b.mapper.StationMapper.selectByExample      :141  http-nio-8002-exec-8 [32m1698234035230l7u[0;39m <==        Row: 1716077371867664384, 北京, beijing, bj, 2023-10-22 21:01:43.285, 2023-10-22 21:01:43.285
+2023-10-25 19:40:35.235 TRACE c.e.t.b.mapper.StationMapper.selectByExample      :141  http-nio-8002-exec-8 [32m1698234035230l7u[0;39m <==        Row: 1716077284361900032, 上海, shanghai, sh, 2023-10-22 21:01:22.421, 2023-10-22 21:01:22.421
+2023-10-25 19:40:35.235 DEBUG c.e.t.b.mapper.StationMapper.selectByExample      :135  http-nio-8002-exec-8 [32m1698234035230l7u[0;39m <==      Total: 3
+2023-10-25 19:40:35.236 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-8 [32m1698234035230l7u[0;39m 返回结果: {"content":[{"createTime":1698062167525,"id":1716423251959353344,"name":"深圳","namePinyin":"shenzhen","namePy":"sz","updateTime":1698062167525},{"createTime":1697979703285,"id":1716077371867664384,"name":"北京","namePinyin":"beijing","namePy":"bj","updateTime":1697979703285},{"createTime":1697979682421,"id":1716077284361900032,"name":"上海","namePinyin":"shanghai","namePy":"sh","updateTime":1697979682421}],"success":true}
+2023-10-25 19:40:35.236 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-8 [32m1698234035230l7u[0;39m ------------- 结束 耗时：6 ms -------------
+2023-10-25 19:40:52.845 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-9 [32m16982340528451vr[0;39m ------------- 开始 -------------
+2023-10-25 19:40:52.845 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-9 [32m16982340528451vr[0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/save POST
+2023-10-25 19:40:52.845 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-9 [32m16982340528451vr[0;39m 类名方法: com.example.train.business.controller.admin.TrainStationAdminController.save
+2023-10-25 19:40:52.845 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-9 [32m16982340528451vr[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:40:52.845 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-9 [32m16982340528451vr[0;39m 请求参数: [{"inTime":-3600000,"index":0,"km":0,"name":"深圳","namePinyin":"shenzhen","outTime":-3300000,"stopTime":-28500000,"trainCode":"G1"}]
+2023-10-25 19:40:52.847 DEBUG c.e.t.b.mapper.TrainStationMapper.selectByExample :135  http-nio-8002-exec-9 [32m16982340528451vr[0;39m ==>  Preparing: select id, train_code, `index`, `name`, name_pinyin, in_time, out_time, stop_time, km, create_time, update_time from train_station WHERE ( train_code = ? and `index` = ? )
+2023-10-25 19:40:52.850 DEBUG c.e.t.b.mapper.TrainStationMapper.selectByExample :135  http-nio-8002-exec-9 [32m16982340528451vr[0;39m ==> Parameters: G1(String), 0(Integer)
+2023-10-25 19:40:52.853 DEBUG c.e.t.b.mapper.TrainStationMapper.selectByExample :135  http-nio-8002-exec-9 [32m16982340528451vr[0;39m <==      Total: 0
+2023-10-25 19:40:52.854 DEBUG c.e.t.b.mapper.TrainStationMapper.selectByExample :135  http-nio-8002-exec-9 [32m16982340528451vr[0;39m ==>  Preparing: select id, train_code, `index`, `name`, name_pinyin, in_time, out_time, stop_time, km, create_time, update_time from train_station WHERE ( train_code = ? and `name` = ? )
+2023-10-25 19:40:52.854 DEBUG c.e.t.b.mapper.TrainStationMapper.selectByExample :135  http-nio-8002-exec-9 [32m16982340528451vr[0;39m ==> Parameters: G1(String), 深圳(String)
+2023-10-25 19:40:52.855 DEBUG c.e.t.b.mapper.TrainStationMapper.selectByExample :135  http-nio-8002-exec-9 [32m16982340528451vr[0;39m <==      Total: 0
+2023-10-25 19:40:52.856 DEBUG c.e.t.business.mapper.TrainStationMapper.insert   :135  http-nio-8002-exec-9 [32m16982340528451vr[0;39m ==>  Preparing: insert into train_station (id, train_code, `index`, `name`, name_pinyin, in_time, out_time, stop_time, km, create_time, update_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-10-25 19:40:52.857 DEBUG c.e.t.business.mapper.TrainStationMapper.insert   :135  http-nio-8002-exec-9 [32m16982340528451vr[0;39m ==> Parameters: 1717144191286513664(Long), G1(String), 0(Integer), 深圳(String), shenzhen(String), 07:00:00(Time), 07:05:00(Time), 00:05:00(Time), 0(BigDecimal), 2023-10-25 19:40:52.846(Timestamp), 2023-10-25 19:40:52.846(Timestamp)
+2023-10-25 19:40:52.861 DEBUG c.e.t.business.mapper.TrainStationMapper.insert   :135  http-nio-8002-exec-9 [32m16982340528451vr[0;39m <==    Updates: 1
+2023-10-25 19:40:52.862 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-9 [32m16982340528451vr[0;39m 返回结果: {"success":true}
+2023-10-25 19:40:52.862 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-9 [32m16982340528451vr[0;39m ------------- 结束 耗时：17 ms -------------
+2023-10-25 19:40:52.885 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-10 [32m169823405288571l[0;39m ------------- 开始 -------------
+2023-10-25 19:40:52.885 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-10 [32m169823405288571l[0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2023-10-25 19:40:52.886 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-10 [32m169823405288571l[0;39m 类名方法: com.example.train.business.controller.admin.TrainStationAdminController.queryList
+2023-10-25 19:40:52.886 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-10 [32m169823405288571l[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:40:52.886 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-10 [32m169823405288571l[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:40:52.886 INFO  c.e.train.business.service.TrainStationService    :94   http-nio-8002-exec-10 [32m169823405288571l[0;39m 查询页码：1
+2023-10-25 19:40:52.886 INFO  c.e.train.business.service.TrainStationService    :95   http-nio-8002-exec-10 [32m169823405288571l[0;39m 每页条数：10
+2023-10-25 19:40:52.887 DEBUG c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:135  http-nio-8002-exec-10 [32m169823405288571l[0;39m ==>  Preparing: SELECT count(0) FROM train_station
+2023-10-25 19:40:52.888 DEBUG c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:135  http-nio-8002-exec-10 [32m169823405288571l[0;39m ==> Parameters: 
+2023-10-25 19:40:52.889 TRACE c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:141  http-nio-8002-exec-10 [32m169823405288571l[0;39m <==    Columns: count(0)
+2023-10-25 19:40:52.890 TRACE c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:141  http-nio-8002-exec-10 [32m169823405288571l[0;39m <==        Row: 1
+2023-10-25 19:40:52.890 DEBUG c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:135  http-nio-8002-exec-10 [32m169823405288571l[0;39m <==      Total: 1
+2023-10-25 19:40:52.891 DEBUG c.e.t.b.mapper.TrainStationMapper.selectByExample :135  http-nio-8002-exec-10 [32m169823405288571l[0;39m ==>  Preparing: select id, train_code, `index`, `name`, name_pinyin, in_time, out_time, stop_time, km, create_time, update_time from train_station order by train_code asc,'index' asc LIMIT ?
+2023-10-25 19:40:52.891 DEBUG c.e.t.b.mapper.TrainStationMapper.selectByExample :135  http-nio-8002-exec-10 [32m169823405288571l[0;39m ==> Parameters: 10(Integer)
+2023-10-25 19:40:52.892 TRACE c.e.t.b.mapper.TrainStationMapper.selectByExample :141  http-nio-8002-exec-10 [32m169823405288571l[0;39m <==    Columns: id, train_code, index, name, name_pinyin, in_time, out_time, stop_time, km, create_time, update_time
+2023-10-25 19:40:52.893 TRACE c.e.t.b.mapper.TrainStationMapper.selectByExample :141  http-nio-8002-exec-10 [32m169823405288571l[0;39m <==        Row: 1717144191286513664, G1, 0, 深圳, shenzhen, 07:00:00, 07:05:00, 00:05:00, 0.00, 2023-10-25 19:40:52.846, 2023-10-25 19:40:52.846
+2023-10-25 19:40:52.894 DEBUG c.e.t.b.mapper.TrainStationMapper.selectByExample :135  http-nio-8002-exec-10 [32m169823405288571l[0;39m <==      Total: 1
+2023-10-25 19:40:52.894 INFO  c.e.train.business.service.TrainStationService    :100  http-nio-8002-exec-10 [32m169823405288571l[0;39m 总行数：1
+2023-10-25 19:40:52.894 INFO  c.e.train.business.service.TrainStationService    :101  http-nio-8002-exec-10 [32m169823405288571l[0;39m 总页数：1
+2023-10-25 19:40:52.895 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-10 [32m169823405288571l[0;39m 返回结果: {"content":{"list":[{"createTime":1698234052846,"id":1717144191286513664,"inTime":-3600000,"index":0,"km":0.00,"name":"深圳","namePinyin":"shenzhen","outTime":-3300000,"stopTime":-28500000,"trainCode":"G1","updateTime":1698234052846}],"total":1},"success":true}
+2023-10-25 19:40:52.896 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-10 [32m169823405288571l[0;39m ------------- 结束 耗时：11 ms -------------
+2023-10-25 19:40:56.164 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-1 [32m1698234056164o3i[0;39m ------------- 开始 -------------
+2023-10-25 19:40:56.164 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-1 [32m1698234056164o3i[0;39m 请求地址: http://127.0.0.1:8002/business/admin/train-station/query-list GET
+2023-10-25 19:40:56.164 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-1 [32m1698234056164o3i[0;39m 类名方法: com.example.train.business.controller.admin.TrainStationAdminController.queryList
+2023-10-25 19:40:56.165 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-1 [32m1698234056164o3i[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:40:56.165 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-1 [32m1698234056164o3i[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:40:56.165 INFO  c.e.train.business.service.TrainStationService    :94   http-nio-8002-exec-1 [32m1698234056164o3i[0;39m 查询页码：1
+2023-10-25 19:40:56.165 INFO  c.e.train.business.service.TrainStationService    :95   http-nio-8002-exec-1 [32m1698234056164o3i[0;39m 每页条数：10
+2023-10-25 19:40:56.167 DEBUG c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:135  http-nio-8002-exec-1 [32m1698234056164o3i[0;39m ==>  Preparing: SELECT count(0) FROM train_station
+2023-10-25 19:40:56.167 DEBUG c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:135  http-nio-8002-exec-1 [32m1698234056164o3i[0;39m ==> Parameters: 
+2023-10-25 19:40:56.169 TRACE c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:141  http-nio-8002-exec-1 [32m1698234056164o3i[0;39m <==    Columns: count(0)
+2023-10-25 19:40:56.169 TRACE c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:141  http-nio-8002-exec-1 [32m1698234056164o3i[0;39m <==        Row: 1
+2023-10-25 19:40:56.169 DEBUG c.e.t.b.m.TrainStationMapper.selectByExample_COUNT:135  http-nio-8002-exec-1 [32m1698234056164o3i[0;39m <==      Total: 1
+2023-10-25 19:40:56.170 DEBUG c.e.t.b.mapper.TrainStationMapper.selectByExample :135  http-nio-8002-exec-1 [32m1698234056164o3i[0;39m ==>  Preparing: select id, train_code, `index`, `name`, name_pinyin, in_time, out_time, stop_time, km, create_time, update_time from train_station order by train_code asc,'index' asc LIMIT ?
+2023-10-25 19:40:56.171 DEBUG c.e.t.b.mapper.TrainStationMapper.selectByExample :135  http-nio-8002-exec-1 [32m1698234056164o3i[0;39m ==> Parameters: 10(Integer)
+2023-10-25 19:40:56.171 TRACE c.e.t.b.mapper.TrainStationMapper.selectByExample :141  http-nio-8002-exec-1 [32m1698234056164o3i[0;39m <==    Columns: id, train_code, index, name, name_pinyin, in_time, out_time, stop_time, km, create_time, update_time
+2023-10-25 19:40:56.171 TRACE c.e.t.b.mapper.TrainStationMapper.selectByExample :141  http-nio-8002-exec-1 [32m1698234056164o3i[0;39m <==        Row: 1717144191286513664, G1, 0, 深圳, shenzhen, 07:00:00, 07:05:00, 00:05:00, 0.00, 2023-10-25 19:40:52.846, 2023-10-25 19:40:52.846
+2023-10-25 19:40:56.172 DEBUG c.e.t.b.mapper.TrainStationMapper.selectByExample :135  http-nio-8002-exec-1 [32m1698234056164o3i[0;39m <==      Total: 1
+2023-10-25 19:40:56.172 INFO  c.e.train.business.service.TrainStationService    :100  http-nio-8002-exec-1 [32m1698234056164o3i[0;39m 总行数：1
+2023-10-25 19:40:56.172 INFO  c.e.train.business.service.TrainStationService    :101  http-nio-8002-exec-1 [32m1698234056164o3i[0;39m 总页数：1
+2023-10-25 19:40:56.172 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-1 [32m1698234056164o3i[0;39m 返回结果: {"content":{"list":[{"createTime":1698234052846,"id":1717144191286513664,"inTime":-3600000,"index":0,"km":0.00,"name":"深圳","namePinyin":"shenzhen","outTime":-3300000,"stopTime":-28500000,"trainCode":"G1","updateTime":1698234052846}],"total":1},"success":true}
+2023-10-25 19:40:56.172 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-1 [32m1698234056164o3i[0;39m ------------- 结束 耗时：8 ms -------------
+2023-10-25 19:40:58.488 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-2 [32m1698234058488iti[0;39m ------------- 开始 -------------
+2023-10-25 19:40:58.489 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-2 [32m1698234058488iti[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/query-list GET
+2023-10-25 19:40:58.489 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-2 [32m1698234058488iti[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainStationAdminController.queryList
+2023-10-25 19:40:58.489 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-2 [32m1698234058488iti[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:40:58.489 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-2 [32m1698234058488iti[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:40:58.489 INFO  c.e.t.business.service.DailyTrainStationService   :50   http-nio-8002-exec-2 [32m1698234058488iti[0;39m 查询页码：1
+2023-10-25 19:40:58.489 INFO  c.e.t.business.service.DailyTrainStationService   :51   http-nio-8002-exec-2 [32m1698234058488iti[0;39m 每页条数：10
+2023-10-25 19:40:58.492 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-2 [32m1698234058488iti[0;39m ==>  Preparing: SELECT count(0) FROM daily_train_station
+2023-10-25 19:40:58.493 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-2 [32m1698234058488iti[0;39m ==> Parameters: 
+2023-10-25 19:40:58.496 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-2 [32m1698234058488iti[0;39m <==    Columns: count(0)
+2023-10-25 19:40:58.496 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-2 [32m1698234058488iti[0;39m <==        Row: 0
+2023-10-25 19:40:58.497 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-2 [32m1698234058488iti[0;39m <==      Total: 1
+2023-10-25 19:40:58.498 INFO  c.e.t.business.service.DailyTrainStationService   :56   http-nio-8002-exec-2 [32m1698234058488iti[0;39m 总行数：0
+2023-10-25 19:40:58.498 INFO  c.e.t.business.service.DailyTrainStationService   :57   http-nio-8002-exec-2 [32m1698234058488iti[0;39m 总页数：0
+2023-10-25 19:40:58.498 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-2 [32m1698234058488iti[0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-10-25 19:40:58.498 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-2 [32m1698234058488iti[0;39m ------------- 结束 耗时：10 ms -------------
+2023-10-25 19:45:23.289 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-3 [32m1698234323289mjn[0;39m ------------- 开始 -------------
+2023-10-25 19:45:23.289 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-3 [32m1698234323289mjn[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/query-list GET
+2023-10-25 19:45:23.289 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-3 [32m1698234323289mjn[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainStationAdminController.queryList
+2023-10-25 19:45:23.289 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-3 [32m1698234323289mjn[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:45:23.289 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-3 [32m1698234323289mjn[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:45:23.290 INFO  c.e.t.business.service.DailyTrainStationService   :50   http-nio-8002-exec-3 [32m1698234323289mjn[0;39m 查询页码：1
+2023-10-25 19:45:23.290 INFO  c.e.t.business.service.DailyTrainStationService   :51   http-nio-8002-exec-3 [32m1698234323289mjn[0;39m 每页条数：10
+2023-10-25 19:45:23.293 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-3 [32m1698234323289mjn[0;39m ==>  Preparing: SELECT count(0) FROM daily_train_station
+2023-10-25 19:45:23.293 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-3 [32m1698234323289mjn[0;39m ==> Parameters: 
+2023-10-25 19:45:23.294 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-3 [32m1698234323289mjn[0;39m <==    Columns: count(0)
+2023-10-25 19:45:23.294 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-3 [32m1698234323289mjn[0;39m <==        Row: 0
+2023-10-25 19:45:23.295 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-3 [32m1698234323289mjn[0;39m <==      Total: 1
+2023-10-25 19:45:23.295 INFO  c.e.t.business.service.DailyTrainStationService   :56   http-nio-8002-exec-3 [32m1698234323289mjn[0;39m 总行数：0
+2023-10-25 19:45:23.296 INFO  c.e.t.business.service.DailyTrainStationService   :57   http-nio-8002-exec-3 [32m1698234323289mjn[0;39m 总页数：0
+2023-10-25 19:45:23.296 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-3 [32m1698234323289mjn[0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-10-25 19:45:23.296 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-3 [32m1698234323289mjn[0;39m ------------- 结束 耗时：7 ms -------------
+2023-10-25 19:45:24.947 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-5 [32m1698234324947u5o[0;39m ------------- 开始 -------------
+2023-10-25 19:45:24.947 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-5 [32m1698234324947u5o[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train/query-list GET
+2023-10-25 19:45:24.947 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-5 [32m1698234324947u5o[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainAdminController.queryList
+2023-10-25 19:45:24.947 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-5 [32m1698234324947u5o[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:45:24.947 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-5 [32m1698234324947u5o[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:45:24.948 INFO  c.example.train.business.service.DailyTrainService:57   http-nio-8002-exec-5 [32m1698234324947u5o[0;39m 查询页码：1
+2023-10-25 19:45:24.948 INFO  c.example.train.business.service.DailyTrainService:58   http-nio-8002-exec-5 [32m1698234324947u5o[0;39m 每页条数：10
+2023-10-25 19:45:24.950 DEBUG c.e.t.b.m.DailyTrainMapper.selectByExample_COUNT  :135  http-nio-8002-exec-5 [32m1698234324947u5o[0;39m ==>  Preparing: SELECT count(0) FROM daily_train
+2023-10-25 19:45:24.950 DEBUG c.e.t.b.m.DailyTrainMapper.selectByExample_COUNT  :135  http-nio-8002-exec-5 [32m1698234324947u5o[0;39m ==> Parameters: 
+2023-10-25 19:45:24.953 TRACE c.e.t.b.m.DailyTrainMapper.selectByExample_COUNT  :141  http-nio-8002-exec-5 [32m1698234324947u5o[0;39m <==    Columns: count(0)
+2023-10-25 19:45:24.953 TRACE c.e.t.b.m.DailyTrainMapper.selectByExample_COUNT  :141  http-nio-8002-exec-5 [32m1698234324947u5o[0;39m <==        Row: 2
+2023-10-25 19:45:24.953 DEBUG c.e.t.b.m.DailyTrainMapper.selectByExample_COUNT  :135  http-nio-8002-exec-5 [32m1698234324947u5o[0;39m <==      Total: 1
+2023-10-25 19:45:24.953 DEBUG c.e.t.b.mapper.DailyTrainMapper.selectByExample   :135  http-nio-8002-exec-5 [32m1698234324947u5o[0;39m ==>  Preparing: select id, `date`, code, `type`, `start`, start_pinyin, start_time, `end`, end_pinyin, end_time, create_time, update_time from daily_train order by 'date' desc,code asc LIMIT ?
+2023-10-25 19:45:24.953 DEBUG c.e.t.b.mapper.DailyTrainMapper.selectByExample   :135  http-nio-8002-exec-5 [32m1698234324947u5o[0;39m ==> Parameters: 10(Integer)
+2023-10-25 19:45:24.954 TRACE c.e.t.b.mapper.DailyTrainMapper.selectByExample   :141  http-nio-8002-exec-5 [32m1698234324947u5o[0;39m <==    Columns: id, date, code, type, start, start_pinyin, start_time, end, end_pinyin, end_time, create_time, update_time
+2023-10-25 19:45:24.955 TRACE c.e.t.b.mapper.DailyTrainMapper.selectByExample   :141  http-nio-8002-exec-5 [32m1698234324947u5o[0;39m <==        Row: 1717138779292176384, 2023-10-25, G1, G, 深圳, shenzhen, 07:00:00, 上海, shanghai, 15:00:00, 2023-10-25 19:19:22.535, 2023-10-25 19:19:22.535
+2023-10-25 19:45:24.955 TRACE c.e.t.b.mapper.DailyTrainMapper.selectByExample   :141  http-nio-8002-exec-5 [32m1698234324947u5o[0;39m <==        Row: 1717138988302733312, 2023-10-26, G1, G, 深圳, shenzhen, 07:00:00, 上海, shanghai, 15:00:00, 2023-10-25 19:20:12.367, 2023-10-25 19:20:12.367
+2023-10-25 19:45:24.956 DEBUG c.e.t.b.mapper.DailyTrainMapper.selectByExample   :135  http-nio-8002-exec-5 [32m1698234324947u5o[0;39m <==      Total: 2
+2023-10-25 19:45:24.957 INFO  c.example.train.business.service.DailyTrainService:63   http-nio-8002-exec-5 [32m1698234324947u5o[0;39m 总行数：2
+2023-10-25 19:45:24.957 INFO  c.example.train.business.service.DailyTrainService:64   http-nio-8002-exec-5 [32m1698234324947u5o[0;39m 总页数：1
+2023-10-25 19:45:24.958 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-5 [32m1698234324947u5o[0;39m 返回结果: {"content":{"list":[{"code":"G1","createTime":1698232762535,"date":1698163200000,"end":"上海","endPinyin":"shanghai","endTime":25200000,"id":1717138779292176384,"start":"深圳","startPinyin":"shenzhen","startTime":-3600000,"type":"G","updateTime":1698232762535},{"code":"G1","createTime":1698232812367,"date":1698249600000,"end":"上海","endPinyin":"shanghai","endTime":25200000,"id":1717138988302733312,"start":"深圳","startPinyin":"shenzhen","startTime":-3600000,"type":"G","updateTime":1698232812367}],"total":2},"success":true}
+2023-10-25 19:45:24.958 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-5 [32m1698234324947u5o[0;39m ------------- 结束 耗时：11 ms -------------
+2023-10-25 19:45:49.082 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-8 [32m1698234349082u9k[0;39m ------------- 开始 -------------
+2023-10-25 19:45:49.082 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-8 [32m1698234349082u9k[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/query-list GET
+2023-10-25 19:45:49.082 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-8 [32m1698234349082u9k[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainStationAdminController.queryList
+2023-10-25 19:45:49.082 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-8 [32m1698234349082u9k[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:45:49.082 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-8 [32m1698234349082u9k[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:45:49.083 INFO  c.e.t.business.service.DailyTrainStationService   :50   http-nio-8002-exec-8 [32m1698234349082u9k[0;39m 查询页码：1
+2023-10-25 19:45:49.083 INFO  c.e.t.business.service.DailyTrainStationService   :51   http-nio-8002-exec-8 [32m1698234349082u9k[0;39m 每页条数：10
+2023-10-25 19:45:49.084 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-8 [32m1698234349082u9k[0;39m ==>  Preparing: SELECT count(0) FROM daily_train_station
+2023-10-25 19:45:49.085 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-8 [32m1698234349082u9k[0;39m ==> Parameters: 
+2023-10-25 19:45:49.085 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-8 [32m1698234349082u9k[0;39m <==    Columns: count(0)
+2023-10-25 19:45:49.085 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-8 [32m1698234349082u9k[0;39m <==        Row: 0
+2023-10-25 19:45:49.086 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-8 [32m1698234349082u9k[0;39m <==      Total: 1
+2023-10-25 19:45:49.086 INFO  c.e.t.business.service.DailyTrainStationService   :56   http-nio-8002-exec-8 [32m1698234349082u9k[0;39m 总行数：0
+2023-10-25 19:45:49.086 INFO  c.e.t.business.service.DailyTrainStationService   :57   http-nio-8002-exec-8 [32m1698234349082u9k[0;39m 总页数：0
+2023-10-25 19:45:49.086 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-8 [32m1698234349082u9k[0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-10-25 19:45:49.086 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-8 [32m1698234349082u9k[0;39m ------------- 结束 耗时：4 ms -------------
+2023-10-25 19:46:17.840 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-9 [32m16982343778408f1[0;39m ------------- 开始 -------------
+2023-10-25 19:46:17.841 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-9 [32m16982343778408f1[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/save POST
+2023-10-25 19:46:17.841 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-9 [32m16982343778408f1[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainStationAdminController.save
+2023-10-25 19:46:17.841 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-9 [32m16982343778408f1[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:46:17.841 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-9 [32m16982343778408f1[0;39m 请求参数: [{"date":1698163200000,"inTime":-3600000,"index":0,"km":0,"name":"深证","namePinyin":"shenzheng","outTime":-3300000,"stopTime":-28500000,"trainCode":"G1"}]
+2023-10-25 19:46:17.842 DEBUG c.e.t.b.mapper.DailyTrainStationMapper.insert     :135  http-nio-8002-exec-9 [32m16982343778408f1[0;39m ==>  Preparing: insert into daily_train_station (id, `date`, train_code, `index`, `name`, name_pinyin, in_time, out_time, stop_time, km, create_time, update_time) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-10-25 19:46:17.843 DEBUG c.e.t.b.mapper.DailyTrainStationMapper.insert     :135  http-nio-8002-exec-9 [32m16982343778408f1[0;39m ==> Parameters: 1717145554376593408(Long), 2023-10-25(Date), G1(String), 0(Integer), 深证(String), shenzheng(String), 07:00:00(Time), 07:05:00(Time), 00:05:00(Time), 0(BigDecimal), 2023-10-25 19:46:17.841(Timestamp), 2023-10-25 19:46:17.841(Timestamp)
+2023-10-25 19:46:17.851 DEBUG c.e.t.b.mapper.DailyTrainStationMapper.insert     :135  http-nio-8002-exec-9 [32m16982343778408f1[0;39m <==    Updates: 1
+2023-10-25 19:46:17.851 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-9 [32m16982343778408f1[0;39m 返回结果: {"success":true}
+2023-10-25 19:46:17.851 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-9 [32m16982343778408f1[0;39m ------------- 结束 耗时：11 ms -------------
+2023-10-25 19:46:17.875 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-10 [32m1698234377875vyb[0;39m ------------- 开始 -------------
+2023-10-25 19:46:17.875 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-10 [32m1698234377875vyb[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/query-list GET
+2023-10-25 19:46:17.875 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-10 [32m1698234377875vyb[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainStationAdminController.queryList
+2023-10-25 19:46:17.875 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-10 [32m1698234377875vyb[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:46:17.876 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-10 [32m1698234377875vyb[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:46:17.876 INFO  c.e.t.business.service.DailyTrainStationService   :50   http-nio-8002-exec-10 [32m1698234377875vyb[0;39m 查询页码：1
+2023-10-25 19:46:17.876 INFO  c.e.t.business.service.DailyTrainStationService   :51   http-nio-8002-exec-10 [32m1698234377875vyb[0;39m 每页条数：10
+2023-10-25 19:46:17.877 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-10 [32m1698234377875vyb[0;39m ==>  Preparing: SELECT count(0) FROM daily_train_station
+2023-10-25 19:46:17.877 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-10 [32m1698234377875vyb[0;39m ==> Parameters: 
+2023-10-25 19:46:17.881 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-10 [32m1698234377875vyb[0;39m <==    Columns: count(0)
+2023-10-25 19:46:17.881 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-10 [32m1698234377875vyb[0;39m <==        Row: 1
+2023-10-25 19:46:17.882 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-10 [32m1698234377875vyb[0;39m <==      Total: 1
+2023-10-25 19:46:17.882 DEBUG c.e.t.b.m.DailyTrainStationMapper.selectByExample :135  http-nio-8002-exec-10 [32m1698234377875vyb[0;39m ==>  Preparing: select id, `date`, train_code, `index`, `name`, name_pinyin, in_time, out_time, stop_time, km, create_time, update_time from daily_train_station order by id desc LIMIT ?
+2023-10-25 19:46:17.883 DEBUG c.e.t.b.m.DailyTrainStationMapper.selectByExample :135  http-nio-8002-exec-10 [32m1698234377875vyb[0;39m ==> Parameters: 10(Integer)
+2023-10-25 19:46:17.884 TRACE c.e.t.b.m.DailyTrainStationMapper.selectByExample :141  http-nio-8002-exec-10 [32m1698234377875vyb[0;39m <==    Columns: id, date, train_code, index, name, name_pinyin, in_time, out_time, stop_time, km, create_time, update_time
+2023-10-25 19:46:17.884 TRACE c.e.t.b.m.DailyTrainStationMapper.selectByExample :141  http-nio-8002-exec-10 [32m1698234377875vyb[0;39m <==        Row: 1717145554376593408, 2023-10-25, G1, 0, 深证, shenzheng, 07:00:00, 07:05:00, 00:05:00, 0.00, 2023-10-25 19:46:17.841, 2023-10-25 19:46:17.841
+2023-10-25 19:46:17.884 DEBUG c.e.t.b.m.DailyTrainStationMapper.selectByExample :135  http-nio-8002-exec-10 [32m1698234377875vyb[0;39m <==      Total: 1
+2023-10-25 19:46:17.884 INFO  c.e.t.business.service.DailyTrainStationService   :56   http-nio-8002-exec-10 [32m1698234377875vyb[0;39m 总行数：1
+2023-10-25 19:46:17.884 INFO  c.e.t.business.service.DailyTrainStationService   :57   http-nio-8002-exec-10 [32m1698234377875vyb[0;39m 总页数：1
+2023-10-25 19:46:17.885 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-10 [32m1698234377875vyb[0;39m 返回结果: {"content":{"list":[{"createTime":1698234377841,"date":1698163200000,"id":1717145554376593408,"inTime":-3600000,"index":0,"km":0.00,"name":"深证","namePinyin":"shenzheng","outTime":-3300000,"stopTime":-28500000,"trainCode":"G1","updateTime":1698234377841}],"total":1},"success":true}
+2023-10-25 19:46:17.885 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-10 [32m1698234377875vyb[0;39m ------------- 结束 耗时：10 ms -------------
+2023-10-25 19:46:21.717 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-1 [32m1698234381717ha8[0;39m ------------- 开始 -------------
+2023-10-25 19:46:21.717 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-1 [32m1698234381717ha8[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/delete/1717145554376593408 DELETE
+2023-10-25 19:46:21.717 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-1 [32m1698234381717ha8[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainStationAdminController.delete
+2023-10-25 19:46:21.717 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-1 [32m1698234381717ha8[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:46:21.717 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-1 [32m1698234381717ha8[0;39m 请求参数: [1717145554376593408]
+2023-10-25 19:46:21.718 DEBUG c.e.t.b.m.D.deleteByPrimaryKey                    :135  http-nio-8002-exec-1 [32m1698234381717ha8[0;39m ==>  Preparing: delete from daily_train_station where id = ?
+2023-10-25 19:46:21.719 DEBUG c.e.t.b.m.D.deleteByPrimaryKey                    :135  http-nio-8002-exec-1 [32m1698234381717ha8[0;39m ==> Parameters: 1717145554376593408(Long)
+2023-10-25 19:46:21.725 DEBUG c.e.t.b.m.D.deleteByPrimaryKey                    :135  http-nio-8002-exec-1 [32m1698234381717ha8[0;39m <==    Updates: 1
+2023-10-25 19:46:21.726 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-1 [32m1698234381717ha8[0;39m 返回结果: {"success":true}
+2023-10-25 19:46:21.726 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-1 [32m1698234381717ha8[0;39m ------------- 结束 耗时：9 ms -------------
+2023-10-25 19:46:21.750 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-2 [32m169823438175091n[0;39m ------------- 开始 -------------
+2023-10-25 19:46:21.750 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-2 [32m169823438175091n[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/query-list GET
+2023-10-25 19:46:21.750 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-2 [32m169823438175091n[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainStationAdminController.queryList
+2023-10-25 19:46:21.750 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-2 [32m169823438175091n[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:46:21.750 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-2 [32m169823438175091n[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:46:21.750 INFO  c.e.t.business.service.DailyTrainStationService   :50   http-nio-8002-exec-2 [32m169823438175091n[0;39m 查询页码：1
+2023-10-25 19:46:21.750 INFO  c.e.t.business.service.DailyTrainStationService   :51   http-nio-8002-exec-2 [32m169823438175091n[0;39m 每页条数：10
+2023-10-25 19:46:21.752 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-2 [32m169823438175091n[0;39m ==>  Preparing: SELECT count(0) FROM daily_train_station
+2023-10-25 19:46:21.752 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-2 [32m169823438175091n[0;39m ==> Parameters: 
+2023-10-25 19:46:21.752 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-2 [32m169823438175091n[0;39m <==    Columns: count(0)
+2023-10-25 19:46:21.753 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-2 [32m169823438175091n[0;39m <==        Row: 0
+2023-10-25 19:46:21.753 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-2 [32m169823438175091n[0;39m <==      Total: 1
+2023-10-25 19:46:21.753 INFO  c.e.t.business.service.DailyTrainStationService   :56   http-nio-8002-exec-2 [32m169823438175091n[0;39m 总行数：0
+2023-10-25 19:46:21.753 INFO  c.e.t.business.service.DailyTrainStationService   :57   http-nio-8002-exec-2 [32m169823438175091n[0;39m 总页数：0
+2023-10-25 19:46:21.753 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-2 [32m169823438175091n[0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-10-25 19:46:21.753 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-2 [32m169823438175091n[0;39m ------------- 结束 耗时：3 ms -------------
+2023-10-25 19:48:50.147 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-3 [32m1698234530147mjb[0;39m ------------- 开始 -------------
+2023-10-25 19:48:50.148 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-3 [32m1698234530147mjb[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/query-list GET
+2023-10-25 19:48:50.148 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-3 [32m1698234530147mjb[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainStationAdminController.queryList
+2023-10-25 19:48:50.148 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-3 [32m1698234530147mjb[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:48:50.148 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-3 [32m1698234530147mjb[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:48:50.149 INFO  c.e.t.business.service.DailyTrainStationService   :50   http-nio-8002-exec-3 [32m1698234530147mjb[0;39m 查询页码：1
+2023-10-25 19:48:50.149 INFO  c.e.t.business.service.DailyTrainStationService   :51   http-nio-8002-exec-3 [32m1698234530147mjb[0;39m 每页条数：10
+2023-10-25 19:48:50.150 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-3 [32m1698234530147mjb[0;39m ==>  Preparing: SELECT count(0) FROM daily_train_station
+2023-10-25 19:48:50.151 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-3 [32m1698234530147mjb[0;39m ==> Parameters: 
+2023-10-25 19:48:50.152 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-3 [32m1698234530147mjb[0;39m <==    Columns: count(0)
+2023-10-25 19:48:50.153 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-3 [32m1698234530147mjb[0;39m <==        Row: 0
+2023-10-25 19:48:50.153 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-3 [32m1698234530147mjb[0;39m <==      Total: 1
+2023-10-25 19:48:50.153 INFO  c.e.t.business.service.DailyTrainStationService   :56   http-nio-8002-exec-3 [32m1698234530147mjb[0;39m 总行数：0
+2023-10-25 19:48:50.153 INFO  c.e.t.business.service.DailyTrainStationService   :57   http-nio-8002-exec-3 [32m1698234530147mjb[0;39m 总页数：0
+2023-10-25 19:48:50.153 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-3 [32m1698234530147mjb[0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-10-25 19:48:50.153 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-3 [32m1698234530147mjb[0;39m ------------- 结束 耗时：6 ms -------------
+2023-10-25 19:48:53.880 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-5 [32m1698234533880hi8[0;39m ------------- 开始 -------------
+2023-10-25 19:48:53.880 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-5 [32m1698234533880hi8[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/query-list GET
+2023-10-25 19:48:53.880 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-5 [32m1698234533880hi8[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainStationAdminController.queryList
+2023-10-25 19:48:53.880 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-5 [32m1698234533880hi8[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:48:53.880 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-5 [32m1698234533880hi8[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:48:53.881 INFO  c.e.t.business.service.DailyTrainStationService   :50   http-nio-8002-exec-5 [32m1698234533880hi8[0;39m 查询页码：1
+2023-10-25 19:48:53.881 INFO  c.e.t.business.service.DailyTrainStationService   :51   http-nio-8002-exec-5 [32m1698234533880hi8[0;39m 每页条数：10
+2023-10-25 19:48:53.882 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-5 [32m1698234533880hi8[0;39m ==>  Preparing: SELECT count(0) FROM daily_train_station
+2023-10-25 19:48:53.882 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-5 [32m1698234533880hi8[0;39m ==> Parameters: 
+2023-10-25 19:48:53.883 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-5 [32m1698234533880hi8[0;39m <==    Columns: count(0)
+2023-10-25 19:48:53.883 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-5 [32m1698234533880hi8[0;39m <==        Row: 0
+2023-10-25 19:48:53.883 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-5 [32m1698234533880hi8[0;39m <==      Total: 1
+2023-10-25 19:48:53.883 INFO  c.e.t.business.service.DailyTrainStationService   :56   http-nio-8002-exec-5 [32m1698234533880hi8[0;39m 总行数：0
+2023-10-25 19:48:53.884 INFO  c.e.t.business.service.DailyTrainStationService   :57   http-nio-8002-exec-5 [32m1698234533880hi8[0;39m 总页数：0
+2023-10-25 19:48:53.884 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-5 [32m1698234533880hi8[0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-10-25 19:48:53.884 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-5 [32m1698234533880hi8[0;39m ------------- 结束 耗时：4 ms -------------
+2023-10-25 19:48:56.160 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-6 [32m1698234536160p3y[0;39m ------------- 开始 -------------
+2023-10-25 19:48:56.160 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-6 [32m1698234536160p3y[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/query-list GET
+2023-10-25 19:48:56.160 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-6 [32m1698234536160p3y[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainStationAdminController.queryList
+2023-10-25 19:48:56.160 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-6 [32m1698234536160p3y[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:48:56.161 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-6 [32m1698234536160p3y[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:48:56.161 INFO  c.e.t.business.service.DailyTrainStationService   :50   http-nio-8002-exec-6 [32m1698234536160p3y[0;39m 查询页码：1
+2023-10-25 19:48:56.161 INFO  c.e.t.business.service.DailyTrainStationService   :51   http-nio-8002-exec-6 [32m1698234536160p3y[0;39m 每页条数：10
+2023-10-25 19:48:56.162 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-6 [32m1698234536160p3y[0;39m ==>  Preparing: SELECT count(0) FROM daily_train_station
+2023-10-25 19:48:56.163 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-6 [32m1698234536160p3y[0;39m ==> Parameters: 
+2023-10-25 19:48:56.163 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-6 [32m1698234536160p3y[0;39m <==    Columns: count(0)
+2023-10-25 19:48:56.164 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-6 [32m1698234536160p3y[0;39m <==        Row: 0
+2023-10-25 19:48:56.164 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-6 [32m1698234536160p3y[0;39m <==      Total: 1
+2023-10-25 19:48:56.164 INFO  c.e.t.business.service.DailyTrainStationService   :56   http-nio-8002-exec-6 [32m1698234536160p3y[0;39m 总行数：0
+2023-10-25 19:48:56.164 INFO  c.e.t.business.service.DailyTrainStationService   :57   http-nio-8002-exec-6 [32m1698234536160p3y[0;39m 总页数：0
+2023-10-25 19:48:56.164 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-6 [32m1698234536160p3y[0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-10-25 19:48:56.164 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-6 [32m1698234536160p3y[0;39m ------------- 结束 耗时：4 ms -------------
+2023-10-25 19:48:58.135 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8002-exec-7 [32m169823453813540d[0;39m ------------- 开始 -------------
+2023-10-25 19:48:58.136 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8002-exec-7 [32m169823453813540d[0;39m 请求地址: http://127.0.0.1:8002/business/admin/daily-train-station/query-list GET
+2023-10-25 19:48:58.136 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8002-exec-7 [32m169823453813540d[0;39m 类名方法: com.example.train.business.controller.admin.DailyTrainStationAdminController.queryList
+2023-10-25 19:48:58.136 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8002-exec-7 [32m169823453813540d[0;39m 远程地址: 127.0.0.1
+2023-10-25 19:48:58.137 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8002-exec-7 [32m169823453813540d[0;39m 请求参数: [{"page":1,"size":10}]
+2023-10-25 19:48:58.137 INFO  c.e.t.business.service.DailyTrainStationService   :50   http-nio-8002-exec-7 [32m169823453813540d[0;39m 查询页码：1
+2023-10-25 19:48:58.137 INFO  c.e.t.business.service.DailyTrainStationService   :51   http-nio-8002-exec-7 [32m169823453813540d[0;39m 每页条数：10
+2023-10-25 19:48:58.141 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-7 [32m169823453813540d[0;39m ==>  Preparing: SELECT count(0) FROM daily_train_station
+2023-10-25 19:48:58.141 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-7 [32m169823453813540d[0;39m ==> Parameters: 
+2023-10-25 19:48:58.142 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-7 [32m169823453813540d[0;39m <==    Columns: count(0)
+2023-10-25 19:48:58.143 TRACE c.e.t.b.m.D.selectByExample_COUNT                 :141  http-nio-8002-exec-7 [32m169823453813540d[0;39m <==        Row: 0
+2023-10-25 19:48:58.143 DEBUG c.e.t.b.m.D.selectByExample_COUNT                 :135  http-nio-8002-exec-7 [32m169823453813540d[0;39m <==      Total: 1
+2023-10-25 19:48:58.145 INFO  c.e.t.business.service.DailyTrainStationService   :56   http-nio-8002-exec-7 [32m169823453813540d[0;39m 总行数：0
+2023-10-25 19:48:58.145 INFO  c.e.t.business.service.DailyTrainStationService   :57   http-nio-8002-exec-7 [32m169823453813540d[0;39m 总页数：0
+2023-10-25 19:48:58.145 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8002-exec-7 [32m169823453813540d[0;39m 返回结果: {"content":{"list":[],"total":0},"success":true}
+2023-10-25 19:48:58.145 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8002-exec-7 [32m169823453813540d[0;39m ------------- 结束 耗时：10 ms -------------
+2023-10-25 19:49:05.668 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-10-25 19:49:05.685 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-145 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:49:05.686 INFO  org.apache.catalina.core.StandardService          :173  Thread-145 [32m                [0;39m Stopping service [Tomcat]
+2023-10-25 19:49:05.686 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/business]      :173  Thread-145 [32m                [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-25 19:49:05.687 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  Thread-145 [32m                [0;39m The web application [business] appears to have started a thread named [HikariPool-10 housekeeper] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.4.1/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.4.1/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1672)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base@17.0.4.1/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1062)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.4.1/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.4.1/java.lang.Thread.run(Thread.java:833)
+2023-10-25 19:49:05.688 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-145 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:49:05.691 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-145 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:49:05.693 INFO  com.zaxxer.hikari.HikariDataSource                :350  Thread-145 [32m                [0;39m HikariPool-10 - Shutdown initiated...
+2023-10-25 19:49:05.696 INFO  com.zaxxer.hikari.HikariDataSource                :352  Thread-145 [32m                [0;39m HikariPool-10 - Shutdown completed.
+2023-10-25 19:49:06.895 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 1384 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 19:49:06.896 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 19:49:07.066 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=36365a46-ad7f-31ae-9339-b49626a56d38
+2023-10-25 19:49:07.153 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-25 19:49:07.153 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:49:07.153 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-25 19:49:07.153 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 19:49:07.167 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/business]      :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-25 19:49:07.168 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 271 ms
+2023-10-25 19:49:07.614 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-25 19:49:08.713 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 19:49:08.731 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:49:08.734 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-25 19:49:09.821 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 19:49:09.825 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 4.079 seconds (process running for 3154.039)
+2023-10-25 19:49:09.826 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-25 19:49:09.827 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-25 19:49:09.827 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-10-25 19:50:47.306 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-25 19:50:47.323 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-151 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:50:47.323 INFO  org.apache.catalina.core.StandardService          :173  Thread-151 [32m                [0;39m Stopping service [Tomcat]
+2023-10-25 19:50:47.324 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-151 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:50:47.325 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-151 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:50:48.499 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 1384 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 19:50:48.499 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 19:50:48.669 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=36365a46-ad7f-31ae-9339-b49626a56d38
+2023-10-25 19:50:48.751 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-25 19:50:48.752 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:50:48.752 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-25 19:50:48.752 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 19:50:48.765 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/business]      :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-25 19:50:48.765 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 265 ms
+2023-10-25 19:50:49.206 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-25 19:50:50.317 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 19:50:50.336 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-25 19:50:50.340 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-25 19:50:51.452 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 19:50:51.458 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 4.082 seconds (process running for 3255.672)
+2023-10-25 19:50:51.459 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-25 19:50:51.460 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-25 19:50:51.460 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello

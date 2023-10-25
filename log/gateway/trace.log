@@ -36,3 +36,116 @@
 2023-10-25 18:58:30.122 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train/query-all
 2023-10-25 18:58:30.122 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/business/admin/train-seat/query-list
 2023-10-25 18:58:33.395 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/business/admin/train/query-list
+2023-10-25 19:07:27.487 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/train/query-list
+2023-10-25 19:07:31.291 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/train/query-all
+2023-10-25 19:07:31.301 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:07:33.942 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/train/query-all
+2023-10-25 19:07:33.942 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-station/query-list
+2023-10-25 19:07:36.613 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/train/query-all
+2023-10-25 19:07:36.613 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-carriage/query-list
+2023-10-25 19:07:37.485 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/train/query-all
+2023-10-25 19:07:37.485 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-seat/query-list
+2023-10-25 19:07:38.180 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/train/query-all
+2023-10-25 19:07:38.181 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-station/query-list
+2023-10-25 19:07:38.729 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:07:38.729 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/train/query-all
+2023-10-25 19:07:51.045 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/train/query-all
+2023-10-25 19:08:02.530 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/train/query-list
+2023-10-25 19:08:03.626 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/station/query-list
+2023-10-25 19:08:05.716 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/train/query-all
+2023-10-25 19:08:05.716 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:08:08.910 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/train/query-list
+2023-10-25 19:08:10.827 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
+2023-10-25 19:08:10.851 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
+2023-10-25 19:08:29.213 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/train/save
+2023-10-25 19:08:29.321 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/train/query-list
+2023-10-25 19:08:32.268 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/train/query-all
+2023-10-25 19:08:32.268 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:08:34.463 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:08:40.503 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:08:50.306 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/save
+2023-10-25 19:08:50.355 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:08:59.604 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:09:00.864 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:09:02.210 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:09:18.993 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/gen-daily/2023-10-26
+2023-10-25 19:09:26.211 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/delete/1717136127586078720
+2023-10-25 19:09:26.244 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:09:30.170 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:19:08.918 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:19:22.518 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/save
+2023-10-25 19:19:22.579 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:19:25.067 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:20:00.727 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:20:07.626 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:20:12.358 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/save
+2023-10-25 19:20:12.402 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:20:14.044 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:20:20.203 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:20:20.625 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:22:29.904 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:22:32.497 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:24:52.240 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:24:54.486 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:24:59.340 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:25:01.842 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:25:02.634 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:25:05.299 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:25:06.225 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:25:06.390 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:25:06.583 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:25:06.757 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:25:07.372 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:25:07.539 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:25:07.733 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:26:36.872 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:26:36.912 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  reactor-http-nio-6 [32m                [0;39m [7c32793b-75]  500 Server Error for HTTP GET "/business/admin/daily-train/query-list?page=1&size=10"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8002
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/business/admin/daily-train/query-list?page=1&size=10" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-25 19:26:41.359 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:26:44.934 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:27:40.618 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:27:43.962 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:27:46.596 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:27:46.602 ERROR o.s.b.a.w.r.error.AbstractErrorWebExceptionHandler:102  reactor-http-nio-6 [32m                [0;39m [7c32793b-80]  500 Server Error for HTTP GET "/business/admin/daily-train/query-list?page=1&size=10"
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:8002
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Error has been observed at the following site(s):
+	*__checkpoint ⇢ org.springframework.cloud.gateway.filter.WeightCalculatorWebFilter [DefaultWebFilterChain]
+	*__checkpoint ⇢ HTTP GET "/business/admin/daily-train/query-list?page=1&size=10" [ExceptionHandlingWebHandler]
+Original Stack Trace:
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023-10-25 19:27:49.136 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:27:50.370 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-10-25 19:27:52.884 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-6 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
