@@ -1,95 +1,25 @@
-2023-10-24 15:48:36.786 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
-2023-10-24 15:48:36.825 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 17556 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
-2023-10-24 15:48:36.827 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
-2023-10-24 15:48:36.875 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-10-24 15:48:36.877 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-10-24 15:48:37.561 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
-2023-10-24 15:48:37.626 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=27413f05-5a0a-3de6-99ff-b6acf1d705a0
-2023-10-24 15:48:38.287 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
-2023-10-24 15:48:38.299 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
-2023-10-24 15:48:38.301 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
-2023-10-24 15:48:38.301 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
-2023-10-24 15:48:38.368 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
-2023-10-24 15:48:38.369 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1491 ms
-2023-10-24 15:48:39.089 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
-2023-10-24 15:48:40.191 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
-2023-10-24 15:48:40.232 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
-2023-10-24 15:48:40.249 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
-2023-10-24 15:48:41.332 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
-2023-10-24 15:48:41.341 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 6.014 seconds (process running for 7.089)
-2023-10-24 15:48:41.344 INFO  com.example.train.batch.config.BatchApplication   :21   restartedMain [32m                [0;39m 启动成功!!!
-2023-10-24 15:48:41.345 INFO  com.example.train.batch.config.BatchApplication   :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
-2023-10-24 15:50:32.399 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  http-nio-8003-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-10-24 15:50:32.399 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8003-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
-2023-10-24 15:50:32.400 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8003-exec-1 [32m                [0;39m Completed initialization in 1 ms
-2023-10-24 15:50:32.427 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-1 [32m1698133832422xtx[0;39m ------------- 开始 -------------
-2023-10-24 15:50:32.428 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-1 [32m1698133832422xtx[0;39m 请求地址: http://localhost:8003/batch/hello GET
-2023-10-24 15:50:32.429 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-1 [32m1698133832422xtx[0;39m 类名方法: com.example.train.batch.controller.TestController.hello
-2023-10-24 15:50:32.429 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-1 [32m1698133832422xtx[0;39m 远程地址: 127.0.0.1
-2023-10-24 15:50:32.462 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-1 [32m1698133832422xtx[0;39m 请求参数: []
-2023-10-24 15:50:32.462 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-1 [32m1698133832422xtx[0;39m 返回结果: "hello,world????"
-2023-10-24 15:50:32.462 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-1 [32m1698133832422xtx[0;39m ------------- 结束 耗时：40 ms -------------
-2023-10-24 15:50:38.042 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-3 [32m16981338380422r7[0;39m ------------- 开始 -------------
-2023-10-24 15:50:38.043 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-3 [32m16981338380422r7[0;39m 请求地址: http://localhost:8003/batch/hello GET
-2023-10-24 15:50:38.044 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-3 [32m16981338380422r7[0;39m 类名方法: com.example.train.batch.controller.TestController.hello
-2023-10-24 15:50:38.045 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-3 [32m16981338380422r7[0;39m 远程地址: 127.0.0.1
-2023-10-24 15:50:38.045 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-3 [32m16981338380422r7[0;39m 请求参数: []
-2023-10-24 15:50:38.045 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-3 [32m16981338380422r7[0;39m 返回结果: "hello,world????"
-2023-10-24 15:50:38.045 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-3 [32m16981338380422r7[0;39m ------------- 结束 耗时：3 ms -------------
-2023-10-24 15:52:14.753 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-5 [32m1698133934753u6s[0;39m ------------- 开始 -------------
-2023-10-24 15:52:14.754 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-5 [32m1698133934753u6s[0;39m 请求地址: http://localhost:8003/batch/hello GET
-2023-10-24 15:52:14.754 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-5 [32m1698133934753u6s[0;39m 类名方法: com.example.train.batch.controller.TestController.hello
-2023-10-24 15:52:14.754 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-5 [32m1698133934753u6s[0;39m 远程地址: 127.0.0.1
-2023-10-24 15:52:14.754 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-5 [32m1698133934753u6s[0;39m 请求参数: []
-2023-10-24 15:52:14.754 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-5 [32m1698133934753u6s[0;39m 返回结果: "hello,world????"
-2023-10-24 15:52:14.754 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-5 [32m1698133934753u6s[0;39m ------------- 结束 耗时：1 ms -------------
-2023-10-24 16:13:11.337 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 13 class path changes (0 additions, 0 deletions, 13 modifications)
-2023-10-24 16:13:11.359 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-1 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8003"]
-2023-10-24 16:13:11.359 INFO  org.apache.catalina.core.StandardService          :173  Thread-1 [32m                [0;39m Stopping service [Tomcat]
-2023-10-24 16:13:11.360 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  Thread-1 [32m                [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
-2023-10-24 16:13:11.368 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-1 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8003"]
-2023-10-24 16:13:11.370 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-1 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8003"]
-2023-10-24 16:13:12.601 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 17556 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
-2023-10-24 16:13:12.601 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
-2023-10-24 16:13:12.857 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
-2023-10-24 16:13:12.864 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=27413f05-5a0a-3de6-99ff-b6acf1d705a0
-2023-10-24 16:13:12.961 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
-2023-10-24 16:13:12.961 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
-2023-10-24 16:13:12.961 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
-2023-10-24 16:13:12.962 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
-2023-10-24 16:13:12.976 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
-2023-10-24 16:13:12.977 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 373 ms
-2023-10-24 16:13:13.395 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
-2023-10-24 16:13:14.493 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
-2023-10-24 16:13:14.514 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
-2023-10-24 16:13:14.518 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
-2023-10-24 16:13:15.613 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
-2023-10-24 16:13:15.616 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 4.183 seconds (process running for 1481.364)
-2023-10-24 16:13:15.618 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
-2023-10-24 16:13:15.619 INFO  com.example.train.batch.config.BatchApplication   :21   restartedMain [32m                [0;39m 启动成功!!!
-2023-10-24 16:13:15.619 INFO  com.example.train.batch.config.BatchApplication   :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
-2023-10-24 17:16:07.584 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
-2023-10-24 17:16:07.625 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 18532 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
-2023-10-24 17:16:07.627 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
-2023-10-24 17:16:07.675 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
-2023-10-24 17:16:07.676 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
-2023-10-24 17:16:08.428 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
-2023-10-24 17:16:08.513 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=8d31518a-7f4b-31e8-856a-004c0c4f49c3
-2023-10-24 17:16:09.191 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
-2023-10-24 17:16:09.198 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
-2023-10-24 17:16:09.200 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
-2023-10-24 17:16:09.200 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
-2023-10-24 17:16:09.275 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
-2023-10-24 17:16:09.275 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1599 ms
-2023-10-24 17:16:09.408 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
-2023-10-24 17:16:09.416 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2023-10-24 17:16:09.416 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
-2023-10-24 17:16:09.422 INFO  com.zaxxer.hikari.HikariDataSource                :110  restartedMain [32m                [0;39m HikariPool-1 - Starting...
-2023-10-24 17:16:09.530 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  restartedMain [32m                [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e26a938
-2023-10-24 17:16:09.532 INFO  com.zaxxer.hikari.HikariDataSource                :123  restartedMain [32m                [0;39m HikariPool-1 - Start completed.
-2023-10-24 17:16:09.541 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  restartedMain [32m                [0;39m Using db table-based data access locking (synchronization).
-2023-10-24 17:16:09.542 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  restartedMain [32m                [0;39m JobStoreCMT initialized.
-2023-10-24 17:16:09.543 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+2023-10-25 21:01:33.480 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-10-25 21:01:33.508 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 18524 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 21:01:33.509 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:01:33.547 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-10-25 21:01:33.549 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-10-25 21:01:34.122 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
+2023-10-25 21:01:34.183 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=8d31518a-7f4b-31e8-856a-004c0c4f49c3
+2023-10-25 21:01:34.684 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2023-10-25 21:01:34.689 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:01:34.690 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-25 21:01:34.690 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:01:34.737 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-25 21:01:34.738 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1188 ms
+2023-10-25 21:01:34.861 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
+2023-10-25 21:01:34.872 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-10-25 21:01:34.872 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2023-10-25 21:01:34.876 INFO  com.zaxxer.hikari.HikariDataSource                :110  restartedMain [32m                [0;39m HikariPool-1 - Starting...
+2023-10-25 21:01:34.953 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  restartedMain [32m                [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3bef27aa
+2023-10-25 21:01:34.954 INFO  com.zaxxer.hikari.HikariDataSource                :123  restartedMain [32m                [0;39m HikariPool-1 - Start completed.
+2023-10-25 21:01:34.962 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  restartedMain [32m                [0;39m Using db table-based data access locking (synchronization).
+2023-10-25 21:01:34.965 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  restartedMain [32m                [0;39m JobStoreCMT initialized.
+2023-10-25 21:01:34.966 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -97,91 +27,148 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
 
-2023-10-24 17:16:09.543 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
-2023-10-24 17:16:09.543 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
-2023-10-24 17:16:09.543 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: com.example.train.batch.config.MyJobFactory@4fcf1c72
-2023-10-24 17:16:10.159 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
-2023-10-24 17:16:11.262 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
-2023-10-24 17:16:11.308 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
-2023-10-24 17:16:11.325 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
-2023-10-24 17:16:12.424 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
-2023-10-24 17:16:12.424 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  restartedMain [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
-2023-10-24 17:16:12.433 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 6.327 seconds (process running for 7.148)
-2023-10-24 17:16:12.436 INFO  com.example.train.batch.config.BatchApplication   :21   restartedMain [32m                [0;39m 启动成功!!!
-2023-10-24 17:16:12.436 INFO  com.example.train.batch.config.BatchApplication   :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
-2023-10-24 17:16:14.438 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
-2023-10-24 17:16:14.462 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
-2023-10-24 17:16:14.466 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
-2023-10-24 17:16:14.466 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovery complete.
-2023-10-24 17:16:14.466 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 'complete' triggers.
-2023-10-24 17:16:14.466 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 stale fired job entries.
-2023-10-24 17:16:14.475 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
-2023-10-24 17:16:45.895 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  http-nio-8003-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-10-24 17:16:45.896 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8003-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
-2023-10-24 17:16:45.898 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8003-exec-1 [32m                [0;39m Completed initialization in 2 ms
-2023-10-24 17:16:45.956 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-1 [32m169813900595253p[0;39m ------------- 开始 -------------
-2023-10-24 17:16:45.958 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-1 [32m169813900595253p[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
-2023-10-24 17:16:45.958 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-1 [32m169813900595253p[0;39m 类名方法: com.example.train.batch.controller.JobController.query
-2023-10-24 17:16:45.958 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-1 [32m169813900595253p[0;39m 远程地址: 127.0.0.1
-2023-10-24 17:16:46.015 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-1 [32m169813900595253p[0;39m 请求参数: []
-2023-10-24 17:16:46.016 INFO  com.example.train.batch.controller.JobController  :169  http-nio-8003-exec-1 [32m169813900595253p[0;39m 查看所有定时任务开始
-2023-10-24 17:16:46.025 INFO  com.example.train.batch.controller.JobController  :200  http-nio-8003-exec-1 [32m169813900595253p[0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[]}
-2023-10-24 17:16:46.046 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-1 [32m169813900595253p[0;39m 返回结果: {"content":[],"success":true}
-2023-10-24 17:16:46.047 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-1 [32m169813900595253p[0;39m ------------- 结束 耗时：95 ms -------------
-2023-10-24 17:17:14.314 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-5 [32m16981390343148rh[0;39m ------------- 开始 -------------
-2023-10-24 17:17:14.315 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-5 [32m16981390343148rh[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/add POST
-2023-10-24 17:17:14.315 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-5 [32m16981390343148rh[0;39m 类名方法: com.example.train.batch.controller.JobController.add
-2023-10-24 17:17:14.315 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-5 [32m16981390343148rh[0;39m 远程地址: 127.0.0.1
-2023-10-24 17:17:14.317 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-5 [32m16981390343148rh[0;39m 请求参数: [{"cronExpression":"0/5 * * * * ?","description":"test","group":"DEFAULT","name":"test"}]
-2023-10-24 17:17:14.318 INFO  com.example.train.batch.controller.JobController  :46   http-nio-8003-exec-5 [32m16981390343148rh[0;39m 创建定时任务开始：test，DEFAULT，0/5 * * * * ?，test
-2023-10-24 17:17:14.319 INFO  org.quartz.core.QuartzScheduler                   :547  http-nio-8003-exec-5 [32m16981390343148rh[0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
-2023-10-24 17:17:14.319 ERROR com.example.train.batch.controller.JobController  :72   http-nio-8003-exec-5 [32m16981390343148rh[0;39m 创建定时任务失败:java.lang.ClassNotFoundException: test
-2023-10-24 17:17:14.320 INFO  com.example.train.batch.controller.JobController  :76   http-nio-8003-exec-5 [32m16981390343148rh[0;39m 创建定时任务结束：CommonResp{success=false, message='创建定时任务失败：任务类不存在', content=null}
-2023-10-24 17:17:14.320 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-5 [32m16981390343148rh[0;39m 返回结果: {"message":"创建定时任务失败：任务类不存在","success":false}
-2023-10-24 17:17:14.320 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-5 [32m16981390343148rh[0;39m ------------- 结束 耗时：6 ms -------------
-2023-10-24 17:17:23.262 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-4 [32m1698139043262a4a[0;39m ------------- 开始 -------------
-2023-10-24 17:17:23.262 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-4 [32m1698139043262a4a[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/add POST
-2023-10-24 17:17:23.262 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-4 [32m1698139043262a4a[0;39m 类名方法: com.example.train.batch.controller.JobController.add
-2023-10-24 17:17:23.263 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-4 [32m1698139043262a4a[0;39m 远程地址: 127.0.0.1
-2023-10-24 17:17:23.263 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-4 [32m1698139043262a4a[0;39m 请求参数: [{"cronExpression":"0/5 * * * * ?","description":"test","group":"DEFAULT","name":"test"}]
-2023-10-24 17:17:23.263 INFO  com.example.train.batch.controller.JobController  :46   http-nio-8003-exec-4 [32m1698139043262a4a[0;39m 创建定时任务开始：test，DEFAULT，0/5 * * * * ?，test
-2023-10-24 17:17:23.263 INFO  org.quartz.core.QuartzScheduler                   :547  http-nio-8003-exec-4 [32m1698139043262a4a[0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
-2023-10-24 17:17:23.264 ERROR com.example.train.batch.controller.JobController  :72   http-nio-8003-exec-4 [32m1698139043262a4a[0;39m 创建定时任务失败:java.lang.ClassNotFoundException: test
-2023-10-24 17:17:23.273 INFO  com.example.train.batch.controller.JobController  :76   http-nio-8003-exec-4 [32m1698139043262a4a[0;39m 创建定时任务结束：CommonResp{success=false, message='创建定时任务失败：任务类不存在', content=null}
-2023-10-24 17:17:23.274 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-4 [32m1698139043262a4a[0;39m 返回结果: {"message":"创建定时任务失败：任务类不存在","success":false}
-2023-10-24 17:17:23.274 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-4 [32m1698139043262a4a[0;39m ------------- 结束 耗时：13 ms -------------
-2023-10-24 17:22:29.929 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
-2023-10-24 17:22:29.932 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-6 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
-2023-10-24 17:22:29.951 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-6 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8003"]
-2023-10-24 17:22:29.952 INFO  org.apache.catalina.core.StandardService          :173  Thread-6 [32m                [0;39m Stopping service [Tomcat]
-2023-10-24 17:22:29.956 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  Thread-6 [32m                [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
-2023-10-24 17:22:29.959 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-6 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8003"]
-2023-10-24 17:22:29.962 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-6 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8003"]
-2023-10-24 17:22:29.965 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  Thread-6 [32m                [0;39m Shutting down Quartz Scheduler
-2023-10-24 17:22:29.965 INFO  org.quartz.core.QuartzScheduler                   :666  Thread-6 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
-2023-10-24 17:22:29.966 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-6 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
-2023-10-24 17:22:29.966 INFO  org.quartz.core.QuartzScheduler                   :740  Thread-6 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
-2023-10-24 17:22:29.967 INFO  com.zaxxer.hikari.HikariDataSource                :350  Thread-6 [32m                [0;39m HikariPool-1 - Shutdown initiated...
-2023-10-24 17:22:29.977 INFO  com.zaxxer.hikari.HikariDataSource                :352  Thread-6 [32m                [0;39m HikariPool-1 - Shutdown completed.
-2023-10-24 17:22:31.226 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 18532 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
-2023-10-24 17:22:31.227 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
-2023-10-24 17:22:31.473 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
-2023-10-24 17:22:31.491 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=8d31518a-7f4b-31e8-856a-004c0c4f49c3
-2023-10-24 17:22:31.641 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
-2023-10-24 17:22:31.642 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
-2023-10-24 17:22:31.642 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
-2023-10-24 17:22:31.642 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
-2023-10-24 17:22:31.665 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
-2023-10-24 17:22:31.666 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 434 ms
-2023-10-24 17:22:31.746 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
-2023-10-24 17:22:31.747 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2023-10-24 17:22:31.747 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
-2023-10-24 17:22:31.747 INFO  com.zaxxer.hikari.HikariDataSource                :110  restartedMain [32m                [0;39m HikariPool-2 - Starting...
-2023-10-24 17:22:31.754 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  restartedMain [32m                [0;39m HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@27f4c3bf
-2023-10-24 17:22:31.754 INFO  com.zaxxer.hikari.HikariDataSource                :123  restartedMain [32m                [0;39m HikariPool-2 - Start completed.
-2023-10-24 17:22:31.755 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  restartedMain [32m                [0;39m Using db table-based data access locking (synchronization).
-2023-10-24 17:22:31.755 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  restartedMain [32m                [0;39m JobStoreCMT initialized.
-2023-10-24 17:22:31.755 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+2023-10-25 21:01:34.966 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2023-10-25 21:01:34.966 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
+2023-10-25 21:01:34.967 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: com.example.train.batch.config.MyJobFactory@6117016b
+2023-10-25 21:01:35.552 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-10-25 21:01:36.657 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:01:36.705 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:01:36.720 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2023-10-25 21:01:37.809 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:01:37.809 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  restartedMain [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2023-10-25 21:01:37.819 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 5.748 seconds (process running for 6.813)
+2023-10-25 21:01:37.822 INFO  com.example.train.batch.config.BatchApplication   :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-25 21:01:37.822 INFO  com.example.train.batch.config.BatchApplication   :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
+2023-10-25 21:01:39.825 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2023-10-25 21:01:39.864 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2023-10-25 21:01:39.867 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2023-10-25 21:01:39.867 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovery complete.
+2023-10-25 21:01:39.868 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 'complete' triggers.
+2023-10-25 21:01:39.869 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 stale fired job entries.
+2023-10-25 21:01:39.870 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2023-10-25 21:01:42.766 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  http-nio-8003-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-25 21:01:42.767 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8003-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-10-25 21:01:42.769 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8003-exec-1 [32m                [0;39m Completed initialization in 2 ms
+2023-10-25 21:01:42.801 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-1 [32m1698238902800nq5[0;39m ------------- 开始 -------------
+2023-10-25 21:01:42.802 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-1 [32m1698238902800nq5[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2023-10-25 21:01:42.802 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-1 [32m1698238902800nq5[0;39m 类名方法: com.example.train.batch.controller.JobController.query
+2023-10-25 21:01:42.802 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-1 [32m1698238902800nq5[0;39m 远程地址: 127.0.0.1
+2023-10-25 21:01:42.837 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-1 [32m1698238902800nq5[0;39m 请求参数: []
+2023-10-25 21:01:42.838 INFO  com.example.train.batch.controller.JobController  :169  http-nio-8003-exec-1 [32m1698238902800nq5[0;39m 查看所有定时任务开始
+2023-10-25 21:01:42.846 INFO  com.example.train.batch.controller.JobController  :200  http-nio-8003-exec-1 [32m1698238902800nq5[0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[]}
+2023-10-25 21:01:42.869 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-1 [32m1698238902800nq5[0;39m 返回结果: {"content":[],"success":true}
+2023-10-25 21:01:42.870 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-1 [32m1698238902800nq5[0;39m ------------- 结束 耗时：70 ms -------------
+2023-10-25 21:37:24.422 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 9 class path changes (0 additions, 9 deletions, 0 modifications)
+2023-10-25 21:37:24.426 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-1 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2023-10-25 21:37:24.444 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-1 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:37:24.444 INFO  org.apache.catalina.core.StandardService          :173  Thread-1 [32m                [0;39m Stopping service [Tomcat]
+2023-10-25 21:37:24.446 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  Thread-1 [32m                [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-25 21:37:24.450 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-1 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:37:24.452 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-1 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:37:24.457 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  Thread-1 [32m                [0;39m Shutting down Quartz Scheduler
+2023-10-25 21:37:24.457 INFO  org.quartz.core.QuartzScheduler                   :666  Thread-1 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2023-10-25 21:37:24.457 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-1 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2023-10-25 21:37:24.458 INFO  org.quartz.core.QuartzScheduler                   :740  Thread-1 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2023-10-25 21:37:24.459 INFO  com.zaxxer.hikari.HikariDataSource                :350  Thread-1 [32m                [0;39m HikariPool-1 - Shutdown initiated...
+2023-10-25 21:37:24.479 INFO  com.zaxxer.hikari.HikariDataSource                :352  Thread-1 [32m                [0;39m HikariPool-1 - Shutdown completed.
+2023-10-25 21:37:25.858 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 18524 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 21:37:25.858 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:37:26.126 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
+2023-10-25 21:37:26.132 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=42115118-831e-39ae-9224-9b12aaaaf43b
+2023-10-25 21:37:26.306 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2023-10-25 21:37:26.307 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:37:26.307 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-25 21:37:26.308 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:37:26.329 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-25 21:37:26.329 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 468 ms
+2023-10-25 21:37:26.907 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
+2023-10-25 21:37:26.908 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-10-25 21:37:26.908 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2023-10-25 21:37:26.908 INFO  org.quartz.simpl.RAMJobStore                      :155  restartedMain [32m                [0;39m RAMJobStore initialized.
+2023-10-25 21:37:26.908 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2023-10-25 21:37:26.908 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+2023-10-25 21:37:26.909 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
+2023-10-25 21:37:26.909 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@2137822a
+2023-10-25 21:37:26.959 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-10-25 21:37:28.087 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:37:28.120 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:37:28.125 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2023-10-25 21:37:29.251 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:37:29.252 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :729  restartedMain [32m                [0;39m Starting Quartz Scheduler now
+2023-10-25 21:37:29.252 INFO  org.quartz.core.QuartzScheduler                   :547  restartedMain [32m                [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED started.
+2023-10-25 21:37:29.259 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 4.724 seconds (process running for 2158.252)
+2023-10-25 21:37:29.264 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :58   restartedMain [32m                [0;39m Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   QuartzAutoConfiguration#quartzScheduler matched:
+      - @ConditionalOnMissingBean (types: org.springframework.scheduling.quartz.SchedulerFactoryBean; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-10-25 21:37:29.264 INFO  com.example.train.batch.config.BatchApplication   :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-25 21:37:29.265 INFO  com.example.train.batch.config.BatchApplication   :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
+2023-10-25 21:38:13.013 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 9 class path changes (9 additions, 0 deletions, 0 modifications)
+2023-10-25 21:38:13.016 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-9 [32m                [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-10-25 21:38:13.029 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-9 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:38:13.029 INFO  org.apache.catalina.core.StandardService          :173  Thread-9 [32m                [0;39m Stopping service [Tomcat]
+2023-10-25 21:38:13.031 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-9 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:38:13.032 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-9 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:38:13.032 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  Thread-9 [32m                [0;39m Shutting down Quartz Scheduler
+2023-10-25 21:38:13.032 INFO  org.quartz.core.QuartzScheduler                   :666  Thread-9 [32m                [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+2023-10-25 21:38:13.032 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-9 [32m                [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+2023-10-25 21:38:13.032 INFO  org.quartz.core.QuartzScheduler                   :740  Thread-9 [32m                [0;39m Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+2023-10-25 21:38:14.232 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 18524 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 21:38:14.232 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:38:14.401 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
+2023-10-25 21:38:14.407 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=8d31518a-7f4b-31e8-856a-004c0c4f49c3
+2023-10-25 21:38:14.493 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2023-10-25 21:38:14.494 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:38:14.494 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-25 21:38:14.494 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:38:14.510 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-25 21:38:14.510 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 276 ms
+2023-10-25 21:38:14.550 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
+2023-10-25 21:38:14.551 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-10-25 21:38:14.551 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2023-10-25 21:38:14.551 INFO  com.zaxxer.hikari.HikariDataSource                :110  restartedMain [32m                [0;39m HikariPool-2 - Starting...
+2023-10-25 21:38:14.555 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  restartedMain [32m                [0;39m HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22b0adce
+2023-10-25 21:38:14.556 INFO  com.zaxxer.hikari.HikariDataSource                :123  restartedMain [32m                [0;39m HikariPool-2 - Start completed.
+2023-10-25 21:38:14.556 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  restartedMain [32m                [0;39m Using db table-based data access locking (synchronization).
+2023-10-25 21:38:14.556 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  restartedMain [32m                [0;39m JobStoreCMT initialized.
+2023-10-25 21:38:14.556 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -189,157 +176,91 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
 
-2023-10-24 17:22:31.755 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
-2023-10-24 17:22:31.755 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
-2023-10-24 17:22:31.755 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: com.example.train.batch.config.MyJobFactory@5d64cfe0
-2023-10-24 17:22:32.326 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
-2023-10-24 17:22:33.541 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
-2023-10-24 17:22:33.586 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
-2023-10-24 17:22:33.589 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
-2023-10-24 17:22:34.738 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
-2023-10-24 17:22:34.738 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  restartedMain [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
-2023-10-24 17:22:34.746 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 4.715 seconds (process running for 389.461)
-2023-10-24 17:22:34.751 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
-2023-10-24 17:22:34.751 INFO  com.example.train.batch.config.BatchApplication   :21   restartedMain [32m                [0;39m 启动成功!!!
-2023-10-24 17:22:34.752 INFO  com.example.train.batch.config.BatchApplication   :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
-2023-10-24 17:22:36.096 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  http-nio-8003-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-10-24 17:22:36.097 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8003-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
-2023-10-24 17:22:36.097 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8003-exec-1 [32m                [0;39m Completed initialization in 0 ms
-2023-10-24 17:22:36.102 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-1 [32m1698139356102e0e[0;39m ------------- 开始 -------------
-2023-10-24 17:22:36.104 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-1 [32m1698139356102e0e[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/add POST
-2023-10-24 17:22:36.104 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-1 [32m1698139356102e0e[0;39m 类名方法: com.example.train.batch.controller.JobController.add
-2023-10-24 17:22:36.104 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-1 [32m1698139356102e0e[0;39m 远程地址: 127.0.0.1
-2023-10-24 17:22:36.106 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-1 [32m1698139356102e0e[0;39m 请求参数: [{"cronExpression":"0/5 * * * * ?","description":"test","group":"DEFAULT","name":" com.example.train.batch.job.testjob"}]
-2023-10-24 17:22:36.106 INFO  com.example.train.batch.controller.JobController  :46   http-nio-8003-exec-1 [32m1698139356102e0e[0;39m 创建定时任务开始： com.example.train.batch.job.testjob，DEFAULT，0/5 * * * * ?，test
-2023-10-24 17:22:36.113 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  http-nio-8003-exec-1 [32m1698139356102e0e[0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
-2023-10-24 17:22:36.115 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  http-nio-8003-exec-1 [32m1698139356102e0e[0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
-2023-10-24 17:22:36.116 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  http-nio-8003-exec-1 [32m1698139356102e0e[0;39m Recovery complete.
-2023-10-24 17:22:36.118 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  http-nio-8003-exec-1 [32m1698139356102e0e[0;39m Removed 0 'complete' triggers.
-2023-10-24 17:22:36.119 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  http-nio-8003-exec-1 [32m1698139356102e0e[0;39m Removed 0 stale fired job entries.
-2023-10-24 17:22:36.121 INFO  org.quartz.core.QuartzScheduler                   :547  http-nio-8003-exec-1 [32m1698139356102e0e[0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
-2023-10-24 17:22:36.122 ERROR com.example.train.batch.controller.JobController  :72   http-nio-8003-exec-1 [32m1698139356102e0e[0;39m 创建定时任务失败:java.lang.ClassNotFoundException:  com.example.train.batch.job.testjob
-2023-10-24 17:22:36.122 INFO  com.example.train.batch.controller.JobController  :76   http-nio-8003-exec-1 [32m1698139356102e0e[0;39m 创建定时任务结束：CommonResp{success=false, message='创建定时任务失败：任务类不存在', content=null}
-2023-10-24 17:22:36.123 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-1 [32m1698139356102e0e[0;39m 返回结果: {"message":"创建定时任务失败：任务类不存在","success":false}
-2023-10-24 17:22:36.124 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-1 [32m1698139356102e0e[0;39m ------------- 结束 耗时：22 ms -------------
-2023-10-24 17:22:36.743 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
-2023-10-24 17:22:36.743 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
-2023-10-24 17:22:41.065 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-2 [32m1698139361065uyi[0;39m ------------- 开始 -------------
-2023-10-24 17:22:41.065 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-2 [32m1698139361065uyi[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
-2023-10-24 17:22:41.066 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-2 [32m1698139361065uyi[0;39m 类名方法: com.example.train.batch.controller.JobController.query
-2023-10-24 17:22:41.066 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-2 [32m1698139361065uyi[0;39m 远程地址: 127.0.0.1
-2023-10-24 17:22:41.066 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-2 [32m1698139361065uyi[0;39m 请求参数: []
-2023-10-24 17:22:41.066 INFO  com.example.train.batch.controller.JobController  :169  http-nio-8003-exec-2 [32m1698139361065uyi[0;39m 查看所有定时任务开始
-2023-10-24 17:22:41.068 INFO  com.example.train.batch.controller.JobController  :200  http-nio-8003-exec-2 [32m1698139361065uyi[0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[]}
-2023-10-24 17:22:41.068 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-2 [32m1698139361065uyi[0;39m 返回结果: {"content":[],"success":true}
-2023-10-24 17:22:41.069 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-2 [32m1698139361065uyi[0;39m ------------- 结束 耗时：4 ms -------------
-2023-10-24 17:23:18.516 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m ------------- 开始 -------------
-2023-10-24 17:23:18.516 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/add POST
-2023-10-24 17:23:18.517 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m 类名方法: com.example.train.batch.controller.JobController.add
-2023-10-24 17:23:18.517 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m 远程地址: 127.0.0.1
-2023-10-24 17:23:18.517 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m 请求参数: [{"cronExpression":"0/5 * * * * ?","description":"test","group":"DEFAULT","name":"com.example.train.batch.job.TestJob"}]
-2023-10-24 17:23:18.517 INFO  com.example.train.batch.controller.JobController  :46   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m 创建定时任务开始：com.example.train.batch.job.TestJob，DEFAULT，0/5 * * * * ?，test
-2023-10-24 17:23:18.517 INFO  org.quartz.core.QuartzScheduler                   :547  http-nio-8003-exec-3 [32m1698139398516j3f[0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
-2023-10-24 17:23:18.552 INFO  com.example.train.batch.controller.JobController  :76   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m 创建定时任务结束：CommonResp{success=true, message='null', content=null}
-2023-10-24 17:23:18.553 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m 返回结果: {"success":true}
-2023-10-24 17:23:18.553 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m ------------- 结束 耗时：37 ms -------------
-2023-10-24 17:23:18.576 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-4 [32m1698139398576bff[0;39m ------------- 开始 -------------
-2023-10-24 17:23:18.576 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-4 [32m1698139398576bff[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
-2023-10-24 17:23:18.576 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-4 [32m1698139398576bff[0;39m 类名方法: com.example.train.batch.controller.JobController.query
-2023-10-24 17:23:18.576 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-4 [32m1698139398576bff[0;39m 远程地址: 127.0.0.1
-2023-10-24 17:23:18.576 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-4 [32m1698139398576bff[0;39m 请求参数: []
-2023-10-24 17:23:18.577 INFO  com.example.train.batch.controller.JobController  :169  http-nio-8003-exec-4 [32m1698139398576bff[0;39m 查看所有定时任务开始
-2023-10-24 17:23:18.594 INFO  com.example.train.batch.controller.JobController  :200  http-nio-8003-exec-4 [32m1698139398576bff[0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/5 * * * * ?', group='DEFAULT', name='com.example.train.batch.job.TestJob', description='test', state='NORMAL', nextFireTime=Tue Oct 24 17:23:20 CST 2023, preFireTime=null}]}
-2023-10-24 17:23:18.601 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-4 [32m1698139398576bff[0;39m 返回结果: {"content":[{"cronExpression":"0/5 * * * * ?","description":"test","group":"DEFAULT","name":"com.example.train.batch.job.TestJob","nextFireTime":1698139400000,"state":"NORMAL"}],"success":true}
-2023-10-24 17:23:18.601 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-4 [32m1698139398576bff[0;39m ------------- 结束 耗时：25 ms -------------
-2023-10-24 17:23:36.488 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m ------------- 开始 -------------
-2023-10-24 17:23:36.489 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/pause POST
-2023-10-24 17:23:36.489 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m 类名方法: com.example.train.batch.controller.JobController.pause
-2023-10-24 17:23:36.489 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m 远程地址: 127.0.0.1
-2023-10-24 17:23:36.489 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m 请求参数: [{"group":"DEFAULT","name":"com.example.train.batch.job.TestJob"}]
-2023-10-24 17:23:36.489 INFO  com.example.train.batch.controller.JobController  :84   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m 暂停定时任务开始：com.example.train.batch.job.TestJob，DEFAULT
-2023-10-24 17:23:36.514 INFO  com.example.train.batch.controller.JobController  :94   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m 暂停定时任务结束：CommonResp{success=true, message='null', content=null}
-2023-10-24 17:23:36.514 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m 返回结果: {"success":true}
-2023-10-24 17:23:36.515 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m ------------- 结束 耗时：27 ms -------------
-2023-10-24 17:23:36.551 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-6 [32m1698139416551jfi[0;39m ------------- 开始 -------------
-2023-10-24 17:23:36.551 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-6 [32m1698139416551jfi[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
-2023-10-24 17:23:36.552 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-6 [32m1698139416551jfi[0;39m 类名方法: com.example.train.batch.controller.JobController.query
-2023-10-24 17:23:36.552 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-6 [32m1698139416551jfi[0;39m 远程地址: 127.0.0.1
-2023-10-24 17:23:36.552 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-6 [32m1698139416551jfi[0;39m 请求参数: []
-2023-10-24 17:23:36.552 INFO  com.example.train.batch.controller.JobController  :169  http-nio-8003-exec-6 [32m1698139416551jfi[0;39m 查看所有定时任务开始
-2023-10-24 17:23:36.558 INFO  com.example.train.batch.controller.JobController  :200  http-nio-8003-exec-6 [32m1698139416551jfi[0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/5 * * * * ?', group='DEFAULT', name='com.example.train.batch.job.TestJob', description='test', state='PAUSED', nextFireTime=Tue Oct 24 17:23:40 CST 2023, preFireTime=Tue Oct 24 17:23:35 CST 2023}]}
-2023-10-24 17:23:36.558 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-6 [32m1698139416551jfi[0;39m 返回结果: {"content":[{"cronExpression":"0/5 * * * * ?","description":"test","group":"DEFAULT","name":"com.example.train.batch.job.TestJob","nextFireTime":1698139420000,"preFireTime":1698139415000,"state":"PAUSED"}],"success":true}
-2023-10-24 17:23:36.558 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-6 [32m1698139416551jfi[0;39m ------------- 结束 耗时：7 ms -------------
-2023-10-24 17:23:42.362 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-7 [32m1698139422361dza[0;39m ------------- 开始 -------------
-2023-10-24 17:23:42.362 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-7 [32m1698139422361dza[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/reschedule POST
-2023-10-24 17:23:42.362 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-7 [32m1698139422361dza[0;39m 类名方法: com.example.train.batch.controller.JobController.reschedule
-2023-10-24 17:23:42.362 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-7 [32m1698139422361dza[0;39m 远程地址: 127.0.0.1
-2023-10-24 17:23:42.362 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-7 [32m1698139422361dza[0;39m 请求参数: [{"cronExpression":"0/5 * * * * ?","description":"test","group":"DEFAULT","name":"com.example.train.batch.job.TestJob"}]
-2023-10-24 17:23:42.362 INFO  com.example.train.batch.controller.JobController  :122  http-nio-8003-exec-7 [32m1698139422361dza[0;39m 更新定时任务开始：com.example.train.batch.job.TestJob，DEFAULT，0/5 * * * * ?，test
-2023-10-24 17:23:42.393 INFO  com.example.train.batch.controller.JobController  :143  http-nio-8003-exec-7 [32m1698139422361dza[0;39m 更新定时任务结束：CommonResp{success=true, message='null', content=null}
-2023-10-24 17:23:42.393 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-7 [32m1698139422361dza[0;39m 返回结果: {"success":true}
-2023-10-24 17:23:42.393 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-7 [32m1698139422361dza[0;39m ------------- 结束 耗时：32 ms -------------
-2023-10-24 17:23:42.418 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-10 [32m169813942241854l[0;39m ------------- 开始 -------------
-2023-10-24 17:23:42.419 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-10 [32m169813942241854l[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
-2023-10-24 17:23:42.419 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-10 [32m169813942241854l[0;39m 类名方法: com.example.train.batch.controller.JobController.query
-2023-10-24 17:23:42.419 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-10 [32m169813942241854l[0;39m 远程地址: 127.0.0.1
-2023-10-24 17:23:42.419 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-10 [32m169813942241854l[0;39m 请求参数: []
-2023-10-24 17:23:42.419 INFO  com.example.train.batch.controller.JobController  :169  http-nio-8003-exec-10 [32m169813942241854l[0;39m 查看所有定时任务开始
-2023-10-24 17:23:42.423 INFO  com.example.train.batch.controller.JobController  :200  http-nio-8003-exec-10 [32m169813942241854l[0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/5 * * * * ?', group='DEFAULT', name='com.example.train.batch.job.TestJob', description='test', state='NORMAL', nextFireTime=Tue Oct 24 17:23:45 CST 2023, preFireTime=null}]}
-2023-10-24 17:23:42.423 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-10 [32m169813942241854l[0;39m 返回结果: {"content":[{"cronExpression":"0/5 * * * * ?","description":"test","group":"DEFAULT","name":"com.example.train.batch.job.TestJob","nextFireTime":1698139425000,"state":"NORMAL"}],"success":true}
-2023-10-24 17:23:42.423 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-10 [32m169813942241854l[0;39m ------------- 结束 耗时：5 ms -------------
-2023-10-24 17:23:48.502 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-8 [32m16981394285020rf[0;39m ------------- 开始 -------------
-2023-10-24 17:23:48.503 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-8 [32m16981394285020rf[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/delete POST
-2023-10-24 17:23:48.503 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-8 [32m16981394285020rf[0;39m 类名方法: com.example.train.batch.controller.JobController.delete
-2023-10-24 17:23:48.503 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-8 [32m16981394285020rf[0;39m 远程地址: 127.0.0.1
-2023-10-24 17:23:48.503 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-8 [32m16981394285020rf[0;39m 请求参数: [{"group":"DEFAULT","name":"com.example.train.batch.job.TestJob"}]
-2023-10-24 17:23:48.503 INFO  com.example.train.batch.controller.JobController  :151  http-nio-8003-exec-8 [32m16981394285020rf[0;39m 删除定时任务开始：com.example.train.batch.job.TestJob，DEFAULT
-2023-10-24 17:23:48.537 INFO  com.example.train.batch.controller.JobController  :163  http-nio-8003-exec-8 [32m16981394285020rf[0;39m 删除定时任务结束：CommonResp{success=true, message='null', content=null}
-2023-10-24 17:23:48.538 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-8 [32m16981394285020rf[0;39m 返回结果: {"success":true}
-2023-10-24 17:23:48.538 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-8 [32m16981394285020rf[0;39m ------------- 结束 耗时：36 ms -------------
-2023-10-24 17:23:48.557 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-9 [32m1698139428557ppg[0;39m ------------- 开始 -------------
-2023-10-24 17:23:48.559 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-9 [32m1698139428557ppg[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
-2023-10-24 17:23:48.559 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-9 [32m1698139428557ppg[0;39m 类名方法: com.example.train.batch.controller.JobController.query
-2023-10-24 17:23:48.560 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-9 [32m1698139428557ppg[0;39m 远程地址: 127.0.0.1
-2023-10-24 17:23:48.560 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-9 [32m1698139428557ppg[0;39m 请求参数: []
-2023-10-24 17:23:48.560 INFO  com.example.train.batch.controller.JobController  :169  http-nio-8003-exec-9 [32m1698139428557ppg[0;39m 查看所有定时任务开始
-2023-10-24 17:23:48.562 INFO  com.example.train.batch.controller.JobController  :200  http-nio-8003-exec-9 [32m1698139428557ppg[0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[]}
-2023-10-24 17:23:48.563 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-9 [32m1698139428557ppg[0;39m 返回结果: {"content":[],"success":true}
-2023-10-24 17:23:48.563 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-9 [32m1698139428557ppg[0;39m ------------- 结束 耗时：6 ms -------------
-2023-10-24 17:27:17.461 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
-2023-10-24 17:27:17.463 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-11 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
-2023-10-24 17:27:17.479 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-11 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8003"]
-2023-10-24 17:27:17.479 INFO  org.apache.catalina.core.StandardService          :173  Thread-11 [32m                [0;39m Stopping service [Tomcat]
-2023-10-24 17:27:17.479 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  Thread-11 [32m                [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
-2023-10-24 17:27:17.481 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  Thread-11 [32m                [0;39m The web application [batch] appears to have started a thread named [QuartzScheduler_schedulerFactoryBean-NON_CLUSTERED_MisfireHandler] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
- java.base@17.0.4.1/java.lang.Thread.sleep(Native Method)
- app//org.quartz.impl.jdbcjobstore.JobStoreSupport$MisfireHandler.run(JobStoreSupport.java:4053)
-2023-10-24 17:27:17.481 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-11 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8003"]
-2023-10-24 17:27:17.482 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-11 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8003"]
-2023-10-24 17:27:17.484 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  Thread-11 [32m                [0;39m Shutting down Quartz Scheduler
-2023-10-24 17:27:17.484 INFO  org.quartz.core.QuartzScheduler                   :666  Thread-11 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
-2023-10-24 17:27:17.484 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-11 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
-2023-10-24 17:27:17.485 INFO  org.quartz.core.QuartzScheduler                   :740  Thread-11 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
-2023-10-24 17:27:17.485 INFO  com.zaxxer.hikari.HikariDataSource                :350  Thread-11 [32m                [0;39m HikariPool-2 - Shutdown initiated...
-2023-10-24 17:27:17.488 INFO  com.zaxxer.hikari.HikariDataSource                :352  Thread-11 [32m                [0;39m HikariPool-2 - Shutdown completed.
-2023-10-24 17:27:18.705 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 18532 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
-2023-10-24 17:27:18.707 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
-2023-10-24 17:27:18.917 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
-2023-10-24 17:27:18.926 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=8d31518a-7f4b-31e8-856a-004c0c4f49c3
-2023-10-24 17:27:19.080 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
-2023-10-24 17:27:19.081 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
-2023-10-24 17:27:19.081 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
-2023-10-24 17:27:19.081 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
-2023-10-24 17:27:19.109 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
-2023-10-24 17:27:19.109 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 399 ms
-2023-10-24 17:27:19.172 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
-2023-10-24 17:27:19.174 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
-2023-10-24 17:27:19.174 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
-2023-10-24 17:27:19.174 INFO  com.zaxxer.hikari.HikariDataSource                :110  restartedMain [32m                [0;39m HikariPool-3 - Starting...
-2023-10-24 17:27:19.179 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  restartedMain [32m                [0;39m HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a350b94
-2023-10-24 17:27:19.179 INFO  com.zaxxer.hikari.HikariDataSource                :123  restartedMain [32m                [0;39m HikariPool-3 - Start completed.
-2023-10-24 17:27:19.180 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  restartedMain [32m                [0;39m Using db table-based data access locking (synchronization).
-2023-10-24 17:27:19.180 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  restartedMain [32m                [0;39m JobStoreCMT initialized.
-2023-10-24 17:27:19.180 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+2023-10-25 21:38:14.556 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2023-10-25 21:38:14.556 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
+2023-10-25 21:38:14.556 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: com.example.train.batch.config.MyJobFactory@dd78e55
+2023-10-25 21:38:14.839 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-10-25 21:38:15.941 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:38:15.960 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:38:15.970 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2023-10-25 21:38:17.061 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:38:17.061 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  restartedMain [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2023-10-25 21:38:17.065 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 3.991 seconds (process running for 2206.058)
+2023-10-25 21:38:17.067 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :58   restartedMain [32m                [0;39m Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   QuartzAutoConfiguration#quartzScheduler:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.scheduling.quartz.SchedulerFactoryBean; SearchStrategy: all) found beans of type 'org.springframework.scheduling.quartz.SchedulerFactoryBean' &schedulerFactoryBean (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2023-10-25 21:38:17.067 INFO  com.example.train.batch.config.BatchApplication   :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-25 21:38:17.067 INFO  com.example.train.batch.config.BatchApplication   :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
+2023-10-25 21:38:19.070 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2023-10-25 21:38:19.074 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2023-10-25 21:38:19.077 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2023-10-25 21:38:19.077 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovery complete.
+2023-10-25 21:38:19.077 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 'complete' triggers.
+2023-10-25 21:38:19.078 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 stale fired job entries.
+2023-10-25 21:38:19.079 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2023-10-25 21:40:09.831 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 3 class path changes (3 additions, 0 deletions, 0 modifications)
+2023-10-25 21:40:09.832 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-15 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2023-10-25 21:40:09.845 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-15 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:40:09.845 INFO  org.apache.catalina.core.StandardService          :173  Thread-15 [32m                [0;39m Stopping service [Tomcat]
+2023-10-25 21:40:09.846 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-15 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:40:09.847 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-15 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:40:09.848 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  Thread-15 [32m                [0;39m Shutting down Quartz Scheduler
+2023-10-25 21:40:09.848 INFO  org.quartz.core.QuartzScheduler                   :666  Thread-15 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2023-10-25 21:40:09.848 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-15 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2023-10-25 21:40:09.848 INFO  org.quartz.core.QuartzScheduler                   :740  Thread-15 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2023-10-25 21:40:09.848 INFO  com.zaxxer.hikari.HikariDataSource                :350  Thread-15 [32m                [0;39m HikariPool-2 - Shutdown initiated...
+2023-10-25 21:40:09.850 INFO  com.zaxxer.hikari.HikariDataSource                :352  Thread-15 [32m                [0;39m HikariPool-2 - Shutdown completed.
+2023-10-25 21:40:11.021 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 18524 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 21:40:11.021 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:40:11.188 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
+2023-10-25 21:40:11.193 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=0a76066e-f062-3372-9fde-6e393487179e
+2023-10-25 21:40:11.274 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2023-10-25 21:40:11.275 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:40:11.275 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-25 21:40:11.275 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:40:11.293 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-25 21:40:11.294 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 270 ms
+2023-10-25 21:40:11.330 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
+2023-10-25 21:40:11.332 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-10-25 21:40:11.332 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2023-10-25 21:40:11.332 INFO  com.zaxxer.hikari.HikariDataSource                :110  restartedMain [32m                [0;39m HikariPool-3 - Starting...
+2023-10-25 21:40:11.337 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  restartedMain [32m                [0;39m HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34362e03
+2023-10-25 21:40:11.337 INFO  com.zaxxer.hikari.HikariDataSource                :123  restartedMain [32m                [0;39m HikariPool-3 - Start completed.
+2023-10-25 21:40:11.337 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  restartedMain [32m                [0;39m Using db table-based data access locking (synchronization).
+2023-10-25 21:40:11.337 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  restartedMain [32m                [0;39m JobStoreCMT initialized.
+2023-10-25 21:40:11.337 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -347,24 +268,274 @@
   Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
   Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
 
-2023-10-24 17:27:19.180 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
-2023-10-24 17:27:19.181 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
-2023-10-24 17:27:19.181 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: com.example.train.batch.config.MyJobFactory@35050e4b
-2023-10-24 17:27:19.643 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
-2023-10-24 17:27:20.787 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
-2023-10-24 17:27:20.832 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
-2023-10-24 17:27:20.837 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
-2023-10-24 17:27:21.958 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
-2023-10-24 17:27:21.958 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  restartedMain [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
-2023-10-24 17:27:21.965 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 4.432 seconds (process running for 676.68)
-2023-10-24 17:27:21.967 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
-2023-10-24 17:27:21.967 INFO  com.example.train.batch.config.BatchApplication   :21   restartedMain [32m                [0;39m 启动成功!!!
-2023-10-24 17:27:21.968 INFO  com.example.train.batch.config.BatchApplication   :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
-2023-10-24 17:27:23.963 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
-2023-10-24 17:27:23.972 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
-2023-10-24 17:27:23.974 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
-2023-10-24 17:27:23.974 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovery complete.
-2023-10-24 17:27:23.974 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 'complete' triggers.
-2023-10-24 17:27:23.975 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 stale fired job entries.
-2023-10-24 17:27:23.976 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
-2023-10-24 18:51:28.379 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  HikariPool-3 housekeeper [32m                [0;39m HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1h12m39s49ms883µs700ns).
+2023-10-25 21:40:11.337 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2023-10-25 21:40:11.337 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
+2023-10-25 21:40:11.337 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: com.example.train.batch.config.MyJobFactory@43652c3e
+2023-10-25 21:40:11.603 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-10-25 21:40:12.703 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:40:12.716 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:40:12.719 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2023-10-25 21:40:13.806 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:40:13.806 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  restartedMain [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2023-10-25 21:40:13.810 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 3.921 seconds (process running for 2322.803)
+2023-10-25 21:40:13.811 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-25 21:40:13.811 INFO  com.example.train.batch.config.BatchApplication   :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-25 21:40:13.811 INFO  com.example.train.batch.config.BatchApplication   :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
+2023-10-25 21:40:15.814 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2023-10-25 21:40:15.819 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2023-10-25 21:40:15.821 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2023-10-25 21:40:15.821 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovery complete.
+2023-10-25 21:40:15.821 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 'complete' triggers.
+2023-10-25 21:40:15.822 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 stale fired job entries.
+2023-10-25 21:40:15.823 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2023-10-25 21:41:30.442 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-25 21:41:30.444 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-23 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2023-10-25 21:41:30.462 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-23 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:41:30.462 INFO  org.apache.catalina.core.StandardService          :173  Thread-23 [32m                [0;39m Stopping service [Tomcat]
+2023-10-25 21:41:30.464 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-23 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:41:30.465 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-23 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:41:30.467 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  Thread-23 [32m                [0;39m Shutting down Quartz Scheduler
+2023-10-25 21:41:30.467 INFO  org.quartz.core.QuartzScheduler                   :666  Thread-23 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2023-10-25 21:41:30.467 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-23 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2023-10-25 21:41:30.471 INFO  org.quartz.core.QuartzScheduler                   :740  Thread-23 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2023-10-25 21:41:30.471 INFO  com.zaxxer.hikari.HikariDataSource                :350  Thread-23 [32m                [0;39m HikariPool-3 - Shutdown initiated...
+2023-10-25 21:41:30.477 INFO  com.zaxxer.hikari.HikariDataSource                :352  Thread-23 [32m                [0;39m HikariPool-3 - Shutdown completed.
+2023-10-25 21:41:31.736 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 18524 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 21:41:31.736 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:41:31.959 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
+2023-10-25 21:41:31.965 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=0a76066e-f062-3372-9fde-6e393487179e
+2023-10-25 21:41:32.105 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2023-10-25 21:41:32.106 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:41:32.107 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-25 21:41:32.107 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:41:32.126 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-25 21:41:32.126 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 387 ms
+2023-10-25 21:41:32.186 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
+2023-10-25 21:41:32.188 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-10-25 21:41:32.188 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2023-10-25 21:41:32.188 INFO  com.zaxxer.hikari.HikariDataSource                :110  restartedMain [32m                [0;39m HikariPool-4 - Starting...
+2023-10-25 21:41:32.192 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  restartedMain [32m                [0;39m HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@24d4a1cd
+2023-10-25 21:41:32.192 INFO  com.zaxxer.hikari.HikariDataSource                :123  restartedMain [32m                [0;39m HikariPool-4 - Start completed.
+2023-10-25 21:41:32.192 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  restartedMain [32m                [0;39m Using db table-based data access locking (synchronization).
+2023-10-25 21:41:32.192 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  restartedMain [32m                [0;39m JobStoreCMT initialized.
+2023-10-25 21:41:32.192 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2023-10-25 21:41:32.192 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2023-10-25 21:41:32.192 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
+2023-10-25 21:41:32.192 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: com.example.train.batch.config.MyJobFactory@656ad902
+2023-10-25 21:41:32.549 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-10-25 21:41:33.647 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:41:33.665 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:41:33.672 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2023-10-25 21:41:34.767 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:41:34.768 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  restartedMain [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2023-10-25 21:41:34.773 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 4.228 seconds (process running for 2403.767)
+2023-10-25 21:41:34.774 INFO  com.example.train.batch.config.BatchApplication   :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-25 21:41:34.774 INFO  com.example.train.batch.config.BatchApplication   :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
+2023-10-25 21:41:36.776 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2023-10-25 21:41:36.782 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2023-10-25 21:41:36.783 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2023-10-25 21:41:36.784 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovery complete.
+2023-10-25 21:41:36.786 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 'complete' triggers.
+2023-10-25 21:41:36.786 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 stale fired job entries.
+2023-10-25 21:41:36.787 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2023-10-25 21:47:40.685 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-25 21:47:40.686 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-31 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2023-10-25 21:47:40.703 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-31 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:47:40.704 INFO  org.apache.catalina.core.StandardService          :173  Thread-31 [32m                [0;39m Stopping service [Tomcat]
+2023-10-25 21:47:40.707 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-31 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:47:40.708 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-31 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:47:40.709 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  Thread-31 [32m                [0;39m Shutting down Quartz Scheduler
+2023-10-25 21:47:40.709 INFO  org.quartz.core.QuartzScheduler                   :666  Thread-31 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2023-10-25 21:47:40.709 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-31 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2023-10-25 21:47:40.709 INFO  org.quartz.core.QuartzScheduler                   :740  Thread-31 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2023-10-25 21:47:40.709 INFO  com.zaxxer.hikari.HikariDataSource                :350  Thread-31 [32m                [0;39m HikariPool-4 - Shutdown initiated...
+2023-10-25 21:47:40.712 INFO  com.zaxxer.hikari.HikariDataSource                :352  Thread-31 [32m                [0;39m HikariPool-4 - Shutdown completed.
+2023-10-25 21:47:41.929 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 18524 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 21:47:41.930 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:47:42.078 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
+2023-10-25 21:47:42.085 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=0a76066e-f062-3372-9fde-6e393487179e
+2023-10-25 21:47:42.214 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2023-10-25 21:47:42.216 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:47:42.220 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-25 21:47:42.220 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:47:42.240 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-25 21:47:42.240 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 308 ms
+2023-10-25 21:47:42.301 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
+2023-10-25 21:47:42.302 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-10-25 21:47:42.302 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2023-10-25 21:47:42.302 INFO  com.zaxxer.hikari.HikariDataSource                :110  restartedMain [32m                [0;39m HikariPool-5 - Starting...
+2023-10-25 21:47:42.306 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  restartedMain [32m                [0;39m HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22f628f
+2023-10-25 21:47:42.306 INFO  com.zaxxer.hikari.HikariDataSource                :123  restartedMain [32m                [0;39m HikariPool-5 - Start completed.
+2023-10-25 21:47:42.307 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  restartedMain [32m                [0;39m Using db table-based data access locking (synchronization).
+2023-10-25 21:47:42.307 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  restartedMain [32m                [0;39m JobStoreCMT initialized.
+2023-10-25 21:47:42.307 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2023-10-25 21:47:42.307 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2023-10-25 21:47:42.307 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
+2023-10-25 21:47:42.307 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: com.example.train.batch.config.MyJobFactory@2dfdff8e
+2023-10-25 21:47:42.624 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-10-25 21:47:43.768 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:47:43.784 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:47:43.788 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2023-10-25 21:47:44.054 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-10-25 21:47:44.880 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:47:44.880 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  restartedMain [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2023-10-25 21:47:44.885 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 4.118 seconds (process running for 2773.878)
+2023-10-25 21:47:44.886 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-25 21:47:44.887 INFO  com.example.train.batch.config.BatchApplication   :23   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-25 21:47:44.887 INFO  com.example.train.batch.config.BatchApplication   :24   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
+2023-10-25 21:47:44.897 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-39 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:47:44.897 INFO  org.apache.catalina.core.StandardService          :173  Thread-39 [32m                [0;39m Stopping service [Tomcat]
+2023-10-25 21:47:44.898 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-39 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:47:44.899 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-39 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:47:44.899 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  Thread-39 [32m                [0;39m Shutting down Quartz Scheduler
+2023-10-25 21:47:44.899 INFO  org.quartz.core.QuartzScheduler                   :666  Thread-39 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2023-10-25 21:47:44.899 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-39 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2023-10-25 21:47:44.899 INFO  org.quartz.core.QuartzScheduler                   :740  Thread-39 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2023-10-25 21:47:44.900 INFO  com.zaxxer.hikari.HikariDataSource                :350  Thread-39 [32m                [0;39m HikariPool-5 - Shutdown initiated...
+2023-10-25 21:47:44.901 INFO  com.zaxxer.hikari.HikariDataSource                :352  Thread-39 [32m                [0;39m HikariPool-5 - Shutdown completed.
+2023-10-25 21:47:46.158 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 18524 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 21:47:46.158 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:47:46.302 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
+2023-10-25 21:47:46.307 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=0a76066e-f062-3372-9fde-6e393487179e
+2023-10-25 21:47:46.395 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2023-10-25 21:47:46.395 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:47:46.396 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-25 21:47:46.396 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:47:46.413 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-25 21:47:46.414 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 253 ms
+2023-10-25 21:47:46.454 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
+2023-10-25 21:47:46.455 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-10-25 21:47:46.456 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2023-10-25 21:47:46.456 INFO  com.zaxxer.hikari.HikariDataSource                :110  restartedMain [32m                [0;39m HikariPool-6 - Starting...
+2023-10-25 21:47:46.459 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  restartedMain [32m                [0;39m HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1be10acb
+2023-10-25 21:47:46.460 INFO  com.zaxxer.hikari.HikariDataSource                :123  restartedMain [32m                [0;39m HikariPool-6 - Start completed.
+2023-10-25 21:47:46.460 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  restartedMain [32m                [0;39m Using db table-based data access locking (synchronization).
+2023-10-25 21:47:46.460 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  restartedMain [32m                [0;39m JobStoreCMT initialized.
+2023-10-25 21:47:46.460 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2023-10-25 21:47:46.460 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2023-10-25 21:47:46.460 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
+2023-10-25 21:47:46.460 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: com.example.train.batch.config.MyJobFactory@1fabc5b0
+2023-10-25 21:47:46.773 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-10-25 21:47:46.888 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2023-10-25 21:47:47.872 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:47:47.887 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:47:47.893 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2023-10-25 21:47:49.002 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:47:49.004 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  restartedMain [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2023-10-25 21:47:49.015 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 4.076 seconds (process running for 2778.008)
+2023-10-25 21:47:49.022 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-25 21:47:49.023 INFO  com.example.train.batch.config.BatchApplication   :23   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-25 21:47:49.025 INFO  com.example.train.batch.config.BatchApplication   :24   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
+2023-10-25 21:47:51.011 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2023-10-25 21:47:51.022 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2023-10-25 21:47:51.025 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2023-10-25 21:47:51.025 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovery complete.
+2023-10-25 21:47:51.026 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 'complete' triggers.
+2023-10-25 21:47:51.026 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 stale fired job entries.
+2023-10-25 21:47:51.027 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2023-10-25 21:48:12.377 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 1 deletion, 0 modifications)
+2023-10-25 21:48:12.379 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-45 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2023-10-25 21:48:12.395 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-45 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:48:12.395 INFO  org.apache.catalina.core.StandardService          :173  Thread-45 [32m                [0;39m Stopping service [Tomcat]
+2023-10-25 21:48:12.396 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-45 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:48:12.398 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-45 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:48:12.399 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  Thread-45 [32m                [0;39m Shutting down Quartz Scheduler
+2023-10-25 21:48:12.399 INFO  org.quartz.core.QuartzScheduler                   :666  Thread-45 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2023-10-25 21:48:12.399 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-45 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2023-10-25 21:48:12.399 INFO  org.quartz.core.QuartzScheduler                   :740  Thread-45 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2023-10-25 21:48:12.399 INFO  com.zaxxer.hikari.HikariDataSource                :350  Thread-45 [32m                [0;39m HikariPool-6 - Shutdown initiated...
+2023-10-25 21:48:12.402 INFO  com.zaxxer.hikari.HikariDataSource                :352  Thread-45 [32m                [0;39m HikariPool-6 - Shutdown completed.
+2023-10-25 21:48:13.619 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 18524 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 21:48:13.619 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:48:13.876 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
+2023-10-25 21:48:13.897 ERROR org.springframework.boot.SpringApplication        :827  restartedMain [32m                [0;39m Application run failed
+java.lang.NullPointerException: Cannot read field "generatedClass" because "data" is null
+	at org.springframework.cglib.proxy.Enhancer.nextInstance(Enhancer.java:783)
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:321)
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:562)
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:407)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.createClass(ConfigurationClassEnhancer.java:138)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer.enhance(ConfigurationClassEnhancer.java:109)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.enhanceConfigurationClasses(ConfigurationClassPostProcessor.java:531)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanFactory(ConfigurationClassPostProcessor.java:308)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:358)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:150)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.example.train.batch.config.BatchApplication.main(BatchApplication.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+2023-10-25 21:48:16.482 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 18524 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 21:48:16.482 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:48:16.627 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
+2023-10-25 21:48:16.638 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=0a76066e-f062-3372-9fde-6e393487179e
+2023-10-25 21:48:16.720 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2023-10-25 21:48:16.721 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:48:16.721 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-25 21:48:16.721 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:48:16.745 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-25 21:48:16.745 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 261 ms
+2023-10-25 21:48:16.782 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
+2023-10-25 21:48:16.783 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-10-25 21:48:16.783 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2023-10-25 21:48:16.784 INFO  com.zaxxer.hikari.HikariDataSource                :110  restartedMain [32m                [0;39m HikariPool-7 - Starting...
+2023-10-25 21:48:16.788 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  restartedMain [32m                [0;39m HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d2aa316
+2023-10-25 21:48:16.788 INFO  com.zaxxer.hikari.HikariDataSource                :123  restartedMain [32m                [0;39m HikariPool-7 - Start completed.
+2023-10-25 21:48:16.788 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  restartedMain [32m                [0;39m Using db table-based data access locking (synchronization).
+2023-10-25 21:48:16.788 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  restartedMain [32m                [0;39m JobStoreCMT initialized.
+2023-10-25 21:48:16.788 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2023-10-25 21:48:16.788 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2023-10-25 21:48:16.788 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
+2023-10-25 21:48:16.788 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: com.example.train.batch.config.MyJobFactory@2ee2d6d6
+2023-10-25 21:48:17.098 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-10-25 21:48:18.223 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:48:18.257 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2023-10-25 21:48:18.260 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2023-10-25 21:48:19.362 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:48:19.362 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  restartedMain [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2023-10-25 21:48:19.368 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 4.033 seconds (process running for 2808.361)
+2023-10-25 21:48:19.370 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-25 21:48:19.371 INFO  com.example.train.batch.config.BatchApplication   :23   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-25 21:48:19.371 INFO  com.example.train.batch.config.BatchApplication   :24   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
+2023-10-25 21:48:21.378 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2023-10-25 21:48:21.386 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2023-10-25 21:48:21.387 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2023-10-25 21:48:21.387 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovery complete.
+2023-10-25 21:48:21.388 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 'complete' triggers.
+2023-10-25 21:48:21.389 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 stale fired job entries.
+2023-10-25 21:48:21.390 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.

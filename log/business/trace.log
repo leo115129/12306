@@ -5129,3 +5129,48 @@ Caused by: java.lang.ClassNotFoundException: com.example.train.business.req.Dail
 2023-10-25 20:28:00.200 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
 2023-10-25 20:28:00.200 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
 2023-10-25 20:28:00.200 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-10-25 21:08:57.045 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2023-10-25 21:08:57.070 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-251 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-10-25 21:08:57.071 INFO  org.apache.catalina.core.StandardService          :173  Thread-251 [32m                [0;39m Stopping service [Tomcat]
+2023-10-25 21:08:57.075 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-251 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-10-25 21:08:57.076 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-251 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-10-25 21:08:58.343 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 1384 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 21:08:58.344 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:08:58.544 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=669f915e-4a80-3090-89d0-fea605909330
+2023-10-25 21:08:58.666 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-25 21:08:58.667 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-25 21:08:58.667 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-25 21:08:58.667 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:08:58.682 INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/business]      :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-25 21:08:58.682 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 335 ms
+2023-10-25 21:08:59.154 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-25 21:09:00.274 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:09:00.296 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-25 21:09:00.299 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-25 21:09:01.399 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:09:01.405 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 4.229 seconds (process running for 7945.62)
+2023-10-25 21:09:01.408 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-25 21:09:01.408 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-25 21:09:01.409 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-10-25 21:41:06.083 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-25 21:41:06.101 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-257 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-10-25 21:41:06.101 INFO  org.apache.catalina.core.StandardService          :173  Thread-257 [32m                [0;39m Stopping service [Tomcat]
+2023-10-25 21:41:06.103 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-257 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-10-25 21:41:06.104 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-257 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-10-25 21:41:07.308 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 1384 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-25 21:41:07.308 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-25 21:41:07.492 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=669f915e-4a80-3090-89d0-fea605909330
+2023-10-25 21:41:07.572 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-10-25 21:41:07.573 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-10-25 21:41:07.573 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-25 21:41:07.573 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-25 21:41:07.587 INFO  o.a.c.c.C.[Tomcat-2].[localhost].[/business]      :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-25 21:41:07.587 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 277 ms
+2023-10-25 21:41:08.013 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-25 21:41:09.108 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:41:09.123 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-10-25 21:41:09.127 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-10-25 21:41:10.226 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-25 21:41:10.229 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 4.073 seconds (process running for 9874.444)
+2023-10-25 21:41:10.230 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-25 21:41:10.230 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
