@@ -232,3 +232,139 @@
 2023-10-24 17:22:41.068 INFO  com.example.train.batch.controller.JobController  :200  http-nio-8003-exec-2 [32m1698139361065uyi[0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[]}
 2023-10-24 17:22:41.068 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-2 [32m1698139361065uyi[0;39m 返回结果: {"content":[],"success":true}
 2023-10-24 17:22:41.069 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-2 [32m1698139361065uyi[0;39m ------------- 结束 耗时：4 ms -------------
+2023-10-24 17:23:18.516 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m ------------- 开始 -------------
+2023-10-24 17:23:18.516 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/add POST
+2023-10-24 17:23:18.517 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m 类名方法: com.example.train.batch.controller.JobController.add
+2023-10-24 17:23:18.517 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m 远程地址: 127.0.0.1
+2023-10-24 17:23:18.517 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m 请求参数: [{"cronExpression":"0/5 * * * * ?","description":"test","group":"DEFAULT","name":"com.example.train.batch.job.TestJob"}]
+2023-10-24 17:23:18.517 INFO  com.example.train.batch.controller.JobController  :46   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m 创建定时任务开始：com.example.train.batch.job.TestJob，DEFAULT，0/5 * * * * ?，test
+2023-10-24 17:23:18.517 INFO  org.quartz.core.QuartzScheduler                   :547  http-nio-8003-exec-3 [32m1698139398516j3f[0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2023-10-24 17:23:18.552 INFO  com.example.train.batch.controller.JobController  :76   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m 创建定时任务结束：CommonResp{success=true, message='null', content=null}
+2023-10-24 17:23:18.553 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m 返回结果: {"success":true}
+2023-10-24 17:23:18.553 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-3 [32m1698139398516j3f[0;39m ------------- 结束 耗时：37 ms -------------
+2023-10-24 17:23:18.576 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-4 [32m1698139398576bff[0;39m ------------- 开始 -------------
+2023-10-24 17:23:18.576 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-4 [32m1698139398576bff[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2023-10-24 17:23:18.576 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-4 [32m1698139398576bff[0;39m 类名方法: com.example.train.batch.controller.JobController.query
+2023-10-24 17:23:18.576 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-4 [32m1698139398576bff[0;39m 远程地址: 127.0.0.1
+2023-10-24 17:23:18.576 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-4 [32m1698139398576bff[0;39m 请求参数: []
+2023-10-24 17:23:18.577 INFO  com.example.train.batch.controller.JobController  :169  http-nio-8003-exec-4 [32m1698139398576bff[0;39m 查看所有定时任务开始
+2023-10-24 17:23:18.594 INFO  com.example.train.batch.controller.JobController  :200  http-nio-8003-exec-4 [32m1698139398576bff[0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/5 * * * * ?', group='DEFAULT', name='com.example.train.batch.job.TestJob', description='test', state='NORMAL', nextFireTime=Tue Oct 24 17:23:20 CST 2023, preFireTime=null}]}
+2023-10-24 17:23:18.601 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-4 [32m1698139398576bff[0;39m 返回结果: {"content":[{"cronExpression":"0/5 * * * * ?","description":"test","group":"DEFAULT","name":"com.example.train.batch.job.TestJob","nextFireTime":1698139400000,"state":"NORMAL"}],"success":true}
+2023-10-24 17:23:18.601 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-4 [32m1698139398576bff[0;39m ------------- 结束 耗时：25 ms -------------
+2023-10-24 17:23:36.488 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m ------------- 开始 -------------
+2023-10-24 17:23:36.489 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/pause POST
+2023-10-24 17:23:36.489 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m 类名方法: com.example.train.batch.controller.JobController.pause
+2023-10-24 17:23:36.489 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m 远程地址: 127.0.0.1
+2023-10-24 17:23:36.489 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m 请求参数: [{"group":"DEFAULT","name":"com.example.train.batch.job.TestJob"}]
+2023-10-24 17:23:36.489 INFO  com.example.train.batch.controller.JobController  :84   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m 暂停定时任务开始：com.example.train.batch.job.TestJob，DEFAULT
+2023-10-24 17:23:36.514 INFO  com.example.train.batch.controller.JobController  :94   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m 暂停定时任务结束：CommonResp{success=true, message='null', content=null}
+2023-10-24 17:23:36.514 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m 返回结果: {"success":true}
+2023-10-24 17:23:36.515 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-5 [32m1698139416488tfs[0;39m ------------- 结束 耗时：27 ms -------------
+2023-10-24 17:23:36.551 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-6 [32m1698139416551jfi[0;39m ------------- 开始 -------------
+2023-10-24 17:23:36.551 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-6 [32m1698139416551jfi[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2023-10-24 17:23:36.552 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-6 [32m1698139416551jfi[0;39m 类名方法: com.example.train.batch.controller.JobController.query
+2023-10-24 17:23:36.552 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-6 [32m1698139416551jfi[0;39m 远程地址: 127.0.0.1
+2023-10-24 17:23:36.552 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-6 [32m1698139416551jfi[0;39m 请求参数: []
+2023-10-24 17:23:36.552 INFO  com.example.train.batch.controller.JobController  :169  http-nio-8003-exec-6 [32m1698139416551jfi[0;39m 查看所有定时任务开始
+2023-10-24 17:23:36.558 INFO  com.example.train.batch.controller.JobController  :200  http-nio-8003-exec-6 [32m1698139416551jfi[0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/5 * * * * ?', group='DEFAULT', name='com.example.train.batch.job.TestJob', description='test', state='PAUSED', nextFireTime=Tue Oct 24 17:23:40 CST 2023, preFireTime=Tue Oct 24 17:23:35 CST 2023}]}
+2023-10-24 17:23:36.558 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-6 [32m1698139416551jfi[0;39m 返回结果: {"content":[{"cronExpression":"0/5 * * * * ?","description":"test","group":"DEFAULT","name":"com.example.train.batch.job.TestJob","nextFireTime":1698139420000,"preFireTime":1698139415000,"state":"PAUSED"}],"success":true}
+2023-10-24 17:23:36.558 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-6 [32m1698139416551jfi[0;39m ------------- 结束 耗时：7 ms -------------
+2023-10-24 17:23:42.362 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-7 [32m1698139422361dza[0;39m ------------- 开始 -------------
+2023-10-24 17:23:42.362 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-7 [32m1698139422361dza[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/reschedule POST
+2023-10-24 17:23:42.362 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-7 [32m1698139422361dza[0;39m 类名方法: com.example.train.batch.controller.JobController.reschedule
+2023-10-24 17:23:42.362 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-7 [32m1698139422361dza[0;39m 远程地址: 127.0.0.1
+2023-10-24 17:23:42.362 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-7 [32m1698139422361dza[0;39m 请求参数: [{"cronExpression":"0/5 * * * * ?","description":"test","group":"DEFAULT","name":"com.example.train.batch.job.TestJob"}]
+2023-10-24 17:23:42.362 INFO  com.example.train.batch.controller.JobController  :122  http-nio-8003-exec-7 [32m1698139422361dza[0;39m 更新定时任务开始：com.example.train.batch.job.TestJob，DEFAULT，0/5 * * * * ?，test
+2023-10-24 17:23:42.393 INFO  com.example.train.batch.controller.JobController  :143  http-nio-8003-exec-7 [32m1698139422361dza[0;39m 更新定时任务结束：CommonResp{success=true, message='null', content=null}
+2023-10-24 17:23:42.393 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-7 [32m1698139422361dza[0;39m 返回结果: {"success":true}
+2023-10-24 17:23:42.393 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-7 [32m1698139422361dza[0;39m ------------- 结束 耗时：32 ms -------------
+2023-10-24 17:23:42.418 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-10 [32m169813942241854l[0;39m ------------- 开始 -------------
+2023-10-24 17:23:42.419 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-10 [32m169813942241854l[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2023-10-24 17:23:42.419 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-10 [32m169813942241854l[0;39m 类名方法: com.example.train.batch.controller.JobController.query
+2023-10-24 17:23:42.419 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-10 [32m169813942241854l[0;39m 远程地址: 127.0.0.1
+2023-10-24 17:23:42.419 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-10 [32m169813942241854l[0;39m 请求参数: []
+2023-10-24 17:23:42.419 INFO  com.example.train.batch.controller.JobController  :169  http-nio-8003-exec-10 [32m169813942241854l[0;39m 查看所有定时任务开始
+2023-10-24 17:23:42.423 INFO  com.example.train.batch.controller.JobController  :200  http-nio-8003-exec-10 [32m169813942241854l[0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[CronJobDto{cronExpression='0/5 * * * * ?', group='DEFAULT', name='com.example.train.batch.job.TestJob', description='test', state='NORMAL', nextFireTime=Tue Oct 24 17:23:45 CST 2023, preFireTime=null}]}
+2023-10-24 17:23:42.423 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-10 [32m169813942241854l[0;39m 返回结果: {"content":[{"cronExpression":"0/5 * * * * ?","description":"test","group":"DEFAULT","name":"com.example.train.batch.job.TestJob","nextFireTime":1698139425000,"state":"NORMAL"}],"success":true}
+2023-10-24 17:23:42.423 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-10 [32m169813942241854l[0;39m ------------- 结束 耗时：5 ms -------------
+2023-10-24 17:23:48.502 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-8 [32m16981394285020rf[0;39m ------------- 开始 -------------
+2023-10-24 17:23:48.503 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-8 [32m16981394285020rf[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/delete POST
+2023-10-24 17:23:48.503 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-8 [32m16981394285020rf[0;39m 类名方法: com.example.train.batch.controller.JobController.delete
+2023-10-24 17:23:48.503 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-8 [32m16981394285020rf[0;39m 远程地址: 127.0.0.1
+2023-10-24 17:23:48.503 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-8 [32m16981394285020rf[0;39m 请求参数: [{"group":"DEFAULT","name":"com.example.train.batch.job.TestJob"}]
+2023-10-24 17:23:48.503 INFO  com.example.train.batch.controller.JobController  :151  http-nio-8003-exec-8 [32m16981394285020rf[0;39m 删除定时任务开始：com.example.train.batch.job.TestJob，DEFAULT
+2023-10-24 17:23:48.537 INFO  com.example.train.batch.controller.JobController  :163  http-nio-8003-exec-8 [32m16981394285020rf[0;39m 删除定时任务结束：CommonResp{success=true, message='null', content=null}
+2023-10-24 17:23:48.538 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-8 [32m16981394285020rf[0;39m 返回结果: {"success":true}
+2023-10-24 17:23:48.538 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-8 [32m16981394285020rf[0;39m ------------- 结束 耗时：36 ms -------------
+2023-10-24 17:23:48.557 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8003-exec-9 [32m1698139428557ppg[0;39m ------------- 开始 -------------
+2023-10-24 17:23:48.559 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8003-exec-9 [32m1698139428557ppg[0;39m 请求地址: http://127.0.0.1:8003/batch/admin/job/query GET
+2023-10-24 17:23:48.559 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8003-exec-9 [32m1698139428557ppg[0;39m 类名方法: com.example.train.batch.controller.JobController.query
+2023-10-24 17:23:48.560 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8003-exec-9 [32m1698139428557ppg[0;39m 远程地址: 127.0.0.1
+2023-10-24 17:23:48.560 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8003-exec-9 [32m1698139428557ppg[0;39m 请求参数: []
+2023-10-24 17:23:48.560 INFO  com.example.train.batch.controller.JobController  :169  http-nio-8003-exec-9 [32m1698139428557ppg[0;39m 查看所有定时任务开始
+2023-10-24 17:23:48.562 INFO  com.example.train.batch.controller.JobController  :200  http-nio-8003-exec-9 [32m1698139428557ppg[0;39m 查看定时任务结束：CommonResp{success=true, message='null', content=[]}
+2023-10-24 17:23:48.563 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8003-exec-9 [32m1698139428557ppg[0;39m 返回结果: {"content":[],"success":true}
+2023-10-24 17:23:48.563 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8003-exec-9 [32m1698139428557ppg[0;39m ------------- 结束 耗时：6 ms -------------
+2023-10-24 17:27:17.461 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2023-10-24 17:27:17.463 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-11 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2023-10-24 17:27:17.479 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-11 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8003"]
+2023-10-24 17:27:17.479 INFO  org.apache.catalina.core.StandardService          :173  Thread-11 [32m                [0;39m Stopping service [Tomcat]
+2023-10-24 17:27:17.479 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  Thread-11 [32m                [0;39m Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-10-24 17:27:17.481 WARN  org.apache.catalina.loader.WebappClassLoaderBase  :173  Thread-11 [32m                [0;39m The web application [batch] appears to have started a thread named [QuartzScheduler_schedulerFactoryBean-NON_CLUSTERED_MisfireHandler] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.4.1/java.lang.Thread.sleep(Native Method)
+ app//org.quartz.impl.jdbcjobstore.JobStoreSupport$MisfireHandler.run(JobStoreSupport.java:4053)
+2023-10-24 17:27:17.481 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-11 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8003"]
+2023-10-24 17:27:17.482 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-11 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8003"]
+2023-10-24 17:27:17.484 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :847  Thread-11 [32m                [0;39m Shutting down Quartz Scheduler
+2023-10-24 17:27:17.484 INFO  org.quartz.core.QuartzScheduler                   :666  Thread-11 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutting down.
+2023-10-24 17:27:17.484 INFO  org.quartz.core.QuartzScheduler                   :585  Thread-11 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED paused.
+2023-10-24 17:27:17.485 INFO  org.quartz.core.QuartzScheduler                   :740  Thread-11 [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED shutdown complete.
+2023-10-24 17:27:17.485 INFO  com.zaxxer.hikari.HikariDataSource                :350  Thread-11 [32m                [0;39m HikariPool-2 - Shutdown initiated...
+2023-10-24 17:27:17.488 INFO  com.zaxxer.hikari.HikariDataSource                :352  Thread-11 [32m                [0;39m HikariPool-2 - Shutdown completed.
+2023-10-24 17:27:18.705 INFO  com.example.train.batch.config.BatchApplication   :51   restartedMain [32m                [0;39m Starting BatchApplication using Java 17.0.4.1 with PID 18532 (D:\new world\Java\train\batch\target\classes started by 17926 in D:\new world\Java\train)
+2023-10-24 17:27:18.707 INFO  com.example.train.batch.config.BatchApplication   :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-10-24 17:27:18.917 WARN  org.mybatis.spring.mapper.ClassPathMapperScanner  :44   restartedMain [32m                [0;39m No MyBatis mapper was found in '[com.example.train.*.mapper]' package. Please check your configuration.
+2023-10-24 17:27:18.926 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=8d31518a-7f4b-31e8-856a-004c0c4f49c3
+2023-10-24 17:27:19.080 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8003 (http)
+2023-10-24 17:27:19.081 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8003"]
+2023-10-24 17:27:19.081 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-10-24 17:27:19.081 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-10-24 17:27:19.109 INFO  o.a.c.c.C.[Tomcat].[localhost].[/batch]           :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-10-24 17:27:19.109 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 399 ms
+2023-10-24 17:27:19.172 INFO  org.quartz.impl.StdSchedulerFactory               :1220 restartedMain [32m                [0;39m Using default implementation for ThreadExecutor
+2023-10-24 17:27:19.174 INFO  org.quartz.core.SchedulerSignalerImpl             :61   restartedMain [32m                [0;39m Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2023-10-24 17:27:19.174 INFO  org.quartz.core.QuartzScheduler                   :229  restartedMain [32m                [0;39m Quartz Scheduler v.2.3.2 created.
+2023-10-24 17:27:19.174 INFO  com.zaxxer.hikari.HikariDataSource                :110  restartedMain [32m                [0;39m HikariPool-3 - Starting...
+2023-10-24 17:27:19.179 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  restartedMain [32m                [0;39m HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3a350b94
+2023-10-24 17:27:19.179 INFO  com.zaxxer.hikari.HikariDataSource                :123  restartedMain [32m                [0;39m HikariPool-3 - Start completed.
+2023-10-24 17:27:19.180 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :672  restartedMain [32m                [0;39m Using db table-based data access locking (synchronization).
+2023-10-24 17:27:19.180 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :145  restartedMain [32m                [0;39m JobStoreCMT initialized.
+2023-10-24 17:27:19.180 INFO  org.quartz.core.QuartzScheduler                   :294  restartedMain [32m                [0;39m Scheduler meta-data: Quartz Scheduler (v2.3.2) 'schedulerFactoryBean' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is not clustered.
+
+2023-10-24 17:27:19.180 INFO  org.quartz.impl.StdSchedulerFactory               :1374 restartedMain [32m                [0;39m Quartz scheduler 'schedulerFactoryBean' initialized from an externally provided properties instance.
+2023-10-24 17:27:19.181 INFO  org.quartz.impl.StdSchedulerFactory               :1378 restartedMain [32m                [0;39m Quartz scheduler version: 2.3.2
+2023-10-24 17:27:19.181 INFO  org.quartz.core.QuartzScheduler                   :2293 restartedMain [32m                [0;39m JobFactory set to: com.example.train.batch.config.MyJobFactory@35050e4b
+2023-10-24 17:27:19.643 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-10-24 17:27:20.787 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 17:27:20.832 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8003"]
+2023-10-24 17:27:20.837 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8003 (http) with context path '/batch'
+2023-10-24 17:27:21.958 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-10-24 17:27:21.958 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :734  restartedMain [32m                [0;39m Will start Quartz Scheduler [schedulerFactoryBean] in 2 seconds
+2023-10-24 17:27:21.965 INFO  com.example.train.batch.config.BatchApplication   :57   restartedMain [32m                [0;39m Started BatchApplication in 4.432 seconds (process running for 676.68)
+2023-10-24 17:27:21.967 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-10-24 17:27:21.967 INFO  com.example.train.batch.config.BatchApplication   :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-10-24 17:27:21.968 INFO  com.example.train.batch.config.BatchApplication   :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8003/batch/hello
+2023-10-24 17:27:23.963 INFO  o.s.scheduling.quartz.SchedulerFactoryBean        :750  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Starting Quartz Scheduler now, after delay of 2 seconds
+2023-10-24 17:27:23.972 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :866  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Freed 0 triggers from 'acquired' / 'blocked' state.
+2023-10-24 17:27:23.974 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :876  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovering 0 jobs that were in-progress at the time of the last shut-down.
+2023-10-24 17:27:23.974 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :889  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Recovery complete.
+2023-10-24 17:27:23.974 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :896  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 'complete' triggers.
+2023-10-24 17:27:23.975 INFO  o.s.scheduling.quartz.LocalDataSourceJobStore     :901  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Removed 0 stale fired job entries.
+2023-10-24 17:27:23.976 INFO  org.quartz.core.QuartzScheduler                   :547  Quartz Scheduler [schedulerFactoryBean] [32m                [0;39m Scheduler schedulerFactoryBean_$_NON_CLUSTERED started.
+2023-10-24 18:51:28.379 WARN  com.zaxxer.hikari.pool.HikariPool                 :804  HikariPool-3 housekeeper [32m                [0;39m HikariPool-3 - Thread starvation or clock leap detected (housekeeper delta=1h12m39s49ms883µs700ns).
