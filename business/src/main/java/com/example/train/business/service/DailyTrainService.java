@@ -123,5 +123,11 @@ public class DailyTrainService {
 
         //生成该车次车站数据
         dailyTrainStationService.genDaily(date,train.getCode());
+
+        //生成该车次车厢数据
+        dailyTrainCarriageService.genDaily(date,train.getCode());
+
+        //生成该车次座位数据
+        dailyTrainSeatService.genDaily(date,train.getCode());
     }
 }

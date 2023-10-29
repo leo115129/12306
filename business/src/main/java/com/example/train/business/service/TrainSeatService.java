@@ -4,9 +4,7 @@ import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
-import com.example.train.business.domain.TrainCarriage;
-import com.example.train.business.domain.TrainSeat;
-import com.example.train.business.domain.TrainSeatExample;
+import com.example.train.business.domain.*;
 import com.example.train.business.enums.SeatColEnum;
 import com.example.train.business.mapper.TrainSeatMapper;
 import com.example.train.business.req.TrainSeatQueryReq;
@@ -92,7 +90,7 @@ public class TrainSeatService {
             Integer rowCount = trainCarriage.getRowCount();
             String seatType = trainCarriage.getSeatType();
             List<SeatColEnum> colsByType = SeatColEnum.getColsByType(seatType);
-            for(int row=1;row<rowCount;++row){
+            for(int row=1;row<=rowCount;++row){
                 for (SeatColEnum seatColEnum : colsByType) {
                     TrainSeat trainSeat=new TrainSeat();
                     trainSeat.setId(SnowUtil.getSnowflakeNextId());
@@ -109,5 +107,12 @@ public class TrainSeatService {
                 }
             }
         }
+    }
+
+    public List<TrainSeat> selectByTrainCode(String code){
+        TrainSeatExample trainSeatExample=new TrainSeatExample();
+        trainSeatExample.setOrderByClause("'index' asc");
+        trainSeatExample.createCriteria().andTrainCodeEqualTo(code);
+        return trainSeatMapper.selectByExample(trainSeatExample);
     }
 }
