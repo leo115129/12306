@@ -107,4 +107,14 @@ public class DailyTrainSeatService {
         }
 
     }
+
+    public Integer countSeat(String code, Date date, String seatType){
+        DailyTrainSeatExample dailyTrainSeatExample=new DailyTrainSeatExample();
+        dailyTrainSeatExample.createCriteria().andDateEqualTo(date).andTrainCodeEqualTo(code).andSeatTypeEqualTo(seatType);
+        int l = Math.toIntExact(dailyTrainSeatMapper.countByExample(dailyTrainSeatExample));
+        if(l==0){
+            return -1;
+        }
+        return l;
+    }
 }
