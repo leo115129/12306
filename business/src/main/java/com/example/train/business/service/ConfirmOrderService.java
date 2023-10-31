@@ -4,6 +4,7 @@ import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.util.ObjectUtil;
 import com.alibaba.fastjson.JSON;
+import com.example.train.business.domain.DailyTrainTicket;
 import com.example.train.business.enums.ConfirmOrderStatusEnum;
 import com.example.train.business.req.ConfirmOrderDoReq;
 import com.example.train.common.context.LoginMemberContext;
@@ -30,6 +31,9 @@ public class ConfirmOrderService {
 
     @Resource
     private ConfirmOrderMapper confirmOrderMapper;
+
+    @Resource
+    private DailyTrainTicketService dailyTrainTicketService;
 
     public void save(ConfirmOrderDoReq req) {
         DateTime now = DateTime.now();
@@ -89,6 +93,9 @@ public class ConfirmOrderService {
         confirmOrderMapper.insert(confirmOrder);
 
         //查出余票记录、需要得到真是的库存
+        DailyTrainTicket dailyTrainTicket = dailyTrainTicketService.selectByUnique(req.getDate(), req.getTrainCode(), req.getStart(), req.getEnd());
+
+
 
     }
 }

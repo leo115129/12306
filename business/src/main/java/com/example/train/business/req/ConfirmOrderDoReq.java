@@ -2,6 +2,7 @@ package com.example.train.business.req;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 
 import java.util.Date;
@@ -47,9 +48,13 @@ public class ConfirmOrderDoReq {
     @NotNull(message = "【余票ID】不能为空")
     private Long dailyTrainTicketId;
 
+    public void setTickets(List<ConfirmOrderTicketReq> tickets) {
+        this.tickets = tickets;
+    }
+
     @Override
     public String toString() {
-        final StringBuffer sb = new StringBuffer("ConfirmOrderSaveReq{");
+        final StringBuffer sb = new StringBuffer("ConfirmOrderDoReq{");
         sb.append("memberId=").append(memberId);
         sb.append(", date=").append(date);
         sb.append(", trainCode='").append(trainCode).append('\'');
@@ -61,14 +66,10 @@ public class ConfirmOrderDoReq {
         return sb.toString();
     }
 
-    public void setTickets(List<ConfirmOrderTicketReq> tickets) {
-        this.tickets = tickets;
-    }
-
     /**
      * 车票
      */
-    @NotBlank(message = "【车票】不能为空")
+    @NotEmpty(message = "【车票】不能为空")
     private List<ConfirmOrderTicketReq> tickets;
 
 
