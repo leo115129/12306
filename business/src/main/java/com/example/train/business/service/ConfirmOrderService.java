@@ -92,7 +92,7 @@ public class ConfirmOrderService {
         confirmOrder.setTickets(JSON.toJSONString(req.getTickets()));
         confirmOrderMapper.insert(confirmOrder);
 
-        //查出余票记录、需要得到真是的库存
+        //查出余票记录、需要得到真实的库存
         DailyTrainTicket dailyTrainTicket = dailyTrainTicketService.selectByUnique(req.getDate(), req.getTrainCode(), req.getStart(), req.getEnd());
 
 
