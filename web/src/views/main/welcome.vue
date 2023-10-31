@@ -3,9 +3,9 @@
   <div style="border: 4px solid orange;
               border-radius: 4px;
               padding: 10px; ">
-    <h3>
-      <b>示例网站说明（网站实现的功能课程都有手把手教）</b>
-    </h3>
+<!--    <h3>-->
+<!--&lt;!&ndash;      <b>示例网站说明（网站实现的功能课程都有手把手教）</b>&ndash;&gt;-->
+<!--    </h3>-->
     本项目共有15张业务表，会手把手教自制通用代码生成器，快速生成增删改查包含界面，减少无意义的增删改查占用课程时间。<br>
     购票流程看起来简单，但用了很多看不见的高并发技术，比如10万人抢1000张票：<br>
     <li>利用<b>CDN</b>，提高用户访问页面速度</li>
@@ -18,41 +18,41 @@
     <li>使用<b>异步削峰+排队机制</b>，解决吞吐量问题，实现最短时间内给用户反馈，1000请求告知票没有了，1000请求告知排队中</li>
     <li>使用<b>分布式事务</b>，保证数据最终一致性，不能库存减少了，票却没打出来。</li>
   </div>
-  <a-divider style="border-color: #7cb305" dashed />
-  <div style="border: 4px solid #99CCFF;
-              border-radius: 4px;
-              padding: 10px; ">
-    <h3>
-      <b>示例网站只开放会员端功能，控台管理暂不开放（怕被乱改车次数据，影响体验）</b>
-    </h3>
-    <div>
-      如果您还没有乘车人，可以先去
-      <router-link to="/passenger">
-        添加乘车人
-      </router-link>
-    </div>
-    <div>
-      购票功能支持选座，去
-      <router-link to="/ticket">
-        查询余票并购票
-      </router-link>
-      。购票成功后，可以查看
-      <router-link to="/my-ticket">
-        我的车票
-      </router-link>
-      ；去
-      <router-link to="/seat">
-        座位销售图
-      </router-link>
-      查看每个座位的销售情况
-    </div>
-    <div style="font-size: 14px; color: red">
-      本项目还有一套控台管理模块，用于维护车次数据、调度任务，查看会员、车票等功能，怕有同学乱改数据，暂不开放体验
-    </div>
-    <div style="font-size: 14px; color: #888888">
-      小提示：为了方便大家体验，本项目没对重复购票做校验，即：同一个人可重复买同一个车次的车票
-    </div>
-  </div>
+<!--  <a-divider style="border-color: #7cb305" dashed />-->
+<!--  <div style="border: 4px solid #99CCFF;-->
+<!--              border-radius: 4px;-->
+<!--              padding: 10px; ">-->
+<!--    <h3>-->
+<!--      <b>示例网站只开放会员端功能，控台管理暂不开放（怕被乱改车次数据，影响体验）</b>-->
+<!--    </h3>-->
+<!--    <div>-->
+<!--      如果您还没有乘车人，可以先去-->
+<!--      <router-link to="/passenger">-->
+<!--        添加乘车人-->
+<!--      </router-link>-->
+<!--    </div>-->
+<!--    <div>-->
+<!--      购票功能支持选座，去-->
+<!--      <router-link to="/ticket">-->
+<!--        查询余票并购票-->
+<!--      </router-link>-->
+<!--      。购票成功后，可以查看-->
+<!--      <router-link to="/my-ticket">-->
+<!--        我的车票-->
+<!--      </router-link>-->
+<!--      ；去-->
+<!--      <router-link to="/seat">-->
+<!--        座位销售图-->
+<!--      </router-link>-->
+<!--      查看每个座位的销售情况-->
+<!--    </div>-->
+<!--    <div style="font-size: 14px; color: red">-->
+<!--      本项目还有一套控台管理模块，用于维护车次数据、调度任务，查看会员、车票等功能，怕有同学乱改数据，暂不开放体验-->
+<!--    </div>-->
+<!--    <div style="font-size: 14px; color: #888888">-->
+<!--      小提示：为了方便大家体验，本项目没对重复购票做校验，即：同一个人可重复买同一个车次的车票-->
+<!--    </div>-->
+<!--  </div>-->
 
 
 </template>

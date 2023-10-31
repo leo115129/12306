@@ -60,8 +60,20 @@ public class DailyTrainTicketService {
 
     public PageResp<DailyTrainTicketQueryResp> queryList(DailyTrainTicketQueryReq req) {
         DailyTrainTicketExample dailyTrainTicketExample = new DailyTrainTicketExample();
-        dailyTrainTicketExample.setOrderByClause("id desc");
+        dailyTrainTicketExample.setOrderByClause("'date' desc,start_time asc,train_code asc,'start_index' asc,'end_index' asc");
         DailyTrainTicketExample.Criteria criteria = dailyTrainTicketExample.createCriteria();
+        if(ObjectUtil.isNotNull(req.getDate())){
+            criteria.andDateEqualTo(req.getDate());
+        }
+        if(ObjectUtil.isNotNull(req.getTrainCode())){
+            criteria.andTrainCodeEqualTo(req.getTrainCode());
+        }
+        if(ObjectUtil.isNotNull(req.getStart())){
+            criteria.andStartEqualTo(req.getStart());
+        }
+        if(ObjectUtil.isNotNull(req.getEnd())){
+            criteria.andEndEqualTo(req.getEnd());
+        }
 
         LOG.info("查询页码：{}", req.getPage());
         LOG.info("每页条数：{}", req.getSize());

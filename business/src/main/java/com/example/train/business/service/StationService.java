@@ -90,7 +90,7 @@ public class StationService {
 
     public List<StationQueryResp> queryAll() {
         StationExample stationExample = new StationExample();
-        stationExample.setOrderByClause("id desc");
+        stationExample.setOrderByClause("name_pinyin desc");
         List<Station> stationList = stationMapper.selectByExample(stationExample);
         List<StationQueryResp> list = BeanUtil.copyToList(stationList, StationQueryResp.class);
         return list;
