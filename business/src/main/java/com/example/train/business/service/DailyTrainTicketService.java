@@ -115,7 +115,7 @@ public class DailyTrainTicketService {
             //得到出发站
             TrainStation trainStationStart = trainStations.get(i);
             BigDecimal sumKm=BigDecimal.ZERO;
-            for(int j=i+1;j<trainStations.size();++j){
+            for(int j=(i+1);j<trainStations.size();++j){
                 TrainStation trainStationEnd = trainStations.get(j);
                 sumKm=sumKm.add(trainStationEnd.getKm());
                 DailyTrainTicket dailyTrainTicket=new DailyTrainTicket();

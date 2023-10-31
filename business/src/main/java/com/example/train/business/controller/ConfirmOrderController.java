@@ -1,42 +1,37 @@
-//package com.example.train.business.controller;
-//
+package com.example.train.business.controller;
+
 //import com.alibaba.csp.sentinel.annotation.SentinelResource;
 //import com.alibaba.csp.sentinel.slots.block.BlockException;
-//import com.example.train.business.req.ConfirmOrderDoReq;
 //import com.example.train.business.service.BeforeConfirmOrderService;
-//import com.example.train.business.service.ConfirmOrderService;
-//import com.example.train.common.exception.BusinessExceptionEnum;
-//import com.example.train.common.resp.CommonResp;
-//import jakarta.annotation.Resource;
-//import jakarta.validation.Valid;
-//import org.slf4j.Logger;
-//import org.slf4j.LoggerFactory;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.beans.factory.annotation.Value;
 //import org.springframework.data.redis.core.StringRedisTemplate;
-//import org.springframework.util.ObjectUtils;
-//import org.springframework.web.bind.annotation.*;
-//
-//@RestController
-//@RequestMapping("/confirm-order")
-//public class ConfirmOrderController {
-//
-//    private static final Logger LOG = LoggerFactory.getLogger(ConfirmOrderController.class);
-//
+import com.example.train.business.service.ConfirmOrderService;
+import jakarta.annotation.Resource;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/confirm-order")
+public class ConfirmOrderController {
+
+    private static final Logger LOG = LoggerFactory.getLogger(ConfirmOrderController.class);
+
 //    @Resource
 //    private BeforeConfirmOrderService beforeConfirmOrderService;
 //
 //    @Autowired
 //    private StringRedisTemplate redisTemplate;
-//
-//    @Value("${spring.profiles.active}")
-//    private String env;
-//
-//    @Resource
-//    private ConfirmOrderService confirmOrderService;
-//
-//    // 接口的资源名称不要和接口路径一致，会导致限流后走不到降级方法中
-//    @SentinelResource(value = "confirmOrderDo", blockHandler = "doConfirmBlock")
+
+    @Value("${spring.profiles.active}")
+    private String env;
+
+    @Resource
+    private ConfirmOrderService confirmOrderService;
+
+    // 接口的资源名称不要和接口路径一致，会导致限流后走不到降级方法中
+////    @SentinelResource(value = "confirmOrderDo", blockHandler = "doConfirmBlock")
 //    @PostMapping("/do")
 //    public CommonResp<Object> doConfirm(@Valid @RequestBody ConfirmOrderDoReq req) {
 //        if (!env.equals("dev")) {
@@ -60,7 +55,7 @@
 //        Long id = beforeConfirmOrderService.beforeDoConfirm(req);
 //        return new CommonResp<>(String.valueOf(id));
 //    }
-//
+
 //    @GetMapping("/query-line-count/{id}")
 //    public CommonResp<Integer> queryLineCount(@PathVariable Long id) {
 //        Integer count = confirmOrderService.queryLineCount(id);
@@ -72,7 +67,7 @@
 //        Integer count = confirmOrderService.cancel(id);
 //        return new CommonResp<>(count);
 //    }
-//
+
 //    /** 降级方法，需包含限流方法的所有参数和BlockException参数，且返回值要保持一致
 //     * @param req
 //     * @param e
@@ -86,5 +81,5 @@
 //        return commonResp;
 //
 //    }
-//
-//}
+
+}
