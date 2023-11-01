@@ -109,7 +109,7 @@
   <a-modal v-model:visible="imageCodeModalVisible" :title="null" :footer="null" :closable="false"
            style="top: 50px; width: 400px">
     <p style="text-align: center; font-weight: bold; font-size: 18px">
-      使用服务端验证码削弱瞬时高峰<br/>
+      使用服务端验证码削弱瞬时高峰<br/>3
       防止机器人刷票
     </p>
     <p>

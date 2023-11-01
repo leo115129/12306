@@ -43,3 +43,4 @@ Caused by: java.lang.ClassNotFoundException: com.example.train.member.service.Pa
 	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121)
 	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:520)
 	... 28 common frames omitted
+2023-10-31 19:50:36.244 ERROR c.e.t.common.controller.ControllerExceptionHandler:60   http-nio-8001-exec-2 [32m1698753036174w1a[0;39m 校验异常：【短信验证码】不能为空

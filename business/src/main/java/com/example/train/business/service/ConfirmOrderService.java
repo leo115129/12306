@@ -2,21 +2,26 @@ package com.example.train.business.service;
 
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.date.DateTime;
+import cn.hutool.core.util.EnumUtil;
 import cn.hutool.core.util.ObjectUtil;
 import com.alibaba.fastjson.JSON;
-import com.example.train.business.domain.DailyTrainTicket;
-import com.example.train.business.enums.ConfirmOrderStatusEnum;
-import com.example.train.business.req.ConfirmOrderDoReq;
-import com.example.train.common.context.LoginMemberContext;
-import com.github.pagehelper.PageHelper;
-import com.github.pagehelper.PageInfo;
-import com.example.train.common.resp.PageResp;
-import com.example.train.common.util.SnowUtil;
 import com.example.train.business.domain.ConfirmOrder;
 import com.example.train.business.domain.ConfirmOrderExample;
+import com.example.train.business.domain.DailyTrainTicket;
+import com.example.train.business.enums.ConfirmOrderStatusEnum;
+import com.example.train.business.enums.SeatTypeEnum;
 import com.example.train.business.mapper.ConfirmOrderMapper;
+import com.example.train.business.req.ConfirmOrderDoReq;
 import com.example.train.business.req.ConfirmOrderQueryReq;
+import com.example.train.business.req.ConfirmOrderTicketReq;
 import com.example.train.business.resp.ConfirmOrderQueryResp;
+import com.example.train.common.context.LoginMemberContext;
+import com.example.train.common.exception.BusinessException;
+import com.example.train.common.exception.BusinessExceptionEnum;
+import com.example.train.common.resp.PageResp;
+import com.example.train.common.util.SnowUtil;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -95,7 +100,46 @@ public class ConfirmOrderService {
         //查出余票记录、需要得到真实的库存
         DailyTrainTicket dailyTrainTicket = dailyTrainTicketService.selectByUnique(req.getDate(), req.getTrainCode(), req.getStart(), req.getEnd());
 
+        //预扣减余票数量、并判断余票是否足够
+        reduceTickets(req, dailyTrainTicket);
 
 
+    }
+
+    private void reduceTickets(ConfirmOrderDoReq req, DailyTrainTicket dailyTrainTicket) {
+        for (ConfirmOrderTicketReq ticket : req.getTickets()) {
+            String seatTypeCode = ticket.getSeatTypeCode();
+            SeatTypeEnum by = EnumUtil.getBy(SeatTypeEnum::getCode, seatTypeCode);
+            switch (by){
+                case YDZ -> {
+                    Integer ydz = dailyTrainTicket.getYdz()-1;
+                    if(ydz<0){
+                        throw new BusinessException(BusinessExceptionEnum.CONFIRM_ORDER_TICKET_COUNT_ERROR);
+                    }
+                    dailyTrainTicket.setYdz(ydz);
+                }
+                case EDZ -> {
+                    Integer edz = dailyTrainTicket.getEdz()-1;
+                    if(edz<0){
+                        throw new BusinessException(BusinessExceptionEnum.CONFIRM_ORDER_TICKET_COUNT_ERROR);
+                    }
+                    dailyTrainTicket.setEdz(edz);
+                }
+                case YW ->{
+                    Integer yw = dailyTrainTicket.getYw()-1;
+                    if(yw<0){
+                        throw new BusinessException(BusinessExceptionEnum.CONFIRM_ORDER_TICKET_COUNT_ERROR);
+                    }
+                    dailyTrainTicket.setYw(yw);
+                }
+                case RW -> {
+                    Integer rw = dailyTrainTicket.getRw()-1;
+                    if(rw<0){
+                        throw new BusinessException(BusinessExceptionEnum.CONFIRM_ORDER_TICKET_COUNT_ERROR);
+                    }
+                    dailyTrainTicket.setRw(rw-1);
+                }
+            }
+        }
     }
 }
