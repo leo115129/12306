@@ -108,6 +108,13 @@ public class DailyTrainCarriageService {
             dailyTrainCarriage.setDate(date);
             dailyTrainCarriageMapper.insert(dailyTrainCarriage);
         }
+    }
+
+    public List<DailyTrainCarriage> selectBySeatType(Date date,String code,String seatType){
+        DailyTrainCarriageExample dailyTrainCarriageExample=new DailyTrainCarriageExample();
+        dailyTrainCarriageExample.createCriteria().andDateEqualTo(date).andTrainCodeEqualTo(code)
+                .andSeatTypeEqualTo(seatType);
+        return dailyTrainCarriageMapper.selectByExample(dailyTrainCarriageExample);
 
     }
 }

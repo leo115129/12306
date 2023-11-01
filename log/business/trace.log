@@ -3384,3 +3384,75 @@ Consider defining a bean of type 'com.example.train.business.service.ConfirmOrde
 2023-11-01 15:06:18.619 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
 2023-11-01 15:06:18.619 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
 2023-11-01 15:06:18.620 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-11-01 15:09:14.767 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2023-11-01 15:09:14.784 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-253 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:09:14.785 INFO  org.apache.catalina.core.StandardService          :173  Thread-253 [32m                [0;39m Stopping service [Tomcat]
+2023-11-01 15:09:14.786 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-253 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:09:14.787 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-253 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:09:15.112 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 11804 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-11-01 15:09:15.112 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-01 15:09:15.395 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :291  restartedMain [32m                [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-01 15:09:15.395 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  restartedMain [32m                [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-01 15:09:15.398 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  restartedMain [32m                [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-11-01 15:09:15.436 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=9b207cad-ced2-32c4-80b5-e51b51f4f18b
+2023-11-01 15:09:15.548 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-11-01 15:09:15.549 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:09:15.549 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-11-01 15:09:15.549 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-01 15:09:15.572 INFO  o.a.c.c.C.[Tomcat-13].[localhost].[/business]     :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-01 15:09:15.572 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 457 ms
+2023-11-01 15:09:16.386 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-11-01 15:09:16.498 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:09:16.502 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-11-01 15:09:16.592 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 1.704 seconds (process running for 3687.893)
+2023-11-01 15:09:16.593 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-11-01 15:09:16.593 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-11-01 15:09:16.594 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-11-01 15:16:32.148 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2023-11-01 15:16:32.162 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-259 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:16:32.163 INFO  org.apache.catalina.core.StandardService          :173  Thread-259 [32m                [0;39m Stopping service [Tomcat]
+2023-11-01 15:16:32.164 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-259 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:16:32.165 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-259 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:16:32.360 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 11804 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-11-01 15:16:32.360 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-01 15:16:32.553 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :291  restartedMain [32m                [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-01 15:16:32.553 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  restartedMain [32m                [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-01 15:16:32.555 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  restartedMain [32m                [0;39m Finished Spring Data repository scanning in 1 ms. Found 0 Redis repository interfaces.
+2023-11-01 15:16:32.582 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=9b207cad-ced2-32c4-80b5-e51b51f4f18b
+2023-11-01 15:16:32.736 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-11-01 15:16:32.736 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:16:32.736 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-11-01 15:16:32.736 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-01 15:16:32.751 INFO  o.a.c.c.C.[Tomcat-13].[localhost].[/business]     :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-01 15:16:32.752 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 390 ms
+2023-11-01 15:16:33.530 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-11-01 15:16:33.696 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:16:33.699 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-11-01 15:16:33.801 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 1.578 seconds (process running for 4125.102)
+2023-11-01 15:16:33.802 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-11-01 15:16:33.803 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-11-01 15:16:33.803 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello
+2023-11-01 15:17:00.697 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)
+2023-11-01 15:17:00.720 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-265 [32m                [0;39m Pausing ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:17:00.721 INFO  org.apache.catalina.core.StandardService          :173  Thread-265 [32m                [0;39m Stopping service [Tomcat]
+2023-11-01 15:17:00.723 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-265 [32m                [0;39m Stopping ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:17:00.725 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  Thread-265 [32m                [0;39m Destroying ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:17:00.954 INFO  c.e.train.business.config.BusinessApplication     :51   restartedMain [32m                [0;39m Starting BusinessApplication using Java 17.0.4.1 with PID 11804 (D:\new world\Java\train\business\target\classes started by 17926 in D:\new world\Java\train)
+2023-11-01 15:17:00.954 INFO  c.e.train.business.config.BusinessApplication     :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-01 15:17:01.130 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :291  restartedMain [32m                [0;39m Multiple Spring Data modules found, entering strict repository configuration mode
+2023-11-01 15:17:01.130 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :138  restartedMain [32m                [0;39m Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-11-01 15:17:01.133 INFO  o.s.d.r.config.RepositoryConfigurationDelegate    :208  restartedMain [32m                [0;39m Finished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.
+2023-11-01 15:17:01.172 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=9b207cad-ced2-32c4-80b5-e51b51f4f18b
+2023-11-01 15:17:01.260 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8002 (http)
+2023-11-01 15:17:01.261 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:17:01.261 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-11-01 15:17:01.261 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-01 15:17:01.278 INFO  o.a.c.c.C.[Tomcat-13].[localhost].[/business]     :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-01 15:17:01.279 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 322 ms
+2023-11-01 15:17:02.000 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-11-01 15:17:02.137 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8002"]
+2023-11-01 15:17:02.141 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8002 (http) with context path '/business'
+2023-11-01 15:17:02.247 INFO  c.e.train.business.config.BusinessApplication     :57   restartedMain [32m                [0;39m Started BusinessApplication in 1.451 seconds (process running for 4153.548)
+2023-11-01 15:17:02.249 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-11-01 15:17:02.250 INFO  c.e.train.business.config.BusinessApplication     :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-11-01 15:17:02.250 INFO  c.e.train.business.config.BusinessApplication     :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8002/business/hello

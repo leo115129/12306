@@ -6,9 +6,7 @@ import cn.hutool.core.util.EnumUtil;
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
 import com.alibaba.fastjson.JSON;
-import com.example.train.business.domain.ConfirmOrder;
-import com.example.train.business.domain.ConfirmOrderExample;
-import com.example.train.business.domain.DailyTrainTicket;
+import com.example.train.business.domain.*;
 import com.example.train.business.enums.ConfirmOrderStatusEnum;
 import com.example.train.business.enums.SeatColEnum;
 import com.example.train.business.enums.SeatTypeEnum;
@@ -30,6 +28,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 @Service
@@ -42,6 +41,12 @@ public class ConfirmOrderService {
 
     @Resource
     private DailyTrainTicketService dailyTrainTicketService;
+
+    @Resource
+    private DailyTrainCarriageService dailyTrainCarriageService;
+
+    @Resource
+    private DailyTrainSeatService dailyTrainSeatService;
 
     public void save(ConfirmOrderDoReq req) {
         DateTime now = DateTime.now();
@@ -106,6 +111,7 @@ public class ConfirmOrderService {
         //预扣减余票数量、并判断余票是否足够
         reduceTickets(req, dailyTrainTicket);
 
+        //计算座位偏移量
         List<ConfirmOrderTicketReq> tickets = req.getTickets();
         ConfirmOrderTicketReq confirmOrderTicketReq = tickets.get(0);
         if(StrUtil.isBlank(confirmOrderTicketReq.getSeat())){
@@ -131,14 +137,36 @@ public class ConfirmOrderService {
                 Integer offesr=integer-indexList.get(0);
                 offestList.add(offesr);
             }
+
+            getSeat(req.getDate(),req.getTrainCode(),confirmOrderTicketReq.getSeatTypeCode(),
+            confirmOrderTicketReq.getSeat().split("")[0],offestList);
+
+
         }else{
             LOG.info("本次购票没有选座");
+            for (ConfirmOrderTicketReq ticket : tickets) {
+                getSeat(req.getDate(),req.getTrainCode(),confirmOrderTicketReq.getSeatTypeCode()
+                ,null,null);
+            }
         }
 
         //选座
             //
 
     }
+
+    private void getSeat(Date date, String code, String seatType,String column,List<Integer> offsetList){
+        List<DailyTrainCarriage> dailyTrainCarriages = dailyTrainCarriageService.selectBySeatType(date, code, seatType);
+        LOG.info("查出符合条件和车厢:{}",dailyTrainCarriages.size());
+
+        //一个车厢一个车厢的获取座位数据
+        for (DailyTrainCarriage dailyTrainCarriage : dailyTrainCarriages) {
+            List<DailyTrainSeat> dailyTrainSeats = dailyTrainSeatService.selectByCarriage(date, code, dailyTrainCarriage.getIndex());
+
+        }
+    }
+
+
 
     private void reduceTickets(ConfirmOrderDoReq req, DailyTrainTicket dailyTrainTicket) {
         for (ConfirmOrderTicketReq ticket : req.getTickets()) {
