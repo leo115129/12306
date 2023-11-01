@@ -4,11 +4,13 @@ import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.util.EnumUtil;
 import cn.hutool.core.util.ObjectUtil;
+import cn.hutool.core.util.StrUtil;
 import com.alibaba.fastjson.JSON;
 import com.example.train.business.domain.ConfirmOrder;
 import com.example.train.business.domain.ConfirmOrderExample;
 import com.example.train.business.domain.DailyTrainTicket;
 import com.example.train.business.enums.ConfirmOrderStatusEnum;
+import com.example.train.business.enums.SeatColEnum;
 import com.example.train.business.enums.SeatTypeEnum;
 import com.example.train.business.mapper.ConfirmOrderMapper;
 import com.example.train.business.req.ConfirmOrderDoReq;
@@ -27,6 +29,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -103,6 +106,37 @@ public class ConfirmOrderService {
         //预扣减余票数量、并判断余票是否足够
         reduceTickets(req, dailyTrainTicket);
 
+        List<ConfirmOrderTicketReq> tickets = req.getTickets();
+        ConfirmOrderTicketReq confirmOrderTicketReq = tickets.get(0);
+        if(StrUtil.isBlank(confirmOrderTicketReq.getSeat())){
+            LOG.info("本次购票有选座");
+            List<SeatColEnum> colsByType = SeatColEnum.getColsByType(confirmOrderTicketReq.getSeatTypeCode());
+
+            //生成用于和前端一样参考的座位
+            List<String> referSeatList=new ArrayList<>();
+            for(int i=1;i<=2;++i){
+                for (SeatColEnum seatColEnum : colsByType) {
+                    referSeatList.add(seatColEnum.getCode()+i);
+                }
+            }
+
+            List<Integer> indexList=new ArrayList<>();
+            for (ConfirmOrderTicketReq ticket : tickets) {
+                int i = referSeatList.indexOf(ticket.getSeat());
+                indexList.add(i);
+            }
+
+            List<Integer> offestList=new ArrayList<>();
+            for (Integer integer : indexList) {
+                Integer offesr=integer-indexList.get(0);
+                offestList.add(offesr);
+            }
+        }else{
+            LOG.info("本次购票没有选座");
+        }
+
+        //选座
+            //
 
     }
 
