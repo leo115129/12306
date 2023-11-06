@@ -1,8 +1,10 @@
 package com.example.train.business.service;
 
 import cn.hutool.core.bean.BeanUtil;
+import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.date.DateTime;
 import cn.hutool.core.util.EnumUtil;
+import cn.hutool.core.util.NumberUtil;
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
 import com.alibaba.fastjson.JSON;
@@ -139,14 +141,14 @@ public class ConfirmOrderService {
             }
 
             getSeat(req.getDate(),req.getTrainCode(),confirmOrderTicketReq.getSeatTypeCode(),
-            confirmOrderTicketReq.getSeat().split("")[0],offestList);
+            confirmOrderTicketReq.getSeat().split("")[0],offestList,dailyTrainTicket.getStartIndex(),dailyTrainTicket.getEndIndex());
 
 
         }else{
             LOG.info("本次购票没有选座");
             for (ConfirmOrderTicketReq ticket : tickets) {
                 getSeat(req.getDate(),req.getTrainCode(),confirmOrderTicketReq.getSeatTypeCode()
-                ,null,null);
+                ,null,null,dailyTrainTicket.getStartIndex(),dailyTrainTicket.getEndIndex());
             }
         }
 
@@ -155,7 +157,8 @@ public class ConfirmOrderService {
 
     }
 
-    private void getSeat(Date date, String code, String seatType,String column,List<Integer> offsetList){
+    private void getSeat(Date date, String code, String seatType,String column,List<Integer> offsetList
+    ,Integer startIndex,Integer endIndex){
         List<DailyTrainCarriage> dailyTrainCarriages = dailyTrainCarriageService.selectBySeatType(date, code, seatType);
         LOG.info("查出符合条件和车厢:{}",dailyTrainCarriages.size());
 
@@ -163,9 +166,64 @@ public class ConfirmOrderService {
         for (DailyTrainCarriage dailyTrainCarriage : dailyTrainCarriages) {
             List<DailyTrainSeat> dailyTrainSeats = dailyTrainSeatService.selectByCarriage(date, code, dailyTrainCarriage.getIndex());
 
+            for (DailyTrainSeat dailyTrainSeat : dailyTrainSeats) {
+                String col=dailyTrainSeat.getCol();
+                Integer seatIndex=dailyTrainSeat.getCarriageSeatIndex();
+
+                if(StrUtil.isBlank(column)){
+                    LOG.info("没有选座");
+                }else{
+                    if(!col.equals(column)){
+                        continue;
+                    }
+                }
+
+                boolean isChoose = calSell(dailyTrainSeat, startIndex, endIndex);
+                if(isChoose){
+                    return;
+                }else{
+
+                }
+
+                if(CollUtil.isNotEmpty(offsetList)){
+                    for(int i=1;i<offsetList.size();++i){
+                        Integer offset=offsetList.get(i);
+                        int nextIndex=seatIndex+offset;
+                        DailyTrainSeat nextDailyTrainSeat=dailyTrainSeats.get(nextIndex);
+
+                        boolean isChooseNext = calSell(dailyTrainSeat, startIndex, endIndex);
+
+
+                    }
+                }
+
+            }
         }
     }
 
+    /**
+     * 是否可卖
+     */
+    public boolean calSell(DailyTrainSeat dailyTrainSeat,Integer startIndex,Integer endIndex){
+        String sell = dailyTrainSeat.getSell();
+        String substring = sell.substring(startIndex, endIndex);
+        if(Integer.parseInt(substring)>0){
+            return false;
+        }else{
+            String replace = substring.replace('0', '1');
+            replace = StrUtil.fillBefore(replace, '0', endIndex);
+            replace=StrUtil.fillAfter(replace,'0',sell.length());
+
+            int newSellInt = NumberUtil.binaryToInt(sell)|NumberUtil.binaryToInt(replace);
+
+            String newSell = NumberUtil.getBinaryStr(newSellInt);
+            newSell = StrUtil.fillBefore(newSell, '0', sell.length());
+//            LOG.info("座位{}被选中，原售票信息：{}，车站区间：{}~{}，即：{}，最终售票信息：{}"
+//                    , dailyTrainSeat.getCarriageSeatIndex(), sell, startIndex, endIndex, curSell, newSell);
+            dailyTrainSeat.setSell(newSell);
+            return true;
+        }
+    }
 
 
     private void reduceTickets(ConfirmOrderDoReq req, DailyTrainTicket dailyTrainTicket) {

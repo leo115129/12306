@@ -1,0 +1,208 @@
+2023-11-01 14:08:00.655 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-11-01 14:08:00.683 INFO  c.example.train.gateway.config.GateWayApplication :51   restartedMain [32m                [0;39m Starting GateWayApplication using Java 17.0.4.1 with PID 19416 (D:\new world\Java\train\gateway\target\classes started by 17926 in D:\new world\Java\train)
+2023-11-01 14:08:00.684 INFO  c.example.train.gateway.config.GateWayApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-01 14:08:00.715 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-01 14:08:00.716 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-01 14:08:01.189 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=ae56ad43-944a-3422-a879-692108bb3cd1
+2023-11-01 14:08:02.479 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-01 14:08:02.692 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [After]
+2023-11-01 14:08:02.692 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Before]
+2023-11-01 14:08:02.692 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Between]
+2023-11-01 14:08:02.692 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-11-01 14:08:02.692 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Header]
+2023-11-01 14:08:02.693 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Host]
+2023-11-01 14:08:02.693 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Method]
+2023-11-01 14:08:02.693 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Path]
+2023-11-01 14:08:02.693 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Query]
+2023-11-01 14:08:02.693 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-11-01 14:08:02.693 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-11-01 14:08:02.693 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-11-01 14:08:02.693 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Weight]
+2023-11-01 14:08:02.694 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-11-01 14:08:02.817 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-11-01 14:08:03.908 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-01 14:08:04.086 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  restartedMain [32m                [0;39m Netty started on port 8000
+2023-11-01 14:08:05.191 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-01 14:08:06.287 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-01 14:08:06.328 INFO  c.example.train.gateway.config.GateWayApplication :57   restartedMain [32m                [0;39m Started GateWayApplication in 7.16 seconds (process running for 8.186)
+2023-11-01 14:08:06.330 INFO  c.example.train.gateway.config.GateWayApplication :19   restartedMain [32m                [0;39m 启动成功!!!
+2023-11-01 14:08:06.331 INFO  c.example.train.gateway.config.GateWayApplication :20   restartedMain [32m                [0;39m 网关地址:	http://127.0.0.1:8000
+2023-11-01 14:11:02.874 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/member/member/send-code
+2023-11-01 14:11:03.846 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/member/member/send-code
+2023-11-01 14:11:04.453 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/member/member/login
+2023-11-01 14:11:05.548 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/member/member/login
+2023-11-01 14:11:11.550 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-2 [32m                [0;39m 不需要登录验证：/business/admin/train/query-all
+2023-11-01 14:11:11.556 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
+2023-11-01 14:11:11.559 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-ticket/query-list
+2023-11-01 14:11:12.148 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
+2023-11-01 14:11:15.011 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-11-01 14:11:15.398 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-5 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-station/query-list
+2023-11-01 14:11:18.244 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-5 [32m                [0;39m 需要登录验证：/business/station/query-all
+2023-11-01 14:11:18.246 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-5 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg4MTkwNjUsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTg5NjQ0NjI5NjQzMTQxMTIsImV4cCI6MTY5ODkwNTQ2NSwiaWF0IjoxNjk4ODE5MDY1fQ.34j_4PjfyHvDBdfnZDQzD8ARfFhWbhicxllC1DKlshs
+2023-11-01 14:11:19.396 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-5 [32m                [0;39m JWT token校验结果：true
+2023-11-01 14:11:19.397 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-5 [32m                [0;39m token有效，放行该请求
+2023-11-01 14:11:20.293 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-5 [32m                [0;39m 需要登录验证：/business/station/query-all
+2023-11-01 14:11:20.294 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-5 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg4MTkwNjUsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTg5NjQ0NjI5NjQzMTQxMTIsImV4cCI6MTY5ODkwNTQ2NSwiaWF0IjoxNjk4ODE5MDY1fQ.34j_4PjfyHvDBdfnZDQzD8ARfFhWbhicxllC1DKlshs
+2023-11-01 14:11:20.296 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-5 [32m                [0;39m JWT token校验结果：true
+2023-11-01 14:11:20.296 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-5 [32m                [0;39m token有效，放行该请求
+2023-11-01 14:11:24.748 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-7 [32m                [0;39m 需要登录验证：/business/daily-train-ticket/query-list
+2023-11-01 14:11:24.748 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-7 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg4MTkwNjUsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTg5NjQ0NjI5NjQzMTQxMTIsImV4cCI6MTY5ODkwNTQ2NSwiaWF0IjoxNjk4ODE5MDY1fQ.34j_4PjfyHvDBdfnZDQzD8ARfFhWbhicxllC1DKlshs
+2023-11-01 14:11:24.749 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-7 [32m                [0;39m JWT token校验结果：true
+2023-11-01 14:11:24.749 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-7 [32m                [0;39m token有效，放行该请求
+2023-11-01 14:33:12.305 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-8 [32m                [0;39m 需要登录验证：/member/ticket/query-list
+2023-11-01 14:33:12.306 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-8 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg4MTkwNjUsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTg5NjQ0NjI5NjQzMTQxMTIsImV4cCI6MTY5ODkwNTQ2NSwiaWF0IjoxNjk4ODE5MDY1fQ.34j_4PjfyHvDBdfnZDQzD8ARfFhWbhicxllC1DKlshs
+2023-11-01 14:33:12.306 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-8 [32m                [0;39m JWT token校验结果：true
+2023-11-01 14:33:12.306 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-8 [32m                [0;39m token有效，放行该请求
+2023-11-01 14:33:13.320 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-8 [32m                [0;39m 需要登录验证：/business/station/query-all
+2023-11-01 14:33:13.321 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-8 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg4MTkwNjUsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTg5NjQ0NjI5NjQzMTQxMTIsImV4cCI6MTY5ODkwNTQ2NSwiaWF0IjoxNjk4ODE5MDY1fQ.34j_4PjfyHvDBdfnZDQzD8ARfFhWbhicxllC1DKlshs
+2023-11-01 14:33:13.321 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-8 [32m                [0;39m JWT token校验结果：true
+2023-11-01 14:33:13.322 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-8 [32m                [0;39m token有效，放行该请求
+2023-11-01 14:33:13.322 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-1 [32m                [0;39m 需要登录验证：/business/daily-train-ticket/query-list
+2023-11-01 14:33:13.322 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-1 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg4MTkwNjUsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTg5NjQ0NjI5NjQzMTQxMTIsImV4cCI6MTY5ODkwNTQ2NSwiaWF0IjoxNjk4ODE5MDY1fQ.34j_4PjfyHvDBdfnZDQzD8ARfFhWbhicxllC1DKlshs
+2023-11-01 14:33:13.323 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-1 [32m                [0;39m JWT token校验结果：true
+2023-11-01 14:33:13.323 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-1 [32m                [0;39m token有效，放行该请求
+2023-11-01 14:33:13.392 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-8 [32m                [0;39m 需要登录验证：/business/station/query-all
+2023-11-01 14:33:13.393 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-8 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg4MTkwNjUsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTg5NjQ0NjI5NjQzMTQxMTIsImV4cCI6MTY5ODkwNTQ2NSwiaWF0IjoxNjk4ODE5MDY1fQ.34j_4PjfyHvDBdfnZDQzD8ARfFhWbhicxllC1DKlshs
+2023-11-01 14:33:13.393 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-8 [32m                [0;39m JWT token校验结果：true
+2023-11-01 14:33:13.394 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-8 [32m                [0;39m token有效，放行该请求
+2023-11-01 14:46:46.651 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
+2023-11-01 14:46:46.651 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-ticket/query-list
+2023-11-01 14:46:46.721 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
+2023-11-01 14:46:47.245 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-11-01 14:46:57.416 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train/query-list
+2023-11-01 14:46:57.702 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2023-11-01 14:47:00.059 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train/query-list
+2023-11-01 14:47:02.445 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2023-11-01 14:47:07.824 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-ticket/query-list
+2023-11-01 14:47:07.824 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
+2023-11-01 14:47:07.843 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
+2023-11-01 14:47:38.513 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2023-11-01 14:47:39.681 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2023-11-01 14:47:48.386 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train-carriage/save
+2023-11-01 14:47:48.512 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2023-11-01 14:47:52.885 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2023-11-01 14:47:53.378 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train/query-list
+2023-11-01 14:47:56.870 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train/gen-seat/G1
+2023-11-01 14:47:58.471 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train-station/query-list
+2023-11-01 14:47:58.852 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train-carriage/query-list
+2023-11-01 14:48:02.156 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2023-11-01 14:48:03.260 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/train-seat/query-list
+2023-11-01 14:48:06.117 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-11-01 14:48:15.042 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/gen-daily/2023-11-02
+2023-11-01 14:48:15.454 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-11-01 14:48:18.219 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-station/query-list
+2023-11-01 14:48:22.642 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-carriage/query-list
+2023-11-01 14:48:35.577 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-carriage/query-list
+2023-11-01 14:48:36.882 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-11-01 14:48:40.393 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/gen-daily/2023-11-02
+2023-11-01 14:48:40.820 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/daily-train/query-list
+2023-11-01 14:48:41.734 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-carriage/query-list
+2023-11-01 14:48:43.765 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-carriage/query-list
+2023-11-01 14:48:46.603 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-carriage/query-list
+2023-11-01 14:48:47.897 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-seat/query-list
+2023-11-01 14:48:49.931 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
+2023-11-01 14:48:49.931 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-ticket/query-list
+2023-11-01 14:48:49.943 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
+2023-11-01 14:48:51.485 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-4 [32m                [0;39m 不需要登录验证：/business/admin/daily-train-ticket/query-list
+2023-11-01 14:48:51.485 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
+2023-11-01 14:48:51.505 INFO  c.example.train.gateway.config.LoginMemberFilter  :28   reactor-http-nio-3 [32m                [0;39m 不需要登录验证：/business/admin/station/query-all
+2023-11-01 14:48:54.857 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-3 [32m                [0;39m 需要登录验证：/business/station/query-all
+2023-11-01 14:48:54.858 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-3 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg4MTkwNjUsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTg5NjQ0NjI5NjQzMTQxMTIsImV4cCI6MTY5ODkwNTQ2NSwiaWF0IjoxNjk4ODE5MDY1fQ.34j_4PjfyHvDBdfnZDQzD8ARfFhWbhicxllC1DKlshs
+2023-11-01 14:48:54.858 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-3 [32m                [0;39m JWT token校验结果：true
+2023-11-01 14:48:54.858 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-4 [32m                [0;39m 需要登录验证：/business/daily-train-ticket/query-list
+2023-11-01 14:48:54.858 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-3 [32m                [0;39m token有效，放行该请求
+2023-11-01 14:48:54.858 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-4 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg4MTkwNjUsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTg5NjQ0NjI5NjQzMTQxMTIsImV4cCI6MTY5ODkwNTQ2NSwiaWF0IjoxNjk4ODE5MDY1fQ.34j_4PjfyHvDBdfnZDQzD8ARfFhWbhicxllC1DKlshs
+2023-11-01 14:48:54.858 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-4 [32m                [0;39m JWT token校验结果：true
+2023-11-01 14:48:54.858 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-4 [32m                [0;39m token有效，放行该请求
+2023-11-01 14:48:54.875 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-3 [32m                [0;39m 需要登录验证：/business/station/query-all
+2023-11-01 14:48:54.876 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-3 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg4MTkwNjUsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTg5NjQ0NjI5NjQzMTQxMTIsImV4cCI6MTY5ODkwNTQ2NSwiaWF0IjoxNjk4ODE5MDY1fQ.34j_4PjfyHvDBdfnZDQzD8ARfFhWbhicxllC1DKlshs
+2023-11-01 14:48:54.876 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-3 [32m                [0;39m JWT token校验结果：true
+2023-11-01 14:48:54.877 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-3 [32m                [0;39m token有效，放行该请求
+2023-11-01 14:48:58.540 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-3 [32m                [0;39m 需要登录验证：/business/daily-train-ticket/query-list
+2023-11-01 14:48:58.540 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-3 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg4MTkwNjUsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTg5NjQ0NjI5NjQzMTQxMTIsImV4cCI6MTY5ODkwNTQ2NSwiaWF0IjoxNjk4ODE5MDY1fQ.34j_4PjfyHvDBdfnZDQzD8ARfFhWbhicxllC1DKlshs
+2023-11-01 14:48:58.541 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-3 [32m                [0;39m JWT token校验结果：true
+2023-11-01 14:48:58.541 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-3 [32m                [0;39m token有效，放行该请求
+2023-11-01 14:48:59.864 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-3 [32m                [0;39m 需要登录验证：/member/passenger/query-mine
+2023-11-01 14:48:59.865 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-3 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg4MTkwNjUsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTg5NjQ0NjI5NjQzMTQxMTIsImV4cCI6MTY5ODkwNTQ2NSwiaWF0IjoxNjk4ODE5MDY1fQ.34j_4PjfyHvDBdfnZDQzD8ARfFhWbhicxllC1DKlshs
+2023-11-01 14:48:59.865 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-3 [32m                [0;39m JWT token校验结果：true
+2023-11-01 14:48:59.866 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-3 [32m                [0;39m token有效，放行该请求
+2023-11-01 14:49:14.979 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-5 [32m                [0;39m 需要登录验证：/business/kaptcha/image-code/CTxgyak6
+2023-11-01 14:49:14.980 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-5 [32m                [0;39m 会员登录验证开始，token：null
+2023-11-01 14:49:14.980 INFO  c.example.train.gateway.config.LoginMemberFilter  :37   reactor-http-nio-5 [32m                [0;39m token为空，请求被拦截
+2023-11-01 14:49:17.323 INFO  c.example.train.gateway.config.LoginMemberFilter  :31   reactor-http-nio-3 [32m                [0;39m 需要登录验证：/business/confirm-order/do
+2023-11-01 14:49:17.323 INFO  c.example.train.gateway.config.LoginMemberFilter  :35   reactor-http-nio-3 [32m                [0;39m 会员登录验证开始，token：eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJuYmYiOjE2OTg4MTkwNjUsIm1vYmlsZSI6IjE0NTExMTExMTExIiwiaWQiOjE3MTg5NjQ0NjI5NjQzMTQxMTIsImV4cCI6MTY5ODkwNTQ2NSwiaWF0IjoxNjk4ODE5MDY1fQ.34j_4PjfyHvDBdfnZDQzD8ARfFhWbhicxllC1DKlshs
+2023-11-01 14:49:17.324 INFO  com.example.train.util.JwtUtil                    :45   reactor-http-nio-3 [32m                [0;39m JWT token校验结果：true
+2023-11-01 14:49:17.324 INFO  c.example.train.gateway.config.LoginMemberFilter  :45   reactor-http-nio-3 [32m                [0;39m token有效，放行该请求
+2023-11-01 15:03:06.793 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 5 class path changes (0 additions, 4 deletions, 1 modification)
+2023-11-01 15:03:07.837 INFO  c.example.train.gateway.config.GateWayApplication :51   restartedMain [32m                [0;39m Starting GateWayApplication using Java 17.0.4.1 with PID 19416 (D:\new world\Java\train\gateway\target\classes started by 17926 in D:\new world\Java\train)
+2023-11-01 15:03:07.838 INFO  c.example.train.gateway.config.GateWayApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-01 15:03:08.109 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=69928939-6913-3647-8b52-52ac98ac275a
+2023-11-01 15:03:08.452 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [After]
+2023-11-01 15:03:08.452 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Before]
+2023-11-01 15:03:08.453 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Between]
+2023-11-01 15:03:08.453 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-11-01 15:03:08.453 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Header]
+2023-11-01 15:03:08.454 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Host]
+2023-11-01 15:03:08.454 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Method]
+2023-11-01 15:03:08.454 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Path]
+2023-11-01 15:03:08.454 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Query]
+2023-11-01 15:03:08.454 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-11-01 15:03:08.455 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-11-01 15:03:08.455 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-11-01 15:03:08.455 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Weight]
+2023-11-01 15:03:08.456 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-11-01 15:03:08.566 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-11-01 15:03:08.738 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  restartedMain [32m                [0;39m Netty started on port 8000
+2023-11-01 15:03:09.034 INFO  c.example.train.gateway.config.GateWayApplication :57   restartedMain [32m                [0;39m Started GateWayApplication in 1.86 seconds (process running for 3310.892)
+2023-11-01 15:03:09.044 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-11-01 15:03:09.045 INFO  c.example.train.gateway.config.GateWayApplication :19   restartedMain [32m                [0;39m 启动成功!!!
+2023-11-01 15:03:09.045 INFO  c.example.train.gateway.config.GateWayApplication :20   restartedMain [32m                [0;39m 网关地址:	http://127.0.0.1:8000
+2023-11-01 15:03:09.985 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  File Watcher [32m                [0;39m Restarting due to 4 class path changes (4 additions, 0 deletions, 0 modifications)
+2023-11-01 15:03:10.365 INFO  c.example.train.gateway.config.GateWayApplication :51   restartedMain [32m                [0;39m Starting GateWayApplication using Java 17.0.4.1 with PID 19416 (D:\new world\Java\train\gateway\target\classes started by 17926 in D:\new world\Java\train)
+2023-11-01 15:03:10.366 INFO  c.example.train.gateway.config.GateWayApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-01 15:03:10.771 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=ae56ad43-944a-3422-a879-692108bb3cd1
+2023-11-01 15:03:11.161 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [After]
+2023-11-01 15:03:11.162 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Before]
+2023-11-01 15:03:11.162 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Between]
+2023-11-01 15:03:11.162 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-11-01 15:03:11.162 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Header]
+2023-11-01 15:03:11.162 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Host]
+2023-11-01 15:03:11.162 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Method]
+2023-11-01 15:03:11.162 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Path]
+2023-11-01 15:03:11.162 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Query]
+2023-11-01 15:03:11.163 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-11-01 15:03:11.163 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-11-01 15:03:11.163 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-11-01 15:03:11.163 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Weight]
+2023-11-01 15:03:11.163 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-11-01 15:03:11.234 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-11-01 15:03:11.396 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  restartedMain [32m                [0;39m Netty started on port 8000
+2023-11-01 15:03:11.809 INFO  c.example.train.gateway.config.GateWayApplication :57   restartedMain [32m                [0;39m Started GateWayApplication in 1.749 seconds (process running for 3313.666)
+2023-11-01 15:03:11.811 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   restartedMain [32m                [0;39m Condition evaluation unchanged
+2023-11-01 15:03:11.812 INFO  c.example.train.gateway.config.GateWayApplication :19   restartedMain [32m                [0;39m 启动成功!!!
+2023-11-01 15:03:11.812 INFO  c.example.train.gateway.config.GateWayApplication :20   restartedMain [32m                [0;39m 网关地址:	http://127.0.0.1:8000
+2023-11-01 20:38:37.059 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-11-01 20:38:37.101 INFO  c.example.train.gateway.config.GateWayApplication :51   restartedMain [32m                [0;39m Starting GateWayApplication using Java 17.0.4.1 with PID 8724 (D:\new world\Java\train\gateway\target\classes started by 17926 in D:\new world\Java\train)
+2023-11-01 20:38:37.102 INFO  c.example.train.gateway.config.GateWayApplication :637  restartedMain [32m                [0;39m No active profile set, falling back to 1 default profile: "default"
+2023-11-01 20:38:37.152 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-01 20:38:37.152 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-11-01 20:38:37.955 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=ae56ad43-944a-3422-a879-692108bb3cd1
+2023-11-01 20:38:38.717 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [After]
+2023-11-01 20:38:38.717 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Before]
+2023-11-01 20:38:38.717 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Between]
+2023-11-01 20:38:38.717 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Cookie]
+2023-11-01 20:38:38.717 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Header]
+2023-11-01 20:38:38.717 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Host]
+2023-11-01 20:38:38.717 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Method]
+2023-11-01 20:38:38.717 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Path]
+2023-11-01 20:38:38.718 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Query]
+2023-11-01 20:38:38.718 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [ReadBody]
+2023-11-01 20:38:38.718 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2023-11-01 20:38:38.718 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2023-11-01 20:38:38.718 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [Weight]
+2023-11-01 20:38:38.718 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :89   restartedMain [32m                [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2023-11-01 20:38:38.925 WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :62   restartedMain [32m                [0;39m Unable to start LiveReload server
+2023-11-01 20:38:39.360 INFO  o.s.boot.web.embedded.netty.NettyWebServer        :111  restartedMain [32m                [0;39m Netty started on port 8000
+2023-11-01 20:38:39.722 INFO  c.example.train.gateway.config.GateWayApplication :57   restartedMain [32m                [0;39m Started GateWayApplication in 3.228 seconds (process running for 4.483)
+2023-11-01 20:38:39.726 INFO  c.example.train.gateway.config.GateWayApplication :19   restartedMain [32m                [0;39m 启动成功!!!
+2023-11-01 20:38:39.726 INFO  c.example.train.gateway.config.GateWayApplication :20   restartedMain [32m                [0;39m 网关地址:	http://127.0.0.1:8000
