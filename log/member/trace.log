@@ -618,3 +618,716 @@ Caused by: javax.management.InstanceAlreadyExistsException: org.springframework.
 2023-11-06 20:26:57.903 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8001-exec-1 [32m1699273617854t9w[0;39m 请求参数: []
 2023-11-06 20:26:57.905 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8001-exec-1 [32m1699273617854t9w[0;39m 返回结果: "hello,???"
 2023-11-06 20:26:57.905 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8001-exec-1 [32m1699273617854t9w[0;39m ------------- 结束 耗时：51 ms -------------
+2023-11-06 20:59:20.607 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 20:59:20.609 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 20:59:20.611 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 20:59:20.619 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-11-06 20:59:20.700 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-06 20:59:20.887 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 20:59:20.888 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 20:59:20.889 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   restartedMain [32m                [0;39m [settings] [req-serv] nacos-server port:8848
+2023-11-06 20:59:20.890 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   restartedMain [32m                [0;39m [settings] [http-client] connect timeout:1000
+2023-11-06 20:59:20.891 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  restartedMain [32m                [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2023-11-06 20:59:20.922 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-11-06 20:59:20.922 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-11-06 20:59:20.926 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  restartedMain [32m                [0;39m null No credential found
+2023-11-06 20:59:22.213 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 20:59:22.214 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 20:59:22.225 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :68   restartedMain [32m                [0;39m LOCAL_SNAPSHOT_PATH:C:\Users\17926\nacos\config
+2023-11-06 20:59:22.228 INFO  com.alibaba.nacos.common.remote.client            :94   restartedMain [32m                [0;39m [RpcClientFactory] create a new rpc client of cc922246-2ee4-4154-86ab-517cc7513328_config-0
+2023-11-06 20:59:22.246 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [cc922246-2ee4-4154-86ab-517cc7513328_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$601/0x0000000800f324c8
+2023-11-06 20:59:22.247 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [cc922246-2ee4-4154-86ab-517cc7513328_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$602/0x0000000800f328e8
+2023-11-06 20:59:22.248 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [cc922246-2ee4-4154-86ab-517cc7513328_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-11-06 20:59:22.248 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [cc922246-2ee4-4154-86ab-517cc7513328_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-11-06 20:59:22.255 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [cc922246-2ee4-4154-86ab-517cc7513328_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-11-06 20:59:22.957 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [cc922246-2ee4-4154-86ab-517cc7513328_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1699275562791_127.0.0.1_62840
+2023-11-06 20:59:22.958 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [cc922246-2ee4-4154-86ab-517cc7513328_config-0] Notify connected event to listeners.
+2023-11-06 20:59:22.958 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [cc922246-2ee4-4154-86ab-517cc7513328_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-11-06 20:59:22.958 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  com.alibaba.nacos.client.remote.worker [32m                [0;39m [cc922246-2ee4-4154-86ab-517cc7513328_config-0] Connected,notify listen context...
+2023-11-06 20:59:22.958 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [cc922246-2ee4-4154-86ab-517cc7513328_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$617/0x000000080102d230
+2023-11-06 20:59:22.982 INFO  com.alibaba.nacos.client.config.impl.Limiter      :62   restartedMain [32m                [0;39m limitTime:5.0
+2023-11-06 20:59:22.994 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member] & group[DEFAULT_GROUP]
+2023-11-06 20:59:23.001 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member.properties] & group[DEFAULT_GROUP]
+2023-11-06 20:59:23.005 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member-dev.properties] & group[DEFAULT_GROUP]
+2023-11-06 20:59:23.006 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :134  restartedMain [32m                [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-member-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member,DEFAULT_GROUP'}]
+2023-11-06 20:59:23.025 INFO  com.example.train.member.config.MemberApplication :643  restartedMain [32m                [0;39m The following 1 profile is active: "dev"
+2023-11-06 20:59:23.744 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=80915e85-cb9e-37c4-8836-5fd487e964ca
+2023-11-06 20:59:24.250 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-11-06 20:59:24.257 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-11-06 20:59:24.258 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-11-06 20:59:24.258 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-06 20:59:24.307 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-06 20:59:24.307 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1270 ms
+2023-11-06 20:59:24.587 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616  restartedMain [32m                [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of autowired dependencies failed
+2023-11-06 20:59:24.589 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Stopping service [Tomcat]
+2023-11-06 20:59:24.602 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   restartedMain [32m                [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-06 20:59:24.619 ERROR org.springframework.boot.SpringApplication        :827  restartedMain [32m                [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.example.train.member.config.MemberApplication.main(MemberApplication.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'test.nacos' in value "${test.nacos}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	... 20 common frames omitted
+2023-11-06 20:59:24.622 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :136  Thread-10 [32m                [0;39m [NotifyCenter] Start destroying Publisher
+2023-11-06 20:59:24.623 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :102  Thread-4 [32m                [0;39m [HttpClientBeanHolder] Start destroying common HttpClient
+2023-11-06 20:59:24.623 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :153  Thread-10 [32m                [0;39m [NotifyCenter] Destruction of the end
+2023-11-06 20:59:24.623 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :111  Thread-4 [32m                [0;39m [HttpClientBeanHolder] Destruction of the end
+2023-11-06 21:00:30.527 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:00:30.529 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:00:30.530 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:00:30.533 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-11-06 21:00:30.594 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-06 21:00:30.753 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:00:30.754 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:00:30.755 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   restartedMain [32m                [0;39m [settings] [req-serv] nacos-server port:8848
+2023-11-06 21:00:30.755 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   restartedMain [32m                [0;39m [settings] [http-client] connect timeout:1000
+2023-11-06 21:00:30.757 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  restartedMain [32m                [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2023-11-06 21:00:30.775 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-11-06 21:00:30.776 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-11-06 21:00:30.778 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  restartedMain [32m                [0;39m null No credential found
+2023-11-06 21:00:31.976 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:00:31.976 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:00:31.989 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :68   restartedMain [32m                [0;39m LOCAL_SNAPSHOT_PATH:C:\Users\17926\nacos\config
+2023-11-06 21:00:31.992 INFO  com.alibaba.nacos.common.remote.client            :94   restartedMain [32m                [0;39m [RpcClientFactory] create a new rpc client of a422f62b-48f1-46bb-b0c0-593e73a76650_config-0
+2023-11-06 21:00:32.003 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a422f62b-48f1-46bb-b0c0-593e73a76650_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$601/0x0000000800f324c8
+2023-11-06 21:00:32.003 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a422f62b-48f1-46bb-b0c0-593e73a76650_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$602/0x0000000800f328e8
+2023-11-06 21:00:32.003 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a422f62b-48f1-46bb-b0c0-593e73a76650_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-11-06 21:00:32.004 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a422f62b-48f1-46bb-b0c0-593e73a76650_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-11-06 21:00:32.010 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a422f62b-48f1-46bb-b0c0-593e73a76650_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-11-06 21:00:32.650 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a422f62b-48f1-46bb-b0c0-593e73a76650_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1699275632481_127.0.0.1_62929
+2023-11-06 21:00:32.651 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [a422f62b-48f1-46bb-b0c0-593e73a76650_config-0] Notify connected event to listeners.
+2023-11-06 21:00:32.651 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a422f62b-48f1-46bb-b0c0-593e73a76650_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-11-06 21:00:32.651 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  com.alibaba.nacos.client.remote.worker [32m                [0;39m [a422f62b-48f1-46bb-b0c0-593e73a76650_config-0] Connected,notify listen context...
+2023-11-06 21:00:32.651 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a422f62b-48f1-46bb-b0c0-593e73a76650_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$617/0x000000080102d230
+2023-11-06 21:00:32.675 INFO  com.alibaba.nacos.client.config.impl.Limiter      :62   restartedMain [32m                [0;39m limitTime:5.0
+2023-11-06 21:00:32.687 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member] & group[DEFAULT_GROUP]
+2023-11-06 21:00:32.693 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member.properties] & group[DEFAULT_GROUP]
+2023-11-06 21:00:32.699 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member-dev.properties] & group[DEFAULT_GROUP]
+2023-11-06 21:00:32.700 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :134  restartedMain [32m                [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-member-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member,DEFAULT_GROUP'}]
+2023-11-06 21:00:32.716 INFO  com.example.train.member.config.MemberApplication :643  restartedMain [32m                [0;39m The following 1 profile is active: "dev"
+2023-11-06 21:00:33.255 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=80915e85-cb9e-37c4-8836-5fd487e964ca
+2023-11-06 21:00:33.758 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-11-06 21:00:33.764 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-11-06 21:00:33.766 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-11-06 21:00:33.766 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-06 21:00:33.814 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-06 21:00:33.814 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1084 ms
+2023-11-06 21:00:34.089 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616  restartedMain [32m                [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of autowired dependencies failed
+2023-11-06 21:00:34.090 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Stopping service [Tomcat]
+2023-11-06 21:00:34.101 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   restartedMain [32m                [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-06 21:00:34.118 ERROR org.springframework.boot.SpringApplication        :827  restartedMain [32m                [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.example.train.member.config.MemberApplication.main(MemberApplication.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'test.nacos' in value "${test.nacos}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	... 20 common frames omitted
+2023-11-06 21:00:34.123 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :102  Thread-4 [32m                [0;39m [HttpClientBeanHolder] Start destroying common HttpClient
+2023-11-06 21:00:34.123 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :136  Thread-10 [32m                [0;39m [NotifyCenter] Start destroying Publisher
+2023-11-06 21:00:34.123 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :153  Thread-10 [32m                [0;39m [NotifyCenter] Destruction of the end
+2023-11-06 21:00:34.124 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :111  Thread-4 [32m                [0;39m [HttpClientBeanHolder] Destruction of the end
+2023-11-06 21:01:09.233 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:01:09.235 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:01:09.236 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:01:09.240 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-11-06 21:01:09.305 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-06 21:01:09.465 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:01:09.466 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:01:09.467 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   restartedMain [32m                [0;39m [settings] [req-serv] nacos-server port:8848
+2023-11-06 21:01:09.468 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   restartedMain [32m                [0;39m [settings] [http-client] connect timeout:1000
+2023-11-06 21:01:09.469 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  restartedMain [32m                [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2023-11-06 21:01:09.488 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-11-06 21:01:09.489 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-11-06 21:01:09.491 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  restartedMain [32m                [0;39m null No credential found
+2023-11-06 21:01:10.700 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:01:10.701 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:01:10.712 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :68   restartedMain [32m                [0;39m LOCAL_SNAPSHOT_PATH:C:\Users\17926\nacos\config
+2023-11-06 21:01:10.715 INFO  com.alibaba.nacos.common.remote.client            :94   restartedMain [32m                [0;39m [RpcClientFactory] create a new rpc client of 0deec62d-0b44-411b-8f46-6ac3164ddddd_config-0
+2023-11-06 21:01:10.727 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [0deec62d-0b44-411b-8f46-6ac3164ddddd_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$601/0x0000000800f324c8
+2023-11-06 21:01:10.727 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [0deec62d-0b44-411b-8f46-6ac3164ddddd_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$602/0x0000000800f328e8
+2023-11-06 21:01:10.728 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [0deec62d-0b44-411b-8f46-6ac3164ddddd_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-11-06 21:01:10.728 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [0deec62d-0b44-411b-8f46-6ac3164ddddd_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-11-06 21:01:10.733 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [0deec62d-0b44-411b-8f46-6ac3164ddddd_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-11-06 21:01:11.377 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [0deec62d-0b44-411b-8f46-6ac3164ddddd_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1699275671213_127.0.0.1_62995
+2023-11-06 21:01:11.378 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [0deec62d-0b44-411b-8f46-6ac3164ddddd_config-0] Notify connected event to listeners.
+2023-11-06 21:01:11.378 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [0deec62d-0b44-411b-8f46-6ac3164ddddd_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-11-06 21:01:11.378 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  com.alibaba.nacos.client.remote.worker [32m                [0;39m [0deec62d-0b44-411b-8f46-6ac3164ddddd_config-0] Connected,notify listen context...
+2023-11-06 21:01:11.378 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [0deec62d-0b44-411b-8f46-6ac3164ddddd_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$617/0x000000080102d230
+2023-11-06 21:01:11.401 INFO  com.alibaba.nacos.client.config.impl.Limiter      :62   restartedMain [32m                [0;39m limitTime:5.0
+2023-11-06 21:01:11.414 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member] & group[DEFAULT_GROUP]
+2023-11-06 21:01:11.421 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member.properties] & group[DEFAULT_GROUP]
+2023-11-06 21:01:11.426 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member-dev.properties] & group[DEFAULT_GROUP]
+2023-11-06 21:01:11.427 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :134  restartedMain [32m                [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-member-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member,DEFAULT_GROUP'}]
+2023-11-06 21:01:11.444 INFO  com.example.train.member.config.MemberApplication :643  restartedMain [32m                [0;39m The following 1 profile is active: "dev"
+2023-11-06 21:01:11.943 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=80915e85-cb9e-37c4-8836-5fd487e964ca
+2023-11-06 21:01:12.456 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-11-06 21:01:12.462 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-11-06 21:01:12.463 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-11-06 21:01:12.463 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-06 21:01:12.515 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-06 21:01:12.515 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1062 ms
+2023-11-06 21:01:12.788 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616  restartedMain [32m                [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of autowired dependencies failed
+2023-11-06 21:01:12.790 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Stopping service [Tomcat]
+2023-11-06 21:01:12.800 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   restartedMain [32m                [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-06 21:01:12.819 ERROR org.springframework.boot.SpringApplication        :827  restartedMain [32m                [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.example.train.member.config.MemberApplication.main(MemberApplication.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'test.nacos' in value "${test.nacos}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	... 20 common frames omitted
+2023-11-06 21:01:12.821 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :102  Thread-4 [32m                [0;39m [HttpClientBeanHolder] Start destroying common HttpClient
+2023-11-06 21:01:12.821 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :136  Thread-10 [32m                [0;39m [NotifyCenter] Start destroying Publisher
+2023-11-06 21:01:12.822 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :153  Thread-10 [32m                [0;39m [NotifyCenter] Destruction of the end
+2023-11-06 21:02:27.641 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:02:27.643 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:02:27.645 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:02:27.650 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-11-06 21:02:27.716 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-06 21:02:27.905 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:02:27.906 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:02:27.907 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   restartedMain [32m                [0;39m [settings] [req-serv] nacos-server port:8848
+2023-11-06 21:02:27.909 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   restartedMain [32m                [0;39m [settings] [http-client] connect timeout:1000
+2023-11-06 21:02:27.911 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  restartedMain [32m                [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2023-11-06 21:02:27.934 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-11-06 21:02:27.935 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-11-06 21:02:27.937 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  restartedMain [32m                [0;39m null No credential found
+2023-11-06 21:02:29.213 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:02:29.213 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:02:29.225 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :68   restartedMain [32m                [0;39m LOCAL_SNAPSHOT_PATH:C:\Users\17926\nacos\config
+2023-11-06 21:02:29.228 INFO  com.alibaba.nacos.common.remote.client            :94   restartedMain [32m                [0;39m [RpcClientFactory] create a new rpc client of 741fc93f-eb38-4468-be4e-ca42abc83c59_config-0
+2023-11-06 21:02:29.239 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [741fc93f-eb38-4468-be4e-ca42abc83c59_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$601/0x0000000800f32c08
+2023-11-06 21:02:29.239 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [741fc93f-eb38-4468-be4e-ca42abc83c59_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$602/0x0000000800f33028
+2023-11-06 21:02:29.240 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [741fc93f-eb38-4468-be4e-ca42abc83c59_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-11-06 21:02:29.240 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [741fc93f-eb38-4468-be4e-ca42abc83c59_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-11-06 21:02:29.246 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [741fc93f-eb38-4468-be4e-ca42abc83c59_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-11-06 21:02:29.901 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [741fc93f-eb38-4468-be4e-ca42abc83c59_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1699275749740_127.0.0.1_63103
+2023-11-06 21:02:29.902 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [741fc93f-eb38-4468-be4e-ca42abc83c59_config-0] Notify connected event to listeners.
+2023-11-06 21:02:29.902 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [741fc93f-eb38-4468-be4e-ca42abc83c59_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-11-06 21:02:29.902 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  com.alibaba.nacos.client.remote.worker [32m                [0;39m [741fc93f-eb38-4468-be4e-ca42abc83c59_config-0] Connected,notify listen context...
+2023-11-06 21:02:29.902 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [741fc93f-eb38-4468-be4e-ca42abc83c59_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$617/0x000000080102d618
+2023-11-06 21:02:29.926 INFO  com.alibaba.nacos.client.config.impl.Limiter      :62   restartedMain [32m                [0;39m limitTime:5.0
+2023-11-06 21:02:29.941 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member] & group[DEFAULT_GROUP]
+2023-11-06 21:02:29.947 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member.properties] & group[DEFAULT_GROUP]
+2023-11-06 21:02:29.953 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member-dev.properties] & group[DEFAULT_GROUP]
+2023-11-06 21:02:29.954 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :134  restartedMain [32m                [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-member-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member,DEFAULT_GROUP'}]
+2023-11-06 21:02:29.971 INFO  com.example.train.member.config.MemberApplication :643  restartedMain [32m                [0;39m The following 1 profile is active: "dev"
+2023-11-06 21:02:30.497 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=80915e85-cb9e-37c4-8836-5fd487e964ca
+2023-11-06 21:02:31.004 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-11-06 21:02:31.012 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-11-06 21:02:31.014 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-11-06 21:02:31.014 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-06 21:02:31.064 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-06 21:02:31.064 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1080 ms
+2023-11-06 21:02:32.789 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-06 21:02:32.973 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-11-06 21:02:34.091 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-06 21:02:34.137 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-11-06 21:02:34.145 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-11-06 21:02:34.149 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:02:34.149 INFO  com.alibaba.nacos.client.naming                   :61   restartedMain [32m                [0;39m initializer namespace from System Property : null
+2023-11-06 21:02:34.150 INFO  com.alibaba.nacos.client.naming                   :65   restartedMain [32m                [0;39m initializer namespace from System Environment :null
+2023-11-06 21:02:34.150 INFO  com.alibaba.nacos.client.naming                   :72   restartedMain [32m                [0;39m initializer namespace from System Property :train
+2023-11-06 21:02:34.156 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-11-06 21:02:34.156 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-11-06 21:02:34.159 INFO  com.alibaba.nacos.common.remote.client            :94   restartedMain [32m                [0;39m [RpcClientFactory] create a new rpc client of 5195b36c-07fc-40f8-bde7-f7951b480c76
+2023-11-06 21:02:34.160 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [5195b36c-07fc-40f8-bde7-f7951b480c76] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-11-06 21:02:34.161 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [5195b36c-07fc-40f8-bde7-f7951b480c76] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-11-06 21:02:34.161 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [5195b36c-07fc-40f8-bde7-f7951b480c76] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-11-06 21:02:34.162 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [5195b36c-07fc-40f8-bde7-f7951b480c76] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-11-06 21:02:34.278 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [5195b36c-07fc-40f8-bde7-f7951b480c76] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1699275754166_127.0.0.1_63108
+2023-11-06 21:02:34.278 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [5195b36c-07fc-40f8-bde7-f7951b480c76] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-11-06 21:02:34.279 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [5195b36c-07fc-40f8-bde7-f7951b480c76] Notify connected event to listeners.
+2023-11-06 21:02:34.279 INFO  com.alibaba.nacos.client.naming                   :78   com.alibaba.nacos.client.remote.worker [32m                [0;39m Grpc connection connect
+2023-11-06 21:02:34.279 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [5195b36c-07fc-40f8-bde7-f7951b480c76] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$617/0x000000080102d618
+2023-11-06 21:02:34.280 INFO  com.alibaba.nacos.client.naming                   :120  restartedMain [32m                [0;39m [REGISTER-SERVICE] train registering service member with instance Instance{instanceId='null', ip='192.168.188.1', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-11-06 21:02:34.302 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :76   restartedMain [32m                [0;39m nacos registry, DEFAULT_GROUP member 192.168.188.1:8001 register finished
+2023-11-06 21:02:35.414 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-06 21:02:35.423 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 9.315 seconds (process running for 10.193)
+2023-11-06 21:02:35.426 INFO  com.alibaba.nacos.client.config.impl.CacheData    :67   restartedMain [32m                [0;39m nacos.cache.data.init.snapshot = true 
+2023-11-06 21:02:35.427 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [subscribe] member+DEFAULT_GROUP+train
+2023-11-06 21:02:35.431 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [add-listener] ok, tenant=train, dataId=member, group=DEFAULT_GROUP, cnt=1
+2023-11-06 21:02:35.431 INFO  c.a.cloud.nacos.refresh.NacosContextRefresher     :129  restartedMain [32m                [0;39m [Nacos Config] Listening config: dataId=member, group=DEFAULT_GROUP
+2023-11-06 21:02:35.431 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [subscribe] member-dev.properties+DEFAULT_GROUP+train
+2023-11-06 21:02:35.432 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [add-listener] ok, tenant=train, dataId=member-dev.properties, group=DEFAULT_GROUP, cnt=1
+2023-11-06 21:02:35.432 INFO  c.a.cloud.nacos.refresh.NacosContextRefresher     :129  restartedMain [32m                [0;39m [Nacos Config] Listening config: dataId=member-dev.properties, group=DEFAULT_GROUP
+2023-11-06 21:02:35.432 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [subscribe] member.properties+DEFAULT_GROUP+train
+2023-11-06 21:02:35.432 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [add-listener] ok, tenant=train, dataId=member.properties, group=DEFAULT_GROUP, cnt=1
+2023-11-06 21:02:35.433 INFO  c.a.cloud.nacos.refresh.NacosContextRefresher     :129  restartedMain [32m                [0;39m [Nacos Config] Listening config: dataId=member.properties, group=DEFAULT_GROUP
+2023-11-06 21:02:35.433 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-11-06 21:02:35.434 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001/member/hello
+2023-11-06 21:02:37.853 INFO  org.apache.tomcat.util.http.parser.Cookie         :173  http-nio-8001-exec-1 [32m                [0;39m A cookie header was received [Hm_lvt_2745ad927051c4bc7b7ee34b781df793=1695219204,1695256471,1695259481] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2023-11-06 21:02:37.858 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  http-nio-8001-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-06 21:02:37.858 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8001-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-06 21:02:37.859 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8001-exec-1 [32m                [0;39m Completed initialization in 0 ms
+2023-11-06 21:02:37.896 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8001-exec-1 [32m1699275757893mxf[0;39m ------------- 开始 -------------
+2023-11-06 21:02:37.900 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8001-exec-1 [32m1699275757893mxf[0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2023-11-06 21:02:37.901 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8001-exec-1 [32m1699275757893mxf[0;39m 类名方法: com.example.train.member.controller.TestController.hello
+2023-11-06 21:02:37.902 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8001-exec-1 [32m1699275757893mxf[0;39m 远程地址: 127.0.0.1
+2023-11-06 21:02:37.943 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8001-exec-1 [32m1699275757893mxf[0;39m 请求参数: []
+2023-11-06 21:02:37.943 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8001-exec-1 [32m1699275757893mxf[0;39m 返回结果: "hello,123"
+2023-11-06 21:02:37.943 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8001-exec-1 [32m1699275757893mxf[0;39m ------------- 结束 耗时：50 ms -------------
+2023-11-06 21:04:02.139 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8001-exec-3 [32m1699275842139js1[0;39m ------------- 开始 -------------
+2023-11-06 21:04:02.139 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8001-exec-3 [32m1699275842139js1[0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2023-11-06 21:04:02.139 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8001-exec-3 [32m1699275842139js1[0;39m 类名方法: com.example.train.member.controller.TestController.hello
+2023-11-06 21:04:02.140 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8001-exec-3 [32m1699275842139js1[0;39m 远程地址: 127.0.0.1
+2023-11-06 21:04:02.140 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8001-exec-3 [32m1699275842139js1[0;39m 请求参数: []
+2023-11-06 21:04:02.141 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8001-exec-3 [32m1699275842139js1[0;39m 返回结果: "hello,123"
+2023-11-06 21:04:02.141 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8001-exec-3 [32m1699275842139js1[0;39m ------------- 结束 耗时：2 ms -------------
+2023-11-06 21:04:02.371 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8001-exec-5 [32m169927584237168l[0;39m ------------- 开始 -------------
+2023-11-06 21:04:02.372 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8001-exec-5 [32m169927584237168l[0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2023-11-06 21:04:02.372 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8001-exec-5 [32m169927584237168l[0;39m 类名方法: com.example.train.member.controller.TestController.hello
+2023-11-06 21:04:02.372 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8001-exec-5 [32m169927584237168l[0;39m 远程地址: 127.0.0.1
+2023-11-06 21:04:02.373 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8001-exec-5 [32m169927584237168l[0;39m 请求参数: []
+2023-11-06 21:04:02.373 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8001-exec-5 [32m169927584237168l[0;39m 返回结果: "hello,123"
+2023-11-06 21:04:02.374 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8001-exec-5 [32m169927584237168l[0;39m ------------- 结束 耗时：3 ms -------------
+2023-11-06 21:06:25.254 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:06:25.257 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:06:25.259 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:06:25.261 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-11-06 21:06:25.340 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-06 21:06:25.523 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:06:25.524 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:06:25.525 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   restartedMain [32m                [0;39m [settings] [req-serv] nacos-server port:8848
+2023-11-06 21:06:25.526 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   restartedMain [32m                [0;39m [settings] [http-client] connect timeout:1000
+2023-11-06 21:06:25.527 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  restartedMain [32m                [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2023-11-06 21:06:25.548 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-11-06 21:06:25.549 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-11-06 21:06:25.552 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  restartedMain [32m                [0;39m null No credential found
+2023-11-06 21:06:26.790 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:06:26.790 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:06:26.802 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :68   restartedMain [32m                [0;39m LOCAL_SNAPSHOT_PATH:C:\Users\17926\nacos\config
+2023-11-06 21:06:26.804 INFO  com.alibaba.nacos.common.remote.client            :94   restartedMain [32m                [0;39m [RpcClientFactory] create a new rpc client of 7b122fdb-c636-484a-b3e6-7629ab3c9a77_config-0
+2023-11-06 21:06:26.817 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [7b122fdb-c636-484a-b3e6-7629ab3c9a77_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$601/0x0000000800f32c08
+2023-11-06 21:06:26.818 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [7b122fdb-c636-484a-b3e6-7629ab3c9a77_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$602/0x0000000800f33028
+2023-11-06 21:06:26.818 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [7b122fdb-c636-484a-b3e6-7629ab3c9a77_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-11-06 21:06:26.818 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [7b122fdb-c636-484a-b3e6-7629ab3c9a77_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-11-06 21:06:26.824 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [7b122fdb-c636-484a-b3e6-7629ab3c9a77_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-11-06 21:06:27.464 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [7b122fdb-c636-484a-b3e6-7629ab3c9a77_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1699275987298_127.0.0.1_63795
+2023-11-06 21:06:27.467 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [7b122fdb-c636-484a-b3e6-7629ab3c9a77_config-0] Notify connected event to listeners.
+2023-11-06 21:06:27.467 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [7b122fdb-c636-484a-b3e6-7629ab3c9a77_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-11-06 21:06:27.467 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  com.alibaba.nacos.client.remote.worker [32m                [0;39m [7b122fdb-c636-484a-b3e6-7629ab3c9a77_config-0] Connected,notify listen context...
+2023-11-06 21:06:27.467 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [7b122fdb-c636-484a-b3e6-7629ab3c9a77_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$617/0x000000080102d618
+2023-11-06 21:06:27.490 INFO  com.alibaba.nacos.client.config.impl.Limiter      :62   restartedMain [32m                [0;39m limitTime:5.0
+2023-11-06 21:06:27.505 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member] & group[DEFAULT_GROUP]
+2023-11-06 21:06:27.511 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member.properties] & group[DEFAULT_GROUP]
+2023-11-06 21:06:27.519 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member-dev.properties] & group[DEFAULT_GROUP]
+2023-11-06 21:06:27.520 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :134  restartedMain [32m                [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-member-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member,DEFAULT_GROUP'}]
+2023-11-06 21:06:27.539 INFO  com.example.train.member.config.MemberApplication :643  restartedMain [32m                [0;39m The following 1 profile is active: "dev"
+2023-11-06 21:06:28.045 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=80915e85-cb9e-37c4-8836-5fd487e964ca
+2023-11-06 21:06:28.539 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-11-06 21:06:28.544 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-11-06 21:06:28.547 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-11-06 21:06:28.547 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-06 21:06:28.591 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-06 21:06:28.591 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1038 ms
+2023-11-06 21:06:28.860 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext:616  restartedMain [32m                [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of autowired dependencies failed
+2023-11-06 21:06:28.862 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Stopping service [Tomcat]
+2023-11-06 21:06:28.875 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   restartedMain [32m                [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-11-06 21:06:28.892 ERROR org.springframework.boot.SpringApplication        :827  restartedMain [32m                [0;39m Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'testController': Injection of autowired dependencies failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:498)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1416)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:520)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:325)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:973)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:942)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:608)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at com.example.train.member.config.MemberApplication.main(MemberApplication.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'test.nacos' in value "${test.nacos}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:200)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:918)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1358)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1337)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:764)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:747)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:145)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:492)
+	... 20 common frames omitted
+2023-11-06 21:06:28.896 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :102  Thread-4 [32m                [0;39m [HttpClientBeanHolder] Start destroying common HttpClient
+2023-11-06 21:06:28.896 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :136  Thread-10 [32m                [0;39m [NotifyCenter] Start destroying Publisher
+2023-11-06 21:06:28.896 WARN  com.alibaba.nacos.common.notify.NotifyCenter      :153  Thread-10 [32m                [0;39m [NotifyCenter] Destruction of the end
+2023-11-06 21:06:28.896 WARN  c.alibaba.nacos.common.http.HttpClientBeanHolder  :111  Thread-4 [32m                [0;39m [HttpClientBeanHolder] Destruction of the end
+2023-11-06 21:07:39.072 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:07:39.074 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:07:39.075 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:07:39.079 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-11-06 21:07:39.136 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-06 21:07:39.282 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:07:39.283 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:07:39.284 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   restartedMain [32m                [0;39m [settings] [req-serv] nacos-server port:8848
+2023-11-06 21:07:39.285 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   restartedMain [32m                [0;39m [settings] [http-client] connect timeout:1000
+2023-11-06 21:07:39.285 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  restartedMain [32m                [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2023-11-06 21:07:39.303 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-11-06 21:07:39.303 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-11-06 21:07:39.306 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  restartedMain [32m                [0;39m null No credential found
+2023-11-06 21:07:40.508 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:07:40.508 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:07:40.519 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :68   restartedMain [32m                [0;39m LOCAL_SNAPSHOT_PATH:C:\Users\17926\nacos\config
+2023-11-06 21:07:40.523 INFO  com.alibaba.nacos.common.remote.client            :94   restartedMain [32m                [0;39m [RpcClientFactory] create a new rpc client of f0c8bd36-710f-4b98-a193-65cc24d84336_config-0
+2023-11-06 21:07:40.534 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0c8bd36-710f-4b98-a193-65cc24d84336_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$601/0x0000000800f32c08
+2023-11-06 21:07:40.535 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0c8bd36-710f-4b98-a193-65cc24d84336_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$602/0x0000000800f33028
+2023-11-06 21:07:40.536 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0c8bd36-710f-4b98-a193-65cc24d84336_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-11-06 21:07:40.537 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0c8bd36-710f-4b98-a193-65cc24d84336_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-11-06 21:07:40.543 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0c8bd36-710f-4b98-a193-65cc24d84336_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-11-06 21:07:41.191 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0c8bd36-710f-4b98-a193-65cc24d84336_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1699276061026_127.0.0.1_63961
+2023-11-06 21:07:41.192 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [f0c8bd36-710f-4b98-a193-65cc24d84336_config-0] Notify connected event to listeners.
+2023-11-06 21:07:41.193 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0c8bd36-710f-4b98-a193-65cc24d84336_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-11-06 21:07:41.193 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  com.alibaba.nacos.client.remote.worker [32m                [0;39m [f0c8bd36-710f-4b98-a193-65cc24d84336_config-0] Connected,notify listen context...
+2023-11-06 21:07:41.193 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0c8bd36-710f-4b98-a193-65cc24d84336_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$617/0x000000080102d618
+2023-11-06 21:07:41.215 INFO  com.alibaba.nacos.client.config.impl.Limiter      :62   restartedMain [32m                [0;39m limitTime:5.0
+2023-11-06 21:07:41.228 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member] & group[DEFAULT_GROUP]
+2023-11-06 21:07:41.234 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member.properties] & group[DEFAULT_GROUP]
+2023-11-06 21:07:41.244 INFO  com.alibaba.nacos.client.config.utils.JvmUtil     :54   restartedMain [32m                [0;39m isMultiInstance:false
+2023-11-06 21:07:41.251 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :134  restartedMain [32m                [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-member-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member,DEFAULT_GROUP'}]
+2023-11-06 21:07:41.268 INFO  com.example.train.member.config.MemberApplication :643  restartedMain [32m                [0;39m The following 1 profile is active: "dev"
+2023-11-06 21:07:41.774 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=80915e85-cb9e-37c4-8836-5fd487e964ca
+2023-11-06 21:07:42.262 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-11-06 21:07:42.267 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-11-06 21:07:42.269 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-11-06 21:07:42.269 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-06 21:07:42.315 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-06 21:07:42.316 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1036 ms
+2023-11-06 21:07:44.071 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-06 21:07:44.245 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-11-06 21:07:45.368 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-06 21:07:45.410 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-11-06 21:07:45.419 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-11-06 21:07:45.422 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:07:45.422 INFO  com.alibaba.nacos.client.naming                   :61   restartedMain [32m                [0;39m initializer namespace from System Property : null
+2023-11-06 21:07:45.423 INFO  com.alibaba.nacos.client.naming                   :65   restartedMain [32m                [0;39m initializer namespace from System Environment :null
+2023-11-06 21:07:45.423 INFO  com.alibaba.nacos.client.naming                   :72   restartedMain [32m                [0;39m initializer namespace from System Property :train
+2023-11-06 21:07:45.427 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-11-06 21:07:45.428 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-11-06 21:07:45.430 INFO  com.alibaba.nacos.common.remote.client            :94   restartedMain [32m                [0;39m [RpcClientFactory] create a new rpc client of a002482b-c95f-4dd2-88b7-678d853deabd
+2023-11-06 21:07:45.431 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a002482b-c95f-4dd2-88b7-678d853deabd] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-11-06 21:07:45.431 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a002482b-c95f-4dd2-88b7-678d853deabd] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-11-06 21:07:45.432 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a002482b-c95f-4dd2-88b7-678d853deabd] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-11-06 21:07:45.432 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a002482b-c95f-4dd2-88b7-678d853deabd] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-11-06 21:07:45.554 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a002482b-c95f-4dd2-88b7-678d853deabd] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1699276065439_127.0.0.1_63966
+2023-11-06 21:07:45.554 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a002482b-c95f-4dd2-88b7-678d853deabd] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-11-06 21:07:45.554 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [a002482b-c95f-4dd2-88b7-678d853deabd] Notify connected event to listeners.
+2023-11-06 21:07:45.554 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [a002482b-c95f-4dd2-88b7-678d853deabd] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$617/0x000000080102d618
+2023-11-06 21:07:45.554 INFO  com.alibaba.nacos.client.naming                   :78   com.alibaba.nacos.client.remote.worker [32m                [0;39m Grpc connection connect
+2023-11-06 21:07:45.555 INFO  com.alibaba.nacos.client.naming                   :120  restartedMain [32m                [0;39m [REGISTER-SERVICE] train registering service member with instance Instance{instanceId='null', ip='192.168.188.1', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-11-06 21:07:45.564 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :76   restartedMain [32m                [0;39m nacos registry, DEFAULT_GROUP member 192.168.188.1:8001 register finished
+2023-11-06 21:07:46.691 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-06 21:07:46.698 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 9.135 seconds (process running for 9.965)
+2023-11-06 21:07:46.701 INFO  com.alibaba.nacos.client.config.impl.CacheData    :67   restartedMain [32m                [0;39m nacos.cache.data.init.snapshot = true 
+2023-11-06 21:07:46.702 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [subscribe] member+DEFAULT_GROUP+train
+2023-11-06 21:07:46.707 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [add-listener] ok, tenant=train, dataId=member, group=DEFAULT_GROUP, cnt=1
+2023-11-06 21:07:46.707 INFO  c.a.cloud.nacos.refresh.NacosContextRefresher     :129  restartedMain [32m                [0;39m [Nacos Config] Listening config: dataId=member, group=DEFAULT_GROUP
+2023-11-06 21:07:46.710 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [subscribe] member-dev.properties+DEFAULT_GROUP+train
+2023-11-06 21:07:46.711 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [add-listener] ok, tenant=train, dataId=member-dev.properties, group=DEFAULT_GROUP, cnt=1
+2023-11-06 21:07:46.711 INFO  c.a.cloud.nacos.refresh.NacosContextRefresher     :129  restartedMain [32m                [0;39m [Nacos Config] Listening config: dataId=member-dev.properties, group=DEFAULT_GROUP
+2023-11-06 21:07:46.712 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [subscribe] member.properties+DEFAULT_GROUP+train
+2023-11-06 21:07:46.712 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [add-listener] ok, tenant=train, dataId=member.properties, group=DEFAULT_GROUP, cnt=1
+2023-11-06 21:07:46.712 INFO  c.a.cloud.nacos.refresh.NacosContextRefresher     :129  restartedMain [32m                [0;39m [Nacos Config] Listening config: dataId=member.properties, group=DEFAULT_GROUP
+2023-11-06 21:07:46.713 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-11-06 21:07:46.713 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001/member/hello
+2023-11-06 21:07:47.877 INFO  org.apache.tomcat.util.http.parser.Cookie         :173  http-nio-8001-exec-1 [32m                [0;39m A cookie header was received [Hm_lvt_2745ad927051c4bc7b7ee34b781df793=1695219204,1695256471,1695259481] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2023-11-06 21:07:47.884 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  http-nio-8001-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-06 21:07:47.885 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8001-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-06 21:07:47.885 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8001-exec-1 [32m                [0;39m Completed initialization in 0 ms
+2023-11-06 21:07:47.917 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8001-exec-1 [32m16992760679149mc[0;39m ------------- 开始 -------------
+2023-11-06 21:07:47.918 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8001-exec-1 [32m16992760679149mc[0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2023-11-06 21:07:47.919 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8001-exec-1 [32m16992760679149mc[0;39m 类名方法: com.example.train.member.controller.TestController.hello
+2023-11-06 21:07:47.919 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8001-exec-1 [32m16992760679149mc[0;39m 远程地址: 127.0.0.1
+2023-11-06 21:07:47.970 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8001-exec-1 [32m16992760679149mc[0;39m 请求参数: []
+2023-11-06 21:07:47.971 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8001-exec-1 [32m16992760679149mc[0;39m 返回结果: "hello,???"
+2023-11-06 21:07:47.971 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8001-exec-1 [32m16992760679149mc[0;39m ------------- 结束 耗时：57 ms -------------
+2023-11-06 21:12:10.361 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:12:10.363 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:12:10.365 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:12:10.368 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-11-06 21:12:10.423 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-06 21:12:10.563 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:12:10.564 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:12:10.565 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   restartedMain [32m                [0;39m [settings] [req-serv] nacos-server port:8848
+2023-11-06 21:12:10.565 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   restartedMain [32m                [0;39m [settings] [http-client] connect timeout:1000
+2023-11-06 21:12:10.566 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  restartedMain [32m                [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2023-11-06 21:12:10.583 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-11-06 21:12:10.584 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-11-06 21:12:10.587 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  restartedMain [32m                [0;39m null No credential found
+2023-11-06 21:12:11.789 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:12:11.789 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:12:11.799 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :68   restartedMain [32m                [0;39m LOCAL_SNAPSHOT_PATH:C:\Users\17926\nacos\config
+2023-11-06 21:12:11.801 INFO  com.alibaba.nacos.common.remote.client            :94   restartedMain [32m                [0;39m [RpcClientFactory] create a new rpc client of f9d63e00-f726-4b7c-88c3-0e9acd39f654_config-0
+2023-11-06 21:12:11.812 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f9d63e00-f726-4b7c-88c3-0e9acd39f654_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$601/0x0000000800f324c8
+2023-11-06 21:12:11.812 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f9d63e00-f726-4b7c-88c3-0e9acd39f654_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$602/0x0000000800f328e8
+2023-11-06 21:12:11.813 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f9d63e00-f726-4b7c-88c3-0e9acd39f654_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-11-06 21:12:11.813 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f9d63e00-f726-4b7c-88c3-0e9acd39f654_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-11-06 21:12:11.820 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f9d63e00-f726-4b7c-88c3-0e9acd39f654_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-11-06 21:12:12.437 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f9d63e00-f726-4b7c-88c3-0e9acd39f654_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1699276332274_127.0.0.1_49709
+2023-11-06 21:12:12.438 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [f9d63e00-f726-4b7c-88c3-0e9acd39f654_config-0] Notify connected event to listeners.
+2023-11-06 21:12:12.438 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f9d63e00-f726-4b7c-88c3-0e9acd39f654_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-11-06 21:12:12.439 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  com.alibaba.nacos.client.remote.worker [32m                [0;39m [f9d63e00-f726-4b7c-88c3-0e9acd39f654_config-0] Connected,notify listen context...
+2023-11-06 21:12:12.439 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f9d63e00-f726-4b7c-88c3-0e9acd39f654_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$617/0x000000080102d230
+2023-11-06 21:12:12.462 INFO  com.alibaba.nacos.client.config.impl.Limiter      :62   restartedMain [32m                [0;39m limitTime:5.0
+2023-11-06 21:12:12.476 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member] & group[DEFAULT_GROUP]
+2023-11-06 21:12:12.484 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member.properties] & group[DEFAULT_GROUP]
+2023-11-06 21:12:12.490 INFO  com.alibaba.nacos.client.config.utils.JvmUtil     :54   restartedMain [32m                [0;39m isMultiInstance:false
+2023-11-06 21:12:12.495 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :134  restartedMain [32m                [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-member-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member,DEFAULT_GROUP'}]
+2023-11-06 21:12:12.510 INFO  com.example.train.member.config.MemberApplication :643  restartedMain [32m                [0;39m The following 1 profile is active: "dev"
+2023-11-06 21:12:12.983 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=80915e85-cb9e-37c4-8836-5fd487e964ca
+2023-11-06 21:12:13.464 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-11-06 21:12:13.470 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-11-06 21:12:13.471 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-11-06 21:12:13.471 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-06 21:12:13.514 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-06 21:12:13.516 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 993 ms
+2023-11-06 21:12:15.239 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-06 21:12:15.407 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-11-06 21:12:16.519 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-06 21:12:16.561 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-11-06 21:12:16.570 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-11-06 21:12:16.572 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:12:16.573 INFO  com.alibaba.nacos.client.naming                   :61   restartedMain [32m                [0;39m initializer namespace from System Property : null
+2023-11-06 21:12:16.573 INFO  com.alibaba.nacos.client.naming                   :65   restartedMain [32m                [0;39m initializer namespace from System Environment :null
+2023-11-06 21:12:16.574 INFO  com.alibaba.nacos.client.naming                   :72   restartedMain [32m                [0;39m initializer namespace from System Property :train
+2023-11-06 21:12:16.580 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-11-06 21:12:16.580 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-11-06 21:12:16.582 INFO  com.alibaba.nacos.common.remote.client            :94   restartedMain [32m                [0;39m [RpcClientFactory] create a new rpc client of 5651e12f-6ce2-4b6b-9f47-009cc528d4f2
+2023-11-06 21:12:16.583 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [5651e12f-6ce2-4b6b-9f47-009cc528d4f2] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-11-06 21:12:16.583 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [5651e12f-6ce2-4b6b-9f47-009cc528d4f2] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-11-06 21:12:16.583 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [5651e12f-6ce2-4b6b-9f47-009cc528d4f2] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-11-06 21:12:16.584 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [5651e12f-6ce2-4b6b-9f47-009cc528d4f2] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-11-06 21:12:16.704 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [5651e12f-6ce2-4b6b-9f47-009cc528d4f2] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1699276336587_127.0.0.1_49738
+2023-11-06 21:12:16.704 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [5651e12f-6ce2-4b6b-9f47-009cc528d4f2] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-11-06 21:12:16.704 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [5651e12f-6ce2-4b6b-9f47-009cc528d4f2] Notify connected event to listeners.
+2023-11-06 21:12:16.704 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [5651e12f-6ce2-4b6b-9f47-009cc528d4f2] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$617/0x000000080102d230
+2023-11-06 21:12:16.704 INFO  com.alibaba.nacos.client.naming                   :78   com.alibaba.nacos.client.remote.worker [32m                [0;39m Grpc connection connect
+2023-11-06 21:12:16.705 INFO  com.alibaba.nacos.client.naming                   :120  restartedMain [32m                [0;39m [REGISTER-SERVICE] train registering service member with instance Instance{instanceId='null', ip='192.168.188.1', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-11-06 21:12:16.714 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :76   restartedMain [32m                [0;39m nacos registry, DEFAULT_GROUP member 192.168.188.1:8001 register finished
+2023-11-06 21:12:17.826 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-06 21:12:17.837 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 8.98 seconds (process running for 9.892)
+2023-11-06 21:12:17.840 INFO  com.alibaba.nacos.client.config.impl.CacheData    :67   restartedMain [32m                [0;39m nacos.cache.data.init.snapshot = true 
+2023-11-06 21:12:17.840 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [subscribe] member+DEFAULT_GROUP+train
+2023-11-06 21:12:17.844 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [add-listener] ok, tenant=train, dataId=member, group=DEFAULT_GROUP, cnt=1
+2023-11-06 21:12:17.845 INFO  c.a.cloud.nacos.refresh.NacosContextRefresher     :129  restartedMain [32m                [0;39m [Nacos Config] Listening config: dataId=member, group=DEFAULT_GROUP
+2023-11-06 21:12:17.851 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [subscribe] member-dev.properties+DEFAULT_GROUP+train
+2023-11-06 21:12:17.851 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [add-listener] ok, tenant=train, dataId=member-dev.properties, group=DEFAULT_GROUP, cnt=1
+2023-11-06 21:12:17.851 INFO  c.a.cloud.nacos.refresh.NacosContextRefresher     :129  restartedMain [32m                [0;39m [Nacos Config] Listening config: dataId=member-dev.properties, group=DEFAULT_GROUP
+2023-11-06 21:12:17.852 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [subscribe] member.properties+DEFAULT_GROUP+train
+2023-11-06 21:12:17.852 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [add-listener] ok, tenant=train, dataId=member.properties, group=DEFAULT_GROUP, cnt=1
+2023-11-06 21:12:17.852 INFO  c.a.cloud.nacos.refresh.NacosContextRefresher     :129  restartedMain [32m                [0;39m [Nacos Config] Listening config: dataId=member.properties, group=DEFAULT_GROUP
+2023-11-06 21:12:17.853 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-11-06 21:12:17.853 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001/member/hello
+2023-11-06 21:12:22.081 INFO  org.apache.tomcat.util.http.parser.Cookie         :173  http-nio-8001-exec-1 [32m                [0;39m A cookie header was received [Hm_lvt_2745ad927051c4bc7b7ee34b781df793=1695219204,1695256471,1695259481] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2023-11-06 21:12:22.086 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  http-nio-8001-exec-1 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-06 21:12:22.086 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8001-exec-1 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-06 21:12:22.087 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8001-exec-1 [32m                [0;39m Completed initialization in 1 ms
+2023-11-06 21:12:22.112 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8001-exec-1 [32m169927634211140d[0;39m ------------- 开始 -------------
+2023-11-06 21:12:22.112 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8001-exec-1 [32m169927634211140d[0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2023-11-06 21:12:22.113 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8001-exec-1 [32m169927634211140d[0;39m 类名方法: com.example.train.member.controller.TestController.hello
+2023-11-06 21:12:22.113 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8001-exec-1 [32m169927634211140d[0;39m 远程地址: 127.0.0.1
+2023-11-06 21:12:22.140 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8001-exec-1 [32m169927634211140d[0;39m 请求参数: []
+2023-11-06 21:12:22.141 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8001-exec-1 [32m169927634211140d[0;39m 返回结果: "hello,???"
+2023-11-06 21:12:22.142 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8001-exec-1 [32m169927634211140d[0;39m ------------- 结束 耗时：30 ms -------------
+2023-11-06 21:20:08.509 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:20:08.511 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:20:08.513 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:20:08.516 INFO  org.hibernate.validator.internal.util.Version     :21   background-preinit [32m                [0;39m HV000001: Hibernate Validator 8.0.1.Final
+2023-11-06 21:20:08.574 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  restartedMain [32m                [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-11-06 21:20:08.728 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:20:08.728 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:20:08.729 INFO  com.alibaba.nacos.client.utils.ParamUtil          :87   restartedMain [32m                [0;39m [settings] [req-serv] nacos-server port:8848
+2023-11-06 21:20:08.730 INFO  com.alibaba.nacos.client.utils.ParamUtil          :98   restartedMain [32m                [0;39m [settings] [http-client] connect timeout:1000
+2023-11-06 21:20:08.730 INFO  com.alibaba.nacos.client.utils.ParamUtil          :105  restartedMain [32m                [0;39m PER_TASK_CONFIG_SIZE: 3000.0
+2023-11-06 21:20:08.749 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-11-06 21:20:08.749 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-11-06 21:20:08.751 INFO  c.a.n.client.auth.ram.identify.CredentialWatcher  :165  restartedMain [32m                [0;39m null No credential found
+2023-11-06 21:20:09.942 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:20:09.943 WARN  com.alibaba.nacos.client.logging.NacosLogging     :64   restartedMain [32m                [0;39m Load Logback Configuration of Nacos fail, message: org/slf4j/impl/StaticLoggerBinder
+2023-11-06 21:20:09.955 INFO  c.a.n.client.config.impl.LocalConfigInfoProcessor :68   restartedMain [32m                [0;39m LOCAL_SNAPSHOT_PATH:C:\Users\17926\nacos\config
+2023-11-06 21:20:09.958 INFO  com.alibaba.nacos.common.remote.client            :94   restartedMain [32m                [0;39m [RpcClientFactory] create a new rpc client of c3755992-ca35-473c-8e21-cb425eafbfa8_config-0
+2023-11-06 21:20:09.970 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [c3755992-ca35-473c-8e21-cb425eafbfa8_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$601/0x0000000800f32c08
+2023-11-06 21:20:09.971 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [c3755992-ca35-473c-8e21-cb425eafbfa8_config-0] Register server push request handler:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$$Lambda$602/0x0000000800f33028
+2023-11-06 21:20:09.971 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [c3755992-ca35-473c-8e21-cb425eafbfa8_config-0] Registry connection listener to current client:com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$1
+2023-11-06 21:20:09.972 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [c3755992-ca35-473c-8e21-cb425eafbfa8_config-0] RpcClient init, ServerListFactory = com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient$2
+2023-11-06 21:20:09.977 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [c3755992-ca35-473c-8e21-cb425eafbfa8_config-0] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-11-06 21:20:10.607 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [c3755992-ca35-473c-8e21-cb425eafbfa8_config-0] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1699276810437_127.0.0.1_50593
+2023-11-06 21:20:10.608 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [c3755992-ca35-473c-8e21-cb425eafbfa8_config-0] Notify connected event to listeners.
+2023-11-06 21:20:10.608 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :638  com.alibaba.nacos.client.remote.worker [32m                [0;39m [c3755992-ca35-473c-8e21-cb425eafbfa8_config-0] Connected,notify listen context...
+2023-11-06 21:20:10.608 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [c3755992-ca35-473c-8e21-cb425eafbfa8_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-11-06 21:20:10.609 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [c3755992-ca35-473c-8e21-cb425eafbfa8_config-0] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$617/0x000000080102d618
+2023-11-06 21:20:10.631 INFO  com.alibaba.nacos.client.config.impl.Limiter      :62   restartedMain [32m                [0;39m limitTime:5.0
+2023-11-06 21:20:10.649 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member] & group[DEFAULT_GROUP]
+2023-11-06 21:20:10.654 WARN  c.a.cloud.nacos.client.NacosPropertySourceBuilder :87   restartedMain [32m                [0;39m Ignore the empty nacos configuration and get it based on dataId[member.properties] & group[DEFAULT_GROUP]
+2023-11-06 21:20:10.661 INFO  com.alibaba.nacos.client.config.utils.JvmUtil     :54   restartedMain [32m                [0;39m isMultiInstance:false
+2023-11-06 21:20:10.666 INFO  o.s.c.b.c.PropertySourceBootstrapConfiguration    :134  restartedMain [32m                [0;39m Located property source: [BootstrapPropertySource {name='bootstrapProperties-member-dev.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member.properties,DEFAULT_GROUP'}, BootstrapPropertySource {name='bootstrapProperties-member,DEFAULT_GROUP'}]
+2023-11-06 21:20:10.687 INFO  com.example.train.member.config.MemberApplication :643  restartedMain [32m                [0;39m The following 1 profile is active: "dev"
+2023-11-06 21:20:11.341 INFO  o.springframework.cloud.context.scope.GenericScope:282  restartedMain [32m                [0;39m BeanFactory id=80915e85-cb9e-37c4-8836-5fd487e964ca
+2023-11-06 21:20:11.998 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :108  restartedMain [32m                [0;39m Tomcat initialized with port(s): 8001 (http)
+2023-11-06 21:20:12.006 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Initializing ProtocolHandler ["http-nio-8001"]
+2023-11-06 21:20:12.007 INFO  org.apache.catalina.core.StandardService          :173  restartedMain [32m                [0;39m Starting service [Tomcat]
+2023-11-06 21:20:12.008 INFO  org.apache.catalina.core.StandardEngine           :173  restartedMain [32m                [0;39m Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-06 21:20:12.078 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  restartedMain [32m                [0;39m Initializing Spring embedded WebApplicationContext
+2023-11-06 21:20:12.078 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  restartedMain [32m                [0;39m Root WebApplicationContext: initialization completed in 1376 ms
+2023-11-06 21:20:14.166 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-06 21:20:14.411 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   restartedMain [32m                [0;39m LiveReload server is running on port 35729
+2023-11-06 21:20:15.567 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-06 21:20:15.629 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  restartedMain [32m                [0;39m Starting ProtocolHandler ["http-nio-8001"]
+2023-11-06 21:20:15.638 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :220  restartedMain [32m                [0;39m Tomcat started on port(s): 8001 (http) with context path '/member'
+2023-11-06 21:20:15.641 INFO  com.alibaba.nacos.client.env.SearchableProperties :197  restartedMain [32m                [0;39m properties search order:PROPERTIES->JVM->ENV->DEFAULT_SETTING
+2023-11-06 21:20:15.641 INFO  com.alibaba.nacos.client.naming                   :61   restartedMain [32m                [0;39m initializer namespace from System Property : null
+2023-11-06 21:20:15.642 INFO  com.alibaba.nacos.client.naming                   :65   restartedMain [32m                [0;39m initializer namespace from System Environment :null
+2023-11-06 21:20:15.642 INFO  com.alibaba.nacos.client.naming                   :72   restartedMain [32m                [0;39m initializer namespace from System Property :train
+2023-11-06 21:20:15.650 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.impl.NacosClientAuthServiceImpl success.
+2023-11-06 21:20:15.651 INFO  c.a.n.p.auth.spi.client.ClientAuthPluginManager   :56   restartedMain [32m                [0;39m [ClientAuthPluginManager] Load ClientAuthService com.alibaba.nacos.client.auth.ram.RamClientAuthServiceImpl success.
+2023-11-06 21:20:15.653 INFO  com.alibaba.nacos.common.remote.client            :94   restartedMain [32m                [0;39m [RpcClientFactory] create a new rpc client of f0ae0e55-c261-4042-bd88-fce972164503
+2023-11-06 21:20:15.655 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0ae0e55-c261-4042-bd88-fce972164503] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+2023-11-06 21:20:15.655 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0ae0e55-c261-4042-bd88-fce972164503] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+2023-11-06 21:20:15.655 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0ae0e55-c261-4042-bd88-fce972164503] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+2023-11-06 21:20:15.656 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0ae0e55-c261-4042-bd88-fce972164503] Try to connect to server on start up, server: {serverIp = '127.0.0.1', server main port = 8848}
+2023-11-06 21:20:15.784 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0ae0e55-c261-4042-bd88-fce972164503] Success to connect to server [127.0.0.1:8848] on start up, connectionId = 1699276815664_127.0.0.1_50603
+2023-11-06 21:20:15.784 INFO  com.alibaba.nacos.common.remote.client            :60   com.alibaba.nacos.client.remote.worker [32m                [0;39m [f0ae0e55-c261-4042-bd88-fce972164503] Notify connected event to listeners.
+2023-11-06 21:20:15.784 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0ae0e55-c261-4042-bd88-fce972164503] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+2023-11-06 21:20:15.784 INFO  com.alibaba.nacos.client.naming                   :78   com.alibaba.nacos.client.remote.worker [32m                [0;39m Grpc connection connect
+2023-11-06 21:20:15.784 INFO  com.alibaba.nacos.common.remote.client            :60   restartedMain [32m                [0;39m [f0ae0e55-c261-4042-bd88-fce972164503] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$617/0x000000080102d618
+2023-11-06 21:20:15.785 INFO  com.alibaba.nacos.client.naming                   :120  restartedMain [32m                [0;39m [REGISTER-SERVICE] train registering service member with instance Instance{instanceId='null', ip='192.168.188.1', port=8001, weight=1.0, healthy=true, enabled=true, ephemeral=true, clusterName='DEFAULT', serviceName='null', metadata={preserved.register.source=SPRING_CLOUD}}
+2023-11-06 21:20:15.799 INFO  c.a.cloud.nacos.registry.NacosServiceRegistry     :76   restartedMain [32m                [0;39m nacos registry, DEFAULT_GROUP member 192.168.188.1:8001 register finished
+2023-11-06 21:20:17.005 INFO  org.springframework.cloud.commons.util.InetUtils  :170  restartedMain [32m                [0;39m Cannot determine local hostname
+2023-11-06 21:20:17.021 INFO  com.example.train.member.config.MemberApplication :57   restartedMain [32m                [0;39m Started MemberApplication in 10.009 seconds (process running for 10.877)
+2023-11-06 21:20:17.025 INFO  com.alibaba.nacos.client.config.impl.CacheData    :67   restartedMain [32m                [0;39m nacos.cache.data.init.snapshot = true 
+2023-11-06 21:20:17.025 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [subscribe] member+DEFAULT_GROUP+train
+2023-11-06 21:20:17.034 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [add-listener] ok, tenant=train, dataId=member, group=DEFAULT_GROUP, cnt=1
+2023-11-06 21:20:17.034 INFO  c.a.cloud.nacos.refresh.NacosContextRefresher     :129  restartedMain [32m                [0;39m [Nacos Config] Listening config: dataId=member, group=DEFAULT_GROUP
+2023-11-06 21:20:17.036 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [subscribe] member-dev.properties+DEFAULT_GROUP+train
+2023-11-06 21:20:17.037 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [add-listener] ok, tenant=train, dataId=member-dev.properties, group=DEFAULT_GROUP, cnt=1
+2023-11-06 21:20:17.037 INFO  c.a.cloud.nacos.refresh.NacosContextRefresher     :129  restartedMain [32m                [0;39m [Nacos Config] Listening config: dataId=member-dev.properties, group=DEFAULT_GROUP
+2023-11-06 21:20:17.038 INFO  com.alibaba.nacos.client.config.impl.ClientWorker :379  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [subscribe] member.properties+DEFAULT_GROUP+train
+2023-11-06 21:20:17.038 INFO  com.alibaba.nacos.client.config.impl.CacheData    :197  restartedMain [32m                [0;39m [fixed-train-127.0.0.1_8848] [add-listener] ok, tenant=train, dataId=member.properties, group=DEFAULT_GROUP, cnt=1
+2023-11-06 21:20:17.038 INFO  c.a.cloud.nacos.refresh.NacosContextRefresher     :129  restartedMain [32m                [0;39m [Nacos Config] Listening config: dataId=member.properties, group=DEFAULT_GROUP
+2023-11-06 21:20:17.040 INFO  com.example.train.member.config.MemberApplication :21   restartedMain [32m                [0;39m 启动成功!!!
+2023-11-06 21:20:17.040 INFO  com.example.train.member.config.MemberApplication :22   restartedMain [32m                [0;39m 测试地址:	http://127.0.0.1:8001/member/hello
+2023-11-06 21:20:19.068 INFO  org.apache.tomcat.util.http.parser.Cookie         :173  http-nio-8001-exec-2 [32m                [0;39m A cookie header was received [Hm_lvt_2745ad927051c4bc7b7ee34b781df793=1695219204,1695256471,1695259481] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2023-11-06 21:20:19.075 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  http-nio-8001-exec-2 [32m                [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-11-06 21:20:19.075 INFO  org.springframework.web.servlet.DispatcherServlet :532  http-nio-8001-exec-2 [32m                [0;39m Initializing Servlet 'dispatcherServlet'
+2023-11-06 21:20:19.076 INFO  org.springframework.web.servlet.DispatcherServlet :554  http-nio-8001-exec-2 [32m                [0;39m Completed initialization in 1 ms
+2023-11-06 21:20:19.108 INFO  com.example.train.common.aspect.LogAspect         :53   http-nio-8001-exec-2 [32m1699276819106s7e[0;39m ------------- 开始 -------------
+2023-11-06 21:20:19.108 INFO  com.example.train.common.aspect.LogAspect         :54   http-nio-8001-exec-2 [32m1699276819106s7e[0;39m 请求地址: http://127.0.0.1:8001/member/hello GET
+2023-11-06 21:20:19.108 INFO  com.example.train.common.aspect.LogAspect         :55   http-nio-8001-exec-2 [32m1699276819106s7e[0;39m 类名方法: com.example.train.member.controller.TestController.hello
+2023-11-06 21:20:19.109 INFO  com.example.train.common.aspect.LogAspect         :56   http-nio-8001-exec-2 [32m1699276819106s7e[0;39m 远程地址: 127.0.0.1
+2023-11-06 21:20:19.149 INFO  com.example.train.common.aspect.LogAspect         :77   http-nio-8001-exec-2 [32m1699276819106s7e[0;39m 请求参数: []
+2023-11-06 21:20:19.150 INFO  com.example.train.common.aspect.LogAspect         :89   http-nio-8001-exec-2 [32m1699276819106s7e[0;39m 返回结果: "hello,???"
+2023-11-06 21:20:19.150 INFO  com.example.train.common.aspect.LogAspect         :90   http-nio-8001-exec-2 [32m1699276819106s7e[0;39m ------------- 结束 耗时：44 ms -------------
