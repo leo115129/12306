@@ -108,14 +108,22 @@ public class DailyTrainSeatService {
 
     }
 
-    public Integer countSeat(String code, Date date, String seatType){
+    public Integer countSeat(String code,Date date){
+        return countSeat(code,date,null);
+    }
+
+    public int countSeat(String code, Date date, String seatType){
         DailyTrainSeatExample dailyTrainSeatExample=new DailyTrainSeatExample();
-        dailyTrainSeatExample.createCriteria().andDateEqualTo(date).andTrainCodeEqualTo(code).andSeatTypeEqualTo(seatType);
-        int l = Math.toIntExact(dailyTrainSeatMapper.countByExample(dailyTrainSeatExample));
-        if(l==0){
+        DailyTrainSeatExample.Criteria criteria=dailyTrainSeatExample.createCriteria();
+        criteria.andTrainCodeEqualTo(code).andDateEqualTo(date);
+        if(StrUtil.isNotBlank(seatType)){
+            criteria.andSeatTypeEqualTo(seatType);
+        }
+        long l = Math.toIntExact(dailyTrainSeatMapper.countByExample(dailyTrainSeatExample));
+        if(l==0L){
             return -1;
         }
-        return l;
+        return (int)l;
     }
 
     public List<DailyTrainSeat> selectByCarriage(Date date,String code,Integer carriageIndex){

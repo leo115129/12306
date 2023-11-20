@@ -113,4 +113,11 @@ public class DailyTrainStationService {
         List<DailyTrainStation> list = dailyTrainStationMapper.selectByExample(dailyTrainStationExample);
         return BeanUtil.copyToList(list, DailyTrainStationQueryResp.class);
     }
+
+    public long countByTrainCode(Date date, String trainCode) {
+        DailyTrainStationExample dailyTrainStationExample=new DailyTrainStationExample();
+        dailyTrainStationExample.createCriteria().andDateEqualTo(date).andTrainCodeEqualTo(trainCode);
+        long l = dailyTrainStationMapper.countByExample(dailyTrainStationExample);
+        return l;
+    }
 }
