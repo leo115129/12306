@@ -50,6 +50,9 @@ public class ConfirmOrderService {
     @Resource
     private DailyTrainSeatService dailyTrainSeatService;
 
+    @Resource
+    private AfterConfirmOrderService afterConfirmOrderService;
+
     public void save(ConfirmOrderDoReq req) {
         DateTime now = DateTime.now();
         ConfirmOrder confirmOrder = BeanUtil.copyProperties(req, ConfirmOrder.class);
@@ -113,6 +116,7 @@ public class ConfirmOrderService {
         //预扣减余票数量、并判断余票是否足够
         reduceTickets(req, dailyTrainTicket);
 
+        List<DailyTrainSeat> finalSeatList=new ArrayList<>();
         //计算座位偏移量
         List<ConfirmOrderTicketReq> tickets = req.getTickets();
         ConfirmOrderTicketReq confirmOrderTicketReq = tickets.get(0);
@@ -140,22 +144,24 @@ public class ConfirmOrderService {
                 offestList.add(offesr);
             }
 
-//            getSeat(req.getDate(),req.getTrainCode(),confirmOrderTicketReq.getSeatTypeCode(),
-//            confirmOrderTicketReq.getSeat().split("")[0],
-//                    offestList,dailyTrainTicket.getStartIndex(),dailyTrainTicket.getEndIndex());
-
+            getSeat(finalSeatList,req.getDate(),req.getTrainCode(),confirmOrderTicketReq.getSeatTypeCode(),
+            confirmOrderTicketReq.getSeat().split("")[0],
+                    offestList,dailyTrainTicket.getStartIndex(),dailyTrainTicket.getEndIndex());
 
         }else{
             LOG.info("本次购票没有选座");
-//            for (ConfirmOrderTicketReq ticket : tickets) {
-//                getSeat(req.getDate(),req.getTrainCode(),confirmOrderTicketReq.getSeatTypeCode()
-//                ,null,null,dailyTrainTicket.getStartIndex(),dailyTrainTicket.getEndIndex());
-//            }
+            for (ConfirmOrderTicketReq ticket : tickets) {
+                getSeat(finalSeatList,req.getDate(),req.getTrainCode(),confirmOrderTicketReq.getSeatTypeCode()
+                ,null,null,dailyTrainTicket.getStartIndex(),dailyTrainTicket.getEndIndex());
+            }
         }
 
-        //选座
-            //
-
+        //选中座位后事务处理
+        try {
+            afterConfirmOrderService.afterDoConfirm(dailyTrainTicket,finalSeatList,tickets,confirmOrder);
+        } catch (Exception e) {
+            throw new BusinessException(BusinessExceptionEnum.BUSINESS_STATION_NAME_UNIQUE_ERROR);
+        }
     }
 
     /**
