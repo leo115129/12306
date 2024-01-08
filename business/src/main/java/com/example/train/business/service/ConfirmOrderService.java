@@ -53,6 +53,9 @@ public class ConfirmOrderService {
     @Resource
     private AfterConfirmOrderService afterConfirmOrderService;
 
+    @Resource
+    private SkTokenService skTokenService;
+
     public void save(ConfirmOrderDoReq req) {
         DateTime now = DateTime.now();
         ConfirmOrder confirmOrder = BeanUtil.copyProperties(req, ConfirmOrder.class);
@@ -94,6 +97,8 @@ public class ConfirmOrderService {
     }
 
     public void doConfirm(ConfirmOrderDoReq req){
+
+
         //保存确认订单表、状态初始化
         DateTime now=DateTime.now();
         ConfirmOrder confirmOrder=new ConfirmOrder();

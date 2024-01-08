@@ -3,13 +3,19 @@ package com.example.train.business.service;
 import cn.hutool.core.bean.BeanUtil;
 import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.date.DateTime;
+import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.ObjectUtil;
 import cn.hutool.core.util.StrUtil;
-import com.example.train.business.domain.*;
+import com.example.train.business.domain.DailyTrainSeat;
+import com.example.train.business.domain.DailyTrainSeatExample;
+import com.example.train.business.domain.TrainSeat;
+import com.example.train.business.domain.TrainStation;
 import com.example.train.business.mapper.DailyTrainSeatMapper;
 import com.example.train.business.req.DailyTrainSeatQueryReq;
 import com.example.train.business.req.DailyTrainSeatSaveReq;
+import com.example.train.business.req.SeatSellReq;
 import com.example.train.business.resp.DailyTrainSeatQueryResp;
+import com.example.train.business.resp.SeatSellResp;
 import com.example.train.common.resp.PageResp;
 import com.example.train.common.util.SnowUtil;
 import com.github.pagehelper.PageHelper;
@@ -132,5 +138,20 @@ public class DailyTrainSeatService {
         dailyTrainSeatExample.createCriteria().andDateEqualTo(date).andTrainCodeEqualTo(code)
                 .andCarriageIndexEqualTo(carriageIndex);
         return dailyTrainSeatMapper.selectByExample(dailyTrainSeatExample);
+    }
+
+    /**
+     * 查询某日某车次的所有座位
+     */
+    public List<SeatSellResp> querySeatSell(SeatSellReq req) {
+        Date date = req.getDate();
+        String trainCode = req.getTrainCode();
+        LOG.info("查询日期【{}】车次【{}】的座位销售信息", DateUtil.formatDate(date), trainCode);
+        DailyTrainSeatExample dailyTrainSeatExample = new DailyTrainSeatExample();
+        dailyTrainSeatExample.setOrderByClause("`carriage_index` asc, carriage_seat_index asc");
+        dailyTrainSeatExample.createCriteria()
+                .andDateEqualTo(date)
+                .andTrainCodeEqualTo(trainCode);
+        return BeanUtil.copyToList(dailyTrainSeatMapper.selectByExample(dailyTrainSeatExample), SeatSellResp.class);
     }
 }
