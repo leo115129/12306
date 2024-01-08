@@ -23,7 +23,7 @@ import java.util.Date;
 import java.util.List;
 
 @Service
-public class DailyTrainCarriageService {
+public class    DailyTrainCarriageService {
 
     private static final Logger LOG = LoggerFactory.getLogger(DailyTrainCarriageService.class);
 
