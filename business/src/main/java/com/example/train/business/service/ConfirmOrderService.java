@@ -96,8 +96,14 @@ public class ConfirmOrderService {
         confirmOrderMapper.deleteByPrimaryKey(id);
     }
 
-    public void doConfirm(ConfirmOrderDoReq req){
-
+    public void doConfirm(ConfirmOrderDoReq req){// 校验令牌余量
+        boolean validSkToken = skTokenService.validSkToken(req.getDate(), req.getTrainCode(), LoginMemberContext.getId());
+        if (validSkToken) {
+            LOG.info("令牌校验通过");
+        } else {
+            LOG.info("令牌校验不通过");
+            throw new BusinessException(BusinessExceptionEnum.CONFIRM_ORDER_SK_TOKEN_FAIL);
+        }
 
         //保存确认订单表、状态初始化
         DateTime now=DateTime.now();
@@ -290,6 +296,51 @@ public class ConfirmOrderService {
         }
     }
 
+    /**
+     * 查询前面有几个人在排队
+     * @param id
+     */
+    public Integer queryLineCount(Long id) {
+        ConfirmOrder confirmOrder = confirmOrderMapper.selectByPrimaryKey(id);
+        ConfirmOrderStatusEnum statusEnum = EnumUtil.getBy(ConfirmOrderStatusEnum::getCode, confirmOrder.getStatus());
+        int result = switch (statusEnum) {
+            case PENDING -> 0; // 排队0
+            case SUCCESS -> -1; // 成功
+            case FAILURE -> -2; // 失败
+            case EMPTY -> -3; // 无票
+            case CANCEL -> -4; // 取消
+            case INIT -> 999; // 需要查表得到实际排队数量
+        };
+
+        if (result == 999) {
+            // 排在第几位，下面的写法：where a=1 and (b=1 or c=1) 等价于 where (a=1 and b=1) or (a=1 and c=1)
+            ConfirmOrderExample confirmOrderExample = new ConfirmOrderExample();
+            confirmOrderExample.or().andDateEqualTo(confirmOrder.getDate())
+                    .andTrainCodeEqualTo(confirmOrder.getTrainCode())
+                    .andCreateTimeLessThan(confirmOrder.getCreateTime())
+                    .andStatusEqualTo(ConfirmOrderStatusEnum.INIT.getCode());
+            confirmOrderExample.or().andDateEqualTo(confirmOrder.getDate())
+                    .andTrainCodeEqualTo(confirmOrder.getTrainCode())
+                    .andCreateTimeLessThan(confirmOrder.getCreateTime())
+                    .andStatusEqualTo(ConfirmOrderStatusEnum.PENDING.getCode());
+            return Math.toIntExact(confirmOrderMapper.countByExample(confirmOrderExample));
+        } else {
+            return result;
+        }
+    }
+
+    /**
+     * 取消排队，只有I状态才能取消排队，所以按状态更新
+     * @param id
+     */
+    public Integer cancel(Long id) {
+        ConfirmOrderExample confirmOrderExample = new ConfirmOrderExample();
+        ConfirmOrderExample.Criteria criteria = confirmOrderExample.createCriteria();
+        criteria.andIdEqualTo(id).andStatusEqualTo(ConfirmOrderStatusEnum.INIT.getCode());
+        ConfirmOrder confirmOrder = new ConfirmOrder();
+        confirmOrder.setStatus(ConfirmOrderStatusEnum.CANCEL.getCode());
+        return confirmOrderMapper.updateByExampleSelective(confirmOrder, confirmOrderExample);
+    }
 
     private void reduceTickets(ConfirmOrderDoReq req, DailyTrainTicket dailyTrainTicket) {
         for (ConfirmOrderTicketReq ticket : req.getTickets()) {
