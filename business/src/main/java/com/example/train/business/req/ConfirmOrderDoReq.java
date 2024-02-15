@@ -10,6 +10,32 @@ import java.util.List;
 
 public class ConfirmOrderDoReq {
 
+    /**
+     * 日志跟踪号
+     */
+    private String logId;
+
+    public String getLogId() {
+        return logId;
+    }
+
+    public void setLogId(String logId) {
+        this.logId = logId;
+    }
+
+    /**
+     * 排队人数
+     */
+    private int lineNumber;
+
+    public int getLineNumber() {
+        return lineNumber;
+    }
+
+    public void setLineNumber(int lineNumber) {
+        this.lineNumber = lineNumber;
+    }
+
     @NotBlank
     private String imageCode;
 

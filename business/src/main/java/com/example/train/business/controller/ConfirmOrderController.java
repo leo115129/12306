@@ -4,8 +4,12 @@ package com.example.train.business.controller;
 //import com.alibaba.csp.sentinel.slots.block.BlockException;
 //import com.example.train.business.service.BeforeConfirmOrderService;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
+import com.alibaba.csp.sentinel.slots.block.BlockException;
 import com.example.train.business.req.ConfirmOrderDoReq;
+import com.example.train.business.service.BeforeConfirmOrderService;
 import com.example.train.business.service.ConfirmOrderService;
+import com.example.train.common.exception.BusinessExceptionEnum;
 import com.example.train.common.resp.CommonResp;
 import jakarta.annotation.Resource;
 import jakarta.validation.Valid;
@@ -25,9 +29,8 @@ public class ConfirmOrderController {
     @Resource
     private ConfirmOrderService confirmOrderService;
 
-
-//    @Resource
-//    private BeforeConfirmOrderService beforeConfirmOrderService;
+    @Resource
+    private BeforeConfirmOrderService beforeConfirmOrderService;
 
     @Autowired
     private StringRedisTemplate redisTemplate;
@@ -36,7 +39,7 @@ public class ConfirmOrderController {
 //    private String env;
 
 //     接口的资源名称不要和接口路径一致，会导致限流后走不到降级方法中
-//    @SentinelResource(value = "confirmOrderDo", blockHandler = "doConfirmBlock")
+    @SentinelResource(value = "confirmOrderDo", blockHandler = "doConfirmBlock")
     @PostMapping("/do")
     public CommonResp<Object> doConfirm(@Valid @RequestBody ConfirmOrderDoReq req) {
 //        if (!env.equals("dev")) {
@@ -56,9 +59,8 @@ public class ConfirmOrderController {
                 redisTemplate.delete(imageCodeToken);
             }
 //        }
-      //  Long id = beforeConfirmOrderService.beforeDoConfirm(req);
-        confirmOrderService.doConfirm(req);
-        return new CommonResp<>(String.valueOf(req.getMemberId()));
+        Long id = beforeConfirmOrderService.beforeDoConfirm(req);
+        return new CommonResp<>(String.valueOf(String.valueOf(id)));
     }
 
     @GetMapping("/query-line-count/{id}")
@@ -73,18 +75,18 @@ public class ConfirmOrderController {
         return new CommonResp<>(count);
     }
 
-//    /** 降级方法，需包含限流方法的所有参数和BlockException参数，且返回值要保持一致
-//     * @param req
-//     * @param e
-//     */
-//    public CommonResp<Object> doConfirmBlock(ConfirmOrderDoReq req, BlockException e) {
-//        LOG.info("ConfirmOrderController购票请求被限流：{}", req);
-//        // throw new BusinessException(BusinessExceptionEnum.CONFIRM_ORDER_FLOW_EXCEPTION);
-//        CommonResp<Object> commonResp = new CommonResp<>();
-//        commonResp.setSuccess(false);
-//        commonResp.setMessage(BusinessExceptionEnum.CONFIRM_ORDER_FLOW_EXCEPTION.getDesc());
-//        return commonResp;
-//
-//    }
+    /** 降级方法，需包含限流方法的所有参数和BlockException参数，且返回值要保持一致
+     * @param req
+     * @param e
+     */
+    public CommonResp<Object> doConfirmBlock(ConfirmOrderDoReq req, BlockException e) {
+        LOG.info("ConfirmOrderController购票请求被限流：{}", req);
+        // throw new BusinessException(BusinessExceptionEnum.CONFIRM_ORDER_FLOW_EXCEPTION);
+        CommonResp<Object> commonResp = new CommonResp<>();
+        commonResp.setSuccess(false);
+        commonResp.setMessage(BusinessExceptionEnum.CONFIRM_ORDER_FLOW_EXCEPTION.getDesc());
+        return commonResp;
+
+    }
 
 }
