@@ -1,0 +1,18 @@
+2024-02-16 08:28:51.166 ERROR c.a.nacos.common.remote.client.grpc.GrpcClient    :99   nacos-grpc-client-executor-127.0.0.1-2297 [32m                [0;39m [1707995186448_127.0.0.1_59501]Request stream onCompleted, switch server
+2024-02-16 08:28:51.193 ERROR c.a.nacos.common.remote.client.grpc.GrpcClient    :99   nacos-grpc-client-executor-127.0.0.1-2302 [32m                [0;39m [1707995180952_127.0.0.1_59477]Request stream onCompleted, switch server
+2024-02-16 08:28:51.407 ERROR com.alibaba.nacos.common.remote.client            :99   com.alibaba.nacos.client.Worker [32m                [0;39m Send request fail, request = ConfigBatchListenRequest{headers={charset=UTF-8, Client-AppName=unknown, Client-RequestToken=845ed6c828990b9026f14f7d9691f4f9, Client-RequestTS=1708043331302, exConfigInfo=true}, requestId='null'}, retryTimes = 0, errorMessage = Client not connected, current status:UNHEALTHY
+2024-02-16 08:28:51.589 ERROR com.alibaba.nacos.common.remote.client            :99   com.alibaba.nacos.client.Worker [32m                [0;39m Send request fail, request = ConfigBatchListenRequest{headers={charset=UTF-8, Client-AppName=unknown, Client-RequestToken=845ed6c828990b9026f14f7d9691f4f9, Client-RequestTS=1708043331302, exConfigInfo=true}, requestId='null'}, retryTimes = 1, errorMessage = Client not connected, current status:UNHEALTHY
+2024-02-16 08:28:51.729 ERROR com.alibaba.nacos.common.remote.client            :99   com.alibaba.nacos.client.Worker [32m                [0;39m Send request fail, request = ConfigBatchListenRequest{headers={charset=UTF-8, Client-AppName=unknown, Client-RequestToken=845ed6c828990b9026f14f7d9691f4f9, Client-RequestTS=1708043331302, exConfigInfo=true}, requestId='null'}, retryTimes = 2, errorMessage = Client not connected, current status:UNHEALTHY
+2024-02-16 08:28:51.729 ERROR com.alibaba.nacos.client.config.impl.ClientWorker :828  com.alibaba.nacos.client.Worker [32m                [0;39m Async listen config change error 
+com.alibaba.nacos.api.exception.NacosException: Client not connected, current status:UNHEALTHY
+	at com.alibaba.nacos.common.remote.client.RpcClient.request(RpcClient.java:639)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:1011)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.requestProxy(ClientWorker.java:992)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.executeConfigListen(ClientWorker.java:785)
+	at com.alibaba.nacos.client.config.impl.ClientWorker$ConfigRpcTransportClient.lambda$startInternal$2(ClientWorker.java:703)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)

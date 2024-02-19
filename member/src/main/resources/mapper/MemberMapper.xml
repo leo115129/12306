@@ -125,6 +125,9 @@
       <include refid="Example_Where_Clause" />
     </if>
   </select>
+    <select id="getAllMobile" resultType="java.lang.String">
+      select mobile from member;
+    </select>
   <update id="updateByExampleSelective" parameterType="map">
     update member
     <set>

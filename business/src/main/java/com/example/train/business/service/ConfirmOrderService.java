@@ -28,6 +28,7 @@ import com.github.pagehelper.PageInfo;
 import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -261,6 +262,7 @@ public class ConfirmOrderService {
         }
     }
 
+    @Async
     @SentinelResource(value = "doConfirm", blockHandler = "doConfirmBlock")
     public void doConfirm(ConfirmOrderMQDto dto){
         while (true) {
@@ -296,83 +298,6 @@ public class ConfirmOrderService {
                 }
             });
         }
-        // 校验令牌余量
-//        boolean validSkToken = skTokenService.validSkToken(req.getDate(), req.getTrainCode(), LoginMemberContext.getId());
-//        if (validSkToken) {
-//            LOG.info("令牌校验通过");
-//        } else {
-//            LOG.info("令牌校验不通过");
-//            throw new BusinessException(BusinessExceptionEnum.CONFIRM_ORDER_SK_TOKEN_FAIL);
-//        }
-
-//        //保存确认订单表、状态初始化
-//        DateTime now=DateTime.now();
-//        ConfirmOrder confirmOrder=new ConfirmOrder();
-//        confirmOrder.setId(SnowUtil.getSnowflakeNextId());
-//        confirmOrder.setMemberId(LoginMemberContext.getId());
-//        confirmOrder.setDate(req.getDate());
-//        confirmOrder.setTrainCode(req.getTrainCode());
-//        confirmOrder.setStart(req.getStart());
-//        confirmOrder.setEnd(req.getEnd());
-//        confirmOrder.setDailyTrainTicketId(req.getDailyTrainTicketId());
-//        confirmOrder.setStatus(ConfirmOrderStatusEnum.INIT.getCode());
-//        confirmOrder.setCreateTime(now);
-//        confirmOrder.setUpdateTime(now);
-//        confirmOrder.setTickets(JSON.toJSONString(req.getTickets()));
-//        confirmOrderMapper.insert(confirmOrder);
-//
-//        //查出余票记录、需要得到真实的库存
-//        DailyTrainTicket dailyTrainTicket = dailyTrainTicketService.selectByUnique(req.getDate(), req.getTrainCode(), req.getStart(), req.getEnd());
-//
-//        //预扣减余票数量、并判断余票是否足够
-//        reduceTickets(req, dailyTrainTicket);
-//
-//        List<DailyTrainSeat> finalSeatList=new ArrayList<>();
-//        //计算座位偏移量
-//        List<ConfirmOrderTicketReq> tickets = req.getTickets();
-//        ConfirmOrderTicketReq confirmOrderTicketReq = tickets.get(0);
-//        if(StrUtil.isNotBlank(confirmOrderTicketReq.getSeat())){
-//            LOG.info("本次购票有选座");
-//            List<SeatColEnum> colsByType = SeatColEnum.getColsByType(confirmOrderTicketReq.getSeatTypeCode());
-//
-//            //生成用于和前端一样参考的座位
-//            List<String> referSeatList=new ArrayList<>();
-//            for(int i=1;i<=2;++i){
-//                for (SeatColEnum seatColEnum : colsByType) {
-//                    referSeatList.add(seatColEnum.getCode()+i);
-//                }
-//            }
-//
-//            List<Integer> indexList=new ArrayList<>();
-//            for (ConfirmOrderTicketReq ticket : tickets) {
-//                int i = referSeatList.indexOf(ticket.getSeat());
-//                indexList.add(i);
-//            }
-//
-//            List<Integer> offestList=new ArrayList<>();
-//            for (Integer integer : indexList) {
-//                Integer offesr=integer-indexList.get(0);
-//                offestList.add(offesr);
-//            }
-//
-//            getSeat(finalSeatList,req.getDate(),req.getTrainCode(),confirmOrderTicketReq.getSeatTypeCode(),
-//            confirmOrderTicketReq.getSeat().split("")[0],
-//                    offestList,dailyTrainTicket.getStartIndex(),dailyTrainTicket.getEndIndex());
-//
-//        }else{
-//            LOG.info("本次购票没有选座");
-//            for (ConfirmOrderTicketReq ticket : tickets) {
-//                getSeat(finalSeatList,req.getDate(),req.getTrainCode(),confirmOrderTicketReq.getSeatTypeCode()
-//                ,null,null,dailyTrainTicket.getStartIndex(),dailyTrainTicket.getEndIndex());
-//            }
-//        }
-//
-//        //选中座位后事务处理
-//        try {
-//            afterConfirmOrderService.afterDoConfirm(dailyTrainTicket,finalSeatList,tickets,confirmOrder);
-//        } catch (Exception e) {
-//            throw new BusinessException(BusinessExceptionEnum.BUSINESS_STATION_NAME_UNIQUE_ERROR);
-//        }
     }
 
     /**

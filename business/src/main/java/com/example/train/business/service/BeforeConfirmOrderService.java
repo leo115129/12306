@@ -35,9 +35,9 @@ public class BeforeConfirmOrderService {
     @Autowired
     private SkTokenService skTokenService;
 
-    // @Resource
-    // public RocketMQTemplate rocket
-    // public RocketMQTemplate rocketMQTemplate;
+//     @Resource
+//     public RocketMQTemplate rocket;
+//     public RocketMQTemplate rocketMQTemplate;
 
     @Resource
     private ConfirmOrderService confirmOrderService;

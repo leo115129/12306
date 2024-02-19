@@ -45,6 +45,9 @@ public class DailyTrainTicketService {
     @Resource
     private DailyTrainSeatService dailyTrainSeatService;
 
+//    @Autowired
+//    private RBloomFilter<Long> rBloomFilter;
+
     public void save(DailyTrainTicketSaveReq req) {
         DateTime now = DateTime.now();
         DailyTrainTicket dailyTrainTicket = BeanUtil.copyProperties(req, DailyTrainTicket.class);
@@ -58,6 +61,14 @@ public class DailyTrainTicketService {
             dailyTrainTicketMapper.updateByPrimaryKey(dailyTrainTicket);
         }
     }
+
+//    @PostConstruct
+//    public void  initBloomFilter(){
+//        List<Long> allIds=dailyTrainTicketMapper.getAllTicket();
+//        for(var i:allIds){
+//            rBloomFilter.add(i);
+//        }
+//    }
 
     @Cacheable(value="DailyTrainTicketService.queryList")
     public PageResp<DailyTrainTicketQueryResp> queryList(DailyTrainTicketQueryReq req) {

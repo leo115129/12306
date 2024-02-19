@@ -14,13 +14,15 @@ import com.example.train.member.req.MemberLoginReq;
 import com.example.train.member.req.MemberRegisterReq;
 import com.example.train.member.req.MemberSendCodeReq;
 import com.example.train.member.resp.MemberLoginResp;
+import jakarta.annotation.PostConstruct;
 import jakarta.annotation.Resource;
+import org.redisson.api.RBloomFilter;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Map;
 
 @Service
 public class MemberService {
@@ -29,6 +31,9 @@ public class MemberService {
 
     @Resource
     private MemberMapper memberMapper;
+
+    @Autowired
+    private RBloomFilter<String> rBloomFilter;
 
     public Long count(){
         return memberMapper.countByExample(null);
@@ -50,15 +55,26 @@ public class MemberService {
         return member.getId();
     }
 
+    @PostConstruct
+    public void initBloomFilter(){
+        List<String> allMoblie=memberMapper.getAllMobile();
+        for(var i:allMoblie){
+            rBloomFilter.add(i);
+        //    System.out.println(i);
+        }
+    }
+
     public void sendCode(MemberSendCodeReq req)  {
         String mobile=req.getMobile();
-        Member memberDB = selectByMobile(mobile);
+        boolean exist=rBloomFilter.contains(mobile);
+      //  Member memberDB = selectByMobile(mobile);
         //如果手机号不存在则插入数据
-        if (ObjectUtil.isNull(memberDB)) {
+        if (exist==false/*ObjectUtil.isNull(memberDB)*/) {
             Log.info("手机号不存在，插入一条记录");
             Member member=new Member();
             member.setId(SnowUtil.getSnowflakeNextId());
             member.setMobile(mobile);
+           // rBloomFilter.add(mobile);
             memberMapper.insert(member);
         }else{
             Log.info("手机号存在，不插入记录");
@@ -85,7 +101,7 @@ public class MemberService {
         }
 
         MemberLoginResp memberLoginResp= BeanUtil.copyProperties(memberDB,MemberLoginResp.class);
-        Map<String, Object> map = BeanUtil.beanToMap(memberLoginResp);
+        //Map<String, Object> map = BeanUtil.beanToMap(memberLoginResp);
        // String token=JWTUtil.createToken(map,key.getBytes());
         String token= JwtUtil.createToken(memberLoginResp.getId(),memberLoginResp.getMobile());
         memberLoginResp.setToken(token);

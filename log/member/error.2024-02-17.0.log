@@ -1,0 +1,2 @@
+2024-02-17 11:14:42.251 ERROR c.a.nacos.common.remote.client.grpc.GrpcClient    :99   nacos-grpc-client-executor-127.0.0.1-7593 [32m                [0;39m [1707995153213_127.0.0.1_59407]Request stream onCompleted, switch server
+2024-02-17 11:14:42.459 ERROR c.a.nacos.common.remote.client.grpc.GrpcClient    :99   nacos-grpc-client-executor-127.0.0.1-7585 [32m                [0;39m [1707995153805_127.0.0.1_59409]Request stream onCompleted, switch server

@@ -2,8 +2,9 @@ package com.example.train.business.mapper;
 
 import com.example.train.business.domain.DailyTrainTicket;
 import com.example.train.business.domain.DailyTrainTicketExample;
-import java.util.List;
 import org.apache.ibatis.annotations.Param;
+
+import java.util.List;
 
 public interface DailyTrainTicketMapper {
     long countByExample(DailyTrainTicketExample example);
@@ -17,6 +18,8 @@ public interface DailyTrainTicketMapper {
     int insertSelective(DailyTrainTicket record);
 
     List<DailyTrainTicket> selectByExample(DailyTrainTicketExample example);
+
+    List<Long> getAllTicket();
 
     DailyTrainTicket selectByPrimaryKey(Long id);
 

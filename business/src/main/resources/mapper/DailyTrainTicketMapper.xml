@@ -272,6 +272,11 @@
       <include refid="Example_Where_Clause" />
     </if>
   </select>
+  <select id="getAllTicket" resultType="java.lang.Long">
+    select id from daily_train_ticket;
+  </select>
+
+
   <update id="updateByExampleSelective" parameterType="map">
     update daily_train_ticket
     <set>
