@@ -15,6 +15,7 @@ import com.example.train.business.mapper.DailyTrainTicketMapper;
 import com.example.train.business.req.DailyTrainTicketQueryReq;
 import com.example.train.business.req.DailyTrainTicketSaveReq;
 import com.example.train.business.resp.DailyTrainTicketQueryResp;
+import com.example.train.common.annotation.Limit;
 import com.example.train.common.resp.PageResp;
 import com.example.train.common.util.SnowUtil;
 import com.github.pagehelper.PageHelper;
@@ -22,7 +23,6 @@ import com.github.pagehelper.PageInfo;
 import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -45,8 +45,9 @@ public class DailyTrainTicketService {
     @Resource
     private DailyTrainSeatService dailyTrainSeatService;
 
+
 //    @Autowired
-//    private RBloomFilter<Long> rBloomFilter;
+//    private RBloomFilter<Object> rBloomFilter;
 
     public void save(DailyTrainTicketSaveReq req) {
         DateTime now = DateTime.now();
@@ -64,13 +65,29 @@ public class DailyTrainTicketService {
 
 //    @PostConstruct
 //    public void  initBloomFilter(){
-//        List<Long> allIds=dailyTrainTicketMapper.getAllTicket();
-//        for(var i:allIds){
-//            rBloomFilter.add(i);
+//        List<DailyTrainTicket> allTicket=dailyTrainTicketMapper.getAllTicket();
+//        for(var i:allTicket){
+//            DailyTrainTicketExample dailyTrainTicketExample = new DailyTrainTicketExample();
+//            dailyTrainTicketExample.setOrderByClause("'date' desc,start_time asc,train_code asc,'start_index' asc,'end_index' asc");
+//            DailyTrainTicketExample.Criteria criteria = dailyTrainTicketExample.createCriteria();
+//            criteria.andEndEqualTo(i.getEnd());
+//            criteria.andDateEqualTo(i.getDate());
+//            criteria.andStartEqualTo(i.getStart());
+//            criteria.andTrainCodeEqualTo(i.getTrainCode());
+//            rBloomFilter.add(dailyTrainTicketExample);
+//            System.out.println(i);
 //        }
 //    }
 
-    @Cacheable(value="DailyTrainTicketService.queryList")
+//    @Cacheable(value = "DailyTrainTicketService.queryList3")
+//    public PageResp<DailyTrainTicketQueryResp> queryList3(DailyTrainTicketQueryReq req) {
+//        LOG.info("测试缓存击穿");
+//        return null;
+//    }
+
+   // @Cacheable(value="DailyTrainTicketService.queryList")
+    @Limit(key="limt1",permitsPerSecond = 1,timeout=500)
+//    @Async
     public PageResp<DailyTrainTicketQueryResp> queryList(DailyTrainTicketQueryReq req) {
         DailyTrainTicketExample dailyTrainTicketExample = new DailyTrainTicketExample();
         dailyTrainTicketExample.setOrderByClause("'date' desc,start_time asc,train_code asc,'start_index' asc,'end_index' asc");
@@ -91,7 +108,7 @@ public class DailyTrainTicketService {
         LOG.info("查询页码：{}", req.getPage());
         LOG.info("每页条数：{}", req.getSize());
         PageHelper.startPage(req.getPage(), req.getSize());
-        List<DailyTrainTicket> dailyTrainTicketList = dailyTrainTicketMapper.selectByExample(dailyTrainTicketExample);
+        List<DailyTrainTicket>  dailyTrainTicketList = dailyTrainTicketMapper.selectByExample(dailyTrainTicketExample);
 
         PageInfo<DailyTrainTicket> pageInfo = new PageInfo<>(dailyTrainTicketList);
         LOG.info("总行数：{}", pageInfo.getTotal());

@@ -3,11 +3,10 @@ package com.example.train.business.req;
 import com.example.train.common.req.PageReq;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import java.io.Serializable;
 import java.util.Date;
 import java.util.Objects;
 
-public class DailyTrainTicketQueryReq extends PageReq implements Serializable {
+public class DailyTrainTicketQueryReq extends PageReq {
 
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date date;

@@ -36,10 +36,10 @@ public class ConfirmOrderDoReq {
         this.lineNumber = lineNumber;
     }
 
-    @NotBlank
+
     private String imageCode;
 
-    @NotBlank
+
     private String imageCodeToken;
 
     @Override

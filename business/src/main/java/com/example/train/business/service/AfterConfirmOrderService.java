@@ -15,6 +15,7 @@ import jakarta.annotation.Resource;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.Date;
 import java.util.List;
@@ -43,7 +44,7 @@ public class AfterConfirmOrderService {
      *  为会员增加购票记录
      *  更新确认订单为成功
      */
-    // @Transactional
+     @Transactional
 //     @GlobalTransactional
     public void afterDoConfirm(DailyTrainTicket dailyTrainTicket, List<DailyTrainSeat> finalSeatList, List<ConfirmOrderTicketReq> tickets, ConfirmOrder confirmOrder) throws Exception {
 //         LOG.info("seata全局事务ID: {}", RootContext.getXID());
@@ -55,8 +56,6 @@ public class AfterConfirmOrderService {
             seatForUpdate.setUpdateTime(new Date());
             dailyTrainSeatMapper.updateByPrimaryKeySelective(seatForUpdate);
 
-            // 计算这个站卖出去后，影响了哪些站的余票库存
-            // 参照2-3节 如何保证不超卖、不少卖，还要能承受极高的并发 10:30左右
             // 影响的库存：本次选座之前没卖过票的，和本次购买的区间有交集的区间
             // 假设10个站，本次买4~7站
             // 原售：001000001
